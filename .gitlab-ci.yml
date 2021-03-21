@@ -1,5 +1,4 @@
 
-
 build:
   script:
   - apt update
@@ -7,4 +6,9 @@ build:
   - make install_buildenv
   - sudo sed -i '1161s%umount%#umount%' /usr/share/debootstrap/functions
   - make
+  variables:
+    DEBIAN_FRONTEND: "noninteractive"
+  cache:
+    paths:
+      - cache/
   interruptible: true
