@@ -7,5 +7,4 @@ build:
   - make install_buildenv
   - sudo sed -i '1161s%umount%#umount%' /usr/share/debootstrap/functions
   - make
-  - cat /builds/nodiscc/debian-live-config/chroot/debootstrap/debootstrap.log
   interruptible: true
