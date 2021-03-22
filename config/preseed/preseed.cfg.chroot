@@ -3,3 +3,11 @@
 
 #Disable world-readable home dirs
 adduser adduser/homedir-permission boolean false
+
+# Keyboard selection.
+keyboard-configuration keyboard-configuration/xkb-keymap select fr
+keyboard-configuration keyboard-configuration/layoutcode string fr
+keyboard-configuration keyboard-configuration/toggle select No toggling
+keyboard-configuration keyboard-configuration/modelcode string pc105
+keyboard-configuration keyboard-configuration/compose select No compose key
+keyboard-configuration keyboard-configuration/ctrl_alt_bksp boolean false
