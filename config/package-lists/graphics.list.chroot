@@ -60,6 +60,7 @@ pstoedit
 #Section: Drawing
 #Description: xournal
 xournal
+#akira # bullseye only
 
 
 #Section: Non-destructive editors (lightroom)

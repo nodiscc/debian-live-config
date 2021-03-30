@@ -260,6 +260,7 @@ dnsutils
 #Alt: python-scapy
 #dropwatch #sid only
 #termshark #sid only
+#fierce #sid only
 
 #Section: SSH
 #Alt: sshuttle
