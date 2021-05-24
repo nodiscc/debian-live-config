@@ -32,12 +32,12 @@ gimp-plugin-registry
 gimp-texturize
 gimp-ufraw
 gimp-gutenprint
-gimp-gmic
 gimp-lensfun
 create-resources
 gimp-help-fr
 #Alt: krita
 #pinta #stretch only
+#Alt: gimp-gmic
 #Alt: drawing
 #Alt: mypaint
 #Alt: mtpaint
