@@ -175,7 +175,7 @@ pulseaudio
 pulseaudio-utils
 pulseaudio-module-bluetooth
 pulseaudio-module-lirc
-pulseaudio-module-zeroconf
+#Alt: pulseaudio-module-zeroconf
 pulseaudio-module-jack
 kmod
 alsa-oss
