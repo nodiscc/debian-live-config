@@ -141,7 +141,7 @@
 - ![](green.png) [unalz](https://packages.debian.org/buster/unalz) `0.65-7` - De-archiver for .alz files
 - ![](green.png) [unrar-free](https://packages.debian.org/buster/unrar-free) `1:0.0.1+cvs20140707-4` - Unarchiver for .rar files
 - ![](green.png) [rar](https://packages.debian.org/buster/rar) `2:5.5.0-1` - Archiver for .rar files
-- ![](green.png) [unzip](https://packages.debian.org/buster/unzip) `6.0-23+deb10u1` - De-archiver for .zip files
+- ![](green.png) [unzip](https://packages.debian.org/buster/unzip) `6.0-23+deb10u2` - De-archiver for .zip files
 - ![](green.png) [zip](https://packages.debian.org/buster/zip) `3.0-11+b1` - Archiver for .zip files
 - ![](green.png) [iat](https://packages.debian.org/buster/iat) `0.1.3-7+b2` - Converts many CD-ROM image formats to iso9660
 - ![](green.png) [nrg2iso](https://packages.debian.org/buster/nrg2iso) `0.4-4+b2` - Extracts ISO9660 data from Nero ".nrg" files
@@ -267,7 +267,7 @@
 
 - ![](grey.png) _[gnome-maps](https://packages.debian.org/buster/gnome-maps) `3.30.3.1-0+deb10u1` - map application for GNOME_
 - ![](grey.png) _[marble-qt](https://packages.debian.org/buster/marble-qt) `4:17.08.3-3.2` - globe and map widget (no KDE dependencies)_
-- ![](grey.png) _[geoclue-2.0](https://packages.debian.org/buster/geoclue-2.0) `2.5.2-1` - geoinformation service_
+- ![](grey.png) _[geoclue-2.0](https://packages.debian.org/buster/geoclue-2.0) `2.5.2-1+deb10u1` - geoinformation service_
 - ![](grey.png) _[josm](https://packages.debian.org/buster/josm) `0.0.svn14760+dfsg-1` - Editor for OpenStreetMap_
 - ![](grey.png) _[navit](https://packages.debian.org/buster/navit) `0.5.3+dfsg.1-1` - Car navigation system with routing engine_
 - ![](grey.png) _[gpsd](https://packages.debian.org/buster/gpsd) `3.17-7` - Global Positioning System - daemon_

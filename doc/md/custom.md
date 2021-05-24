@@ -134,7 +134,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 
 - [ ] `make bump_version`, update version indicators
 - [ ] Update CHANGELOG.md
-- [ ] `make doc && git add doc/md/packages/ doc/md/index.md && git commit -m "update auto-generated documentation"`
+- [ ] `make doc && git add packages/ index.md && git commit -m "update auto-generated documentation"`
 - [ ] `git tag --sign $new_version`
 - [ ] `make && make checksums && make sign_checksums`
 - [ ] `make tests`
