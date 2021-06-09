@@ -70,13 +70,12 @@ memtest86+
 #cpu-x #sid only
 
 #Section: Backup
-#Description: backintime-qt4
-backintime-qt4
-#Alt: duplicity
-#obnam #stretch only
-#bup #stretch only
+#Screenshot: deja-dup
+#Description: deja-dup
+deja-dup
+#Alt: backintime-qt4
 #Alt: tmfs
-#Alt: deja-dup
+#Alt: duplicity
 #Alt: rdiff-backup
 #Alt: grsync
 #Alt: unison
@@ -86,6 +85,7 @@ backintime-qt4
 #Alt: fsarchiver
 #Alt: backupninja
 #Alt: duply
+#Alt: rsnapshot
 
 #Section: Disk management
 #Description: gnome-disk-utility
