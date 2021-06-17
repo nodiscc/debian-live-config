@@ -43,6 +43,10 @@ checksums:
 	rename "s/live-image/dlc-$$last_tag-debian-buster/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
 
+# the signing key must be present and loaded on the build machine
+# gpg --export-secret-keys --armor $MAINTAINER_EMAIL > $MAINTAINER_EMAIL.key
+# rsync -avzP $MAINTAINER_EMAIL.key $BUILD_HOST:
+# ssh -t $BUILD_HOST gpg --import $MAINTAINER_EMAIL.key
 sign_checksums:
 	# Sign checksums with a GPG private key
 	cd iso; \
@@ -65,6 +69,8 @@ test_imagesize:
 		echo '[WARNING] ISO image size is larger than 2GB!'; \
 	fi
 
+# iso image must be downloaded from the build machine beforehand
+# rsync -avzP $BUILD_HOST:/var/debian-live-config/debian-live-config/iso/ ./
 test_kvm_bios:
 	# Run the resulting image in KVM/virt-manager (legacy BIOS mode)
 	sudo virt-install --name dlc-test --boot cdrom --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-2.2.5-debian-buster-amd64.hybrid.iso' --memory 2048 --vcpu 2
