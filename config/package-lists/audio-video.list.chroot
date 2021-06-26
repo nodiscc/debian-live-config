@@ -4,7 +4,6 @@
 #Description: mpv
 vlc
 vlc-plugin-notify
-vlc-plugin-jack
 vlc-plugin-samba
 vlc-plugin-skins2
 vlc-plugin-video-splitter
@@ -34,6 +33,7 @@ mpv-mpris
 quodlibet
 exfalso
 libgpod-common
+libgpod4
 sox
 #Alt: gnome-music
 #Alt: rhythmbox
@@ -122,13 +122,13 @@ vokoscreen-ng
 qwinff
 ffmpeg
 flac
+gstreamer1.0-pipewire
 gstreamer1.0-alsa
 gstreamer1.0-libav
 gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
-gstreamer1.0-pulseaudio
 gstreamer1.0-tools
 gstreamer1.0-x
 lame
@@ -151,6 +151,7 @@ media-player-info
 #Alt: mat2
 #Alt: metadata-cleaner
 #Alt: ffmpegfs
+#Alt: gstreamer1.0-pulseaudio
 #ogmrip # sid only
 #ogmrip-plugins # sid only
 
@@ -181,14 +182,11 @@ gnome-sound-recorder
 #Alt: qlcplus
 
 #Section: Audio system
-#Description: pulseaudio
-pavucontrol
-pulseaudio
-pulseaudio-utils
-pulseaudio-module-bluetooth
-pulseaudio-module-lirc
-#Alt: pulseaudio-module-zeroconf
-pulseaudio-module-jack
+pipewire
+wireplumber
+pipewire-v4l2
+pipewire-pulse
+pipewire-alsa
 kmod
 alsa-tools
 alsa-utils
@@ -204,4 +202,13 @@ rtkit
 #Alt: pulseaudio-equalizer
 #Alt: libasound2-plugin-equal
 #Alt: alsa-scarlett-gui
+#Alt: pavucontrol
+#Alt: pulseaudio
+#Alt: pulseaudio-utils
+#Alt: pulseaudio-module-bluetooth
+#Alt: pulseaudio-module-lirc
+#Alt: pulseaudio-module-zeroconf
+#Alt: pulseaudio-module-jack
+#Alt: pipewire-jack
+#Alt: vlc-plugin-jack
 #alsa-oss # bookworm only
