@@ -2,15 +2,21 @@
 
 ### nodiscc/debian-live-config
 
-- #63 - Makefile.extras: add a script to check for common issues
+- #70 - Kernel is installed from stable instead of stable-backports - `11.0.0`
+- #69 - Preinstall AMDGPU drivers?
+- #68 - (optional) install signal-desktop?
+- #67 - Check additional packages
+- #65 - switch build system to mmdebstrap? - `11.0.0`
+- #64 - add tartube
+- #63 - Makefile.extras: add a script to check for common issues - `11.0.0`
 - #62 - Offline maps and routing
 - #61 - add gaming-related packages/configuration?
 - #60 - integrate semi-automatic/desktop-friendly oldstable -> stable uprade mechanism
-- #59 - WIP: build ISO for i386 architecure - `2.3`
+- #59 - WIP: build ISO for i386 architecure - `11.0.0`
 - #58 - WIP: preconfigure thunderbird
 - #57 - Enable DXVK?
 - #56 - lutris: verify package integrity/authenticity with GPG signatures
-- #55 - WIP: add gitlab CI automatic builds - `2.3`
+- #55 - WIP: add gitlab CI automatic builds - `11.0.0`
 - #54 - Add gamemode? - `gamemode`
 - #52 - Document default keyboard shortcuts
 - #51 - "Login without password" checkbox in users-admin is greyed out - `gamemode`
@@ -24,25 +30,25 @@
 - #43 - add ./play.it
 - #42 - firefox: display bookamrks toolbar by default
 - #41 - add thunar custom action to open text files as root
-- #38 - Languages are not shown on the EFI boot menu - `2.3`
+- #38 - Languages are not shown on the EFI boot menu - `11.0.0`
 - #35 - test accessing samba shares
 - #33 - Some .desktop launchers are not localized in xfce4-whiskermenu-plugin
 - #30 - No GUI for services configuration
 - #27 - Evaluate laptop-mode-tools vs tlp
 - #25 - Add Android emulator
-- #22 - APT cache is not cleared during build
+- #22 - APT cache is not cleared during build - `11.0.0`
 - #21 - default choice/path for grub install disk leads to error
 - #20 - Enable IPv6 support
-- #19 - installer: preseed "full user name" question to match the linux username - `2.3`
+- #19 - installer: preseed "full user name" question to match the linux username - `11.0.0`
 - #18 - thunderbird: add default addons/harden configuration
 - #15 - nvidia optimus support
 - #14 - measure impact of irqbalance, remove it? Edit
 - #13 - Add a remote desktop service/viewer
-- #10 - keyboard-configuration interrupts unattended build
+- #10 - keyboard-configuration interrupts unattended build - `11.0.0`
 - #9 - add a package list for audio workstations
 - #8 - Display more items in xfce4-settings-manager
 - #7 - add live system persistence
 - #5 - Improve apparmor sandboxing
-- #4 - installer: preseed "domain name" installer question to None
+- #4 - installer: preseed "domain name" installer question to None - `11.0.0`
 - #2 - improve OOM handling
 - #1 - Add Ulauncher
