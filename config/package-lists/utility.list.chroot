@@ -275,6 +275,7 @@ pm-utils
 gucharmap
 gnome-font-viewer
 #Alt: font-manager
+#thunar-font-manager # bullseye only
 
 #Section: Spell checking/dictionaries
 hunspell

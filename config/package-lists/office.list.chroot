@@ -103,6 +103,7 @@ poppler-utils
 #Alt: python-html2text
 #Alt: chm2pdf
 #pdfproctools #sid only
+#Alt: pdfarranger
 
 
 #Section: Tasks/Personal information management

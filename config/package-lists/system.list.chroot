@@ -291,6 +291,7 @@ console-setup
 user-setup
 libpam-systemd
 #Alt: kexec-tools
+#kthresher # bullseye only
 
 #Section: Firmwares
 firmware-linux-free
