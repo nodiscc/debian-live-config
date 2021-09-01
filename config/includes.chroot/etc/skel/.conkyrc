@@ -114,11 +114,12 @@ ${font Roboto:pixelsize=40}${time %H:%M}${font}
 # message of the day
 #${color1}NEWS ${color}${hr}
 #${font sans-serif:normal:size=8}${texeci 300 cat /etc/motd | fold -w55}
-
-
-
-
-
-
-
+#
+### THUNDERBIRD EVENTS ###
+#${color1}EVENTS ${color}${hr}
+#${font Roboto:pixelsize=12}${execpi 35 /opt/conky-scripts/thundercal -l 5 events}${font}
+#
+### THUNDERBIRD TASKS ###
+#${color1}TASKS ${color}${hr}
+#${font Roboto:pixelsize=12}${execpi 30 /opt/conky-scripts/thundercal -l 5 tasks}${font}
 
