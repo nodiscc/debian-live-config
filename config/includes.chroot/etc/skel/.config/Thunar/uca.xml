@@ -34,4 +34,14 @@
 	<text-files/>
 	<video-files/>
 </action>
+<action>
+	<icon>disk-usage-analyzer</icon>
+	<name>Analyze disk usage</name>
+	<unique-id>1630524112313436-1</unique-id>
+	<command>baobab %f</command>
+	<description>Analyze disk usage by subdirectory under this directory</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
 </actions>
