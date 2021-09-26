@@ -182,7 +182,6 @@ alsa-oss
 alsa-tools
 alsa-utils
 libasound2-plugins
-libasound2-plugin-equal
 oss-compat
 alsa-firmware-loaders
 rtkit
@@ -190,3 +189,5 @@ rtkit
 #Alt: paprefs
 #Alt: pnmixer
 #Alt: pamix
+#Alt: pulseaudio-equalizer
+#Alt: libasound2-plugin-equal
