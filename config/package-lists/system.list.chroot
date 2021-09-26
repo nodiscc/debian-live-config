@@ -225,8 +225,8 @@ at
 
 #Section: Desktop performance
 ulatencyd
-irqbalance
 #Alt: haveged
+#Alt: irqbalance
 #oomd #bullseye only
 #preload #stretch only
 
