@@ -250,7 +250,6 @@ xfce4-power-manager
 xfce4-battery-plugin
 radeontool
 bumblebee
-primus
 vbetool
 powertop
 usbutils
@@ -268,6 +267,7 @@ pm-utils
 #Alt: powerstat
 #Alt: i8kutils
 #Alt: usbtop
+#Alt: primus
 #hd-idle #bullseye only
 #eeepc-acpi-scripts #sid only
 
