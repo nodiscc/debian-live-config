@@ -154,7 +154,6 @@ blender
 #Section: Command-line image manipulation
 imagemagick
 optipng
-advancecomp
 jpegoptim
 pngcrush
 exifprobe
@@ -162,7 +161,6 @@ findimagedupes
 librsvg2-bin
 figlet
 toilet
-#Alt: caca-utils
 #Alt: converseen
 #Alt: fbi
 #Alt: gifsicle
@@ -171,4 +169,6 @@ toilet
 #Alt: aview
 #Alt: chafa
 #Alt: lolcat
+#Alt: advancecomp
+#Alt: caca-utils
 #timg # sid only
