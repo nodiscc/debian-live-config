@@ -240,9 +240,9 @@ gconf-editor
 dconf-editor
 dconf-cli
 qt4-qtconfig
-gnome-settings-daemon
 dconf-gsettings-backend
 #Alt: gnome-tweaks
+#Alt: gnome-settings-daemon
 
 #Section: Power management
 #Description: xfce4-power-manager
