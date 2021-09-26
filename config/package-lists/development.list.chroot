@@ -1,15 +1,14 @@
 #Title: Development
 #Section: Version control
-#Description: gitg
 #Description: meld
 #Description: gource
-gitg
 git
 meld
 gource
 colordiff
 dwdiff
 cloc
+#Alt: gitg
 #Alt: fossil
 #Alt: ghi
 #Alt: git-mediawiki
