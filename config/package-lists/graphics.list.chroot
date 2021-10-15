@@ -47,14 +47,14 @@ gimp-help-fr
 
 
 #Section: Vector editors
-#Description: inkscape
-inkscape
-create-resources
-# python-lxml # buster only
-pstoedit
+##Description: inkscape
+#Alt: inkscape
+#Alt: create-resources
+#Alt: pstoedit
 #Alt: pencil2d
 #Alt: dia
 #Alt: birdfont
+#python-lxml # buster only
 
 
 #Section: Drawing
