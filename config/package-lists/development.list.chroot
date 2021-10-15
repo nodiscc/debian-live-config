@@ -29,7 +29,6 @@ cloc
 bash
 autojump
 bash-completion
-shellcheck
 pv
 sed
 util-linux
@@ -37,10 +36,11 @@ util-linux-locales
 whiptail
 moreutils
 less
-asciinema
 dialog
 manpages
 manpages-dev
+#Alt: shellcheck
+#Alt: asciinema
 #Alt: undistract-me
 #Alt: inotify-tools
 #Alt: lr
