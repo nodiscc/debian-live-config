@@ -3,20 +3,20 @@
 ## Hardware Requirements
 
 - Computer with x86_64 CPU
-- Memory: min 1024MB, recommended 2GB+
+- Memory: min 2GB, recommended 4GB+
 - Recommended storage: 15GB+ hard drive or SSD (operating system and programs), 10-∞GB (user data)
 - 2GB+ USB drive or DVD-R for the installation media
 
 
 ## Download
 
-**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-2.2.5-debian-buster-amd64.hybrid.iso)** the latest ISO image
+**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-2.2.5-debian-bullseye-amd64.hybrid.iso)** the latest ISO image
 
 (Recommended) verify file integrity and authenticity with GPG:
 
 ```bash
 # download the iso, signing key, checksums and signature
-wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-2.2.5-debian-buster-amd64.hybrid.iso
+wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-2.2.5-debian-bullseye-amd64.hybrid.iso
 wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-release.key
 wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/SHA512SUMS
 wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/SHA512SUMS.sign
@@ -35,7 +35,7 @@ sha512sum -c SHA512SUMS
 #### To USB - From Linux
 
   * Insert a 2GB+ USB drive
-  * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires [gnome-disks](https://packages.debian.org/buster/gnome-disk-utility)) **Caution, all data on the USB drive will be erased**
+  * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires [gnome-disks](https://packages.debian.org/bullseye/gnome-disk-utility)) **Caution, all data on the USB drive will be erased**
   * Or, using the command line: Identify your USB drive device name (eg. `/dev/sdc`) using the `lsblk` command; Write the ISO image to the drive using `sudo dd /path/to/live-image.iso /dev/sdXXX`.
 
 ![](https://i.imgur.com/1fYOBty.png)

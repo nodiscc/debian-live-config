@@ -16,10 +16,10 @@ lb config noauto \
 --clean \
 --debconf-frontend dialog \
 --debian-installer live \
---debian-installer-distribution buster \
+--debian-installer-distribution bullseye \
 --debian-installer-gui true \
 --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
---distribution buster \
+--distribution bullseye \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \

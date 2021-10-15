@@ -40,7 +40,7 @@ checksums:
 	mv *.iso iso/
 	last_tag=$$(git tag | tail -n1); \
 	cd iso/; \
-	rename "s/live-image/dlc-$$last_tag-debian-buster/" *; \
+	rename "s/live-image/dlc-$$last_tag-debian-bullseye/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
 
 # the signing key must be present and loaded on the build machine
@@ -73,18 +73,18 @@ test_imagesize:
 # rsync -avzP $BUILD_HOST:/var/debian-live-config/debian-live-config/iso/ ./
 test_kvm_bios:
 	# Run the resulting image in KVM/virt-manager (legacy BIOS mode)
-	sudo virt-install --name dlc-test --boot cdrom --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-2.2.5-debian-buster-amd64.hybrid.iso' --memory 2048 --vcpu 2
-	sudo virsh destroy dlc-test
-	sudo virsh undefine dlc-test
-	sudo rm $$PWD/dlc-test-disk0.qcow2
+	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-2.2.5-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
+	virsh destroy dlc-test
+	virsh undefine dlc-test
+	rm -f $$PWD/dlc-test-disk0.qcow2
 
 test_kvm_uefi:
 	# Run the resulting image in KVM/virt-manager (UEFI mode)
 	# UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
-	sudo virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-2.2.5-debian-buster-amd64.hybrid.iso' --memory 2048 --vcpu 2
-	sudo virsh destroy dlc-test
-	sudo virsh undefine dlc-test
-	sudo rm $$PWD/dlc-test-disk0.qcow2
+	virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-2.2.5-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
+	virsh destroy dlc-test
+	virsh undefine dlc-test
+	rm -f $$PWD/dlc-test-disk0.qcow2
 
 #################################
 
