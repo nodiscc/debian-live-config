@@ -142,8 +142,8 @@ media-player-info
 
 
 #Section: Audio CD extraction
-#Description: asunder
-asunder
+##Description: asunder
+#Alt: asunder
 #Alt: sound-juicer
 #Alt: goobox
 #Alt: ripperx
