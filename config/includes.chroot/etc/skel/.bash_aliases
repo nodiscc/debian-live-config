@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #shortcuts
-alias diff="colordiff" # colorized diffs
+alias d="colordiff" #pretty diffs
 alias n="nano" # nano text editor
 alias m="mousepad" # mousepad text editor
 alias o="xdg-open" # open file with associated program
@@ -11,6 +11,9 @@ alias chx='chmod a+x' # set execute permission
 alias clipboard='xclip -selection c; notify-send --icon=gtk-paste "Copied to clipboard." 2>/dev/null' # send stdin to clipboard
 function f { find ./ -name "*$1*"; } # find files in the currect directory
 function psg { ps -fp $(pgrep -f "$@"); } # find running process matching a name
+# alias rm="trash-put" # do not delete files with rm, put them to trash
+# alias frm="\rm" # add an alias for rm
+# alias mkdir='mkdir -pv' # create directories and their parents by default
 
 #ls and grep aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -22,6 +25,13 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
+# Aliases for going up multiple directories
+# alias .1='cd ../'
+# alias .2='cd ../../'
+# alias .3='cd ../../../'
+# alias .4='cd ../../../../'
+# alias .5='cd ../../../../../'
 
 #load autojump
 if [ -f /usr/share/autojump/autojump.sh ]; then . /usr/share/autojump/autojump.sh; fi
@@ -38,29 +48,11 @@ shopt -s histappend
 # Don't put duplicate lines in the history and do not add lines that start with a space
 export HISTCONTROL=erasedups:ignoredups:ignorespace
 
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+# History length and file size
 #HISTSIZE=1000
 #HISTFILESIZE=2000
 
-# Aliases for going up multiple directories
-#alias .1='cd ../'
-#alias .2='cd ../../'
-#alias .3='cd ../../../'
-#alias .4='cd ../../../../'
-#alias .5='cd ../../../../../'
-
-# Do not delete files with rm, put them to trash
-#alias rm="echo 'DO NOT USE RM. Use trash-put, or frm to force rm. Putting files to trash.'; trash-put $*"
-# Add an alias for rm
-#alias frm="\rm"
-
-# Close terminal after 10 minutes of inactivity
-#export TMOUT=600
-
-# Create directories and their parents
-#alias mkdir='mkdir -pv'
-
-# Use windows-style (cycling) Tab-completion
+# Use windows-style (cycling) Tab-completion (default disabled)
 #bind '"\t":menu-complete'
 
 # Automatically correct typos in directories names
@@ -94,6 +86,14 @@ export LESS_TERMCAP_se=$'\E[0m'           # end standout-mode
 export LESS_TERMCAP_so=$'\E[36;7;246m'    # begin standout-mode - info box
 export LESS_TERMCAP_ue=$'\E[0m'           # end underline
 export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
+
+# Syntax colors in less (possibly insecure, disabled)
+# if [ -f /usr/share/source-highlight/src-hilite-lesspipe.sh ]
+# then
+#     export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
+#     export LESS=' -R '
+# fi
+
 
 #git prompt configuration
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w $(__git_ps1 "(%s)")\[\033[00m\]\$ '
