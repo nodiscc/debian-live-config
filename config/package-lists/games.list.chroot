@@ -4,8 +4,8 @@
 #Description: lutris
 #Screenshot: lutris
 lutris
-cmatrix
-cmatrix-xfont
+#Alt: cmatrix
+#Alt: cmatrix-xfont
 #Alt: endless-sky
 #Alt: play.it
 #Alt: steam:i386
