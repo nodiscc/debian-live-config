@@ -63,12 +63,12 @@ manpages-dev
 
 
 #Section: Parsers/converters/documentation generators
-pandoc
 jq
 xmlstarlet
 aha
 groff
 dos2unix
+#Alt: pandoc
 #Alt: man2html-base
 #Alt: txt2tags
 #Alt: mkdocs
