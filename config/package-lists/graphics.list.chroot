@@ -69,7 +69,7 @@ xournal
 #Alt: luminance-hdr
 
 #Section: Color pickers
-#gcolor3 #bullseye only
+gcolor3
 #Alt: gpick
 
 #Section: Batch image processing
