@@ -223,8 +223,8 @@ redshift-gtk
 #Alt: safeeyes
 
 #Section: CD burning
-#Description: xfburn
-xfburn
+##Description: xfburn
+#Alt: xfburn
 #Alt: brasero
 #Alt: brasero-cdrkit
 #Alt: cdrdao
