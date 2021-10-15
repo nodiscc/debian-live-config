@@ -15,7 +15,7 @@ lb config noauto \
 --binary-images iso-hybrid \
 --checksums sha256 \
 --clean \
---debconf-frontend dialog \
+--debconf-frontend noninteractive \
 --debian-installer live \
 --debian-installer-distribution bullseye \
 --debian-installer-gui true \
