@@ -9,19 +9,19 @@ ristretto
 #Alt: pqiv
 #Alt: qiv
 #Alt: feh
-#comix #stretch only
 #Alt: mcomix
 #Alt: gpicview
 #Alt: mirage
 #Alt: xzgv
 #Alt: sxiv
 #Alt: catimg
-#Alt: nomacs
 #Alt: shotwell
 #Alt: gthumb
 #Alt: digikam
 #Alt: fotoxx
 #Alt: geeqie
+#nomacs # sid only
+
 
 #Section: Image editors
 #Description: gimp
@@ -30,27 +30,27 @@ gimp-data-extras
 gimp-gap
 gimp-plugin-registry
 gimp-texturize
-gimp-ufraw
+#gimp-ufraw # buster only
 gimp-gutenprint
 gimp-lensfun
 create-resources
 gimp-help-fr
 #Alt: krita
-#pinta #stretch only
 #Alt: gimp-gmic
 #Alt: drawing
 #Alt: mypaint
 #Alt: mtpaint
 #Alt: xpaint
 #Alt: gnome-paint
-#Alt: delaboratory
+#delaboratory # buster only
+#pinta # sid only
 
 
 #Section: Vector editors
 #Description: inkscape
 inkscape
 create-resources
-python-lxml
+# python-lxml # buster only
 pstoedit
 #Alt: pencil2d
 #Alt: dia
@@ -60,7 +60,7 @@ pstoedit
 #Section: Drawing
 #Description: xournal
 xournal
-#akira # bullseye only
+#Alt: akira
 
 
 #Section: Non-destructive editors (lightroom)
@@ -69,13 +69,10 @@ xournal
 #Alt: luminance-hdr
 
 #Section: Color pickers
-#gcolor2 #stretch only
 #gcolor3 #bullseye only
-#agave #stretch only
 #Alt: gpick
 
 #Section: Batch image processing
-#phatch #stretch only
 #Alt: aspic
 #Alt: pixelize
 #Alt: hugin
@@ -84,11 +81,9 @@ xournal
 #Section: Camera upload/management
 #Alt: rapid-photo-downloader
 #Alt: gtkam
-#postr #stretch only
-#flickrbackup #stretch only
+
 
 #Section: Game asset editors
-#aseprite #stretch only
 #Alt: tiled
 #Alt: games-content-dev
 
@@ -100,7 +95,7 @@ xournal
 dia
 dia-shapes
 gsfonts-x11 
-#Alt: asciio
+#asciio # buster only
 
 #Section: Label/barcode editors
 ##Screenshot: glabels
@@ -112,13 +107,14 @@ gsfonts-x11
 #Section: 3D editors
 #Description: blender
 blender
-#Alt: makehuman
 #Alt: g3dviewer
 #Alt: sweethome3d
 #Alt: sweethome3d-furniture
 #Alt: sweethome3d-furniture-editor
 #Alt: sweethome3d-textures-editor
 #Alt: sweethome3d-furniture-nonfree
+#makehuman # buster only
+
 
 #Section: CAD editors
 #Alt: librecad
@@ -171,4 +167,4 @@ toilet
 #Alt: lolcat
 #Alt: advancecomp
 #Alt: caca-utils
-#timg # sid only
+#timg # bookworm only

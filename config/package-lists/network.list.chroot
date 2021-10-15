@@ -4,7 +4,7 @@
 #Description: firefox-esr
 firefox-esr
 firefox-esr-l10n-fr
-pkg-mozilla-archive-keyring
+#pkg-mozilla-archive-keyring # buster only
 webext-https-everywhere
 webext-ublock-origin
 #Alt: midori
@@ -28,24 +28,23 @@ pidgin-gnome-keyring
 #Alt: finch
 #Alt: telegram-desktop
 #Alt: pidgin-skype
-#Alt: yowsup-cli
 #Alt: dino-im
 #Alt: gajim
 #Alt: mcabber
 #Alt: smuxi
-#Alt: xchat
 #Alt: weechat
-#Alt: ekg2
-#purple-lurch #bullseye only
-#purple-mm-sms #bullseye only
-#purple-xmpp-http-upload #bullseye only
+#Alt: purple-mm-sms
+#Alt: purple-xmpp-http-upload
+#purple-matrix # sid only
+#xchat # buster only
+#ekg2 # buster only
 
 #Section: VoIP/videoconference
 #Description: mumble
 mumble
-#Alt: ring
+#Alt: jami
 #Alt: linphone
-#ekiga #stretch only
+
 
 #Section: Mail clients
 #Description: thunderbird
@@ -57,13 +56,12 @@ thunderbird-l10n-fr
 #Alt: mailnag
 #Alt: mutt
 #Alt: alpine
-#Alt: getmail4
-#mail-notification #stretch only
+#Alt: getmail
 #Alt: evolution
 #Alt: evolution-plugins
 #Alt: evolution-rss
-#mail-notification-evolution #stretch only
 #Alt: offlineimap
+
 
 #Section: File transfer and synchronization
 #Description: nextcloud-desktop
@@ -83,8 +81,8 @@ rsync
 #Alt: grsync
 #Alt: filezilla
 #Alt: gftp
-#Alt: owncloud-client
 #Alt: pastebinit
+#owncloud-client # buster only
 
 
 #Section: Bittorrent
@@ -98,14 +96,14 @@ transmission-cli
 #Alt: deluge-web
 #Alt: transmission-daemon
 #Alt: transmission-remote-gtk
-#Alt: transmission-remote-cli
 #Alt: uget
 #Alt: aria2
 #Alt: amule
 #Alt: amule-gnome-support
-#Alt: nicotine
 #Alt: rtorrent
 #Alt: btfs
+#transmission-remote-cli # buster only
+#nicotine # buster only
 
 #Section: Media download
 ##Description: youtube-dl
@@ -113,6 +111,8 @@ transmission-cli
 #Alt: streamlink
 #Alt: minitube
 #Alt: smtube
+#get-flash-videos # buster only
+#gnome-twitch # buster only
 
 #Section: Downloaders/web crawlers
 curl
@@ -128,11 +128,8 @@ wget
 #Section: Feed readers
 ##Description: liferea
 #Alt: liferea
-#yarssr #stretch only
-#Alt: newsbeuter
-#olive #stretch only
-#specto #stretch only
-#gnome-feeds #bullseye only
+#Alt: newsboat
+#Alt: gnome-feeds
 #Alt: quiterss
 #Alt: tickr
 #Alt: feedreader
@@ -142,7 +139,7 @@ wget
 #Alt: samba
 #Alt: samba-vfs-modules 
 #Alt: smbclient
-#Alt: smbc
+#smbc # buster only
 
 #Section: Network management
 #Description: network-manager-gnome
@@ -152,21 +149,21 @@ dnsmasq-base
 hostname
 bridge-utils
 ethtool
-#Alt: wicd
 #Alt: connman
 #Alt: connman-ui
 #Alt: cmst
-#Alt: wicd-curses
 #Alt: wpagui
 #Alt: network-manager-ssh
 #Alt: efax-gtk
-#Alt: wammu
 #Alt: avahi-daemon
 #Alt: libnss-mdns
 #Alt: avahi-autoipd
 #Alt: avahi-dnsconfd
 #Alt: avahi-discover
 #Alt: avahi-ui-utils
+#wicd # buster only
+#wicd-curses # buster only
+#wammu # buster only
 
 #Section: Cellphone and modem support
 #Alt: modemmanager
@@ -185,12 +182,11 @@ crda
 wireless-regdb
 #Alt: gnome-bluetooth
 #Alt: gnome-user-share
-#Alt: blueproximity
 #Alt: ganyremote
 #Alt: hostapd
 #Alt: aircrack-ng
 #Alt: btscanner
-
+#blueproximity # buster only
 
 #Section: Firewall
 #Description: gufw
@@ -210,7 +206,6 @@ traceroute
 dnsutils
 #Alt: dnsmasq
 #Alt: dns-root-data
-#Alt: namebench
 #Alt: arp-scan
 #Alt: arpwatch
 #Alt: bwm-ng
@@ -236,15 +231,12 @@ dnsutils
 #Alt: nethogs
 #Alt: netmask
 #Alt: nmon
-#Alt: ntopng
 #Alt: prips
 #Alt: slurm
-#Alt: snetz
 #Alt: socat
 #Alt: speedometer
 #Alt: speedtest-cli
 #Alt: sslsniff
-#Alt: sslstrip
 #Alt: subnetcalc
 #Alt: tcpdump
 #Alt: tcpstat
@@ -255,10 +247,14 @@ dnsutils
 #Alt: vnstat
 #Alt: vnstati
 #Alt: wireshark
-#Alt: python-scapy
-#dropwatch #sid only
-#termshark #sid only
-#fierce #sid only
+#Alt: termshark
+#Alt: fierce
+#namebench # buster only
+#ntopng # buster only
+#snetz # buster only
+#sslstrip # buster only
+#python-scapy # buster only
+#dropwatch # sid only
 
 #Section: SSH
 #Alt: sshuttle
@@ -266,19 +262,21 @@ dnsutils
 #Alt: pssh
 #Alt: putty-tools
 #Alt: autossh
-#endlessh #sid only
+#Alt: endlessh
+
 
 #Section: Remote access/desktop clients
 #Alt: remmina
 #Alt: remmina-plugin-nx
 #Alt: remmina-plugin-rdp
 #Alt: remmina-plugin-spice
-#Alt: remmina-plugin-telepathy
 #Alt: remmina-plugin-vnc
 #Alt: remmina-plugin-xdmcp
 #Alt: vinagre
 #Alt: weevely
 #Alt: x2goclient
+#remmina-plugin-telepathy # buster only
+
 
 #Section: SSH
 #Firewall: SSH server
@@ -305,7 +303,6 @@ openssh-server
 #Alt: nmap
 #Alt: nikto
 #Alt: zmap
-#Alt: prads
 #Alt: sqlmap
 #Alt: themole
 #Alt: arp-scan
@@ -314,7 +311,6 @@ openssh-server
 #Alt: knockpy
 #Alt: spectre-meltdown-checker
 #Alt: ndiff
-#Alt: zenmap
 #Alt: masscan
 #Alt: pompem
 #Alt: dirb
@@ -322,38 +318,32 @@ openssh-server
 #Alt: wafw00f
 #Alt: smbmap
 #Alt: wig
-#Alt: kismet
-#Alt: kismet-plugins
 #Alt: reaver
-#bully #sid only
+#Alt: bully
 #Alt: hydra
-#Alt: pcredz
 #Alt: hydra-gtk
 #Alt: ophcrack
 #Alt: hashcat
 #Alt: hashcat-data
 #Alt: mdk3
-#dnsmap #sid only
-#dnsenum #sid only
+#Alt: dnsmap
+#Alt: dnsenum
+#prads # buster only
+#zenmap # buster only
+#kismet # buster only
+#kismet-plugins # buster only
+#pcredz # buster only
 
 #Section: Tor
 #Alt: tor-geoipdb
 #Alt: tor
 #Alt: torsocks
-#tails-installer #stretch only
-#torbrowser-launcher #stretch only
+#Alt: torbrowser-launcher
 
 #Section: GeoIP databases
 #Alt: geoip-bin
-#geoip-database-contrib #stretch only
-#geoip-database #conflicts with above
-#geoip-database-extra #conflicts with above
-
-#Section: Network modeling
-#Alt: marionnet
-#gns3 #stretch only
+#Alt: geoip-database
 
 #Section: Out-of-band management
 #Alt: ipmitool
-#Alt: gwakeonlan
-
+#gwakeonlan # buster only

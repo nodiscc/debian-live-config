@@ -2,7 +2,6 @@
 
 #Section: File management
 #Description: thunar
-#cfv #sid only
 gvfs-backends
 gvfs-bin
 gvfs-fuse
@@ -66,7 +65,6 @@ xfce4-pulseaudio-plugin
 #Alt: synapse
 #Alt: zeitgeist
 #Alt: zeitgeist-datahub
-#Alt: activity-log-manager
 #Alt: compiz
 #Alt: compiz-plugins
 #Alt: compiz-plugins-default
@@ -74,6 +72,7 @@ xfce4-pulseaudio-plugin
 #Alt: compiz-plugins-main
 #Alt: compton
 #Alt: compton-conf
+#activity-log-manager # buster only
 
 
 #Section: Archive management
@@ -101,6 +100,7 @@ gzrt
 #Alt: xarchiver
 #Alt: isomaster
 #Alt: p7zip-rar
+#Alt: gztool
 
 
 #Section: Password management/file/disk encryption
@@ -120,7 +120,7 @@ libblockdev-crypto2
 #Alt: keepassx
 #Alt: keepass2
 #Alt: qtpass
-#revelation #stretch only
+#Alt: revelation
 #Alt: apg
 #Alt: tcplay
 #Alt: xkcdpass
@@ -152,8 +152,6 @@ vim-tiny
 #Section: Sticky notes
 #xfce4-notes # buster only
 #Alt: xpad
-#tomboy #stretch only
-#Alt: gnote
 
 
 #Section: Maps
@@ -187,7 +185,7 @@ tty-clock
 #Alt: gtimer
 #Alt: stopwatch
 #Alt: xfce4-timer-plugin
-#screenruler #stretch only
+#Alt: screenruler
 
 
 #Section: Calculators
@@ -196,11 +194,11 @@ tty-clock
 gnome-calculator
 bc
 units
-#Alt: qalculate
 #Alt: num-utils
 #Alt: speedcrunch
 #Alt: gbase
 #Alt: graphmonkey
+#qalculate # bookworm only
 
 #Section: Terminal emulators
 #Description: xfce4-terminal
@@ -235,10 +233,10 @@ xfburn
 xfce4-settings
 gnome-system-tools
 menulibre
-gconf-editor
+#gconf-editor # buster only
 dconf-editor
 dconf-cli
-qt4-qtconfig
+#qt4-qtconfig # buster only
 dconf-gsettings-backend
 #Alt: gnome-tweaks
 #Alt: gnome-settings-daemon
@@ -259,7 +257,7 @@ laptop-mode-tools
 fancontrol
 rfkill
 cpufrequtils
-hibernate
+#hibernate # buster only
 pm-utils
 #Alt: powerdebug
 #Alt: tlp
@@ -267,14 +265,14 @@ pm-utils
 #Alt: i8kutils
 #Alt: usbtop
 #Alt: primus
-#hd-idle #bullseye only
+#Alt: hd-idle
 #eeepc-acpi-scripts #sid only
 
 #Section: Character map/font viewer
 gucharmap
 gnome-font-viewer
 #Alt: font-manager
-#thunar-font-manager # bullseye only
+#Alt: thunar-font-manager
 
 #Section: Spell checking/dictionaries
 hunspell
@@ -301,15 +299,15 @@ gnome-themes-standard
 sound-theme-freedesktop
 gnome-audio
 #Alt: faenza-icon-theme
-#Alt: clearlooks-phenix-theme
 #Alt: deepin-icon-theme
-#paper-icon-theme #bullseye only
+#Alt: paper-icon-theme
+#clearlooks-phenix-theme # buster only
 
 #Section: Virtual keyboards
 #Alt: onboard
 #Alt: onboard-data
 #Alt: cellwriter
-#Alt: florence
+#florence # buster only
 
 #Section: Other
 libnotify-bin
@@ -325,7 +323,7 @@ conky-all
 gtk2-engines
 gtk2-engines-murrine
 gtk2-engines-pixbuf
-gtk2-engines-xfce
+#gtk2-engines-xfce # buster only
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
 policykit-1-gnome

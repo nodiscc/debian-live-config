@@ -4,9 +4,7 @@
 #Description: vlc
 mpv
 vlc
-libdvdread4
 vlc-plugin-notify
-vlc-plugin-vlsub
 vlc-plugin-jack
 vlc-plugin-samba
 vlc-plugin-skins2
@@ -27,9 +25,12 @@ libdvd-pkg
 #Alt: totem
 #Alt: totem-plugins
 #Alt: vlc-plugin-svg
-#Alt: vlc-plugin-zvbi
-#Alt: zapping
-#celluloid # bullseye only
+#Alt: celluloid
+#zapping # buster only
+#vlc-plugin-zvbi # buster only
+#libdvdread4 # buster only
+#vlc-plugin-vlsub # buster only
+
 
 #Section: Music players/library managers
 #Description: quodlibet
@@ -38,16 +39,15 @@ exfalso
 quodlibet
 libgpod-common
 libgpod4
-python-cddb
-python-feedparser
-python-musicbrainzngs
-python-pyinotify
+#python-cddb # buster only
+#python-feedparser # buster only
+#python-musicbrainzngs # buster only
+#python-pyinotify # buster only
 sox
 #Alt: gnome-music
 #Alt: rhythmbox
 #Alt: rhythmbox-plugins
 #Alt: clementine
-#Alt: gmusicbrowser
 #Alt: audacious
 #Alt: audacious-plugins
 #Alt: projectm-pulseaudio
@@ -69,15 +69,15 @@ sox
 #Alt: kid3
 #Alt: picard
 #Alt: mussort
-#Alt: musique
-#Alt: radiotray
 #Alt: vagalume
 #Alt: gpodder
 #Alt: go-mtpfs
 #Alt: gtkpod
 #Alt: playerctl
 #Alt: streamtuner2
-
+#gmusicbrowser # buster only
+#musique # buster only
+#radiotray # buster
 
 
 #Section: Webcam
@@ -88,20 +88,20 @@ gnome-video-effects
 #Alt: gnome-video-effects-frei0r
 #Alt: v4l2loopback-dkms
 #Alt: v4l2loopback-utils
-#kamoso #stretch only
-#zoneminder #stretch only
+#Alt: kamoso
+#Alt: zoneminder
 
 #Section: Screen recording/screencasting
 #Description: obs-studio
 #Description: vokoscreen
 obs-studio
 vokoscreen
-#Alt: gtk-recordmydesktop
-#Alt: key-mon
 #Alt: kazam
 #Alt: byzanz
 #Alt: obs-studio
 #Alt: simplescreenrecorder
+#gtk-recordmydesktop # buster only
+#key-mon # buster only
 
 
 #Section: Media conversion/codecs
@@ -151,10 +151,10 @@ asunder
 
 
 #Section: Subtitles
+subliminal
 #Alt: subtitleeditor
 #Alt: gaupol
 #Alt: gnome-subtitles
-#subliminal #stretch only
 
 #Section: Audio recording/editing
 #Description: audacity
@@ -165,7 +165,7 @@ gnome-sound-recorder
 #Alt: gjacktransport
 
 ##Section: Lighting
-#qlcplus #bullseye only
+#Alt: qlcplus
 
 
 #Section: Audio system

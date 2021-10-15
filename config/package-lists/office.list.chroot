@@ -8,12 +8,9 @@ libreoffice-draw
 libreoffice-calc
 libreoffice-base
 libreoffice-gtk3
-libreoffice-style-tango
-libreoffice-pdfimport
 libreoffice-java-common
 libreoffice-gnome
 libreoffice-avmedia-backend-gstreamer
-libreoffice-avmedia-backend-vlc
 libwmf-bin
 hyphen-fr
 libreoffice-l10n-fr
@@ -39,31 +36,35 @@ libreoffice-help-fr
 #Alt: retext python3-enchant python3-yaml
 #Alt: scribus
 #Alt: scribus-template
-#Alt: sozi
 #Alt: spotlighter
 #Alt: tpp
 #Alt: unoconv
-#braindump #stretch only
-#calligraflow #stretch only
-#plume-creator #stretch only
+#Alt: plume-creator
+#braindump # sid only
+#calligraflow # sid only
+#sozi # buster only
+#libreoffice-style-tango # buster only
+#libreoffice-pdfimport # buster only
+#libreoffice-avmedia-backend-vlc # buster only
+
 
 # Section: Calendars/contacts management
 # Description: lightning
 lightning
-lightning-l10n-fr
-#Alt: pycarddav
 #Alt: gnome-calendar
 #Alt: evolution-data-server
 #Alt: abook
-#Alt: orage
+#orage # buster only
+#lightning-l10n-fr # buster only
+#pycarddav # buster only
+
 
 #Section: Personal finance
 #Description: homebank
 homebank
 #Alt: gnucash
 #Alt: grisbi
-#bitcoin-qt #sid only
-#electrum #bullseye only
+
 
 #Section: Document viewers
 #Description: evince
@@ -74,16 +75,14 @@ evince
 #Alt: calibre
 #Alt: zathura
 #Alt: fbreader
-#evince-gtk #stretch only
 #Alt: yelp
 #Alt: xchm
-#bookworkm #sid only
+#bookworm #bookworm only
 
 #Section: E-book
 #Alt: calibre
-#griffith #stretch only
-#gcstar #stretch only
-#Alt: cdcat
+#cdcat # buster only
+
 
 #Section: PDF editor/utilities
 #Description: pdfchain
@@ -93,25 +92,23 @@ poppler-utils
 #Alt: qpdf
 #Alt: pdfmod
 #Alt: pdfshuffler
-#gpdftext #stretch only
 #Alt: pdftk
 #Alt: pdfcrack
 #Alt: diffpdf
 #Alt: comparepdf
 #Alt: enscript
 #Alt: html2text
-#Alt: python-html2text
-#Alt: chm2pdf
-#pdfproctools #sid only
 #Alt: pdfarranger
+#Alt: pdfproctools
+#python-html2text # buster only
+#chm2pdf # buster only
 
 
 #Section: Tasks/Personal information management
 #Alt: osmo
 #Alt: zim
 #Alt: tasque
-#Alt: gtg
-#Alt: taskcoach
+#Alt: gnote
 #Alt: email-reminder
 #Alt: todotxt-cli
 #Alt: lifeograph
@@ -131,28 +128,31 @@ poppler-utils
 #Alt: treesheets
 #Alt: hnb
 #Alt: etm
-#cherrytree #stretch only
-#notebook-gtk2 #stretch-only
-#Alt: keepnote
 #Alt: almanah
 #Alt: nixnote2
+#gtg # buster only
+#Alt: cherrytree
+#taskcoach # buster only
+#keepnote # buster only
+
 
 #Section: Image scanning
 #Description: simple-scan
 simple-scan
 imagemagick
 sane-utils
-#libsane-extras #stretch only
 #Alt: scanbd
 #Alt: xsane
 
+
 #Section: Optical Character Recognition (OCR)
+#Alt: paperwork-gtk
 #Alt: ocrfeeder
 #Alt: tesseract-ocr-fra
 #Alt: unpaper
 #Alt: yagf
 #Alt: ocrad
-#paperwork-gtk # bullseye only
+
 
 #Section: Printing
 #Description: system-config-printer

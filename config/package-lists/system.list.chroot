@@ -33,8 +33,8 @@ vrms
 #Alt: needrestart
 #Alt: packagekit-command-not-found
 #Alt: packagekit-gtk3-module
-#Alt: pk-update-icon
 #Alt: extrepo
+#pk-update-icon # buster only
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
@@ -49,8 +49,7 @@ strace
 memtest86+
 #Alt: gnome-system-monitor
 #Alt: screenfetch
-#Alt: glances
-#Alt: screentest
+#screentest # bookworm only
 #Alt: hardinfo
 #Alt: cputool
 #Alt: usbview
@@ -67,7 +66,9 @@ memtest86+
 #Alt: hwloc
 #Alt: memlockd
 #Alt: read-edid
-#cpu-x #sid only
+#Alt: cpu-x
+#glances # buster only
+
 
 #Section: Backup
 #Screenshot: deja-dup
@@ -85,7 +86,7 @@ deja-dup
 #Alt: fsarchiver
 #Alt: backupninja
 #Alt: duply
-#Alt: rsnapshot
+#rsnapshot # buster only
 
 #Section: Disk management
 #Description: gnome-disk-utility
@@ -107,22 +108,21 @@ hfsprogs
 ntfs-3g
 kpartx
 xorriso
-#Alt: disk-manager
 #Alt: gsmartcontrol
 #Alt: fsarchiver
 #Alt: partclone
 #Alt: pmount
 #Alt: bilibop-udev
-#ecryptfs-utils #stretch only
-#partimage #stretch only
+#Alt: ecryptfs-utils
+#Alt: partimage
 #Alt: forensics-full
 #Alt: steghide
 #Alt: gdmap
 #Alt: clonezilla
-#exfatprogs #bullseye only
-#crazydiskinfo #bullseye only
-#disk-filltest #bullseye only
-
+#Alt: exfatprogs
+#Alt: crazydiskinfo
+#Alt: disk-filltest
+#disk-manager # buster only
 
 #Section: data recovery
 #Description: testdisk
@@ -139,7 +139,7 @@ testdisk
 #Description: bleachbit
 bleachbit
 localepurge
-#Alt: fslint
+#fslint # buster only
 
 #Section: Log viewers
 #Description: lnav
@@ -161,11 +161,11 @@ ebtables
 dnsmasq-base
 libvirt-daemon-system
 gir1.2-spiceclientgtk-3.0
-qemu-kvm
+qemu-system-x86
+qemu-system-arm
 qemu-utils
-virt-top
+#virt-top # buster only
 netcat-openbsd
-#Alt: virt-sandbox
 #Alt: virt-what
 #Alt: libguestfs-tools
 #Alt: lxc
@@ -177,6 +177,7 @@ netcat-openbsd
 #Alt: anbox
 #Alt: vagrant
 #Alt: schroot
+#virt-sandbox # buster only
 
 #Section: Windows compatibility
 #Description: wine
@@ -187,11 +188,12 @@ wine32:i386
 libgl1-mesa-dri:i386
 #endif
 #Alt: playonlinux
-#Alt: gnome-exe-thumbnailer
 #Alt: fonts-wine
 #Alt: winetricks
-#Alt: dxvk
 #Alt: reglookup
+#gnome-exe-thumbnailer # buster only
+#dxvk # buster only
+
 
 #Section: Configuration management
 #Alt: ansible
@@ -209,7 +211,7 @@ accountsservice
 #Alt: slim
 #Alt: gdm3
 #Alt: arctica-greeter
-#xsecurelock #bullseye only
+#Alt: xsecurelock
 #Alt: xscreensaver
 #Alt: xscreensaver-data-extra
 #Alt: xscreensaver-gl
@@ -224,11 +226,12 @@ plymouth-themes
 at
 
 #Section: Desktop performance
-ulatencyd
 #Alt: haveged
+#Alt: oomd
 #Alt: irqbalance
-#oomd #bullseye only
-#preload #stretch only
+#Alt: preload
+#ulatencyd # buster only
+
 
 #Section: Security & sandboxing
 apparmor
@@ -239,7 +242,7 @@ libpam-tmpdir
 sudo
 #Alt: apparmor-notify
 #Alt: apparmor-profiles-extra
-#bdoas # bullseye only
+#Alt: doas
 
 #Section: Time
 chrony
@@ -291,7 +294,7 @@ console-setup
 user-setup
 libpam-systemd
 #Alt: kexec-tools
-#kthresher # bullseye only
+#Alt: kthresher
 
 #Section: Firmwares
 firmware-linux-free

@@ -22,7 +22,6 @@ cmatrix-xfont
 #Alt: marsshooter
 #Alt: gnome-games
 #Alt: pychess
-#Alt: gweled
 #Alt: games-adventure
 #Alt: games-programming
 #Alt: games-sport
@@ -31,7 +30,6 @@ cmatrix-xfont
 #Alt: games-puzzle
 #Alt: games-strategy
 #Alt: games-board
-#Alt: games-python2-dev
 #Alt: games-tasks
 #Alt: games-card
 #Alt: games-fps
@@ -62,6 +60,7 @@ cmatrix-xfont
 #Alt: nyancat
 #Alt: sl
 #Alt: hollywood
+#gweled # buster only
 
 #Section: Game console emulators
 #Alt: pcsxr
@@ -83,10 +82,8 @@ cmatrix-xfont
 #Alt: libretro-bsnes-mercury-performance
 #Alt: libretro-desmume
 #Alt: libretro-gambatte
-#Alt: libretro-mupen64plus
 #Alt: libretro-mgba
 #Alt: libretro-nestopia
-#Alt: libretro-genesisplusgx
 #Alt: libretro-snes9x
 #Alt: yabause-gtk
 #Alt: games-emulator
@@ -100,7 +97,8 @@ cmatrix-xfont
 #Alt: mame-extra
 #Alt: nestopia
 #Alt: dosbox
-#Alt: dolphin-emu
 #Alt: pcsx2:i386
 #Alt: games-emulator
-#mess mess-desktop-entries #stretch only
+#mupen64plus # buster only
+#libretro-genesisplusgx # buster only
+#dolphin-emu # buster only

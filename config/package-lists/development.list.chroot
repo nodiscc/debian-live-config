@@ -18,7 +18,7 @@ cloc
 #Alt: hub
 #Alt: mercurial
 #Alt: myrepos
-#Alt: python-gitlab
+#Alt: python3-gitlab
 #Alt: subversion
 #Alt: tig
 #Alt: icdiff
@@ -89,12 +89,12 @@ fakeroot
 debconf-utils
 lintian
 git-buildpackage
-#Alt: lintian-brush
 #Alt: apt-build
-#Alt: python-stdeb
+#Alt: python3-stdeb
 #Alt: pypi2deb
 #Alt: dgit
 #Alt: aptly
+#lintian-brush # buster only
 
 #Section: Debuggers
 gdb
@@ -144,11 +144,11 @@ live-build
 #Section: HTML/CC/JS
 #Alt: csstidy
 #Alt: sqlite3
-#Alt: webcheck
 #Alt: vera
 #Alt: nodejs
 #Alt: npm
 #Alt: jsbeautifier
+#webcheck # buster only
 
 #Section: PHP
 #Alt: php-cli
@@ -156,7 +156,8 @@ live-build
 #Section: Android
 #Alt: android-sdk
 #Alt: android-sdk-platform-tools-common
-#Alt: android-tools-fastboot
-#gplaycli python-ndg-httpsclient # bullseye only
+#Alt: fastboot
 #Alt: adb
 #Alt: fastboot
+#Alt: scrcpy
+#gplaycli # bookworm only
