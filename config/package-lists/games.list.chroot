@@ -60,6 +60,12 @@ lutris
 #Alt: nyancat
 #Alt: sl
 #Alt: hollywood
+#Alt: wine64
+#Alt: wine32:i386
+#Alt: libgl1-mesa-dri:i386
+#Alt: playonlinux
+#Alt: fonts-wine
+#Alt: winetricks
 #gweled # buster only
 
 #Section: Game console emulators

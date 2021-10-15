@@ -179,22 +179,6 @@ netcat-openbsd
 #Alt: schroot
 #virt-sandbox # buster only
 
-#Section: Windows compatibility
-#Description: wine
-wine
-#if ARCHITECTURES amd64
-wine64
-wine32:i386
-libgl1-mesa-dri:i386
-#endif
-#Alt: playonlinux
-#Alt: fonts-wine
-#Alt: winetricks
-#Alt: reglookup
-#gnome-exe-thumbnailer # buster only
-#dxvk # buster only
-
-
 #Section: Configuration management
 #Alt: ansible
 
