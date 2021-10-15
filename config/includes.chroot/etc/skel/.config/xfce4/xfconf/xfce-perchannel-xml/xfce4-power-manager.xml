@@ -16,6 +16,6 @@
     <property name="dpms-on-ac-off" type="uint" value="12"/>
     <property name="inactivity-sleep-mode-on-battery" type="uint" value="1"/>
     <property name="inactivity-on-battery" type="uint" value="15"/>
-    <property name="show-tray-icon" type="int" value="1"/>
+    <property name="show-tray-icon" type="bool" value="false"/>
   </property>
 </channel>
