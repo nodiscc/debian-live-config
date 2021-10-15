@@ -108,11 +108,9 @@ transmission-cli
 #Alt: btfs
 
 #Section: Media download
-#Description: youtube-dl
-youtube-dl
-streamlink
-#Alt: get-flash-videos
-#Alt: gnome-twitch
+##Description: youtube-dl
+#Alt: youtube-dl
+#Alt: streamlink
 #Alt: minitube
 #Alt: smtube
 
