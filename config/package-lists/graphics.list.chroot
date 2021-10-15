@@ -30,11 +30,10 @@ gimp-data-extras
 gimp-gap
 gimp-plugin-registry
 gimp-texturize
-#gimp-ufraw # buster only
 gimp-gutenprint
 gimp-lensfun
 create-resources
-gimp-help-fr
+#Alt: gimp-help-fr
 #Alt: krita
 #Alt: gimp-gmic
 #Alt: drawing
@@ -42,6 +41,7 @@ gimp-help-fr
 #Alt: mtpaint
 #Alt: xpaint
 #Alt: gnome-paint
+#gimp-ufraw # buster only
 #delaboratory # buster only
 #pinta # sid only
 
