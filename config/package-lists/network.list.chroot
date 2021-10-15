@@ -1,4 +1,4 @@
-#Title: Network
+#Title: Internet and network
 
 #Section: Web browsers
 #Description: firefox-esr
@@ -21,6 +21,11 @@ webext-ublock-origin
 pidgin
 pidgin-otr
 libpurple-bin
+purple-lurch
+purple-rocketchat
+purple-discord
+purple-xmpp-http-upload
+purple-xmpp-carbons
 pidgin-plugin-pack
 pidgin-extprefs
 pidgin-gnome-keyring
