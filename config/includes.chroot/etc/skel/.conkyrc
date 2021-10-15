@@ -1,58 +1,60 @@
-# Conky configuration
-# https://gitlab.com/nodiscc/debian-live-config
-# Enable more items by commenting out their respective lines
-# To install/enable scripts for extra functionality:
-# git clone https://gitlab.com/nodiscc/toolbox; sudo cp -r toolbox/ARCHIVE/conky-scripts /opt/
+conky.config = {
+	-- Conky configuration
+	-- https://gitlab.com/nodiscc/debian-live-config
+	-- Enable more items by commenting out their respective lines
+	-- To install/enable scripts for extra functionality:
+	-- git clone https://gitlab.com/nodiscc/toolbox; sudo cp -r toolbox/ARCHIVE/conky-scripts /opt/
+	background = false,
+	border_margin = '5',
+	border_width = 5,
+	cpu_avg_samples = 2,
+	-- default_outline_color 000000
+	-- default_shade_color 000000
+	double_buffer = true,
+	draw_borders = false,
+	draw_graph_borders = false,
+	draw_outline = false,
+	draw_shades = false,
+	gap_x = 30,
+	gap_y = 50,
+	max_specials = '1024',
+	max_user_text = 10000,
+	maximum_width = 900,
+	minimum_width = 350,
+	net_avg_samples = 2,
+	no_buffers = true,
+	override_utf8_locale = true,
+	own_window_class = 'Conky',
+	own_window = true,
+	own_window_argb_visual = false,
+	-- own_window_argb_value 0
+	-- own_window_colour 000000
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	own_window_transparent = true,
+	own_window_type = 'normal',
+	pad_percents = 2,
+	short_units = true,
+	stippled_borders = 3,
+	text_buffer_size = 8000,
+	total_run_times = 0,
+	uppercase = false,
+	use_spacer = 'right',
+	use_xft = true,
+	xftalpha = 1,
+	update_interval = 5.0,
+	-- update_interval 1.0 # for second-precision clock
+	alignment = 'top_right',
+	default_color = '#FFFFFF',
+	-- default_color 000000
+	color1 = '#C6B59B',
+	color2 = '#FF0000',
+	color3 = '#00FF00',
+	font = 'Roboto:pixelsize=17',
+	font = 'Roboto:pixelsize=17',
 
-background no
-border_margin 5
-border_width 5
-cpu_avg_samples 2
-#default_outline_color 000000
-#default_shade_color 000000
-double_buffer yes
-draw_borders no
-draw_graph_borders no
-draw_outline no
-draw_shades no
-gap_x 30
-gap_y 50
-max_specials 1024
-max_user_text 10000
-maximum_width 900
-minimum_size 350
-net_avg_samples 2
-no_buffers yes
-override_utf8_locale yes
-own_window_class Conky
-own_window yes
-own_window_argb_visual no
-#own_window_argb_value 0
-#own_window_colour 000000
-own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
-own_window_transparent yes
-own_window_type normal
-pad_percents 2
-short_units yes
-stippled_borders 3
-text_buffer_size 8000
-total_run_times 0
-uppercase no
-use_spacer right
-use_xft yes
-xftalpha 1
+};
 
-# CONFIG
-update_interval 5.0
-#update_interval 1.0 # for second-precision clock
-alignment top_right
-default_color FFFFFF
-#default_color 000000
-color1 C6B59B
-font Roboto:pixelsize=17
-xftfont Roboto:pixelsize=17
-
-TEXT
+conky.text = [[
 ##### CLOCK #####
 ### DAY OF WEEK ###
 ${font Roboto:pixelsize=40}${time %A}${font}
@@ -111,7 +113,12 @@ ${font Roboto:pixelsize=40}${time %H:%M}${font}
 # argument: vertical position of the cover art, in pixels
 #${execpi 5 /opt/conky-scripts/conky-quodlibet.sh 185}
 #
-# message of the day
+#
+### TIMESTAMP CHECKS ###
+#${execpi 10 /opt/conky-scripts/check-max-age.py ~/.local/cache/last_backup_timestamp 2678400}
+#${execpi 10 /opt/conky-scripts/check-max-age.py ~/.local/share/last_cron_success 604800}
+#
+### MESSAGE OF THE DAY ###
 #${color1}NEWS ${color}${hr}
 #${font sans-serif:normal:size=8}${texeci 300 cat /etc/motd | fold -w55}
 #
@@ -123,3 +130,4 @@ ${font Roboto:pixelsize=40}${time %H:%M}${font}
 #${color1}TASKS ${color}${hr}
 #${font Roboto:pixelsize=12}${execpi 30 /opt/conky-scripts/thundercal -l 5 tasks}${font}
 
+]];
