@@ -57,13 +57,6 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
     <property name="plugin-8" type="string" value="places"/>
-    <property name="notes" type="empty">
-      <property name="global" type="empty">
-        <property name="tabs-position" type="int" value="1"/>
-        <property name="background-color" type="string" value="#f7f7c1259696"/>
-        <property name="font-description" type="string" value="Ruji&apos;s Handwriting Font v.2.0 Medium 12"/>
-      </property>
-    </property>
     <property name="plugin-2" type="string" value="whiskermenu"/>
     <property name="plugin-1" type="string" value="battery"/>
   </property>1

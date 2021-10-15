@@ -150,8 +150,7 @@ vim-tiny
 #Alt: nfoview
 
 #Section: Sticky notes
-#Description: xfce4-notes
-xfce4-notes
+#xfce4-notes # buster only
 #Alt: xpad
 #tomboy #stretch only
 #Alt: gnote
