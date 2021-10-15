@@ -18,6 +18,7 @@ package_lists = [
 def get_package_metadata(package):
 	'''get package metadata from apt database/hardcoded URLs
 	returns: list of strings'''
+	print('[INFO] parsing metadata for %s' % package)
 	pkg = cache[(package)]
 	candidate = depcache.get_candidate_ver(pkg)
 	desc = candidate.translated_description
@@ -30,7 +31,7 @@ def get_package_metadata(package):
 	long_desc = re.sub(r'^[A-z].*', '', long_desc)
 	long_desc = long_desc.split('\n\n')[0]
 	screenshot_url = 'https://screenshots.debian.net/thumbnail-with-version/{}/{}'.format(package, version)
-	pdo_url = 'https://packages.debian.org/buster/{}'.format(package)
+	pdo_url = 'https://packages.debian.org/bullseye/{}'.format(package)
 	return short_desc, long_desc, screenshot_url, pdo_url, version
 
 
