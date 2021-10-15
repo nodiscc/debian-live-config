@@ -4,6 +4,7 @@
 
 lb config noauto \
 --apt-recommends false \
+--apt-indices false \
 --architectures amd64 \
 --archive-areas 'main contrib non-free' \
 --backports true \
