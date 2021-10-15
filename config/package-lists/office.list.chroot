@@ -172,56 +172,55 @@ cups-browsed
 
 #Section: Fonts
 #Description: fonts-hack-ttf
-fonts-pecita
-fonts-beteckna
+fonts-averia-gwf
 fonts-breip
+fonts-cabinsketch
 fonts-cantarell
+fonts-century-catalogue
+fonts-crosextra-caladea
+fonts-dancingscript
+fonts-dosis
+fonts-droid-fallback
+fonts-dustin
+fonts-ecolier-court
+fonts-f500
+fonts-freefont-ttf
+fonts-hack-ttf
 fonts-inconsolata
 fonts-junicode
 fonts-jura
-fonts-liberation
-fonts-dustin
+fonts-kaushanscript
+fonts-knda
 fonts-levien-museum
-fonts-opendin
-fonts-play
-fonts-prociono
-fonts-rufscript
-fonts-sil-andika
-fonts-sil-galatia
-fonts-tomsontalks
-fonts-sil-gentium
-fonts-vollkorn
-fonts-yanone-kaffeesatz
-fonts-century-catalogue
-fonts-comfortaa
-fonts-droid-fallback
-fonts-ecolier-court
-fonts-f500
-fonts-fanwood
-fonts-dancingscript
-fonts-cabinsketch
+fonts-liberation
+fonts-linuxlibertine
 fonts-lobster
 fonts-lobstertwo
-fonts-kaushanscript
-fonts-dosis
-fonts-cabin
-fonts-quattrocento
-fonts-lindenhill
 fonts-ocr-a
-fonts-ubuntu-title
-fonts-knda
-xfonts-terminus
 fonts-opensymbol
 fonts-roboto
-fonts-averia-gwf
-ttf-mscorefonts-installer
-fonts-freefont-ttf
-fonts-hack-ttf
-fonts-crosextra-caladea
-fonts-crosextra-carlito
-fonts-linuxlibertine
+fonts-rufscript
+fonts-sil-andika
 fonts-sil-gentium-basic
-#Alt: fonts-lato
-#Alt: fonts-open-sans
+fonts-ubuntu-title
+ttf-mscorefonts-installer
+xfonts-terminus
+#Alt: fonts-beteckna
+#Alt: fonts-cabin
+#Alt: fonts-comfortaa
+#Alt: fonts-crosextra-carlito
+#Alt: fonts-fanwood
 #Alt: fonts-fork-awesome
-#paperwork-gtk # sid only
+#Alt: fonts-lato
+#Alt: fonts-lindenhill
+#Alt: fonts-open-sans
+#Alt: fonts-opendin
+#Alt: fonts-play
+#Alt: fonts-prociono
+#Alt: fonts-quattrocento
+#Alt: fonts-sil-galatia
+#Alt: fonts-sil-gentium
+#Alt: fonts-tomsontalks
+#Alt: fonts-vollkorn
+#Alt: fonts-yanone-kaffeesatz
+#fonts-pecita # buster only
