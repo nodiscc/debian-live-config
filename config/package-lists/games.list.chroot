@@ -1,9 +1,11 @@
 #Title: Games
 
-#Section: Linux games
+#Section: Games
+#Description: lutris
+#Screenshot: lutris
+lutris
 cmatrix
 cmatrix-xfont
-#lutris # sid only
 #Alt: endless-sky
 #Alt: play.it
 #Alt: steam:i386
