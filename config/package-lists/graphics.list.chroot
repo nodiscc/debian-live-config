@@ -105,8 +105,8 @@ gsfonts-x11
 #Alt: zbar-tools
 
 #Section: 3D editors
-#Description: blender
-blender
+##Description: blender
+#Alt: blender
 #Alt: g3dviewer
 #Alt: sweethome3d
 #Alt: sweethome3d-furniture
