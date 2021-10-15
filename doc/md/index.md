@@ -35,6 +35,7 @@ This repository contains the `live-build` configuration and scripts used to buil
 - [Software: System](packages/system.md)
 - [Software: Development](packages/development.md)
 - [Software: Games](packages/games.md)
+- [Software: Extras](packages/extras.md)
 - [Changelog](CHANGELOG.md)
 
 

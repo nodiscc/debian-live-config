@@ -1,4 +1,5 @@
 #!/usr/bin/make
+# please update doc/md/packages/extras.md after adding changes to this file
 WGET=wget --continue --no-verbose --show-progress --directory-prefix=cache/downloads/
 
 all: download_extra
