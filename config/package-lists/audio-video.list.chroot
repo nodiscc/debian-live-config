@@ -1,8 +1,7 @@
 #Title: Audio/video
 #Section: Video players
-#Description: mpv
 #Description: vlc
-mpv
+#Description: mpv
 vlc
 vlc-plugin-notify
 vlc-plugin-jack
@@ -14,6 +13,7 @@ vlc-plugin-video-output
 vlc-plugin-base
 vlc-plugin-qt
 libdvd-pkg
+mpv
 #Alt: freetuxtv
 #Alt: gnome-dvb-client
 #Alt: gnome-mpv
@@ -34,9 +34,8 @@ libdvd-pkg
 
 #Section: Music players/library managers
 #Description: quodlibet
-#Description: exfalso
-exfalso
 quodlibet
+exfalso
 libgpod-common
 libgpod4
 #python-cddb # buster only

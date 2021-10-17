@@ -187,7 +187,6 @@ default-jre
 
 #Section: Display manager/screen locker
 #Description: lightdm
-#Description: light-locker
 lightdm
 lightdm-gtk-greeter
 light-locker
@@ -233,7 +232,6 @@ chrony
 #Alt: ntp
 
 #Section: Display
-#Description: xorg
 mesa-utils
 libgl1-mesa-dri
 va-driver-all
