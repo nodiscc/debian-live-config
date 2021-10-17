@@ -5,7 +5,6 @@ For convenience, some software that are not part of the official Debian distribu
 
 <!-- grep '# EXTRA' Makefile.extra -->
 
- - https://github.com/scopatz/nanorc
  - https://github.com/az0/cleanerml
  - https://github.com/nodiscc/user.js
  - https://github.com/EionRobb/pidgin-opensteamworks/

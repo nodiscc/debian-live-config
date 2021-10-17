@@ -22,11 +22,6 @@ download_extra: clean
 	# TODO file ITPs on bugs.debian.org, package for Debian
 	mkdir -p cache/downloads/
 
-	# EXTRA https://github.com/scopatz/nanorc
-	$(WGET) https://github.com/scopatz/nanorc/archive/master.zip -O cache/downloads/nanorc-master.zip
-	unzip -q cache/downloads/nanorc-master.zip -d cache/downloads/
-	mv cache/downloads/nanorc-master config/includes.chroot/etc/skel/.nano
-
 	# EXTRA https://github.com/az0/cleanerml
 	$(WGET) https://github.com/az0/cleanerml/archive/master.zip -O cache/downloads/cleanerml-master.zip
 	unzip -q cache/downloads/cleanerml-master.zip -d cache/downloads/
