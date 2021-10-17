@@ -34,7 +34,7 @@
     <property name="titleless_maximize" type="bool" value="false"/>
     <property name="unredirect_overlays" type="bool" value="true"/>
     <property name="urgent_blink" type="bool" value="true"/>
-    <property name="use_compositing" type="bool" value="false"/>
+    <property name="use_compositing" type="bool" value="true"/>
     <property name="zoom_desktop" type="bool" value="true"/>
     <property name="workspace_count" type="int" value="2"/>
     <property name="workspace_names" type="array">
