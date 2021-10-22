@@ -5,49 +5,38 @@ WGET=wget --continue --no-verbose --show-progress --directory-prefix=cache/downl
 all: download_extra
 
 clean:
-	rm -rf config/includes.chroot/usr/share/xfce4/terminal/colorschemes cache/downloads/xfce4-terminal-colorschemes-1.0
-	rm -rf config/includes.chroot/etc/skel/.nano cache/downloads/nanorc-master.zip
-	rm -rf config/includes.chroot/usr/share/bleachbit/cleaners cache/downloads/cleanerml-master
-	rm -rf config/includes.chroot/etc/firefox-esr/firefox-esr.js cache/downloads/user.js-0.1
-	rm -f config/includes.chroot/usr/local/bin/yt-dlp
+	rm -rvf config/packages.chroot/
+	rm -rvf cache/downloads
 	rm -rf config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
-	rm -f cache/downloads/pidgin-opensteamworks_1.7-buster0-1_amd64.deb
-	rm -f cache/downloads/cleanerml-master.zip
-	rm -f cache/downloads/user.js-0.1.zip
-	rm -f cache/downloads/xfce4-terminal-colorschemes-1.0.zip
+
+clean_all: clean
+	rm -rvf cache/downloads/
 
 
 download_extra: clean
-	# Download unpackaged/third-party software
-	# TODO file ITPs on bugs.debian.org, package for Debian
-	mkdir -p cache/downloads/
+	# Download additional software from third-party repository (https://nodiscc.gitlab.io/toolbox)
+	# TODO use the APT repository at build time, but disable it in the final chroot/image
+	# TODO file ITPs on bugs.debian.org
+	mkdir -p cache/downloads/ config/packages.chroot/
 
 	# EXTRA https://github.com/az0/cleanerml
-	$(WGET) https://github.com/az0/cleanerml/archive/master.zip -O cache/downloads/cleanerml-master.zip
-	unzip -q cache/downloads/cleanerml-master.zip -d cache/downloads/
-	mkdir -p config/includes.chroot/usr/share/bleachbit/cleaners
-	mv cache/downloads/cleanerml-master/release/* config/includes.chroot/usr/share/bleachbit/cleaners/
-
-	# EXTRA https://github.com/nodiscc/user.js
-	$(WGET) https://github.com/nodiscc/user.js/archive/0.1.zip -O cache/downloads/user.js-0.1.zip
-	unzip -q cache/downloads/user.js-0.1.zip -d cache/downloads/
-	mkdir -p config/includes.chroot/etc/firefox-esr
-	cd cache/downloads/user.js-0.1/ && make systemwide_user.js
-	mv cache/downloads/user.js-0.1/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
-	# https://github.com/EionRobb/pidgin-opensteamworks/
-	-mkdir -p config/packages.chroot
-	$(WGET) https://gitlab.com/nodiscc/pidgin-opensteamworks/-/jobs/471942010/artifacts/raw/pidgin-opensteamworks_1.7-buster0-1_amd64.deb
+	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/b/bleachbit-cleanerml/bleachbit-cleanerml_0.0.1~git0+5bc2961_all.deb
+	cp cache/downloads/bleachbit-cleanerml_0.0.1~git0+5bc2961_all.deb config/packages.chroot/
 
 	# EXTRA https://github.com/yt-dlp/yt-dlp
-	$(WGET) https://github.com/yt-dlp/yt-dlp/releases/download/2021.09.25/yt-dlp
-	chmod a+x config/packages.chroot
-	mkdir -p config/includes.chroot/usr/local/bin/
-	mv cache/downloads/yt-dlp config/includes.chroot/usr/local/bin/
+	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/y/yt-dlp/yt-dlp_2021.09.25_amd64.deb
+	cp cache/downloads/yt-dlp_2021.09.25_amd64.deb config/packages.chroot/
+
+	# https://github.com/EionRobb/pidgin-opensteamworks/
+	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/p/pidgin-opensteamworks/pidgin-opensteamworks_1.7-1_amd64.deb
+	cp cache/downloads/pidgin-opensteamworks_1.7-1_amd64.deb config/packages.chroot/
+
+	# EXTRA https://github.com/nodiscc/user.js
+	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.2-1_all.deb
+	cp cache/downloads/user.js_0.2-1_all.deb config/packages.chroot/
 
 	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
 	mkdir -p config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
 	$(WGET) https://addons.mozilla.org/firefox/downloads/file/3465157/keepassxc_browser-latest-fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/keepassxc-browser@keepassxc.org.xpi
 	$(WGET) https://addons.mozilla.org/firefox/downloads/file/3530747/cookie_autodelete-3.1.1-an+fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/CookieAutoDelete@kennydo.com.xpi
-
-	# EXTRA (DISABLED) https://github.com/ars3niy/tdlib-purple	#$(WGET) https://download.opensuse.org/repositories/home:/ars3n1y/Debian_10/amd64/libpurple-telegram-tdlib_0.7.1-1_amd64.deb
