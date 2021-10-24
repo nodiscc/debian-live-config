@@ -1,13 +1,14 @@
-dlc is under the GNU GENERAL PUBLIC LICENSE Version 3.
+- `*`: GNU GPL-3.0
+- `config/includes.chroot/usr/share/backgrounds/futureprototype-darker-4096x2160`.svg: (c) 2018 Alex Makas, GNU GPL-3.0
+- `config/includes.chroot/usr/share/backgrounds/homeworld-darker-3840x2160.png, config/bootloaders/*/splash.png`: (c) 2020 Juliette Taka, CC-BY-SA-4.0 or GNU GPL-2.0
 
 The ISO image resulting from the build includes software packages under
-various licenses. See README/COPYING/AUTHORS/LICENSE/COPYRIGHT files in
-/usr/share/doc/ on the installed system for licenses of each software package.
+various licenses. See `README/COPYING/AUTHORS/LICENSE/COPYRIGHT` files in
+`/usr/share/doc/` on the installed system for licenses of each software package.
 
 --------------------------------------------------------------------------------
 
-
-
+```
                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -682,13 +683,12 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
+```
 
 
 ------------------------------------------------------------------
 
-
-
-
+```
 License: CC-BY-SA-3.0
  Creative Commons Attribution-ShareAlike 3.0 Unported
  .
@@ -1066,7 +1066,4 @@ License: CC-BY-SA-3.0
  .
  Creative Commons may be contacted at http://creativecommons.org/.
 
-----------------------------
-
-- config/includes.chroot/usr/share/backgrounds/futureprototype-darker-4096x2160.svg (c) 2018 Alex Makas, GPLv3
-- config/includes.chroot/usr/share/backgrounds/homeworld-darker-3840x2160.png, config/bootloaders/*/splash.png (c) 2020 Juliette Taka, CC-BY-SA-4.0 or GNU GPL-2.0+
+```

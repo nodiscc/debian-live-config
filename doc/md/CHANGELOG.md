@@ -34,7 +34,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Added
 
-- network: add support for more IM protocols in pidgin: [OMEMO encryption](https://packages.debian.org/bullseye/purple-lurch), [discord](https://packages.debian.org/bullseye/purple-discord), [telegram](https://packages.debian.org/bullseye/telegram-purple), [https://packages.debian.org/bullseye/purple-rocketchat], XMPP [HTTP upload](https://packages.debian.org/bullseye/purple-xmpp-http-upload) and [message carbons](https://packages.debian.org/bullseye/purple-xmpp-carbons)
+- network: add support for more IM protocols in pidgin: [OMEMO encryption](https://packages.debian.org/bullseye/purple-lurch), [discord](https://packages.debian.org/bullseye/purple-discord), [telegram](https://packages.debian.org/bullseye/telegram-purple), (rocketchat)[https://packages.debian.org/bullseye/purple-rocketchat], XMPP [HTTP upload](https://packages.debian.org/bullseye/purple-xmpp-http-upload) and [message carbons](https://packages.debian.org/bullseye/purple-xmpp-carbons)
 - graphics: add [gcolor3](https://packages.debian.org/bullseye/gcolor3) color picker
 - doc: add [Software: Extras](https://debian-live-config.readthedocs.io/en/latest/packages/extras.html) page listing all third-party downloads
 
