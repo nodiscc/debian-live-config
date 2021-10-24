@@ -5,8 +5,8 @@
 firefox-esr
 firefox-esr-l10n-fr
 #pkg-mozilla-archive-keyring # buster only
-webext-https-everywhere
 webext-ublock-origin
+#Alt: webext-https-everywhere
 #Alt: midori
 #Alt: luakit
 #Alt: chromium
