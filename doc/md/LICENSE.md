@@ -1068,6 +1068,5 @@ License: CC-BY-SA-3.0
 
 ----------------------------
 
-config/includes.chroot/usr/share/backgrounds/futureprototype-darker-4096x2160.svg (c) 2018 Alex Makas, GPLv3
-
-config/includes.chroot/usr/share/backgrounds/homeworld-darker-3840x2160.png, config/bootloaders/*grub-pc*/splash.png (c) 2020 Juliette Taka, CC-BY-SA-4.0 or GNU GPL-2.0+
+- config/includes.chroot/usr/share/backgrounds/futureprototype-darker-4096x2160.svg (c) 2018 Alex Makas, GPLv3
+- config/includes.chroot/usr/share/backgrounds/homeworld-darker-3840x2160.png, config/bootloaders/*/splash.png (c) 2020 Juliette Taka, CC-BY-SA-4.0 or GNU GPL-2.0+
