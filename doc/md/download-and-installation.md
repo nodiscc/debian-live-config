@@ -10,16 +10,16 @@
 
 ## Download
 
-**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-2.2.5-debian-bullseye-amd64.hybrid.iso)** the latest ISO image
+**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/3.0.0/dlc-3.0.0-debian-bullseye-amd64.hybrid.iso)** the latest ISO image
 
 (Recommended) verify file integrity and authenticity with GPG:
 
 ```bash
 # download the iso, signing key, checksums and signature
-wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-2.2.5-debian-bullseye-amd64.hybrid.iso
-wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-release.key
-wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/SHA512SUMS
-wget https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/SHA512SUMS.sign
+wget https://github.com/nodiscc/debian-live-config/releases/download/3.0.0/dlc-3.0.0-debian-bullseye-amd64.hybrid.iso
+wget https://github.com/nodiscc/debian-live-config/releases/download/3.0.0/dlc-release.key
+wget https://github.com/nodiscc/debian-live-config/releases/download/3.0.0/SHA512SUMS
+wget https://github.com/nodiscc/debian-live-config/releases/download/3.0.0/SHA512SUMS.sign
 # import the release signing key
 # the key used to sign releases has key ID EE73FC8FD71E3CC83606FDF361B23168A539DBBD
 gpg --import dlc-release.key
