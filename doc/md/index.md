@@ -2,7 +2,7 @@
 
 [Debian GNU/Linux](https://www.debian.org/) desktop operating system, preconfigured for personal computers/workstations.
 
-![](https://i.imgur.com/gdM7X0x.jpg)
+![](https://i.imgur.com/xbRbpM3.png)
 
 ## Features
 
@@ -41,9 +41,9 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Screenshots
 
-![](https://i.imgur.com/8lq28mV.png)
+![](https://i.imgur.com/xbRbpM3.png)
 
-![](https://i.imgur.com/EpXos8H.png)
+![](https://i.imgur.com/iyA3bov.png)
 
 
 ## Source code
