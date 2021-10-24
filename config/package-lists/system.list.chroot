@@ -108,6 +108,7 @@ hfsprogs
 ntfs-3g
 kpartx
 xorriso
+lvm2
 #Alt: gsmartcontrol
 #Alt: fsarchiver
 #Alt: partclone
