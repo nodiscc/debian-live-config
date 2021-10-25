@@ -116,6 +116,7 @@ gnupg2
 pwgen
 nss-passwords
 cryptsetup
+cryptsetup-initramfs
 libblockdev-crypto2
 #Alt: keepassx
 #Alt: keepass2
