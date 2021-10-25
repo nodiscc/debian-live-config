@@ -2,56 +2,53 @@
 
 ### nodiscc/debian-live-config
 
-- #83 - bullseye: don't display cookie autodelete welcome page on firefox first startup
-- #81 - associate `.deb` files with `pkcon install-local`
-- #79 - WIP preseed keyboard-configuration
-- #78 - WIP: replace pulseaudio audio server with pipewire - `gamemode`
-- #77 - test compatibility with popular proprietary communication software?
-- #75 - [bullseye] makefile.extras: fetch lutris package from bullseye repository
-- #74 - [bullseye] bootloader: language selection missing form boot menu in UEFI mode
-- #72 - Re-add xfce4-notes-plugin
-- #69 - Preinstall AMDGPU drivers?
-- #68 - (optional) install signal-desktop?
-- #67 - Check additional packages
-- #65 - switch build system to mmdebstrap? - `12.0.0`
-- #64 - add tartube
-- #63 - Makefile.extras: add a script to check for common issues - `12.0.0`
-- #62 - Offline maps and routing
-- #61 - add gaming-related packages/configuration?
-- #60 - integrate semi-automatic/desktop-friendly oldstable -> stable uprade mechanism
-- #59 - WIP: build ISO for i386 architecure
-- #58 - WIP: preconfigure thunderbird
-- #57 - Enable DXVK?
-- #56 - lutris: verify package integrity/authenticity with GPG signatures
-- #54 - Add gamemode? - `gamemode`
-- #52 - Document default keyboard shortcuts
-- #51 - "Login without password" checkbox in users-admin is greyed out - `gamemode`
-- #50 - Add a visual keyboard
-- #49 - Add a color picker
-- #48 - Replace gnome-clocks with better alarm software
-- #46 - Investigate other interesting packages
-- #45 - System-wide support for DNS-over-HTTPS/TLS
-- #44 - add cron GUI
-- #43 - add ./play.it
-- #42 - firefox: display bookamrks toolbar by default
-- #41 - add thunar custom action to open text files as root
-- #38 - Languages are not shown on the EFI boot menu - `3.0.1`
-- #35 - test accessing samba shares
-- #33 - Some .desktop launchers are not localized in xfce4-whiskermenu-plugin
-- #30 - No GUI for services configuration
-- #27 - Replace laptop-mode-tools with tlp? - `12.0.0`
-- #25 - Add Android emulator
-- #21 - default choice/path for grub install disk leads to error
-- #20 - Enable IPv6 support
-- #19 - installer: preseed "full user name" question to match the linux username - `12.0.0`
-- #18 - thunderbird: add default addons/harden configuration
-- #15 - nvidia optimus support
-- #14 - measure impact of irqbalance, remove it? Edit
-- #13 - Add a remote desktop service/viewer
-- #9 - add a package list for audio workstations
-- #8 - Display more items in xfce4-settings-manager
-- #7 - add live system persistence
-- #5 - Improve apparmor sandboxing
-- #4 - installer: preseed "domain name" installer question to None - `12.0.0`
-- #2 - improve OOM handling
-- #1 - Add Ulauncher
+- #86 - Use apt instead of wget to download extra .deb packages (verify integrity/authenticity) - **`-`** `enhancement,security,tools`
+- #85 - "Use whole disk with encrypted LVM" disk partitioning scheme in Debian installer results in unbootable system - **`-`** `boot,bug,installer`
+- #84 - Boot in legacy BIOS mode fails with `Failed to load COM32 file vesamenu.c32` - **`-`** `boot,bug`
+- #83 - bullseye: don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement`
+- #81 - associate `.deb` files with `pkcon install-local` - **`-`** `feature`
+- #79 - WIP preseed keyboard-configuration - **`-`** `question`
+- #78 - WIP: replace pulseaudio audio server with pipewire - **`-`** `enhancement,maintenance`
+- #77 - test compatibility with popular proprietary communication software? - **`-`** `question`
+- #72 - Re-add xfce4-notes-plugin - **`-`** `enhancement,packaging`
+- #69 - Preinstall AMDGPU drivers? - **`-`** `enhancement,question`
+- #68 - (optional) install signal-desktop? - **`-`** `feature,question`
+- #67 - Check additional packages - **`-`** `enhancement,question`
+- #65 - switch build system to mmdebstrap? - **`-`** `enhancement,question,tools`
+- #64 - add tartube - **`-`** `feature,packaging`
+- #63 - Makefile.extras: add a script to check for common issues? - **`-`** `feature,question,tools`
+- #62 - Offline maps and routing - **`-`** `question`
+- #61 - add gaming-related packages/configuration? - **`-`** `feature,games,question`
+- #60 - integrate semi-automatic/desktop-friendly oldstable -> stable uprade mechanism - **`-`** `question`
+- #59 - WIP: build ISO for i386 architecure - **`-`** `enhancement,tools`
+- #58 - WIP: preconfigure thunderbird - **`-`** `configuration,enhancement`
+- #57 - Enable DXVK? - **`-`** `feature,games,question`
+- #52 - Document default keyboard shortcuts - **`-`** `documentation`
+- #51 - "Login without password" checkbox in users-admin is greyed out - **`-`** `enhancement`
+- #50 - Add a visual keyboard - **`-`** `feature`
+- #48 - Replace gnome-clocks with better alarm software - **`-`** `question`
+- #46 - Investigate other interesting packages - **`-`** `question`
+- #45 - System-wide support for DNS-over-HTTPS/TLS - **`-`** `feature,security`
+- #44 - add cron GUI - **`-`** `feature`
+- #43 - add ./play.it - **`-`** `feature`
+- #42 - firefox: display bookmarks/personal toolbar by default - **`-`** `enhancement`
+- #41 - add thunar custom action to open text files as root - **`-`** `feature`
+- #38 - Language selection missing from GRUB live boot menu in UEFI mode - **`3.0.1`** `boot,bug,configuration`
+- #35 - test accessing samba shares - **`-`** `feature`
+- #33 - Some .desktop launchers are not localized in xfce4-whiskermenu-plugin - **`-`** `bug,l10n/a11y`
+- #30 - Add a graphical interface to enable/disable systemd services - **`-`** `enhancement`
+- #27 - Replace laptop-mode-tools with tlp? - **`-`** `configuration,enhancement,performance,question`
+- #25 - Add Android emulator - **`-`** `feature`
+- #20 - Enable IPv6 support - **`-`** `feature`
+- #19 - installer: preseed "full user name" question to match the linux username - **`-`** `enhancement,tools`
+- #18 - thunderbird: add default addons/harden configuration - **`-`** `configuration,enhancement`
+- #15 - nvidia optimus support - **`-`** `feature`
+- #14 - measure impact of irqbalance, remove it? Edit - **`-`** `enhancement,performance`
+- #13 - Add a remote desktop service/viewer - **`-`** `feature`
+- #9 - add a package list for audio workstations - **`-`** `feature`
+- #8 - Display more items in xfce4-settings-manager - **`-`** `configuration,enhancement`
+- #7 - add live system persistence - **`-`** `feature`
+- #5 - Improve apparmor sandboxing - **`-`** `enhancement,security`
+- #4 - installer: preseed "domain name" installer question to None - **`-`** `enhancement,tools`
+- #2 - improve OOM handling - **`-`** `enhancement,performance`
+- #1 - Add Ulauncher - **`-`** `feature`
