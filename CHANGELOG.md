@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-24
+## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - UNRELEASED
 
 ### Changed
 
@@ -53,6 +53,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 - always install/upgrade linux kernel and nvidia drivers from bullseye-backports
 - fix default file associations for text and media files
+- fix unbootable system when selecting "whole disk with encrypted LVM" in debian installer disk partitioning options
 
 ### Upgrade procedure
 
