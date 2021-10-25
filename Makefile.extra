@@ -32,8 +32,8 @@ download_extra: clean
 	cp cache/downloads/pidgin-opensteamworks_1.7-1_amd64.deb config/packages.chroot/
 
 	# EXTRA https://github.com/nodiscc/user.js
-	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.3.2-1_all.deb
-	cp cache/downloads/user.js_0.3.2-1_all.deb config/packages.chroot/
+	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.3.3-1_all.deb
+	cp cache/downloads/user.js_0.3.3-1_all.deb config/packages.chroot/
 
 	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
