@@ -191,7 +191,7 @@ default-jre
 lightdm
 lightdm-gtk-greeter
 light-locker
-accountsservice
+#Alt: accountsservice
 #Alt: slim
 #Alt: gdm3
 #Alt: arctica-greeter
