@@ -2,53 +2,54 @@
 
 ### nodiscc/debian-live-config
 
+- #95 - Prevent PC speaker BEEP when logging out - **`3.0.0`** `enhancement,UX`
+- #91 - install amd64/i386 vulkan/opengl libraries - **`-`** `easy,enhancement,games,UX`
+- #90 - Enable i386/multiarch in installed system - **`-`** `bug,configuration,games`
+- #89 - Touchpad tap to click should be enabled by default - **`-`** `configuration,enhancement,UX`
+- #88 - screen brightness keys do not work during boot/splash/LUKS password prompt (amdgpu) - **`3.1.0`** `boot,bug,hardware`
 - #86 - Use apt instead of wget to download extra .deb packages (verify integrity/authenticity) - **`-`** `enhancement,security,tools`
-- #85 - "Use whole disk with encrypted LVM" disk partitioning scheme in Debian installer results in unbootable system - **`-`** `boot,bug,installer`
 - #84 - Boot in legacy BIOS mode fails with `Failed to load COM32 file vesamenu.c32` - **`-`** `boot,bug`
-- #83 - bullseye: don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement`
-- #81 - associate `.deb` files with `pkcon install-local` - **`-`** `feature`
+- #83 - bullseye: don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement,UX`
+- #81 - install gdebi (graphical standalone .deb package installer) - **`3.0.0`** `feature,UX`
 - #79 - WIP preseed keyboard-configuration - **`-`** `question`
 - #78 - WIP: replace pulseaudio audio server with pipewire - **`-`** `enhancement,maintenance`
-- #77 - test compatibility with popular proprietary communication software? - **`-`** `question`
-- #72 - Re-add xfce4-notes-plugin - **`-`** `enhancement,packaging`
-- #69 - Preinstall AMDGPU drivers? - **`-`** `enhancement,question`
-- #68 - (optional) install signal-desktop? - **`-`** `feature,question`
+- #77 - test compatibility with popular proprietary communication software? - **`-`** `question,UX`
+- #72 - Re-add xfce4-notes-plugin - **`-`** `enhancement,packaging,UX`
+- #68 - (optional) install signal-desktop? - **`-`** `feature,question,UX`
 - #67 - Check additional packages - **`-`** `enhancement,question`
 - #65 - switch build system to mmdebstrap? - **`-`** `enhancement,question,tools`
 - #64 - add tartube - **`-`** `feature,packaging`
 - #63 - Makefile.extras: add a script to check for common issues? - **`-`** `feature,question,tools`
-- #62 - Offline maps and routing - **`-`** `question`
+- #62 - Offline maps and routing - **`-`** `feature,question`
 - #61 - add gaming-related packages/configuration? - **`-`** `feature,games,question`
 - #60 - integrate semi-automatic/desktop-friendly oldstable -> stable uprade mechanism - **`-`** `question`
 - #59 - WIP: build ISO for i386 architecure - **`-`** `enhancement,tools`
 - #58 - WIP: preconfigure thunderbird - **`-`** `configuration,enhancement`
-- #57 - Enable DXVK? - **`-`** `feature,games,question`
+- #57 - Enable DXVK? - **`-`** `feature,games,hardware,question`
 - #52 - Document default keyboard shortcuts - **`-`** `documentation`
-- #51 - "Login without password" checkbox in users-admin is greyed out - **`-`** `enhancement`
-- #50 - Add a visual keyboard - **`-`** `feature`
+- #51 - "Login without password" checkbox in users-admin is greyed out - **`-`** `configuration,enhancement,UX`
+- #50 - Add a visual keyboard - **`-`** `feature,l10n/a11y`
 - #48 - Replace gnome-clocks with better alarm software - **`-`** `question`
 - #46 - Investigate other interesting packages - **`-`** `question`
 - #45 - System-wide support for DNS-over-HTTPS/TLS - **`-`** `feature,security`
-- #44 - add cron GUI - **`-`** `feature`
-- #43 - add ./play.it - **`-`** `feature`
+- #44 - add cron GUI - **`-`** `feature,UX`
+- #43 - add ./play.it? - **`-`** `feature,games,question`
 - #42 - firefox: display bookmarks/personal toolbar by default - **`-`** `enhancement`
-- #41 - add thunar custom action to open text files as root - **`-`** `feature`
-- #38 - Language selection missing from GRUB live boot menu in UEFI mode - **`3.0.1`** `boot,bug,configuration`
-- #35 - test accessing samba shares - **`-`** `feature`
+- #41 - add thunar custom action to open text files as root - **`-`** `feature,UX`
+- #35 - test accessing samba shares - **`-`** `feature,UX`
 - #33 - Some .desktop launchers are not localized in xfce4-whiskermenu-plugin - **`-`** `bug,l10n/a11y`
-- #30 - Add a graphical interface to enable/disable systemd services - **`-`** `enhancement`
+- #30 - Add a GUI to enable/disable systemd services - **`-`** `feature,UX`
 - #27 - Replace laptop-mode-tools with tlp? - **`-`** `configuration,enhancement,performance,question`
-- #25 - Add Android emulator - **`-`** `feature`
+- #25 - Add Android emulator? - **`-`** `feature,question`
 - #20 - Enable IPv6 support - **`-`** `feature`
-- #19 - installer: preseed "full user name" question to match the linux username - **`-`** `enhancement,tools`
-- #18 - thunderbird: add default addons/harden configuration - **`-`** `configuration,enhancement`
-- #15 - nvidia optimus support - **`-`** `feature`
-- #14 - measure impact of irqbalance, remove it? Edit - **`-`** `enhancement,performance`
+- #19 - installer: preseed "full user name" question to match the linux username - **`-`** `enhancement,installer,UX`
+- #18 - thunderbird: add default addons/harden configuration - **`-`** `configuration,enhancement,UX`
+- #15 - nvidia optimus support - **`-`** `feature,hardware`
 - #13 - Add a remote desktop service/viewer - **`-`** `feature`
 - #9 - add a package list for audio workstations - **`-`** `feature`
-- #8 - Display more items in xfce4-settings-manager - **`-`** `configuration,enhancement`
+- #8 - Display more items in xfce4-settings-manager - **`-`** `configuration,enhancement,UX`
 - #7 - add live system persistence - **`-`** `feature`
 - #5 - Improve apparmor sandboxing - **`-`** `enhancement,security`
-- #4 - installer: preseed "domain name" installer question to None - **`-`** `enhancement,tools`
-- #2 - improve OOM handling - **`-`** `enhancement,performance`
-- #1 - Add Ulauncher - **`-`** `feature`
+- #4 - installer: preseed "domain name" installer question to None - **`-`** `enhancement,installer,UX`
+- #2 - improve OOM handling - **`-`** `enhancement,performance,UX`
+- #1 - Add Ulauncher? - **`-`** `feature,question`
