@@ -97,7 +97,7 @@ update_todo:
 	./gitea-cli/bin/gitea issues baron/debian-live-config | jq -r '.[] | "- #\(.number) - \(.title) - **`\(.milestone.title // "-")`** `\(.labels | map(.name) | join(","))`"'  | sed 's/ - `null`//' >> doc/md/TODO.md; \
 	rm -rf gitea-cli
 
-doc: install_dev_docs doc_md doc_html
+doc: install_dev_docs doc_package_lists doc_md doc_html
 
 # install documentation generator (sphinx + markdown + theme)
 install_dev_docs:
@@ -109,6 +109,8 @@ doc_md:
 	cp CHANGELOG.md doc/md/
 	cp LICENSE doc/md/LICENSE.md
 	sed -i 's|doc/md/||g' doc/md/*.md
+
+doc_package_lists:
 	./doc/gen_package_lists.py
 
 # HTML documentation generation (sphinx-build --help)
