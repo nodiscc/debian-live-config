@@ -182,6 +182,7 @@
 - ![](green.png) [pwgen](https://packages.debian.org/bullseye/pwgen) `2.08-2` - Automatic Password generation
 - ![](green.png) [nss-passwords](https://packages.debian.org/bullseye/nss-passwords) `0.3-1` - read passwords from a Mozilla keyring
 - ![](green.png) [cryptsetup](https://packages.debian.org/bullseye/cryptsetup) `2:2.3.5-1` - disk encryption support - startup scripts
+- ![](green.png) [cryptsetup-initramfs](https://packages.debian.org/bullseye/cryptsetup-initramfs) `2:2.3.5-1` - disk encryption support - initramfs integration
 - ![](green.png) [libblockdev-crypto2](https://packages.debian.org/bullseye/libblockdev-crypto2) `2.25-2` - Crypto plugin for libblockdev
 - ![](grey.png) _[keepassx](https://packages.debian.org/bullseye/keepassx) `2.0.3+git20190121.1682ab9-2.2` - Cross Platform Password Manager_
 - ![](grey.png) _[keepass2](https://packages.debian.org/bullseye/keepass2) `2.47+dfsg-2` - Password manager_

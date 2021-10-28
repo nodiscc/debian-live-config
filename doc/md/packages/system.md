@@ -217,6 +217,7 @@
 - ![](green.png) [ntfs-3g](https://packages.debian.org/bullseye/ntfs-3g) `1:2017.3.23AR.3-4+deb11u1` - read/write NTFS driver for FUSE
 - ![](green.png) [kpartx](https://packages.debian.org/bullseye/kpartx) `0.8.5-2` - create device mappings for partitions
 - ![](green.png) [xorriso](https://packages.debian.org/bullseye/xorriso) `1.5.2-1` - command line ISO-9660 and Rock Ridge manipulation tool
+- ![](green.png) [lvm2](https://packages.debian.org/bullseye/lvm2) `2.03.11-2.1` - Linux Logical Volume Manager
 - ![](grey.png) _[gsmartcontrol](https://packages.debian.org/bullseye/gsmartcontrol) `1.1.3-2` - graphical user interface for smartctl_
 - ![](grey.png) _[fsarchiver](https://packages.debian.org/bullseye/fsarchiver) `0.8.6-1` - file system archiver_
 - ![](grey.png) _[partclone](https://packages.debian.org/bullseye/partclone) `0.3.13+dfsg-5` - Utility to clone and restore a partition_
@@ -402,7 +403,7 @@
 - ![](green.png) [lightdm](https://packages.debian.org/bullseye/lightdm) `1.26.0-7` - simple display manager
 - ![](green.png) [lightdm-gtk-greeter](https://packages.debian.org/bullseye/lightdm-gtk-greeter) `2.0.8-2` - simple display manager (GTK+ greeter)
 - ![](green.png) [light-locker](https://packages.debian.org/bullseye/light-locker) `1.8.0-3` - simple screen locker for lightDM display manager
-- ![](green.png) [accountsservice](https://packages.debian.org/bullseye/accountsservice) `0.6.55-3` - query and manipulate user account information
+- ![](grey.png) _[accountsservice](https://packages.debian.org/bullseye/accountsservice) `0.6.55-3` - query and manipulate user account information_
 - ![](grey.png) _[slim](https://packages.debian.org/bullseye/slim) `1.3.6-5.2` - desktop-independent graphical login manager for X11_
 - ![](grey.png) _[gdm3](https://packages.debian.org/bullseye/gdm3) `3.38.2.1-1` - GNOME Display Manager_
 - ![](grey.png) _[arctica-greeter](https://packages.debian.org/bullseye/arctica-greeter) `0.99.1.5-2` - LightDM Arctica Greeter_
