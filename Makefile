@@ -2,6 +2,7 @@
 # Change the default shell /bin/sh which does not implement 'source'
 # source is needed to work in a python virtualenv
 SHELL := /bin/bash
+LAST_TAG := $(shell git tag | tail -n1)
 
 # remove 'download_extra' to build without third party software/dotfiles
 all: install_buildenv download_extra build
@@ -21,8 +22,7 @@ clean:
 	make -f Makefile.extra clean
 
 bump_version:
-	@last_tag=$$(git tag | tail -n1); \
-	echo "Please set version to $$last_tag in Makefile doc/md/conf.py config/bootloaders/grub-pc/live-theme/theme.txt config/bootloaders/isolinux/live.cfg.in config/bootloaders/isolinux/menu.cfg auto/config doc/md/download-and-installation.md doc/md/index.md"
+	@echo "Please set version to $(LAST_TAG) in Makefile doc/md/conf.py config/bootloaders/grub-pc/live-theme/theme.txt config/bootloaders/isolinux/live.cfg.in config/bootloaders/isolinux/menu.cfg auto/config doc/md/download-and-installation.md doc/md/index.md"
 
 build:
 	# Build the live system/ISO image
@@ -38,9 +38,8 @@ checksums:
 	# Generate checksums of the resulting ISO image
 	@mkdir -p iso/
 	mv *.iso iso/
-	last_tag=$$(git tag | tail -n1); \
 	cd iso/; \
-	rename "s/live-image/dlc-$$last_tag-debian-bullseye/" *; \
+	rename "s/live-image/dlc-$(LAST_TAG)-debian-bullseye/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
 
 # the signing key must be present and loaded on the build machine
@@ -73,7 +72,7 @@ test_imagesize:
 # rsync -avzP $BUILD_HOST:/var/debian-live-config/debian-live-config/iso/ ./
 test_kvm_bios:
 	# Run the resulting image in KVM/virt-manager (legacy BIOS mode)
-	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-3.0.0-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
+	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
@@ -81,7 +80,7 @@ test_kvm_bios:
 test_kvm_uefi:
 	# Run the resulting image in KVM/virt-manager (UEFI mode)
 	# UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
-	virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-3.0.0-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
+	virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
