@@ -69,11 +69,9 @@ You can also run the system in a virtual machine on top of your existing system.
 - Turn your computer off. Insert the bootable USB/DVD, and turn it back on.
 - The boot menu will be displayed, allowing you to install the operating system or run it in Live mode.
 
-| 💥 | If your computer does not boot to the DVD/USB, check that [BIOS/EFI boot configuration](http://www.makeuseof.com/tag/enter-bios-computer/) utility is configured to boot from CD/DVD or USB. |
-|---------|---------|
+💥 If your computer does not boot to the DVD/USB, check that [BIOS/EFI boot configuration](http://www.makeuseof.com/tag/enter-bios-computer/) utility is configured to boot from CD/DVD or USB.
 
-| 💥 | On some computers you need to [disable secure boot](https://neosmart.net/wiki/disabling-secure-boot/) before installing a Linux distribution. |
-|---------|---------|
+💥 On some computers you need to [disable secure boot](https://neosmart.net/wiki/disabling-secure-boot/) before installing a Linux distribution.
 
 <!-- TODO boot menu screenshot -->
 
@@ -95,11 +93,7 @@ See **[Usage](usage.md)**
 
 Select `Graphical install` from the boot menu to install a permanent copy a of the system to your hard drive. Follow instructions from the installer.
 
-| 💥 | The default drive partitioning configuration overwrites any previously installed operating system/data on the selected installation disk. To preserve your data, use manual partitioning in the installer, install to an empty disk, or backup your data to an external drive if needed. |
-|---------|---------|
+💥 The default drive partitioning configuration overwrites any previously installed operating system/data on the selected installation disk. To preserve your data, use manual partitioning in the installer, install to an empty disk, or backup your data to an external drive if needed.
 
 <!-- TODO screencast -->
 
-<!--
-**Troubleshooting:** If you get the message `Failed to determine the codename for the release` during installation, unplug the USB drive, insert it again, open a shell from the installer menu, identify the device name for the USB drive (run `parted_devices`), and remount the USB drive under `/cdrom/` (run `mount /dev/sdX1 /cdrom/` where `sdX` is your USB device).
--->
