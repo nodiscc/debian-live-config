@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-24
+## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
 
 ### Changed
 
@@ -23,44 +23,62 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - skel: xfwm4: disable confusing "Use mouse wheel on title bar to roll up the window" setting
 - skel: thunar: add custom right-click menu actions to restore files/directories with deja-dup, and analyze disk usage (baobab) in the selected directory
 - skel: vlc: don't ask for network metadata access, disable it by default
+- prevent PC speaker beep when logging out of desktop sessions
 - reduce ISO image size (don't keep APT indices on the live filesystem)
 - doc: update user/maintainer documentation/download links
 - doc: installation: rotate GPG key (old key expired)
 - doc: update alternative/suggested packages list, remove packages no longer available in Debian 11
 - skel/desktop: update backgrounds/themes for Debian 11
 - skel: update default bash aliases (alias `diff` to `colordiff`, don't alias `diff`)
-- tools: update tests/build configuration and tools, make build completely non-interactive
+- tools: update tests/build configuration and automation tools, make build completely non-interactive
 - system/config: enable UFW firewall at boot by default
+- enable plymouth boot screen by default in the installed system
 
 ### Added
 
-- network: add support for more IM protocols in pidgin: [OMEMO encryption](https://packages.debian.org/bullseye/purple-lurch), [discord](https://packages.debian.org/bullseye/purple-discord), [telegram](https://packages.debian.org/bullseye/telegram-purple), (rocketchat)[https://packages.debian.org/bullseye/purple-rocketchat], XMPP [HTTP upload](https://packages.debian.org/bullseye/purple-xmpp-http-upload) and [message carbons](https://packages.debian.org/bullseye/purple-xmpp-carbons)
+- network: add support for more protocols in pidgin instant messenger: [Discord](https://packages.debian.org/bullseye/purple-discord), [Telegram](https://packages.debian.org/bullseye/telegram-purple), [Rocket.Chat](https://packages.debian.org/bullseye/purple-rocketchat), XMPP [HTTP upload](https://packages.debian.org/bullseye/purple-xmpp-http-upload) and [message carbons](https://packages.debian.org/bullseye/purple-xmpp-carbons), [OMEMO encryption](https://packages.debian.org/bullseye/purple-lurch)
 - graphics: add [gcolor3](https://packages.debian.org/bullseye/gcolor3) color picker
 - doc: add [Software: Extras](https://debian-live-config.readthedocs.io/en/latest/packages/extras.html) page listing all third-party downloads
+- add live system language selection and custom theme in live media UEFI bootloader (GRUB)
 
 ### Removed
 
-- system: remove [primus](https://packages.debian.org/bullseye/primus) (conflicts with nvidia drivers)
-- system: remove [irqbalance](https://packages.debian.org/bullseye/irqbalance) (unused, benefits unclear)
+- system: remove [primus](https://packages.debian.org/bullseye/primus) (conflicts with nvidia drivers), [irqbalance](https://packages.debian.org/bullseye/irqbalance) (unused, 
 - utilities: remove [xfce4-notes](https://packages.debian.org/buster/xfce4-notes) (package was removed from Debian 11)
-- remove less used/unused packages to reduce dependencies and image size: reduce number of default installed fonts, [asunder](https://packages.debian.org/bullseye/asunder), [cmatrix](https://packages.debian.org/bullseye/cmatrix), [pandoc](https://packages.debian.org/bullseye/pandoc), [advancecomp](https://packages.debian.org/bullseye/advancecomp), [libasound2-plugin-equal](https://packages.debian.org/bullseye/libasound2-plugin-equal) (can be replaced with [pulseaudio-equalizer](https://packages.debian.org/bullseye/pulseaudio-equalizer)), [gnome-settings-daemon](https://packages.debian.org/bullseye/gnome-settings-daemon), [gitg](https://packages.debian.org/bullseye/gitg), [gimp-gmic](https://packages.debian.org/bullseye/gimp-gmic), [pulseaudio-module-zeroconf](https://packages.debian.org/bullseye/pulseaudio-module-zeroconf), [xfburn](https://packages.debian.org/bullseye/xfburn), [blender](https://packages.debian.org/bullseye/blender), [shellcheck](https://packages.debian.org/bullseye/shellcheck), [asciinema](https://packages.debian.org/bullseye/asciinema), [wine](https://packages.debian.org/bullseye/wine) (let lutris manage wine versions/architectures), [inkscape](https://packages.debian.org/bullseye/inkscape), [pstoedit](https://packages.debian.org/bullseye/pstoedit), [gimp-help-fr](https://packages.debian.org/bullseye/gimp-help-fr)
-- extras: remove [xfce4-terminal-colorschemes](https://gitlab.com/nodiscc/xfce4-terminal-colorschemes) (deprecated)
+- remove less used/unused packages by default, reduce dependencies and image size: [asunder](https://packages.debian.org/bullseye/asunder) (audio CD ripper), [xfburn](https://packages.debian.org/bullseye/xfburn) (CD/DVD burning), [libasound2-plugin-equal](https://packages.debian.org/bullseye/libasound2-plugin-equal) (can be replaced with [pulseaudio-equalizer](https://packages.debian.org/bullseye/pulseaudio-equalizer)),  [gimp-gmic](https://packages.debian.org/bullseye/gimp-gmic) (image processing utilities), [pulseaudio-module-zeroconf](https://packages.debian.org/bullseye/pulseaudio-module-zeroconf), [pandoc](https://packages.debian.org/bullseye/pandoc) (documentation generator), [advancecomp](https://packages.debian.org/bullseye/advancecomp) (compression utilities), [blender](https://packages.debian.org/bullseye/blender) (3D editor), [shellcheck](https://packages.debian.org/bullseye/shellcheck), [asciinema](https://packages.debian.org/bullseye/asciinema), [gnome-settings-daemon](https://packages.debian.org/bullseye/gnome-settings-daemon), [wine](https://packages.debian.org/bullseye/wine) (let lutris manage wine versions/architectures), [inkscape](https://packages.debian.org/bullseye/inkscape) vector editor, [pstoedit](https://packages.debian.org/bullseye/pstoedit), [gimp-help-fr](https://packages.debian.org/bullseye/gimp-help-fr), [cmatrix](https://packages.debian.org/bullseye/cmatrix), [gitg](https://packages.debian.org/bullseye/gitg) (git repository viewer), reduce number of default installed fonts
+- extras: remove [xfce4-terminal-colorschemes](https://gitlab.com/nodiscc/xfce4-terminal-colorschemes)
 - extras: remove custom [nano text editor syntax highlighting](https://github.com/scopatz/nanorc)
 - remove custom grub configuration, revert to debian defaults
-- remove [webext-https-everywhere](https://packages.debian.org/bullseye/webext-https-everywhere) firefox addon (replaced with built-in "HTTPS only" mode)
+- remove [HTTPS everywhere](https://packages.debian.org/bullseye/webext-https-everywhere) firefox addon (replaced with built-in "HTTPS only" mode)
 
 ### Fixed
 
-- always install/upgrade linux kernel and nvidia drivers from bullseye-backports
-- fix default file associations for text and media files
+- apt: always install/upgrade Linux kernel and Nvidia drivers from [backports](https://backports.debian.org/)
+- skel: fix default file associations for text and media files
+- installer: fix unbootable system when selecting "whole disk with encrypted LVM" in debian installer disk partitioning options
+- fix not working/partially working desktop session language selection
 
 ### Upgrade procedure
 
 If you have a system installed from a previous version of `debian-live-config`:
 
 - Recommended: [Backup](https://backintime.readthedocs.io/en/latest/) user data, [download](https://debian-live-config.readthedocs.io/en/latest/download-and-installation.html) the latest ISO image, reinstall (overwrite the existing installation), restore data from backups
-- To upgrade without reinstalling: replace `buster` with `bullseye` in `/etc/apt/sources.list`, `/etc/apt/sources.list.d/*`, remove `/etc/apt/sources.list.d/debian-buster-updates-security-backports.list`, install [`/etc/apt/sources.list.d/debian-buster-updates-security-backports.list`](https://gitlab.com/nodiscc/debian-live-config/-/blob/bullseye/config/archives/debian-updates-security-backports.list.chroot), run `sudo apt update && sudo apt dist-upgrade` (read Debian 11 [Release notes](https://www.debian.org/News/2021/20210814)). Optionally update your configuration according to [changes since the last release](https://gitlab.com/nodiscc/debian-live-config/-/compare/2.2.5...3.0.0). `skel` modifications will only take effect on newly created user accounts.
+- To upgrade without reinstalling:
 
+```bash
+# read Debian 11 release notes: https://www.debian.org/News/2021/20210814
+# replace buster with bullseye in your APT sources
+sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list /etc/apt/sources.list.d/*
+# install the updated APT configuration
+sudo rm -v /etc/apt/sources.list.d/debian-buster-updates-security-backports.list
+wget https://gitlab.com/nodiscc/debian-live-config/-/blob/bullseye/config/archives/debian-updates-security-backports.list.chroot
+sudo mv -v debian-updates-security-backports.list.chroot /etc/apt/sources.list.d/
+# run the upgrade
+sudo apt update && sudo apt dist-upgrade
+# optionally, update your configuration according to changes since the last release:
+# https://gitlab.com/nodiscc/debian-live-config/-/compare/2.2.5...3.0.0
+# /etc/skel modifications will only take effect after creating a new user account
+```
 
 ## [v2.2.5](https://gitlab.com/nodiscc/dlc/releases/tag/2.2.5) - 2020-12-16
 
