@@ -2,7 +2,7 @@
 # Change the default shell /bin/sh which does not implement 'source'
 # source is needed to work in a python virtualenv
 SHELL := /bin/bash
-LAST_TAG := $(shell git tag | tail -n1)
+LAST_TAG := $(shell git describe --tags --abbrev=0)
 
 # remove 'download_extra' to build without third party software/dotfiles
 all: install_buildenv download_extra build
