@@ -1,8 +1,8 @@
 # Building a custom Debian ISO image
 
-[`Makefile`](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile) contains basic automation/preparation for the build process (download of extra components, tests and documentation generation, running the build, generating/signing checksums...)
+[`Makefile`](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile) contains basic automation/preparation for the build process (download of extra components, tests and documentation generation, running the build, generating/signing checksums...) and automates maintenance/build/release procedures.
 
-The actual ISO image build process is managed by the [live-build](https://www.debian.org/devel/debian-live/) suite of tools. For more details, read the `live-build` documentation:
+The live/ISO image build process is managed by [live-build](https://packages.debian.org/bullseye/live-build):
 
 * [Live Systems manual](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html)
 * [`man lb config`](httpshttps://manpages.debian.org/bullseye/live-build/lb_config.1.en.html)
@@ -14,16 +14,14 @@ The actual ISO image build process is managed by the [live-build](https://www.de
 
 ## Build using the default configuration
 
-Install [Debian](https://www.debian.org). You must build from the same distribution as the target distribution (build *stable* systems on a build machine running Debian *stable*, *testing* systems on a machine running Debian *testing*...). The run the following commands (as root):
+Install [Debian](https://www.debian.org). You must build from the same distribution as the target distribution (build *bullseye* systems on a build machine running Debian *bullseye*, *testing* systems on a machine running Debian *testing*...). Then run the following commands:
 
 ```bash
-# install requirements
-apt install make git sudo live-build
-
+# install requirements for the build system
+sudo apt install make git sudo live-build
 # clone the repository
 git clone https://gitlab.com/nodiscc/debian-live-config
-
-# build the ISO image
+# build the image
 cd debian-live-config && make install_buildenv && make
 ```
 
@@ -31,8 +29,6 @@ You need some disk space for the download and build caches. The build directory 
 
 
 ## Changing the default build configuration
-
-
 
 `live-build` is configured through files under the `auto/` and `config/` directories.
 
@@ -73,7 +69,8 @@ For example, to add custom files/unpackaged programs inside your live system:
 
 ```bash
 git clone https://gitlab.com/nodiscc/toolbox config/includes.chroot/opt/toolbox
-git clone https://gitlab.com/nodiscc/dlc config/includes.chroot/opt/dlc
+git clone https://gitlab.com/nodiscc/debian-live-config config/includes.chroot/opt/dlc
+echo "blacklist nouveau" > config/includes.chroot/etc/modprobe.d/
 ```
 
 ### config/package-lists/
@@ -130,7 +127,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 
 - [ ] `make bump_version`, update version indicators
 - [ ] Update CHANGELOG.md
-- [ ] `make doc && git add packages/ index.md && git commit -m "update auto-generated documentation"`
+- [ ] `make doc && git add doc/packages/ doc/*.md && git commit -m "update auto-generated documentation"`
 - [ ] `git tag --sign $new_version`
 - [ ] `make && make checksums && make sign_checksums`
 - [ ] `make tests`
@@ -144,7 +141,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
     - [ ] Automated whole disk LVM
     - [ ] Automated whole disk partitioning
     - [ ] Manual
-- [ ] Copy latest CHANGELOG.md entry to a [new Github release](https://github.com/nodiscc/debian-live-config/releases)
+- [ ] Copy latest CHANGELOG.md entry to a new [Github](https://github.com/nodiscc/debian-live-config/releases)/[Gitlab](https://gitlab.com/nodiscc/debian-live-config/-/releases) release
 - [ ] attach `dlc-X.Y.Z-debian-bullseye-amd64.hybrid.iso dlc-release.key SHA512SUMS SHA512SUMS.sign` to the releases
 - `Publish release`
  
