@@ -10,7 +10,7 @@
 - #86 - Use apt instead of wget to download extra .deb packages (verify integrity/authenticity) - **`-`** `enhancement,security,tools`
 - #84 - Boot in legacy BIOS mode fails with `Failed to load COM32 file vesamenu.c32` - **`-`** `boot,bug`
 - #83 - bullseye: don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement,UX`
-- #81 - install gdebi (graphical standalone .deb package installer) - **`3.0.0`** `feature,UX`
+- #81 - install gdebi (graphical standalone .deb package installer) - **`3.2.0`** `feature,UX`
 - #79 - WIP preseed keyboard-configuration - **`-`** `question`
 - #78 - WIP: replace pulseaudio audio server with pipewire - **`-`** `enhancement,maintenance`
 - #77 - test compatibility with popular proprietary communication software? - **`-`** `question,UX`
