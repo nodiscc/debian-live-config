@@ -23,20 +23,23 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - skel: xfwm4: disable confusing "Use mouse wheel on title bar to roll up the window" setting
 - skel: thunar: add custom right-click menu actions to restore files/directories with deja-dup, and analyze disk usage (baobab) in the selected directory
 - skel: vlc: don't ask for network metadata access, disable it by default
+- prevent PC speaker beep when logging out of desktop sessions
 - reduce ISO image size (don't keep APT indices on the live filesystem)
 - doc: update user/maintainer documentation/download links
 - doc: installation: rotate GPG key (old key expired)
 - doc: update alternative/suggested packages list, remove packages no longer available in Debian 11
 - skel/desktop: update backgrounds/themes for Debian 11
 - skel: update default bash aliases (alias `diff` to `colordiff`, don't alias `diff`)
-- tools: update tests/build configuration and tools, make build completely non-interactive
+- tools: update tests/build configuration and automation tools, make build completely non-interactive
 - system/config: enable UFW firewall at boot by default
+- enable plymouth boot screen by default in the installed system
 
 ### Added
 
 - network: add support for more protocols in pidgin instant messenger: [Discord](https://packages.debian.org/bullseye/purple-discord), [Telegram](https://packages.debian.org/bullseye/telegram-purple), [Rocket.Chat](https://packages.debian.org/bullseye/purple-rocketchat), XMPP [HTTP upload](https://packages.debian.org/bullseye/purple-xmpp-http-upload) and [message carbons](https://packages.debian.org/bullseye/purple-xmpp-carbons), [OMEMO encryption](https://packages.debian.org/bullseye/purple-lurch)
 - graphics: add [gcolor3](https://packages.debian.org/bullseye/gcolor3) color picker
 - doc: add [Software: Extras](https://debian-live-config.readthedocs.io/en/latest/packages/extras.html) page listing all third-party downloads
+- add live system language selection and custom theme in live media UEFI bootloader (GRUB)
 
 ### Removed
 
@@ -50,9 +53,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Fixed
 
-- always install/upgrade Linux kernel and Nvidia drivers from [backports](https://backports.debian.org/)
-- fix default file associations for text and media files
-- fix unbootable system when selecting "whole disk with encrypted LVM" in debian installer disk partitioning options
+- apt: always install/upgrade Linux kernel and Nvidia drivers from [backports](https://backports.debian.org/)
+- skel: fix default file associations for text and media files
+- installer: fix unbootable system when selecting "whole disk with encrypted LVM" in debian installer disk partitioning options
+- fix not working/partially working desktop session language selection
 
 ### Upgrade procedure
 
