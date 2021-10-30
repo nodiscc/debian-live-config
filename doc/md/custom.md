@@ -1,11 +1,11 @@
 # Building a custom Debian ISO image
 
-[`Makefile`](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile) contains basic automation/preparation for the build process (download of extra components, tests and documentation generation, running the build, generating/signing checksums...) and automates maintenance/build/release procedures.
+[`Makefile`](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile) automates maintenance/build/release procedures (download of extra components, tests and documentation generation, running the build, generating/signing checksums...).
 
 The live/ISO image build process is managed by [live-build](https://packages.debian.org/bullseye/live-build):
 
 * [Live Systems manual](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html)
-* [`man lb config`](httpshttps://manpages.debian.org/bullseye/live-build/lb_config.1.en.html)
+* [`man lb config`](https://manpages.debian.org/bullseye/live-build/lb_config.1.en.html)
 * [`man lb build`](https://manpages.debian.org/bullseye/live-build/lb_build.1.en.html)
 * [`man lb clean`](https://manpages.debian.org/bullseye/live-build/lb_clean.1.en.html)
 * [`man live-build`](https://manpages.debian.org/bullseye/live-build/live-build.7.en.html)
