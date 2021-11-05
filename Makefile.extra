@@ -24,8 +24,8 @@ download_extra: clean
 	cp cache/downloads/bleachbit-cleanerml_0.0.1~git0+5bc2961_all.deb config/packages.chroot/
 
 	# EXTRA https://github.com/yt-dlp/yt-dlp
-	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/y/yt-dlp/yt-dlp_2021.09.25_amd64.deb
-	cp cache/downloads/yt-dlp_2021.09.25_amd64.deb config/packages.chroot/
+	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/y/yt-dlp/yt-dlp_2021.10.22_amd64.deb 
+	cp cache/downloads/yt-dlp_2021.10.22_amd64.deb config/packages.chroot/
 
 	# https://github.com/EionRobb/pidgin-opensteamworks/
 	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/p/pidgin-opensteamworks/pidgin-opensteamworks_1.7-1_amd64.deb
