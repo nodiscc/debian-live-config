@@ -72,7 +72,7 @@ sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list /etc/apt/sources.list.d/
 # install the updated APT configuration
 sudo rm -v /etc/apt/sources.list.d/debian-buster-updates-security-backports.list
 wget https://gitlab.com/nodiscc/debian-live-config/-/blob/bullseye/config/archives/debian-updates-security-backports.list.chroot
-sudo mv -v debian-updates-security-backports.list.chroot /etc/apt/sources.list.d/
+sudo mv -v debian-updates-security-backports.list.chroot /etc/apt/sources.list.d/debian-updates-security-backports.list
 # run the upgrade
 sudo apt update && sudo apt dist-upgrade
 # optionally, update your configuration according to changes since the last release:
