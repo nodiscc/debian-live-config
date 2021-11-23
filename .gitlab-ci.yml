@@ -1,0 +1,9 @@
+image: debian:buster
+
+build:
+  script:
+  - apt update && apt install --no-install-recommends -y make wget ca-certificates
+  - make download_extra
+  interruptible: true
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"

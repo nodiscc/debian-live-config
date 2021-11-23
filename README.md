@@ -1,5 +1,7 @@
 # debian-live-config
 
+![](https://gitlab.com/nodiscc/debian-live-config/badges/master/pipeline.svg)
+
 [Debian GNU/Linux](https://www.debian.org/) desktop operating system for personal computers & workstations.
 
 ![](https://i.imgur.com/xbRbpM3.png)
