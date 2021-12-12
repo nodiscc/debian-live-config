@@ -143,7 +143,10 @@ localepurge
 #fslint # buster only
 
 #Section: Log viewers
-#Description: lnav
+#Description: gnome-system-log
+#Screenshot: gnome-system-log
+#Screenshot: lnav
+gnome-system-log
 lnav
 colortail
 #Alt: gnome-logs
