@@ -299,6 +299,7 @@ arc-theme
 gnome-themes-standard
 sound-theme-freedesktop
 gnome-audio
+qt5-gtk-platformtheme
 #Alt: faenza-icon-theme
 #Alt: deepin-icon-theme
 #Alt: paper-icon-theme
