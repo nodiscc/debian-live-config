@@ -499,7 +499,6 @@
 - ![](green.png) [xclip](https://packages.debian.org/bullseye/xclip) `0.13-2` - command line interface to X selections
 - ![](green.png) [xcalib](https://packages.debian.org/bullseye/xcalib) `0.8.dfsg1-2.1` - Tiny monitor calibration loader for Xorg
 - ![](green.png) [xbacklight](https://packages.debian.org/bullseye/xbacklight) `1.2.1-1+b3` - simple utility to set the backlight level
-- ![](green.png) [conky-all](https://packages.debian.org/bullseye/conky-all) `1.11.6-2` - highly configurable system monitor (all features enabled)
 - ![](green.png) [gtk2-engines](https://packages.debian.org/bullseye/gtk2-engines) `1:2.20.2-5` - theme engines for GTK+ 2.x
 - ![](green.png) [gtk2-engines-murrine](https://packages.debian.org/bullseye/gtk2-engines-murrine) `0.98.2-3` - cairo-based gtk+-2.0 theme engine
 - ![](green.png) [gtk2-engines-pixbuf](https://packages.debian.org/bullseye/gtk2-engines-pixbuf) `2.24.33-2` - pixbuf-based theme for GTK 2

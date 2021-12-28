@@ -321,7 +321,7 @@ wmctrl
 xclip
 xcalib
 xbacklight
-conky-all
+#Alt: conky-all
 gtk2-engines
 gtk2-engines-murrine
 gtk2-engines-pixbuf
