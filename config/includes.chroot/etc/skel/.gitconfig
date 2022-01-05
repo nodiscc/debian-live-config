@@ -17,6 +17,8 @@
 	thanks = shortlog -sne
 [credential]
 	helper = store
+[pull]
+	rebase = true
 
 # force GPG signing of all commits and tags
 #[commit]
