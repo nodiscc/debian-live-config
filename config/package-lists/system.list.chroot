@@ -171,6 +171,10 @@ gir1.2-spiceclientgtk-3.0
 qemu-system-x86
 qemu-system-arm
 qemu-utils
+libguestfs-tools
+virt-p2v
+libguestfs-rsync
+libguestfs-rescue
 #virt-top # buster only
 netcat-openbsd
 #Alt: virt-p2v
