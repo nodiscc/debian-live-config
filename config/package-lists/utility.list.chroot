@@ -114,7 +114,6 @@ libpam-gnome-keyring
 gnupg
 gnupg2
 pwgen
-nss-passwords
 cryptsetup
 cryptsetup-initramfs
 libblockdev-crypto2
@@ -126,6 +125,7 @@ libblockdev-crypto2
 #Alt: tcplay
 #Alt: xkcdpass
 #Alt: pass
+#Alt: nss-passwords
 #Alt: tomb
 #Alt: zulucrypt-gui
 #Alt: zulumount-gui

@@ -1,14 +1,14 @@
 #Title: Development
 #Section: Version control
 #Description: meld
-#Description: gource
+##Description: gource
 git
 meld
-gource
 colordiff
 dwdiff
 cloc
 #Alt: gitg
+#Alt: gource
 #Alt: fossil
 #Alt: ghi
 #Alt: git-mediawiki
@@ -64,10 +64,10 @@ manpages-dev
 
 #Section: Parsers/converters/documentation generators
 jq
-xmlstarlet
-aha
 groff
 dos2unix
+#Alt: aha
+#Alt: xmlstarlet
 #Alt: pandoc
 #Alt: man2html-base
 #Alt: txt2tags
@@ -78,17 +78,17 @@ dos2unix
 #Alt: html2text
 
 #Section: Packaging
-debhelper
-autoconf
-devscripts
-dh-make
-equivs
 build-essential
 checkinstall
 fakeroot
 debconf-utils
-lintian
-git-buildpackage
+#Alt: lintian
+#Alt: autoconf
+#Alt: devscripts
+#Alt: dh-make
+#Alt: equivs
+#Alt: git-buildpackage
+#Alt: debhelper
 #Alt: apt-build
 #Alt: python3-stdeb
 #Alt: pypi2deb
@@ -97,14 +97,14 @@ git-buildpackage
 #lintian-brush # buster only
 
 #Section: Debuggers
-gdb
+#Alt: gdb
 
 #Section: Python
-python3-all-dev
 python3-setuptools
 python3-wheel
 python3-pip
 python3-venv
+python3-all-dev
 
 #Section: Live system
 live-build

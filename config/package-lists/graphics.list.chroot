@@ -151,13 +151,13 @@ gsfonts-x11
 imagemagick
 optipng
 jpegoptim
-pngcrush
 exifprobe
-findimagedupes
 librsvg2-bin
-figlet
-toilet
+#Alt: figlet
+#Alt: toilet
 #Alt: converseen
+#Alt: findimagedupes
+#Alt: pngcrush
 #Alt: fbi
 #Alt: gifsicle
 #Alt: jp2a
