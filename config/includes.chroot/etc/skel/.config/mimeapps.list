@@ -1,4 +1,5 @@
 [Added Associations]
+inode/directory=thunar.desktop
 application/pdf=org.gnome.Evince.desktop;
 application/x-extension-htm=firefox-esr.desktop
 application/x-extension-html=firefox-esr.desktop
