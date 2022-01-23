@@ -61,6 +61,7 @@ create-resources
 #Description: xournal
 xournal
 #Alt: akira
+#xournalpp # bookworm only
 
 
 #Section: Non-destructive editors (lightroom)
