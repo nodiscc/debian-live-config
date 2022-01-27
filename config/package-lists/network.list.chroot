@@ -339,7 +339,8 @@ openssh-server
 #kismet # buster only
 #kismet-plugins # buster only
 #pcredz # buster only
-
+#dirsearch # bookmworm only
+#aws-nuke # bookworm only
 #Section: Tor
 #Alt: tor-geoipdb
 #Alt: tor
