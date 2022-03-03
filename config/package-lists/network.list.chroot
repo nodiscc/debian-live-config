@@ -112,6 +112,8 @@ transmission-cli
 #nicotine # buster only
 
 #Section: Media download
+##Description yt-dlp
+yt-dlp
 ##Description: youtube-dl
 #Alt: youtube-dl
 #Alt: streamlink
