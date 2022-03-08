@@ -9,6 +9,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
 
+### Fixed
+
+- fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
+
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
 
