@@ -4,6 +4,7 @@ grub-efi-ia32-bin
 grub-efi-ia332
 grub-efi-ia32-signed
 shim-helpers-i386-signed
+#endif
 #if ARCHITECTURES amd64
 grub-efi-amd64-bin
 grub-efi-amd64
