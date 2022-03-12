@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Fixed
 
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
-
+- fix unattended-upgrades configuration (automatically update packages from Debian Backports)
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
 
