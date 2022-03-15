@@ -3,6 +3,7 @@
 # source is needed to work in a python virtualenv
 SHELL := /bin/bash
 LAST_TAG := $(shell git describe --tags --abbrev=0)
+LIBVIRT_STORAGE_PATH := /var/lib/libvirt/images/
 
 # remove 'download_extra' to build without third party software/dotfiles
 all: install_buildenv download_extra build
@@ -72,7 +73,7 @@ test_imagesize:
 # rsync -avzP $BUILD_HOST:/var/debian-live-config/debian-live-config/iso/ ./
 test_kvm_bios:
 	# Run the resulting image in KVM/virt-manager (legacy BIOS mode)
-	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
+	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)iso/dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso" --memory 4096 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
