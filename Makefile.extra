@@ -40,3 +40,7 @@ download_extra: clean
 	mkdir -p config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
 	$(WGET) https://addons.mozilla.org/firefox/downloads/file/3465157/keepassxc_browser-latest-fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/keepassxc-browser@keepassxc.org.xpi
 	$(WGET) https://addons.mozilla.org/firefox/downloads/file/3711829/cookie_autodelete-3.6.0-an+fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/CookieAutoDelete@kennydo.com.xpi
+
+	# EXTRA https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/
+	mkdir -p config/includes.chroot/usr/lib/thunderbird/extensions/
+	$(WGET) https://addons.thunderbird.net/thunderbird/downloads/latest/gmail-conversation-view/addon-54035-latest.xpi -O config/includes.chroot/usr/lib/thunderbird/extensions/gconversation@xulforum.org.xpi
