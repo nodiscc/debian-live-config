@@ -125,9 +125,9 @@ yt-dlp
 #Section: Downloaders/web crawlers
 curl
 wget
+kiwix
+kiwix-tools
 #Alt: aria2
-#Alt: kiwix
-#Alt: kiwix-tools
 #Alt: zim-tools
 #Alt: httrack
 #Alt: axel
