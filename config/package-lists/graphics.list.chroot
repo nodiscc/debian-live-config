@@ -104,6 +104,7 @@ gsfonts-x11
 #Alt: qrencode
 #Alt: qtqr
 #Alt: zbar-tools
+#Alt: zint-qt
 
 #Section: 3D editors
 ##Description: blender

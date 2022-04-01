@@ -60,6 +60,7 @@ manpages-dev
 #Alt: termrec
 #Alt: ripgrep
 #Alt: retry
+#Alt: jc
 
 
 #Section: Parsers/converters/documentation generators

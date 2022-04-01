@@ -86,6 +86,7 @@ deja-dup
 #Alt: fsarchiver
 #Alt: backupninja
 #Alt: duply
+#Alt: vorta
 #rsnapshot # buster only
 
 #Section: Disk management

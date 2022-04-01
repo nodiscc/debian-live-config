@@ -77,7 +77,7 @@ evince
 #Alt: fbreader
 #Alt: yelp
 #Alt: xchm
-#bookworm #bookworm only
+#Alt: bookworm
 
 #Section: E-book
 #Alt: calibre
@@ -132,6 +132,7 @@ poppler-utils
 #Alt: nixnote2
 #gtg # buster only
 #Alt: cherrytree
+#Alt: hamster-time-tracker
 #taskcoach # buster only
 #keepnote # buster only
 

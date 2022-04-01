@@ -195,6 +195,7 @@ wireless-regdb
 #Alt: aircrack-ng
 #Alt: btscanner
 #blueproximity # buster only
+#zeek # sid only
 
 #Section: Firewall
 #Description: gufw
@@ -257,6 +258,7 @@ dnsutils
 #Alt: wireshark
 #Alt: termshark
 #Alt: fierce
+#Alt: sslscan
 #namebench # buster only
 #ntopng # buster only
 #snetz # buster only
