@@ -117,13 +117,13 @@ lvm2
 #Alt: bilibop-udev
 #Alt: ecryptfs-utils
 #Alt: partimage
-#Alt: forensics-full
 #Alt: steghide
 #Alt: gdmap
 #Alt: clonezilla
 #Alt: exfatprogs
 #Alt: crazydiskinfo
 #Alt: disk-filltest
+#Alt: loggedfs
 #disk-manager # buster only
 
 #Section: data recovery
@@ -136,6 +136,8 @@ testdisk
 #Alt: extundelete
 #Alt: fatcat
 #Alt: safecopy
+#Alt: forensics-samples-all
+#Alt: forensics-full
 
 #Section: File cleaners/linters
 #Description: bleachbit
@@ -183,6 +185,7 @@ netcat-openbsd
 #Alt: anbox
 #Alt: vagrant
 #Alt: schroot
+#Alt: imvirt
 #virt-sandbox # buster only
 
 #Section: Configuration management

@@ -41,6 +41,7 @@ create-resources
 #Alt: mtpaint
 #Alt: xpaint
 #Alt: gnome-paint
+#Alt: multimedia-animation
 #gimp-ufraw # buster only
 #delaboratory # buster only
 #pinta # sid only
