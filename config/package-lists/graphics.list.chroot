@@ -149,6 +149,7 @@ gsfonts-x11
 #Alt: stopmotion
 #Alt: education-video
 #Alt: slowmovideo
+#auto-editor # bookworm only
 
 #Section: Command-line image manipulation
 imagemagick

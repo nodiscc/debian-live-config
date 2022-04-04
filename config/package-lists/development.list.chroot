@@ -77,6 +77,8 @@ dos2unix
 #Alt: roffit
 #Alt: archmage
 #Alt: html2text
+#ansifilter # bookworm only
+#ansifilter-gui # bookworm only
 
 #Section: Packaging
 build-essential
