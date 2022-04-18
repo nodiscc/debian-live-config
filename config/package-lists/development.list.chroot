@@ -79,6 +79,7 @@ dos2unix
 #Alt: html2text
 #ansifilter # bookworm only
 #ansifilter-gui # bookworm only
+#reserialize # sid only
 
 #Section: Packaging
 build-essential
