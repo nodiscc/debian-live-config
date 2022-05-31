@@ -30,7 +30,14 @@ libreoffice-help-fr
 #Alt: key2odp
 #Alt: libreoffice-dmaths
 #Alt: libreoffice-math
+#Alt: libreoffice-librelogo
 #Alt: libreoffice-style-sifr
+#Alt: libreoffice-nlpsolver
+#Alt: libreoffice-report-builder
+#Alt: libreoffice-script-provider-js
+#Alt: libreoffice-script-provider-python
+#Alt: libreoffice-sdbc-postgresql
+#Alt: libreoffice-wiki-publisher
 #Alt: lyx
 #Alt: python3-uno
 #Alt: retext python3-enchant python3-yaml
