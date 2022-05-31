@@ -285,9 +285,52 @@ xserver-xorg-video-all
 xserver-xorg-video-intel
 xfonts-base
 hwdata
-#Alt: nvidia-driver
-#Alt: nvidia-vaapi-driver
 #corctrl # sid only
+
+# Nvidia graphics drivers
+#nvidia-driver
+#nvidia-persistenced
+#nvidia-cuda-mps
+#nvidia-legacy-390xx-driver
+#nvidia-legacy-390xx-kernel-dkms
+#nvidia-legacy-390xx-smi
+#nvidia-legacy-390xx-vulkan-icd
+#nvidia-settings
+#nvidia-settings-legacy-390xx
+#nvidia-smi
+#nvidia-vulkan-icd
+#nvidia-xconfig
+#libcuda1
+#libgles-nvidia-legacy-390xx1
+#libgles-nvidia-legacy-390xx2
+#libgles-nvidia1
+#libgles-nvidia2
+#libnvida-cbl
+#libnvidia-cbl
+#libnvidia-cfg1
+#libnvidia-encode1
+#libnvidia-legacy-390xx-cfg1
+#libnvidia-legacy-390xx-cuda1
+#libnvidia-legacy-390xx-encode1
+#libnvidia-legacy-390xx-glcore
+#libnvidia-legacy-390xx-ml1
+#libnvidia-rtcore
+#libopengl0
+#xserver-xorg-video-nvidia-legacy-390xx
+#libcuda1:i386
+#libgles-nvidia1:i386
+#libgles-nvidia2:i386
+#libidn2-0:i386
+#libnss-nis:i386
+#libnss-nisplus:i386
+#libnvidia-encode1:i386
+#libopengl0:i386
+#mesa-vulkan-drivers
+#mesa-vulkan-drivers:i386
+#nvidia-driver-libs:i386
+#nvidia-vulkan-icd:i386
+#libgl1-mesa-dri:i386
+#libgl1:i386
 
 #Section: Kernel/boot/init
 #if ARCHITECTURES amd64

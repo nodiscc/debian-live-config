@@ -246,7 +246,6 @@ dconf-gsettings-backend
 xfce4-power-manager
 xfce4-battery-plugin
 radeontool
-bumblebee
 vbetool
 powertop
 usbutils
@@ -263,6 +262,7 @@ pm-utils
 #Alt: powerstat
 #Alt: i8kutils
 #Alt: usbtop
+#Alt: bumblebee
 #Alt: primus
 #Alt: hd-idle
 
