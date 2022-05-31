@@ -1,0 +1,53 @@
+#!/bin/bash
+# Description:
+# Authors:
+# License:
+set -o errexit
+set -o nounset
+
+state_file="$HOME/.config/debian-live-config-firstrun"
+
+function _setup_nvidia() {
+    nvidia_detect=$(nvidia-detect)
+    if $(echo "$nvidia_detect" | grep -q "No NVIDIA GPU detected."); then
+        echo nvidia >> "$state_file"
+        return
+    elif $(lsmod | grep -q nvidia); then
+        echo nvidia >> "$state_file"
+        return
+    fi
+
+    return_string=$(zenity \
+    --list --radiolist \
+    --height 220 --width 300 \
+    --window-icon /usr/share/icons/Papirus/48x48/apps/debian-logo.svg \
+    --title 'Nvidia graphics driver' \
+    --text 'You are currently using the <i>nouveau</i> graphics driver. Using the non-free <i>nvidia</i> driver \ncan result in significant performance and power consumption improvements.\nWould you like to install proprietary Nvidia drivers?' \
+    --column 'radiobutton' --column 'answer' --column 'return_string' \
+    --hide-column 3 \
+    --print-column 3 \
+    --hide-header \
+    True Yes yes\
+    False No  no\
+    False 'No, never ask me again' never_ask)
+
+    if [[ "$return_string" == "yes" ]]; then
+        echo "TODO setup nvidia driver"
+        # install the corresponding packages through python3-apt or python3-packagekit
+        exit 1
+    elif [[ "$return_string" == "no" ]]; then
+        true
+    elif [[ "$return_string" == "never_ask" ]]; then
+        echo nvidia >> "$state_file"
+    fi
+}
+
+function _main() {
+    if $(grep -q "^nvidia$" "$state_file"); then
+        true
+    else
+        _setup_nvidia
+    fi
+}
+
+_main
