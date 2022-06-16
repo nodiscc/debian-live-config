@@ -358,6 +358,10 @@
 - ![](green.png) [qemu-system-x86](https://packages.debian.org/bullseye/qemu-system-x86) `1:5.2+dfsg-11+deb11u2` - QEMU full system emulation binaries (x86)
 - ![](green.png) [qemu-system-arm](https://packages.debian.org/bullseye/qemu-system-arm) `1:5.2+dfsg-11+deb11u2` - QEMU full system emulation binaries (arm)
 - ![](green.png) [qemu-utils](https://packages.debian.org/bullseye/qemu-utils) `1:7.0+dfsg-2~bpo11+2` - QEMU utilities
+- ![](green.png) [libguestfs-tools](https://packages.debian.org/bullseye/libguestfs-tools) `1:1.44.0-2` - guest disk image management system - tools
+- ![](green.png) [virt-p2v](https://packages.debian.org/bullseye/virt-p2v) `1.42.0-2` - physical-to-virtual machine converter
+- ![](green.png) [libguestfs-rsync](https://packages.debian.org/bullseye/libguestfs-rsync) `1:1.44.0-2` - guest disk image management system - rsync support
+- ![](green.png) [libguestfs-rescue](https://packages.debian.org/bullseye/libguestfs-rescue) `1:1.44.0-2` - guest disk image management system - virt-rescue enhancements
 - ![](green.png) [netcat-openbsd](https://packages.debian.org/bullseye/netcat-openbsd) `1.217-3` - TCP/IP swiss army knife
 - ![](grey.png) _[virt-p2v](https://packages.debian.org/bullseye/virt-p2v) `1.42.0-2` - physical-to-virtual machine converter_
 - ![](grey.png) _[virt-what](https://packages.debian.org/bullseye/virt-what) `1.19-1` - detect if we are running in a virtual machine_
