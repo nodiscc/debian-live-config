@@ -32,7 +32,7 @@
 - ![](grey.png) _[supertuxkart](https://packages.debian.org/bullseye/supertuxkart) `1.2+ds2-1` - 3D arcade racer with a variety of characters, tracks, and modes to play_
 - ![](grey.png) _[hedgewars](https://packages.debian.org/bullseye/hedgewars) `1.0.0-14+b1` - Funny turn-based artillery game, featuring fighting hedgehogs!_
 - ![](grey.png) _[0ad](https://packages.debian.org/bullseye/0ad) `0.0.23.1-5+b1` - Real-time strategy game of ancient warfare_
-- ![](grey.png) _[minetest](https://packages.debian.org/bullseye/minetest) `5.3.0+repack-2.1` - Multiplayer infinite-world block sandbox_
+- ![](grey.png) _[minetest](https://packages.debian.org/bullseye/minetest) `5.3.0+repack-2.1+deb11u1` - Multiplayer infinite-world block sandbox_
 - ![](grey.png) _[wesnoth](https://packages.debian.org/bullseye/wesnoth) `1:1.14.15-1` - fantasy turn-based strategy game - complete suite (metapackage)_
 - ![](grey.png) _[nexuiz](https://packages.debian.org/bullseye/nexuiz) `2.5.2+dp-8` - Fast-paced 3D first-person shooter_
 - ![](grey.png) _[cube2](https://packages.debian.org/bullseye/cube2) `0.0.20201227+dfsg-2` - 3D first-person shooter game engine_

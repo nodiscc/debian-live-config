@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - UNRELEASED
+
+### Changed
+- defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
+- packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
+
+### Fixed
+
+- fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
+- fix unattended-upgrades configuration (automatically update packages from Debian Backports)
+
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
 
 ### Changed
@@ -72,7 +83,7 @@ sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list /etc/apt/sources.list.d/
 # install the updated APT configuration
 sudo rm -v /etc/apt/sources.list.d/debian-buster-updates-security-backports.list
 wget https://gitlab.com/nodiscc/debian-live-config/-/blob/bullseye/config/archives/debian-updates-security-backports.list.chroot
-sudo mv -v debian-updates-security-backports.list.chroot /etc/apt/sources.list.d/
+sudo mv -v debian-updates-security-backports.list.chroot /etc/apt/sources.list.d/debian-updates-security-backports.list
 # run the upgrade
 sudo apt update && sudo apt dist-upgrade
 # optionally, update your configuration according to changes since the last release:

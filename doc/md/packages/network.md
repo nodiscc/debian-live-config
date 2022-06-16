@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/78.15.0esr-1~deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/91.10.0esr-1~deb11u1">
 
 **[firefox-esr](https://packages.debian.org/bullseye/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
 
@@ -22,13 +22,13 @@
 -----------------------
 
 
-- ![](green.png) [firefox-esr](https://packages.debian.org/bullseye/firefox-esr) `78.15.0esr-1~deb11u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
-- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bullseye/firefox-esr-l10n-fr) `78.15.0esr-1~deb11u1` - French language package for Firefox ESR
+- ![](green.png) [firefox-esr](https://packages.debian.org/bullseye/firefox-esr) `91.10.0esr-1~deb11u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bullseye/firefox-esr-l10n-fr) `91.10.0esr-1~deb11u1` - French language package for Firefox ESR
 - ![](green.png) [webext-ublock-origin](https://packages.debian.org/bullseye/webext-ublock-origin) `1.37.0+dfsg-1~deb11u1` - transitional package
 - ![](grey.png) _[webext-https-everywhere](https://packages.debian.org/bullseye/webext-https-everywhere) `2021.1.27-1` - Extension to force the use of HTTPS on many sites_
 - ![](grey.png) _[midori](https://packages.debian.org/bullseye/midori) `7.0-2.1` - fast, lightweight graphical web browser_
 - ![](grey.png) _[luakit](https://packages.debian.org/bullseye/luakit) `1:2.2.1-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `90.0.4430.212-1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `102.0.5005.115-1~deb11u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/bullseye/nss-passwords) `0.3-1` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/bullseye/w3m) `0.5.3+git20210102-6` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/bullseye/links2) `2.21-1+b1` - Web browser running in both graphics and text mode_
@@ -68,13 +68,13 @@
 - ![](green.png) [telegram-purple](https://packages.debian.org/bullseye/telegram-purple) `1.4.3-3` - Purple plugin to support Telegram
 - ![](grey.png) _[empathy](https://packages.debian.org/bullseye/empathy) `3.25.90+really3.12.14-2` - GNOME multi-protocol chat and call client_
 - ![](grey.png) _[finch](https://packages.debian.org/bullseye/finch) `2.14.1-1` - text-based multi-protocol instant messaging client_
-- ![](grey.png) _[telegram-desktop](https://packages.debian.org/bullseye/telegram-desktop) `2.6.1+ds-1+deb11u1` - fast and secure messaging application_
+- ![](grey.png) _[telegram-desktop](https://packages.debian.org/bullseye/telegram-desktop) `3.1.1+ds-1~deb11u2` - fast and secure messaging application_
 - ![](grey.png) _[pidgin-skype](https://packages.debian.org/bullseye/pidgin-skype) `20140930+svn665+dfsg-1+b1` - Skype plugin for libpurple messengers (Pidgin-specific files)_
 - ![](grey.png) _[dino-im](https://packages.debian.org/bullseye/dino-im) `0.2.0-3` - modern XMPP client_
 - ![](grey.png) _[gajim](https://packages.debian.org/bullseye/gajim) `1.3.1-1` - GTK+-based Jabber client_
 - ![](grey.png) _[mcabber](https://packages.debian.org/bullseye/mcabber) `1.1.2-1` - small Jabber (XMPP) console client_
 - ![](grey.png) _[smuxi](https://packages.debian.org/bullseye/smuxi) `1.1-1` - graphical IRC client_
-- ![](grey.png) _[weechat](https://packages.debian.org/bullseye/weechat) `3.0-1` - Fast, light and extensible chat client (metapackage)_
+- ![](grey.png) _[weechat](https://packages.debian.org/bullseye/weechat) `3.0-1+deb11u1` - Fast, light and extensible chat client (metapackage)_
 - ![](grey.png) _[purple-mm-sms](https://packages.debian.org/bullseye/purple-mm-sms) `0.1.7-1` - libpurple plugin for SMS_
 - ![](grey.png) _[purple-xmpp-http-upload](https://packages.debian.org/bullseye/purple-xmpp-http-upload) `0.2.2-1` - HTTP File Upload plugin for libpurple_
 #### VoIP/videoconference
@@ -109,7 +109,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:78.14.0-1~deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:91.10.0-1~deb11u1">
 
 **[thunderbird](https://packages.debian.org/bullseye/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
 
@@ -127,13 +127,13 @@
 -----------------------
 
 
-- ![](green.png) [thunderbird](https://packages.debian.org/bullseye/thunderbird) `1:78.14.0-1~deb11u1` - mail/news client with RSS, chat and integrated spam filter support
-- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bullseye/thunderbird-l10n-fr) `1:78.14.0-1~deb11u1` - French language package for Thunderbird
+- ![](green.png) [thunderbird](https://packages.debian.org/bullseye/thunderbird) `1:91.10.0-1~deb11u1` - mail/news client with RSS, chat and integrated spam filter support
+- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bullseye/thunderbird-l10n-fr) `1:91.10.0-1~deb11u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/bullseye/geary) `3.38.1-1` - lightweight email client designed for the GNOME desktop_
 - ![](grey.png) _[claws-mail](https://packages.debian.org/bullseye/claws-mail) `3.17.8-1+b1` - Fast, lightweight and user-friendly GTK+2 based email client_
 - ![](grey.png) _[claws-mail-plugins](https://packages.debian.org/bullseye/claws-mail-plugins) `3.17.8-1` - Installs plugins for the Claws Mail mailer_
 - ![](grey.png) _[mailnag](https://packages.debian.org/bullseye/mailnag) `2.0.0-0.2` - extensible mail notification daemon_
-- ![](grey.png) _[mutt](https://packages.debian.org/bullseye/mutt) `2.0.5-4.1` - text-based mailreader supporting MIME, GPG, PGP and threading_
+- ![](grey.png) _[mutt](https://packages.debian.org/bullseye/mutt) `2.0.5-4.1+deb11u1` - text-based mailreader supporting MIME, GPG, PGP and threading_
 - ![](grey.png) _[alpine](https://packages.debian.org/bullseye/alpine) `2.24+dfsg1-1` - Text-based email client, friendly for novices but powerful_
 - ![](grey.png) _[getmail](https://packages.debian.org/bullseye/getmail) `6.14-1` - transitional package_
 - ![](grey.png) _[evolution](https://packages.debian.org/bullseye/evolution) `3.38.3-1` - groupware suite with mail client and organizer_
@@ -213,17 +213,18 @@
 - ![](grey.png) _[btfs](https://packages.debian.org/bullseye/btfs) `2.24-1` - access torrent files as a filesystem_
 #### Media download
 
+- ![](green.png) [yt-dlp](https://packages.debian.org/bullseye/yt-dlp) `2022.05.18-1~bpo11+1` - downloader of videos from YouTube and other sites
 - ![](grey.png) _[youtube-dl](https://packages.debian.org/bullseye/youtube-dl) `2021.06.06-1` - downloader of videos from YouTube and other sites_
 - ![](grey.png) _[streamlink](https://packages.debian.org/bullseye/streamlink) `2.0.0-1` - CLI for extracting video streams from various websites to a video player_
 - ![](grey.png) _[minitube](https://packages.debian.org/bullseye/minitube) `3.6.1-1` - Native YouTube client_
 - ![](grey.png) _[smtube](https://packages.debian.org/bullseye/smtube) `18.3.0-1+b1` - YouTube videos browser_
 #### Downloaders/web crawlers
 
-- ![](green.png) [curl](https://packages.debian.org/bullseye/curl) `7.74.0-1.3+b1` - command line tool for transferring data with URL syntax
-- ![](green.png) [wget](https://packages.debian.org/bullseye/wget) `1.21-1+b1` - retrieves files from the web
+- ![](green.png) [curl](https://packages.debian.org/bullseye/curl) `7.74.0-1.3+deb11u1` - command line tool for transferring data with URL syntax
+- ![](green.png) [wget](https://packages.debian.org/bullseye/wget) `1.21-1+deb11u1` - retrieves files from the web
+- ![](green.png) [kiwix](https://packages.debian.org/bullseye/kiwix) `2.0.5-3` - offline Wikipedia reader
+- ![](green.png) [kiwix-tools](https://packages.debian.org/bullseye/kiwix-tools) `3.1.2-3` - collection of Kiwix tools
 - ![](grey.png) _[aria2](https://packages.debian.org/bullseye/aria2) `1.35.0-3` - High speed download utility_
-- ![](grey.png) _[kiwix](https://packages.debian.org/bullseye/kiwix) `2.0.5-3` - offline Wikipedia reader_
-- ![](grey.png) _[kiwix-tools](https://packages.debian.org/bullseye/kiwix-tools) `3.1.2-3` - collection of Kiwix tools_
 - ![](grey.png) _[zim-tools](https://packages.debian.org/bullseye/zim-tools) `2.1.0-1` - various ZIM command-line tools_
 - ![](grey.png) _[httrack](https://packages.debian.org/bullseye/httrack) `3.49.2-1.1` - Copy websites to your computer (Offline browser)_
 - ![](grey.png) _[axel](https://packages.debian.org/bullseye/axel) `2.17.10-2` - light command line download accelerator_
@@ -238,9 +239,9 @@
 - ![](grey.png) _[feedreader](https://packages.debian.org/bullseye/feedreader) `2.10.0-1.1` - simple client for online RSS services like tt-rss and others_
 #### LAN file sharing
 
-- ![](grey.png) _[samba](https://packages.debian.org/bullseye/samba) `2:4.13.5+dfsg-2` - SMB/CIFS file, print, and login server for Unix_
-- ![](grey.png) _[samba-vfs-modules](https://packages.debian.org/bullseye/samba-vfs-modules) `2:4.13.5+dfsg-2` - Samba Virtual FileSystem plugins_
-- ![](grey.png) _[smbclient](https://packages.debian.org/bullseye/smbclient) `2:4.13.5+dfsg-2` - command-line SMB/CIFS clients for Unix_
+- ![](grey.png) _[samba](https://packages.debian.org/bullseye/samba) `2:4.13.13+dfsg-1~deb11u4` - SMB/CIFS file, print, and login server for Unix_
+- ![](grey.png) _[samba-vfs-modules](https://packages.debian.org/bullseye/samba-vfs-modules) `2:4.13.13+dfsg-1~deb11u4` - Samba Virtual FileSystem plugins_
+- ![](grey.png) _[smbclient](https://packages.debian.org/bullseye/smbclient) `2:4.13.13+dfsg-1~deb11u4` - command-line SMB/CIFS clients for Unix_
 #### Network management
 
 
@@ -372,7 +373,7 @@
 
 - ![](green.png) [gnome-nettool](https://packages.debian.org/bullseye/gnome-nettool) `3.8.1-3` - network information tool for GNOME
 - ![](green.png) [traceroute](https://packages.debian.org/bullseye/traceroute) `1:2.1.0-2+b1` - Traces the route taken by packets over an IPv4/IPv6 network
-- ![](green.png) [dnsutils](https://packages.debian.org/bullseye/dnsutils) `1:9.16.15-1` - Transitional package for bind9-dnsutils
+- ![](green.png) [dnsutils](https://packages.debian.org/bullseye/dnsutils) `1:9.16.27-1~deb11u1` - Transitional package for bind9-dnsutils
 - ![](grey.png) _[dnsmasq](https://packages.debian.org/bullseye/dnsmasq) `2.85-1` - Small caching DNS proxy and DHCP/TFTP server_
 - ![](grey.png) _[dns-root-data](https://packages.debian.org/bullseye/dns-root-data) `2021011101` - DNS root data including root zone and DNSSEC key_
 - ![](grey.png) _[arp-scan](https://packages.debian.org/bullseye/arp-scan) `1.9.7-2` - arp scanning and fingerprinting tool_
@@ -400,24 +401,25 @@
 - ![](grey.png) _[nethogs](https://packages.debian.org/bullseye/nethogs) `0.8.5-2+b1` - Net top tool grouping bandwidth per process_
 - ![](grey.png) _[netmask](https://packages.debian.org/bullseye/netmask) `2.4.4-3` - helps determine network masks_
 - ![](grey.png) _[nmon](https://packages.debian.org/bullseye/nmon) `16m+debian-1` - performance monitoring tool for Linux_
-- ![](grey.png) _[prips](https://packages.debian.org/bullseye/prips) `1.1.1-3` - tool that prints the IP addresses in a given range_
+- ![](grey.png) _[prips](https://packages.debian.org/bullseye/prips) `1.1.1-3+deb11u1` - tool that prints the IP addresses in a given range_
 - ![](grey.png) _[slurm](https://packages.debian.org/bullseye/slurm) `0.4.3-2+b3` - Realtime network interface monitor_
 - ![](grey.png) _[socat](https://packages.debian.org/bullseye/socat) `1.7.4.1-3` - multipurpose relay for bidirectional data transfer_
 - ![](grey.png) _[speedometer](https://packages.debian.org/bullseye/speedometer) `2.8-3` - measure and display the rate of data across a network connection_
 - ![](grey.png) _[speedtest-cli](https://packages.debian.org/bullseye/speedtest-cli) `2.1.3-2` - Command line interface for testing internet bandwidth using speedtest.net_
 - ![](grey.png) _[sslsniff](https://packages.debian.org/bullseye/sslsniff) `0.8-9` - SSL/TLS man-in-the-middle attack tool_
 - ![](grey.png) _[subnetcalc](https://packages.debian.org/bullseye/subnetcalc) `2.4.16-1` - IPv4/IPv6 Subnet Calculator_
-- ![](grey.png) _[tcpdump](https://packages.debian.org/bullseye/tcpdump) `4.99.0-2` - command-line network traffic analyzer_
+- ![](grey.png) _[tcpdump](https://packages.debian.org/bullseye/tcpdump) `4.99.0-2+deb11u1` - command-line network traffic analyzer_
 - ![](grey.png) _[tcpstat](https://packages.debian.org/bullseye/tcpstat) `1.5-8+b1` - network interface statistics reporting tool_
 - ![](grey.png) _[thc-ipv6](https://packages.debian.org/bullseye/thc-ipv6) `3.8-1` - The Hacker Choice's IPv6 Attack Toolkit_
 - ![](grey.png) _[trickle](https://packages.debian.org/bullseye/trickle) `1.07-10.1+b2` - user-space bandwidth shaper_
-- ![](grey.png) _[tshark](https://packages.debian.org/bullseye/tshark) `3.4.4-1` - network traffic analyzer - console version_
-- ![](grey.png) _[usbip](https://packages.debian.org/bullseye/usbip) `2.0+5.10.70-1` - USB device sharing system over IP network_
+- ![](grey.png) _[tshark](https://packages.debian.org/bullseye/tshark) `3.4.10-0+deb11u1` - network traffic analyzer - console version_
+- ![](grey.png) _[usbip](https://packages.debian.org/bullseye/usbip) `2.0+5.10.120-1` - USB device sharing system over IP network_
 - ![](grey.png) _[vnstat](https://packages.debian.org/bullseye/vnstat) `2.6-3` - console-based network traffic monitor_
 - ![](grey.png) _[vnstati](https://packages.debian.org/bullseye/vnstati) `2.6-3` - image output support for vnStat_
-- ![](grey.png) _[wireshark](https://packages.debian.org/bullseye/wireshark) `3.4.4-1` - network traffic analyzer - meta-package_
+- ![](grey.png) _[wireshark](https://packages.debian.org/bullseye/wireshark) `3.4.10-0+deb11u1` - network traffic analyzer - meta-package_
 - ![](grey.png) _[termshark](https://packages.debian.org/bullseye/termshark) `2.2.0-1+deb11u1` - Terminal UI for tshark, inspired by Wireshark_
 - ![](grey.png) _[fierce](https://packages.debian.org/bullseye/fierce) `1.4.0-2` - Domain DNS scanner_
+- ![](grey.png) _[sslscan](https://packages.debian.org/bullseye/sslscan) `2.0.7-1` - Tests SSL/TLS enabled services to discover supported cipher suites_
 #### SSH
 
 - ![](grey.png) _[sshuttle](https://packages.debian.org/bullseye/sshuttle) `1.0.5-1` - Transparent proxy server for VPN over SSH_

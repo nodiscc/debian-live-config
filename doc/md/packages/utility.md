@@ -177,12 +177,11 @@
 - ![](green.png) [gnome-keyring](https://packages.debian.org/bullseye/gnome-keyring) `3.36.0-1` - GNOME keyring services (daemon and tools)
 - ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bullseye/ssh-askpass-gnome) `1:8.4p1-5` - interactive X program to prompt users for a passphrase for ssh-add
 - ![](green.png) [libpam-gnome-keyring](https://packages.debian.org/bullseye/libpam-gnome-keyring) `3.36.0-1` - PAM module to unlock the GNOME keyring upon login
-- ![](green.png) [gnupg](https://packages.debian.org/bullseye/gnupg) `2.2.27-2` - GNU privacy guard - a free PGP replacement
-- ![](green.png) [gnupg2](https://packages.debian.org/bullseye/gnupg2) `2.2.27-2` - GNU privacy guard - a free PGP replacement (dummy transitional package)
+- ![](green.png) [gnupg](https://packages.debian.org/bullseye/gnupg) `2.2.27-2+deb11u1` - GNU privacy guard - a free PGP replacement
+- ![](green.png) [gnupg2](https://packages.debian.org/bullseye/gnupg2) `2.2.27-2+deb11u1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
 - ![](green.png) [pwgen](https://packages.debian.org/bullseye/pwgen) `2.08-2` - Automatic Password generation
-- ![](green.png) [nss-passwords](https://packages.debian.org/bullseye/nss-passwords) `0.3-1` - read passwords from a Mozilla keyring
-- ![](green.png) [cryptsetup](https://packages.debian.org/bullseye/cryptsetup) `2:2.3.5-1` - disk encryption support - startup scripts
-- ![](green.png) [cryptsetup-initramfs](https://packages.debian.org/bullseye/cryptsetup-initramfs) `2:2.3.5-1` - disk encryption support - initramfs integration
+- ![](green.png) [cryptsetup](https://packages.debian.org/bullseye/cryptsetup) `2:2.3.7-1+deb11u1` - disk encryption support - startup scripts
+- ![](green.png) [cryptsetup-initramfs](https://packages.debian.org/bullseye/cryptsetup-initramfs) `2:2.3.7-1+deb11u1` - disk encryption support - initramfs integration
 - ![](green.png) [libblockdev-crypto2](https://packages.debian.org/bullseye/libblockdev-crypto2) `2.25-2` - Crypto plugin for libblockdev
 - ![](grey.png) _[keepassx](https://packages.debian.org/bullseye/keepassx) `2.0.3+git20190121.1682ab9-2.2` - Cross Platform Password Manager_
 - ![](grey.png) _[keepass2](https://packages.debian.org/bullseye/keepass2) `2.47+dfsg-2` - Password manager_
@@ -192,6 +191,7 @@
 - ![](grey.png) _[tcplay](https://packages.debian.org/bullseye/tcplay) `1.1-6` - Free and simple TrueCrypt Implementation based on dm-crypt_
 - ![](grey.png) _[xkcdpass](https://packages.debian.org/bullseye/xkcdpass) `1.16.5+dfsg.1-1.1` - secure passphrase generator inspired by XKCD 936_
 - ![](grey.png) _[pass](https://packages.debian.org/bullseye/pass) `1.7.3-2` - lightweight directory-based password manager_
+- ![](grey.png) _[nss-passwords](https://packages.debian.org/bullseye/nss-passwords) `0.3-1` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[tomb](https://packages.debian.org/bullseye/tomb) `2.9+dfsg1-1` - crypto undertaker_
 - ![](grey.png) _[zulucrypt-gui](https://packages.debian.org/bullseye/zulucrypt-gui) `5.7.1-2` - graphical front end for zulucrypt-cli_
 - ![](grey.png) _[zulumount-gui](https://packages.debian.org/bullseye/zulumount-gui) `5.7.1-2` - graphical front end for zulumount-cli_
@@ -216,7 +216,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/5.4-2">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/5.4-2+deb11u1">
 
 **[nano](https://packages.debian.org/bullseye/nano)** - small, friendly text editor inspired by Pico
 
@@ -231,11 +231,11 @@
 
 
 - ![](green.png) [mousepad](https://packages.debian.org/bullseye/mousepad) `0.5.2-1` - simple Xfce oriented text editor
-- ![](green.png) [nano](https://packages.debian.org/bullseye/nano) `5.4-2` - small, friendly text editor inspired by Pico
-- ![](green.png) [vim-tiny](https://packages.debian.org/bullseye/vim-tiny) `2:8.2.2434-3` - Vi IMproved - enhanced vi editor - compact version
+- ![](green.png) [nano](https://packages.debian.org/bullseye/nano) `5.4-2+deb11u1` - small, friendly text editor inspired by Pico
+- ![](green.png) [vim-tiny](https://packages.debian.org/bullseye/vim-tiny) `2:8.2.2434-3+deb11u1` - Vi IMproved - enhanced vi editor - compact version
 - ![](grey.png) _[gnome-builder](https://packages.debian.org/bullseye/gnome-builder) `3.38.2-1` - IDE for GNOME_
-- ![](grey.png) _[vim](https://packages.debian.org/bullseye/vim) `2:8.2.2434-3` - Vi IMproved - enhanced vi editor_
-- ![](grey.png) _[vim-doc](https://packages.debian.org/bullseye/vim-doc) `2:8.2.2434-3` - Vi IMproved - HTML documentation_
+- ![](grey.png) _[vim](https://packages.debian.org/bullseye/vim) `2:8.2.2434-3+deb11u1` - Vi IMproved - enhanced vi editor_
+- ![](grey.png) _[vim-doc](https://packages.debian.org/bullseye/vim-doc) `2:8.2.2434-3+deb11u1` - Vi IMproved - HTML documentation_
 - ![](grey.png) _[vim-scripts](https://packages.debian.org/bullseye/vim-scripts) `20210124.1` - plugins for vim, adding bells and whistles_
 - ![](grey.png) _[vim-addon-manager](https://packages.debian.org/bullseye/vim-addon-manager) `0.5.10` - manager of addons for the Vim editor_
 - ![](grey.png) _[focuswriter](https://packages.debian.org/bullseye/focuswriter) `1.7.6-2` - Fullscreen distraction-free writing program_
@@ -439,7 +439,7 @@
 - ![](green.png) [acpi-support-base](https://packages.debian.org/bullseye/acpi-support-base) `0.143-5` - scripts for handling base ACPI events such as the power button
 - ![](green.png) [laptop-mode-tools](https://packages.debian.org/bullseye/laptop-mode-tools) `1.74-1.1` - Tools for Power Savings based on battery/AC status
 - ![](green.png) [fancontrol](https://packages.debian.org/bullseye/fancontrol) `1:3.6.0-7` - utility to control the fan speed
-- ![](green.png) [rfkill](https://packages.debian.org/bullseye/rfkill) `2.36.1-8` - tool for enabling and disabling wireless devices
+- ![](green.png) [rfkill](https://packages.debian.org/bullseye/rfkill) `2.36.1-8+deb11u1` - tool for enabling and disabling wireless devices
 - ![](green.png) [cpufrequtils](https://packages.debian.org/bullseye/cpufrequtils) `008-2` - utilities to deal with the cpufreq Linux kernel feature
 - ![](green.png) [pm-utils](https://packages.debian.org/bullseye/pm-utils) `1.4.1-19` - utilities and scripts for power management
 - ![](grey.png) _[powerdebug](https://packages.debian.org/bullseye/powerdebug) `0.7.0-2013.08-1+b3` - tool to display regulator, sensor and clock information_
@@ -480,6 +480,7 @@
 - ![](green.png) [gnome-themes-standard](https://packages.debian.org/bullseye/gnome-themes-standard) `3.28-1` - Adwaita GTK+ 2 theme — engine - transitional package
 - ![](green.png) [sound-theme-freedesktop](https://packages.debian.org/bullseye/sound-theme-freedesktop) `0.8-2` - freedesktop.org sound theme
 - ![](green.png) [gnome-audio](https://packages.debian.org/bullseye/gnome-audio) `2.22.2-1.2` - Audio files for GNOME
+- ![](green.png) [qt5-gtk-platformtheme](https://packages.debian.org/bullseye/qt5-gtk-platformtheme) `5.15.2+dfsg-9` - Qt 5 GTK+ 3 platform theme
 - ![](grey.png) _[faenza-icon-theme](https://packages.debian.org/bullseye/faenza-icon-theme) `1.3.1-1.1` - Faenza icon theme_
 - ![](grey.png) _[deepin-icon-theme](https://packages.debian.org/bullseye/deepin-icon-theme) `2020.09.25-1` - Icon Theme for Deepin software and Deepin Desktop Environment_
 - ![](grey.png) _[paper-icon-theme](https://packages.debian.org/bullseye/paper-icon-theme) `1.5.0+git20200312.aa3e8af-3` - simple and modern icon and cursor theme_
@@ -499,6 +500,7 @@
 - ![](green.png) [xclip](https://packages.debian.org/bullseye/xclip) `0.13-2` - command line interface to X selections
 - ![](green.png) [xcalib](https://packages.debian.org/bullseye/xcalib) `0.8.dfsg1-2.1` - Tiny monitor calibration loader for Xorg
 - ![](green.png) [xbacklight](https://packages.debian.org/bullseye/xbacklight) `1.2.1-1+b3` - simple utility to set the backlight level
+- ![](grey.png) _[conky-all](https://packages.debian.org/bullseye/conky-all) `1.11.6-2` - highly configurable system monitor (all features enabled)_
 - ![](green.png) [gtk2-engines](https://packages.debian.org/bullseye/gtk2-engines) `1:2.20.2-5` - theme engines for GTK+ 2.x
 - ![](green.png) [gtk2-engines-murrine](https://packages.debian.org/bullseye/gtk2-engines-murrine) `0.98.2-3` - cairo-based gtk+-2.0 theme engine
 - ![](green.png) [gtk2-engines-pixbuf](https://packages.debian.org/bullseye/gtk2-engines-pixbuf) `2.24.33-2` - pixbuf-based theme for GTK 2
@@ -508,3 +510,4 @@
 - ![](grey.png) _[randtype](https://packages.debian.org/bullseye/randtype) `1.13-11+b1` - semi-random text typer_
 - ![](grey.png) _[winwrangler](https://packages.debian.org/bullseye/winwrangler) `0.2.4-5+b1` - Daemon for manipulating windows (tiled layout, etc.)_
 - ![](grey.png) _[xdotool](https://packages.debian.org/bullseye/xdotool) `1:3.20160805.1-4` - simulate (generate) X11 keyboard/mouse input events_
+- ![](grey.png) _[wtype](https://packages.debian.org/bullseye/wtype) `0.3-1` - xdotool type for wayland_

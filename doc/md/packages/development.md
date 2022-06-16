@@ -25,28 +25,13 @@
 -----------------------
 
 
-
-</sub>
-
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gource/0.51-1+b2">
-
-**[gource](https://packages.debian.org/bullseye/gource)** - graphical source control visualisation
-
-
- OpenGL-based 3D visualisation tool for source control repositories.
-
-<sub>
-
------------------------
-
-
 - ![](green.png) [git](https://packages.debian.org/bullseye/git) `1:2.30.2-1` - fast, scalable, distributed revision control system
 - ![](green.png) [meld](https://packages.debian.org/bullseye/meld) `3.20.2-2` - graphical tool to diff and merge files
-- ![](green.png) [gource](https://packages.debian.org/bullseye/gource) `0.51-1+b2` - graphical source control visualisation
 - ![](green.png) [colordiff](https://packages.debian.org/bullseye/colordiff) `1.0.18-1.1` - tool to colorize 'diff' output
 - ![](green.png) [dwdiff](https://packages.debian.org/bullseye/dwdiff) `2.1.4-1` - diff program that operates word by word
 - ![](green.png) [cloc](https://packages.debian.org/bullseye/cloc) `1.86-1` - statistics utility to count lines of code
 - ![](grey.png) _[gitg](https://packages.debian.org/bullseye/gitg) `3.32.1-1` - git repository viewer_
+- ![](grey.png) _[gource](https://packages.debian.org/bullseye/gource) `0.51-1+b2` - graphical source control visualisation_
 - ![](grey.png) _[fossil](https://packages.debian.org/bullseye/fossil) `1:2.15.2-1` - DSCM with built-in wiki, http interface and server, tickets database_
 - ![](grey.png) _[ghi](https://packages.debian.org/bullseye/ghi) `1.2.0-1.1` - GitHub issue tracker command line interface (CLI)_
 - ![](grey.png) _[git-mediawiki](https://packages.debian.org/bullseye/git-mediawiki) `1:2.30.2-1` - fast, scalable, distributed revision control system (MediaWiki remote helper)_
@@ -57,20 +42,20 @@
 - ![](grey.png) _[mercurial](https://packages.debian.org/bullseye/mercurial) `5.6.1-4` - easy-to-use, scalable distributed version control system_
 - ![](grey.png) _[myrepos](https://packages.debian.org/bullseye/myrepos) `1.20180726` - tool to manage all your version control repos_
 - ![](grey.png) _[python3-gitlab](https://packages.debian.org/bullseye/python3-gitlab) `1:2.5.0-1` - Python 3 GitLab API client library_
-- ![](grey.png) _[subversion](https://packages.debian.org/bullseye/subversion) `1.14.1-3` - Advanced version control system_
+- ![](grey.png) _[subversion](https://packages.debian.org/bullseye/subversion) `1.14.1-3+deb11u1` - Advanced version control system_
 - ![](grey.png) _[tig](https://packages.debian.org/bullseye/tig) `2.5.1-1` - ncurses-based text-mode interface for Git_
 - ![](grey.png) _[icdiff](https://packages.debian.org/bullseye/icdiff) `1.9.5-1` - terminal side-by-side colorized word diff_
 - ![](grey.png) _[qgit](https://packages.debian.org/bullseye/qgit) `2.9-2` - Qt application for viewing GIT trees_
 - ![](grey.png) _[git-secrets](https://packages.debian.org/bullseye/git-secrets) `1.3.0-4` - Prevents accidental commits of credentials_
 #### Shell & basic utilities
 
-- ![](green.png) [bash](https://packages.debian.org/bullseye/bash) `5.1-2+b3` - GNU Bourne Again SHell
+- ![](green.png) [bash](https://packages.debian.org/bullseye/bash) `5.1-2+deb11u1` - GNU Bourne Again SHell
 - ![](green.png) [autojump](https://packages.debian.org/bullseye/autojump) `22.5.1-1.1` - shell extension to jump to frequently used directories
 - ![](green.png) [bash-completion](https://packages.debian.org/bullseye/bash-completion) `1:2.11-2` - programmable completion for the bash shell
 - ![](green.png) [pv](https://packages.debian.org/bullseye/pv) `1.6.6-1+b1` - Shell pipeline element to meter data passing through
 - ![](green.png) [sed](https://packages.debian.org/bullseye/sed) `4.7-1` - GNU stream editor for filtering/transforming text
-- ![](green.png) [util-linux](https://packages.debian.org/bullseye/util-linux) `2.36.1-8` - miscellaneous system utilities
-- ![](green.png) [util-linux-locales](https://packages.debian.org/bullseye/util-linux-locales) `2.36.1-8` - locales files for util-linux
+- ![](green.png) [util-linux](https://packages.debian.org/bullseye/util-linux) `2.36.1-8+deb11u1` - miscellaneous system utilities
+- ![](green.png) [util-linux-locales](https://packages.debian.org/bullseye/util-linux-locales) `2.36.1-8+deb11u1` - locales files for util-linux
 - ![](green.png) [whiptail](https://packages.debian.org/bullseye/whiptail) `0.52.21-4+b3` - Displays user-friendly dialog boxes from shell scripts
 - ![](green.png) [moreutils](https://packages.debian.org/bullseye/moreutils) `0.65-1` - additional Unix utilities
 - ![](green.png) [less](https://packages.debian.org/bullseye/less) `551-2` - pager program similar to more
@@ -98,13 +83,14 @@
 - ![](grey.png) _[termrec](https://packages.debian.org/bullseye/termrec) `0.19-1` - terminal videos/scripts recorder and player_
 - ![](grey.png) _[ripgrep](https://packages.debian.org/bullseye/ripgrep) `12.1.1-1+b1` - Recursively searches directories for a regex pattern_
 - ![](grey.png) _[retry](https://packages.debian.org/bullseye/retry) `1.0.4-2` - Retry a command until the command succeeds_
+- ![](grey.png) _[jc](https://packages.debian.org/bullseye/jc) `1.14.3-1` - JSON CLI output utility_
 #### Parsers/converters/documentation generators
 
 - ![](green.png) [jq](https://packages.debian.org/bullseye/jq) `1.6-2.1` - lightweight and flexible command-line JSON processor
-- ![](green.png) [xmlstarlet](https://packages.debian.org/bullseye/xmlstarlet) `1.6.1-2.1` - command line XML toolkit
-- ![](green.png) [aha](https://packages.debian.org/bullseye/aha) `0.5.1-1` - ANSI color to HTML converter
 - ![](green.png) [groff](https://packages.debian.org/bullseye/groff) `1.22.4-6` - GNU troff text-formatting system
 - ![](green.png) [dos2unix](https://packages.debian.org/bullseye/dos2unix) `7.4.1-1` - convert text file line endings between CRLF and LF
+- ![](grey.png) _[aha](https://packages.debian.org/bullseye/aha) `0.5.1-1` - ANSI color to HTML converter_
+- ![](grey.png) _[xmlstarlet](https://packages.debian.org/bullseye/xmlstarlet) `1.6.1-2.1` - command line XML toolkit_
 - ![](grey.png) _[pandoc](https://packages.debian.org/bullseye/pandoc) `2.9.2.1-1+b1` - general markup converter_
 - ![](grey.png) _[man2html-base](https://packages.debian.org/bullseye/man2html-base) `1.6g-14` - convert man pages into HTML format_
 - ![](grey.png) _[txt2tags](https://packages.debian.org/bullseye/txt2tags) `3.4-2` - conversion tool to generating several file formats_
@@ -115,17 +101,17 @@
 - ![](grey.png) _[html2text](https://packages.debian.org/bullseye/html2text) `1.3.2a-28` - advanced HTML to text converter_
 #### Packaging
 
-- ![](green.png) [debhelper](https://packages.debian.org/bullseye/debhelper) `13.3.4` - helper programs for debian/rules
-- ![](green.png) [autoconf](https://packages.debian.org/bullseye/autoconf) `2.69-14` - automatic configure script builder
-- ![](green.png) [devscripts](https://packages.debian.org/bullseye/devscripts) `2.21.3+deb11u1` - scripts to make the life of a Debian Package maintainer easier
-- ![](green.png) [dh-make](https://packages.debian.org/bullseye/dh-make) `2.202003` - tool that converts source archives into Debian package source
-- ![](green.png) [equivs](https://packages.debian.org/bullseye/equivs) `2.3.1` - Circumvent Debian package dependencies
 - ![](green.png) [build-essential](https://packages.debian.org/bullseye/build-essential) `12.9` - Informational list of build-essential packages
 - ![](green.png) [checkinstall](https://packages.debian.org/bullseye/checkinstall) `1.6.2+git20170426.d24a630-2` - installation tracker
 - ![](green.png) [fakeroot](https://packages.debian.org/bullseye/fakeroot) `1.25.3-1.1` - tool for simulating superuser privileges
 - ![](green.png) [debconf-utils](https://packages.debian.org/bullseye/debconf-utils) `1.5.77` - debconf utilities
-- ![](green.png) [lintian](https://packages.debian.org/bullseye/lintian) `2.104.0` - Debian package checker
-- ![](green.png) [git-buildpackage](https://packages.debian.org/bullseye/git-buildpackage) `0.9.22` - Suite to help with Debian packages in Git repositories
+- ![](grey.png) _[lintian](https://packages.debian.org/bullseye/lintian) `2.104.0` - Debian package checker_
+- ![](grey.png) _[autoconf](https://packages.debian.org/bullseye/autoconf) `2.69-14` - automatic configure script builder_
+- ![](grey.png) _[devscripts](https://packages.debian.org/bullseye/devscripts) `2.21.3+deb11u1` - scripts to make the life of a Debian Package maintainer easier_
+- ![](grey.png) _[dh-make](https://packages.debian.org/bullseye/dh-make) `2.202003` - tool that converts source archives into Debian package source_
+- ![](grey.png) _[equivs](https://packages.debian.org/bullseye/equivs) `2.3.1` - Circumvent Debian package dependencies_
+- ![](grey.png) _[git-buildpackage](https://packages.debian.org/bullseye/git-buildpackage) `0.9.22` - Suite to help with Debian packages in Git repositories_
+- ![](grey.png) _[debhelper](https://packages.debian.org/bullseye/debhelper) `13.3.4` - helper programs for debian/rules_
 - ![](grey.png) _[apt-build](https://packages.debian.org/bullseye/apt-build) `0.12.49` - frontend to apt to build, optimize and install packages_
 - ![](grey.png) _[python3-stdeb](https://packages.debian.org/bullseye/python3-stdeb) `0.10.0-1` - Python to Debian source package conversion plugins for distutils_
 - ![](grey.png) _[pypi2deb](https://packages.debian.org/bullseye/pypi2deb) `2.20180804+nmu1` - PyPI to Debian converter_
@@ -133,14 +119,14 @@
 - ![](grey.png) _[aptly](https://packages.debian.org/bullseye/aptly) `1.4.0+ds1-4+b4` - Swiss army knife for Debian repository management - main package_
 #### Debuggers
 
-- ![](green.png) [gdb](https://packages.debian.org/bullseye/gdb) `10.1-1.7` - GNU Debugger
+- ![](grey.png) _[gdb](https://packages.debian.org/bullseye/gdb) `10.1-1.7` - GNU Debugger_
 #### Python
 
-- ![](green.png) [python3-all-dev](https://packages.debian.org/bullseye/python3-all-dev) `3.9.2-3` - package depending on all supported Python 3 development packages
 - ![](green.png) [python3-setuptools](https://packages.debian.org/bullseye/python3-setuptools) `52.0.0-4` - Python3 Distutils Enhancements
 - ![](green.png) [python3-wheel](https://packages.debian.org/bullseye/python3-wheel) `0.34.2-1` - built-package format for Python
-- ![](green.png) [python3-pip](https://packages.debian.org/bullseye/python3-pip) `20.3.4-4` - Python package installer
+- ![](green.png) [python3-pip](https://packages.debian.org/bullseye/python3-pip) `20.3.4-4+deb11u1` - Python package installer
 - ![](green.png) [python3-venv](https://packages.debian.org/bullseye/python3-venv) `3.9.2-3` - venv module for python3 (default python3 version)
+- ![](green.png) [python3-all-dev](https://packages.debian.org/bullseye/python3-all-dev) `3.9.2-3` - package depending on all supported Python 3 development packages
 #### Live system
 
 - ![](green.png) [live-build](https://packages.debian.org/bullseye/live-build) `1:20210407` - Live System Build Components

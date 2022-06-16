@@ -67,7 +67,7 @@
 - ![](grey.png) _[debtree](https://packages.debian.org/bullseye/debtree) `1.1.0` - package dependency graphs on steroids_
 - ![](grey.png) _[gnome-software](https://packages.debian.org/bullseye/gnome-software) `3.38.1-1` - Software Center for GNOME_
 - ![](grey.png) _[gstreamer1.0-packagekit](https://packages.debian.org/bullseye/gstreamer1.0-packagekit) `1.2.2-2` - GStreamer plugin to install codecs using PackageKit_
-- ![](grey.png) _[needrestart](https://packages.debian.org/bullseye/needrestart) `3.5-4` - check which daemons need to be restarted after library upgrades_
+- ![](grey.png) _[needrestart](https://packages.debian.org/bullseye/needrestart) `3.5-4+deb11u2` - check which daemons need to be restarted after library upgrades_
 - ![](grey.png) _[packagekit-command-not-found](https://packages.debian.org/bullseye/packagekit-command-not-found) `1.2.2-2` - Offer to install missing programs automatically_
 - ![](grey.png) _[packagekit-gtk3-module](https://packages.debian.org/bullseye/packagekit-gtk3-module) `1.2.2-2` - Install fonts automatically using PackageKit_
 - ![](grey.png) _[extrepo](https://packages.debian.org/bullseye/extrepo) `0.8` - External repository manager_
@@ -102,7 +102,7 @@
 - ![](grey.png) _[screenfetch](https://packages.debian.org/bullseye/screenfetch) `3.9.1-2` - Bash Screenshot Information Tool_
 - ![](grey.png) _[hardinfo](https://packages.debian.org/bullseye/hardinfo) `0.5.1+git20180227-2.1` - Displays system information_
 - ![](grey.png) _[cputool](https://packages.debian.org/bullseye/cputool) `0.0.8-2+b1` - Utility which manages CPU usage and system load_
-- ![](grey.png) _[usbview](https://packages.debian.org/bullseye/usbview) `2.0-21-g6fe2f4f-2+b1` - USB device viewer_
+- ![](grey.png) _[usbview](https://packages.debian.org/bullseye/usbview) `2.0-21-g6fe2f4f-2+deb11u1` - USB device viewer_
 - ![](grey.png) _[stress](https://packages.debian.org/bullseye/stress) `1.0.4-7` - tool to impose load on and stress test a computer system_
 - ![](grey.png) _[stressapptest](https://packages.debian.org/bullseye/stressapptest) `1.0.6-2+b2` - stress test application for simulating high load situations_
 - ![](grey.png) _[lshw](https://packages.debian.org/bullseye/lshw) `02.18.85-0.7` - information about hardware configuration_
@@ -149,6 +149,7 @@
 - ![](grey.png) _[fsarchiver](https://packages.debian.org/bullseye/fsarchiver) `0.8.6-1` - file system archiver_
 - ![](grey.png) _[backupninja](https://packages.debian.org/bullseye/backupninja) `1.2.1-1` - lightweight, extensible meta-backup system_
 - ![](grey.png) _[duply](https://packages.debian.org/bullseye/duply) `2.3.1-1` - easy to use frontend to the duplicity backup system_
+- ![](grey.png) _[vorta](https://packages.debian.org/bullseye/vorta) `0.7.5-1` - Desktop Client for Borg Backup_
 #### Disk management
 
 
@@ -214,7 +215,7 @@
 - ![](green.png) [sdparm](https://packages.debian.org/bullseye/sdparm) `1.10-1+b1` - Output and modify SCSI device parameters
 - ![](green.png) [dosfstools](https://packages.debian.org/bullseye/dosfstools) `4.2-1` - utilities for making and checking MS-DOS FAT filesystems
 - ![](green.png) [hfsprogs](https://packages.debian.org/bullseye/hfsprogs) `540.1.linux3-4` - mkfs and fsck for HFS and HFS+ file systems
-- ![](green.png) [ntfs-3g](https://packages.debian.org/bullseye/ntfs-3g) `1:2017.3.23AR.3-4+deb11u1` - read/write NTFS driver for FUSE
+- ![](green.png) [ntfs-3g](https://packages.debian.org/bullseye/ntfs-3g) `1:2017.3.23AR.3-4+deb11u2` - read/write NTFS driver for FUSE
 - ![](green.png) [kpartx](https://packages.debian.org/bullseye/kpartx) `0.8.5-2` - create device mappings for partitions
 - ![](green.png) [xorriso](https://packages.debian.org/bullseye/xorriso) `1.5.2-1` - command line ISO-9660 and Rock Ridge manipulation tool
 - ![](green.png) [lvm2](https://packages.debian.org/bullseye/lvm2) `2.03.11-2.1` - Linux Logical Volume Manager
@@ -225,13 +226,13 @@
 - ![](grey.png) _[bilibop-udev](https://packages.debian.org/bullseye/bilibop-udev) `0.6.3` - minimal udev rule for Debian GNU/Linux running from external media_
 - ![](grey.png) _[ecryptfs-utils](https://packages.debian.org/bullseye/ecryptfs-utils) `111-5` - ecryptfs cryptographic filesystem (utilities)_
 - ![](grey.png) _[partimage](https://packages.debian.org/bullseye/partimage) `0.6.9-8` - backup partitions into a compressed image file_
-- ![](grey.png) _[forensics-full](https://packages.debian.org/bullseye/forensics-full) `2.29` - Full forensics station (metapackage)_
 - ![](grey.png) _[steghide](https://packages.debian.org/bullseye/steghide) `0.5.1-15` - steganography hiding tool_
 - ![](grey.png) _[gdmap](https://packages.debian.org/bullseye/gdmap) `0.8.1-5` - Tool to visualize diskspace_
 - ![](grey.png) _[clonezilla](https://packages.debian.org/bullseye/clonezilla) `3.35.2-3` - bare metal backup and recovery of disk drives_
 - ![](grey.png) _[exfatprogs](https://packages.debian.org/bullseye/exfatprogs) `1.1.0-1` - tools to create, check and label exFAT filesystems_
 - ![](grey.png) _[crazydiskinfo](https://packages.debian.org/bullseye/crazydiskinfo) `1.1.0-2` - interactive TUI S.M.A.R.T viewer_
 - ![](grey.png) _[disk-filltest](https://packages.debian.org/bullseye/disk-filltest) `0.8.2-1` - Simple Tool to Detect Bad Disks by Filling with Random Data_
+- ![](grey.png) _[loggedfs](https://packages.debian.org/bullseye/loggedfs) `0.9+ds-3` - User-controllable logging file system_
 #### data recovery
 
 
@@ -275,6 +276,8 @@
 - ![](grey.png) _[extundelete](https://packages.debian.org/bullseye/extundelete) `0.2.4-3` - utility to recover deleted files from ext3/ext4 partition_
 - ![](grey.png) _[fatcat](https://packages.debian.org/bullseye/fatcat) `1.0.5-1+b1` - FAT filesystem explore, extract, repair, and forensic tool_
 - ![](grey.png) _[safecopy](https://packages.debian.org/bullseye/safecopy) `1.7-6` - data recovery tool for problematic or damaged media_
+- ![](grey.png) _[forensics-samples-all](https://packages.debian.org/bullseye/forensics-samples-all) `1.1.4-2` - Set of files to help learn/test forensics tools and techniques (metapackage)_
+- ![](grey.png) _[forensics-full](https://packages.debian.org/bullseye/forensics-full) `2.29` - Full forensics station (metapackage)_
 #### File cleaners/linters
 
 
@@ -301,25 +304,20 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/lnav/0.9.0-1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-system-log/3.9.90-8">
 
-**[lnav](https://packages.debian.org/bullseye/lnav)** - ncurses-based log file viewer
+**[gnome-system-log](https://packages.debian.org/bullseye/gnome-system-log)** - system log viewer for GNOME
 
 
- The log file navigator, lnav, is an enhanced log file viewer that
- takes advantage of any semantic information that can be gleaned from
- the files being viewed, such as timestamps and log levels.  Using this
- extra semantic information, lnav can do things like interleaving
- messages from different files, generate histograms of messages over
- time, and providing hotkeys for navigating through the file.  It is
- hoped that these features will allow the user to quickly and
- efficiently zero in on problems.
+ This program displays system log files in a friendly way and allows one to
+ filter or search expressions in them.
 
 <sub>
 
 -----------------------
 
 
+- ![](green.png) [gnome-system-log](https://packages.debian.org/bullseye/gnome-system-log) `3.9.90-8` - system log viewer for GNOME
 - ![](green.png) [lnav](https://packages.debian.org/bullseye/lnav) `0.9.0-1` - ncurses-based log file viewer
 - ![](green.png) [colortail](https://packages.debian.org/bullseye/colortail) `0.3.3-1+b2` - log colorizer that makes log checking easier
 - ![](grey.png) _[gnome-logs](https://packages.debian.org/bullseye/gnome-logs) `3.36.0-2` - viewer for the systemd journal_
@@ -357,21 +355,23 @@
 - ![](green.png) [dnsmasq-base](https://packages.debian.org/bullseye/dnsmasq-base) `2.85-1` - Small caching DNS proxy and DHCP/TFTP server
 - ![](green.png) [libvirt-daemon-system](https://packages.debian.org/bullseye/libvirt-daemon-system) `7.0.0-3` - Libvirt daemon configuration files
 - ![](green.png) [gir1.2-spiceclientgtk-3.0](https://packages.debian.org/bullseye/gir1.2-spiceclientgtk-3.0) `0.39-1` - GTK3 widget for SPICE clients (GObject-Introspection)
-- ![](green.png) [qemu-system-x86](https://packages.debian.org/bullseye/qemu-system-x86) `1:5.2+dfsg-11+deb11u1` - QEMU full system emulation binaries (x86)
-- ![](green.png) [qemu-system-arm](https://packages.debian.org/bullseye/qemu-system-arm) `1:5.2+dfsg-11+deb11u1` - QEMU full system emulation binaries (arm)
-- ![](green.png) [qemu-utils](https://packages.debian.org/bullseye/qemu-utils) `1:5.2+dfsg-11+deb11u1` - QEMU utilities
+- ![](green.png) [qemu-system-x86](https://packages.debian.org/bullseye/qemu-system-x86) `1:5.2+dfsg-11+deb11u2` - QEMU full system emulation binaries (x86)
+- ![](green.png) [qemu-system-arm](https://packages.debian.org/bullseye/qemu-system-arm) `1:5.2+dfsg-11+deb11u2` - QEMU full system emulation binaries (arm)
+- ![](green.png) [qemu-utils](https://packages.debian.org/bullseye/qemu-utils) `1:7.0+dfsg-2~bpo11+2` - QEMU utilities
 - ![](green.png) [netcat-openbsd](https://packages.debian.org/bullseye/netcat-openbsd) `1.217-3` - TCP/IP swiss army knife
+- ![](grey.png) _[virt-p2v](https://packages.debian.org/bullseye/virt-p2v) `1.42.0-2` - physical-to-virtual machine converter_
 - ![](grey.png) _[virt-what](https://packages.debian.org/bullseye/virt-what) `1.19-1` - detect if we are running in a virtual machine_
 - ![](grey.png) _[libguestfs-tools](https://packages.debian.org/bullseye/libguestfs-tools) `1:1.44.0-2` - guest disk image management system - tools_
 - ![](grey.png) _[lxc](https://packages.debian.org/bullseye/lxc) `1:4.0.6-2` - Linux Containers userspace tools_
 - ![](grey.png) _[gnome-boxes](https://packages.debian.org/bullseye/gnome-boxes) `3.38.2-1` - Simple GNOME app to access remote or virtual systems_
 - ![](grey.png) _[lxc-templates](https://packages.debian.org/bullseye/lxc-templates) `3.0.4-5` - Linux Containers userspace tools (templates)_
-- ![](grey.png) _[docker.io](https://packages.debian.org/bullseye/docker.io) `20.10.5+dfsg1-1+b5` - Linux container runtime_
+- ![](grey.png) _[docker.io](https://packages.debian.org/bullseye/docker.io) `20.10.5+dfsg1-1+deb11u1` - Linux container runtime_
 - ![](grey.png) _[docker-registry](https://packages.debian.org/bullseye/docker-registry) `2.7.1+ds2-7+b6` - Docker toolset to pack, ship, store, and deliver content_
-- ![](grey.png) _[docker-doc](https://packages.debian.org/bullseye/docker-doc) `20.10.5+dfsg1-1` - Linux container runtime -- documentation_
+- ![](grey.png) _[docker-doc](https://packages.debian.org/bullseye/docker-doc) `20.10.5+dfsg1-1+deb11u1` - Linux container runtime -- documentation_
 - ![](grey.png) _[anbox](https://packages.debian.org/bullseye/anbox) `0.0~git20210106-1` - Android in a box_
 - ![](grey.png) _[vagrant](https://packages.debian.org/bullseye/vagrant) `2.2.14+dfsg-1` - Tool for building and distributing virtualized development environments_
 - ![](grey.png) _[schroot](https://packages.debian.org/bullseye/schroot) `1.6.10-12` - Execute commands in a chroot environment_
+- ![](grey.png) _[imvirt](https://packages.debian.org/bullseye/imvirt) `0.9.6-8` - detects several virtualizations_
 #### Configuration management
 
 - ![](grey.png) _[ansible](https://packages.debian.org/bullseye/ansible) `2.10.7+merged+base+2.10.8+dfsg-1` - Configuration management, deployment, and task execution system_
@@ -439,7 +439,7 @@
 - ![](grey.png) _[doas](https://packages.debian.org/bullseye/doas) `6.8.1-2` - minimal replacement for sudo_
 #### Time
 
-- ![](green.png) [chrony](https://packages.debian.org/bullseye/chrony) `4.0-8` - Versatile implementation of the Network Time Protocol
+- ![](green.png) [chrony](https://packages.debian.org/bullseye/chrony) `4.0-8+deb11u2` - Versatile implementation of the Network Time Protocol
 - ![](grey.png) _[ntp](https://packages.debian.org/bullseye/ntp) `1:4.2.8p15+dfsg-1` - Network Time Protocol daemon and utility programs_
 #### Display
 
@@ -465,23 +465,23 @@
 - ![](green.png) [xserver-xorg-input-multitouch](https://packages.debian.org/bullseye/xserver-xorg-input-multitouch) `1.0~rc3-2+b1` - Multitouch X input driver
 - ![](green.png) [xserver-xorg-input-synaptics](https://packages.debian.org/bullseye/xserver-xorg-input-synaptics) `1.9.1-2` - Synaptics TouchPad driver for X.Org server
 - ![](green.png) [xserver-xorg-video-all](https://packages.debian.org/bullseye/xserver-xorg-video-all) `1:7.7+22` - X.Org X server -- output driver metapackage
-- ![](green.png) [xserver-xorg-video-intel](https://packages.debian.org/bullseye/xserver-xorg-video-intel) `2:2.99.917+git20200714-1+b1` - X.Org X server -- Intel i8xx, i9xx display driver
+- ![](green.png) [xserver-xorg-video-intel](https://packages.debian.org/bullseye/xserver-xorg-video-intel) `2:2.99.917+git20200714-1+deb11u1` - X.Org X server -- Intel i8xx, i9xx display driver
 - ![](green.png) [xfonts-base](https://packages.debian.org/bullseye/xfonts-base) `1:1.0.5` - standard fonts for X
 - ![](green.png) [hwdata](https://packages.debian.org/bullseye/hwdata) `0.345-1` - hardware identification / configuration data
-- ![](green.png) [nvidia-driver](https://packages.debian.org/bullseye/nvidia-driver) `460.91.03-1` - NVIDIA metapackage
+- ![](green.png) [nvidia-driver](https://packages.debian.org/bullseye/nvidia-driver) `470.103.01-3~deb11u2` - NVIDIA metapackage
 #### Kernel/boot/init
 
-- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bullseye/linux-headers-amd64) `5.10.70-1` - Header files for Linux amd64 configuration (meta-package)
-- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bullseye/linux-headers-686:i386) `5.10.70-1` - Header files for Linux 686 configuration (meta-package)
+- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bullseye/linux-headers-amd64) `5.16.12-1~bpo11+1` - Header files for Linux amd64 configuration (meta-package)
+- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bullseye/linux-headers-686:i386) `5.10.120-1` - Header files for Linux 686 configuration (meta-package)
 - ![](green.png) [module-assistant](https://packages.debian.org/bullseye/module-assistant) `0.11.10` - tool to make module package creation easier
 - ![](green.png) [dkms](https://packages.debian.org/bullseye/dkms) `2.8.4-3` - Dynamic Kernel Module Support Framework
 - ![](green.png) [build-essential](https://packages.debian.org/bullseye/build-essential) `12.9` - Informational list of build-essential packages
-- ![](green.png) [systemd](https://packages.debian.org/bullseye/systemd) `247.3-6` - system and service manager
+- ![](green.png) [systemd](https://packages.debian.org/bullseye/systemd) `247.3-7` - system and service manager
 - ![](green.png) [os-prober](https://packages.debian.org/bullseye/os-prober) `1.79` - utility to detect other OSes on a set of drives
 - ![](green.png) [initramfs-tools](https://packages.debian.org/bullseye/initramfs-tools) `0.140` - generic modular initramfs generator (automation)
 - ![](green.png) [console-setup](https://packages.debian.org/bullseye/console-setup) `1.205` - console font and keymap setup program
 - ![](green.png) [user-setup](https://packages.debian.org/bullseye/user-setup) `1.88` - Set up initial user and password
-- ![](green.png) [libpam-systemd](https://packages.debian.org/bullseye/libpam-systemd) `247.3-6` - system and service manager - PAM module
+- ![](green.png) [libpam-systemd](https://packages.debian.org/bullseye/libpam-systemd) `247.3-7` - system and service manager - PAM module
 - ![](grey.png) _[kexec-tools](https://packages.debian.org/bullseye/kexec-tools) `1:2.0.20-2.1` - tools to support fast kexec reboots_
 - ![](grey.png) _[kthresher](https://packages.debian.org/bullseye/kthresher) `1.4.1-2` - Purge Unused Kernels_
 #### Firmwares
@@ -489,7 +489,7 @@
 - ![](green.png) [firmware-linux-free](https://packages.debian.org/bullseye/firmware-linux-free) `20200122-1` - Binary firmware for various drivers in the Linux kernel
 - ![](green.png) [firmware-linux-nonfree](https://packages.debian.org/bullseye/firmware-linux-nonfree) `20210315-3` - Binary firmware for various drivers in the Linux kernel (metapackage)
 - ![](green.png) [amd64-microcode](https://packages.debian.org/bullseye/amd64-microcode) `3.20191218.1` - Processor microcode firmware for AMD CPUs
-- ![](green.png) [intel-microcode](https://packages.debian.org/bullseye/intel-microcode) `3.20210608.2` - Processor microcode firmware for Intel CPUs
+- ![](green.png) [intel-microcode](https://packages.debian.org/bullseye/intel-microcode) `3.20220207.1~deb11u1` - Processor microcode firmware for Intel CPUs
 #### Hardware-specific packages
 
 - ![](grey.png) _[driverctl](https://packages.debian.org/bullseye/driverctl) `0.111-1` - Device driver control utility for Linux_
@@ -506,4 +506,4 @@
 - ![](green.png) [live-config-systemd](https://packages.debian.org/bullseye/live-config-systemd) `11.0.3` - Live System Configuration Components (systemd backend)
 - ![](green.png) [user-setup](https://packages.debian.org/bullseye/user-setup) `1.88` - Set up initial user and password
 - ![](green.png) [live-tools](https://packages.debian.org/bullseye/live-tools) `1:20190831` - Live System Extra Components
-- ![](green.png) [eject](https://packages.debian.org/bullseye/eject) `2.36.1-8` - ejects CDs and operates CD-Changers under Linux
+- ![](green.png) [eject](https://packages.debian.org/bullseye/eject) `2.36.1-8+deb11u1` - ejects CDs and operates CD-Changers under Linux

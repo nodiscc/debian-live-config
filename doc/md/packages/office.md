@@ -33,7 +33,7 @@
 - ![](green.png) [libreoffice-avmedia-backend-gstreamer](https://packages.debian.org/bullseye/libreoffice-avmedia-backend-gstreamer) `1:7.0.4-4+deb11u1` - transitional package for GStreamer backend for LibreOffice
 - ![](green.png) [libwmf-bin](https://packages.debian.org/bullseye/libwmf-bin) `0.2.8.4-17` - Windows metafile conversion tools
 - ![](green.png) [hyphen-fr](https://packages.debian.org/bullseye/hyphen-fr) `1:7.1.0~rc3-3` - French hyphenation patterns
-- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/bullseye/libreoffice-l10n-fr) `1:7.0.4-4+deb11u1` - office productivity suite -- French language package
+- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/bullseye/libreoffice-l10n-fr) `1:7.3.4~rc2-1~bpo11+1` - office productivity suite -- French language package
 - ![](green.png) [mythes-fr](https://packages.debian.org/bullseye/mythes-fr) `1:7.1.0~rc3-3` - French Thesaurus for LibreOffice
 - ![](green.png) [libreoffice-help-fr](https://packages.debian.org/bullseye/libreoffice-help-fr) `1:7.0.4-4+deb11u1` - office productivity suite -- French help
 - ![](grey.png) _[abiword](https://packages.debian.org/bullseye/abiword) `3.0.4~dfsg-3` - efficient, featureful word processor with collaboration_
@@ -50,7 +50,14 @@
 - ![](grey.png) _[key2odp](https://packages.debian.org/bullseye/key2odp) `0.9.6-2` - Keynote to OpenDocument converter_
 - ![](grey.png) _[libreoffice-dmaths](https://packages.debian.org/bullseye/libreoffice-dmaths) `4.4.0.0+dfsg1-1` - Formula editing plug-in for LibreOffice Writer_
 - ![](grey.png) _[libreoffice-math](https://packages.debian.org/bullseye/libreoffice-math) `1:7.0.4-4+deb11u1` - office productivity suite -- equation editor_
+- ![](grey.png) _[libreoffice-librelogo](https://packages.debian.org/bullseye/libreoffice-librelogo) `1:7.0.4-4+deb11u1` - Logo-like programming language for LibreOffice_
 - ![](grey.png) _[libreoffice-style-sifr](https://packages.debian.org/bullseye/libreoffice-style-sifr) `1:7.0.4-4+deb11u1` - office productivity suite -- Sifr symbol style_
+- ![](grey.png) _[libreoffice-nlpsolver](https://packages.debian.org/bullseye/libreoffice-nlpsolver) `0.9+LibO7.0.4-4+deb11u1` - "Solver for Nonlinear Programming" extension for LibreOffice_
+- ![](grey.png) _[libreoffice-report-builder](https://packages.debian.org/bullseye/libreoffice-report-builder) `1:7.0.4-4+deb11u1` - LibreOffice component for building database reports_
+- ![](grey.png) _[libreoffice-script-provider-js](https://packages.debian.org/bullseye/libreoffice-script-provider-js) `1:7.0.4-4+deb11u1` - JavaScript script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-script-provider-python](https://packages.debian.org/bullseye/libreoffice-script-provider-python) `1:7.0.4-4+deb11u1` - Python script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-sdbc-postgresql](https://packages.debian.org/bullseye/libreoffice-sdbc-postgresql) `1:7.0.4-4+deb11u1` - PostgreSQL SDBC driver for LibreOffice_
+- ![](grey.png) _[libreoffice-wiki-publisher](https://packages.debian.org/bullseye/libreoffice-wiki-publisher) `1.2.0+LibO7.0.4-4+deb11u1` - LibreOffice extension for working with MediaWiki articles_
 - ![](grey.png) _[lyx](https://packages.debian.org/bullseye/lyx) `2.3.6-1` - document processor_
 - ![](grey.png) _[python3-uno](https://packages.debian.org/bullseye/python3-uno) `1:7.0.4-4+deb11u1` - Python-UNO bridge_
 - ![](grey.png) _[retext](https://packages.debian.org/bullseye/retext) `7.2.1-3` - Simple text editor for Markdown and reStructuredText_
@@ -60,7 +67,6 @@
 - ![](grey.png) _[tpp](https://packages.debian.org/bullseye/tpp) `1.3.1-8` - text presentation program_
 - ![](grey.png) _[unoconv](https://packages.debian.org/bullseye/unoconv) `0.7-2` - converter between LibreOffice document formats_
 - ![](grey.png) _[plume-creator](https://packages.debian.org/bullseye/plume-creator) `0.66+dfsg1-3.2` - open-source tool for novelists_
-- ![](green.png) [lightning](https://packages.debian.org/bullseye/lightning) `1:78.14.0-1~deb11u1` - Calendar Extension for Thunderbird - Transitional package
 - ![](grey.png) _[gnome-calendar](https://packages.debian.org/bullseye/gnome-calendar) `3.38.2-1` - Calendar application for GNOME_
 - ![](grey.png) _[evolution-data-server](https://packages.debian.org/bullseye/evolution-data-server) `3.38.3-1` - evolution database backend server_
 - ![](grey.png) _[abook](https://packages.debian.org/bullseye/abook) `0.6.1-1+b3` - text-based ncurses address book application_
@@ -116,14 +122,15 @@
 - ![](grey.png) _[mupdf](https://packages.debian.org/bullseye/mupdf) `1.17.0+ds1-2` - lightweight PDF viewer_
 - ![](grey.png) _[apvlv](https://packages.debian.org/bullseye/apvlv) `0.2.0-1` - PDF viewer with Vim-like behaviour_
 - ![](grey.png) _[xpdf](https://packages.debian.org/bullseye/xpdf) `3.04+git20210103-3` - Motif-based PDF reader using the Poppler library_
-- ![](grey.png) _[calibre](https://packages.debian.org/bullseye/calibre) `5.12.0+dfsg-1` - powerful and easy to use e-book manager_
+- ![](grey.png) _[calibre](https://packages.debian.org/bullseye/calibre) `5.12.0+dfsg-1+deb11u1` - powerful and easy to use e-book manager_
 - ![](grey.png) _[zathura](https://packages.debian.org/bullseye/zathura) `0.4.7-1` - document viewer with a minimalistic interface_
 - ![](grey.png) _[fbreader](https://packages.debian.org/bullseye/fbreader) `0.12.10dfsg2-4` - e-book reader_
 - ![](grey.png) _[yelp](https://packages.debian.org/bullseye/yelp) `3.38.3-1` - Help browser for GNOME_
 - ![](grey.png) _[xchm](https://packages.debian.org/bullseye/xchm) `2:1.31-2` - Compiled HTML Help (CHM) file viewer for X_
+- ![](grey.png) _[bookworm](https://packages.debian.org/bullseye/bookworm) `1.1.2+git20210715-2~bpo11+1` - Simple, focused eBook Reader_
 #### E-book
 
-- ![](grey.png) _[calibre](https://packages.debian.org/bullseye/calibre) `5.12.0+dfsg-1` - powerful and easy to use e-book manager_
+- ![](grey.png) _[calibre](https://packages.debian.org/bullseye/calibre) `5.12.0+dfsg-1+deb11u1` - powerful and easy to use e-book manager_
 #### PDF editor/utilities
 
 
@@ -185,6 +192,8 @@
 - ![](grey.png) _[almanah](https://packages.debian.org/bullseye/almanah) `0.12.3-1` - Application to ease management of a personal diary_
 - ![](grey.png) _[nixnote2](https://packages.debian.org/bullseye/nixnote2) `2.1.6+dfsg1-1` - Open Source Evernote client_
 - ![](grey.png) _[cherrytree](https://packages.debian.org/bullseye/cherrytree) `0.99.30+dfsg-1` - hierarchical note taking application_
+- ![](grey.png) _[hamster-time-tracker](https://packages.debian.org/bullseye/hamster-time-tracker) `3.0.2-3` - time tracking application for GNOME_
+- ![](grey.png) _[tomboy-ng](https://packages.debian.org/bullseye/tomboy-ng) `0.32-2` - Tomboy Notes rewritten to ease installation and cross platform_
 #### Image scanning
 
 
@@ -237,8 +246,8 @@
 -----------------------
 
 
-- ![](green.png) [cups](https://packages.debian.org/bullseye/cups) `2.3.3op2-3+deb11u1` - Common UNIX Printing System(tm) - PPD/driver support, web interface
-- ![](green.png) [cups-client](https://packages.debian.org/bullseye/cups-client) `2.3.3op2-3+deb11u1` - Common UNIX Printing System(tm) - client programs (SysV)
+- ![](green.png) [cups](https://packages.debian.org/bullseye/cups) `2.3.3op2-3+deb11u2` - Common UNIX Printing System(tm) - PPD/driver support, web interface
+- ![](green.png) [cups-client](https://packages.debian.org/bullseye/cups-client) `2.3.3op2-3+deb11u2` - Common UNIX Printing System(tm) - client programs (SysV)
 - ![](green.png) [gutenprint-locales](https://packages.debian.org/bullseye/gutenprint-locales) `5.3.3-5` - locale data files for Gutenprint
 - ![](green.png) [cups-pk-helper](https://packages.debian.org/bullseye/cups-pk-helper) `0.2.6-1+b1` - PolicyKit helper to configure cups with fine-grained privileges
 - ![](green.png) [printer-driver-all](https://packages.debian.org/bullseye/printer-driver-all) `0.20200223` - printer drivers metapackage
@@ -246,7 +255,7 @@
 - ![](green.png) [printer-driver-gutenprint](https://packages.debian.org/bullseye/printer-driver-gutenprint) `5.3.3-5` - printer drivers for CUPS
 - ![](green.png) [system-config-printer](https://packages.debian.org/bullseye/system-config-printer) `1.5.14-1` - graphical interface to configure the printing system
 - ![](green.png) [system-config-printer-udev](https://packages.debian.org/bullseye/system-config-printer-udev) `1.5.14-1` - Utilities to detect and configure printers automatically
-- ![](green.png) [cups-browsed](https://packages.debian.org/bullseye/cups-browsed) `1.28.7-1` - OpenPrinting CUPS Filters - cups-browsed
+- ![](green.png) [cups-browsed](https://packages.debian.org/bullseye/cups-browsed) `1.28.7-1+deb11u1` - OpenPrinting CUPS Filters - cups-browsed
 - ![](grey.png) _[hplip-gui](https://packages.debian.org/bullseye/hplip-gui) `3.21.2+dfsg1-2` - HP Linux Printing and Imaging - GUI utilities (Qt-based)_
 - ![](grey.png) _[mtink](https://packages.debian.org/bullseye/mtink) `1.0.16-11` - Status monitor tool for Epson inkjet printers_
 - ![](grey.png) _[colord](https://packages.debian.org/bullseye/colord) `1.4.5-3` - system service to manage device colour profiles -- system daemon_

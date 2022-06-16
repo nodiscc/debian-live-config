@@ -54,7 +54,7 @@
 - ![](grey.png) _[freetuxtv](https://packages.debian.org/bullseye/freetuxtv) `0.6.8~dfsg1-1+b2` - Internet television and radio player_
 - ![](grey.png) _[gnome-dvb-client](https://packages.debian.org/bullseye/gnome-dvb-client) `1:0.2.91~git20170110-4` - client for gnome-dvb-daemon_
 - ![](grey.png) _[gnome-mpv](https://packages.debian.org/bullseye/gnome-mpv) `0.20-2` - transitional package_
-- ![](grey.png) _[kodi](https://packages.debian.org/bullseye/kodi) `2:19.1+dfsg2-2` - Open Source Home Theatre (executable binaries)_
+- ![](grey.png) _[kodi](https://packages.debian.org/bullseye/kodi) `2:19.1+dfsg2-2+deb11u1` - Open Source Home Theatre (executable binaries)_
 - ![](grey.png) _[mpv](https://packages.debian.org/bullseye/mpv) `0.32.0-3` - video player based on MPlayer/mplayer2_
 - ![](grey.png) _[parole](https://packages.debian.org/bullseye/parole) `4.16.0-1` - media player based on GStreamer framework_
 - ![](grey.png) _[smplayer](https://packages.debian.org/bullseye/smplayer) `20.6.0~ds0-1` - Complete front-end for MPlayer and mpv_
@@ -210,8 +210,8 @@
 
 
 - ![](green.png) [qwinff](https://packages.debian.org/bullseye/qwinff) `0.2.1+git20201215-1` - GUI for FFmpeg
-- ![](green.png) [ffmpeg](https://packages.debian.org/bullseye/ffmpeg) `7:4.3.2-0+deb11u2` - Tools for transcoding, streaming and playing of multimedia files
-- ![](green.png) [flac](https://packages.debian.org/bullseye/flac) `1.3.3-2` - Free Lossless Audio Codec - command line tools
+- ![](green.png) [ffmpeg](https://packages.debian.org/bullseye/ffmpeg) `7:4.3.4-0+deb11u1` - Tools for transcoding, streaming and playing of multimedia files
+- ![](green.png) [flac](https://packages.debian.org/bullseye/flac) `1.3.3-2+deb11u1` - Free Lossless Audio Codec - command line tools
 - ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/bullseye/gstreamer1.0-alsa) `1.18.4-2` - GStreamer plugin for ALSA
 - ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/bullseye/gstreamer1.0-libav) `1.18.4-3` - ffmpeg plugin for GStreamer
 - ![](green.png) [gstreamer1.0-plugins-bad](https://packages.debian.org/bullseye/gstreamer1.0-plugins-bad) `1.18.4-3` - GStreamer plugins from the "bad" set

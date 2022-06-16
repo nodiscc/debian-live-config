@@ -39,7 +39,7 @@
 - ![](grey.png) _[gthumb](https://packages.debian.org/bullseye/gthumb) `3:3.11.2-0.1` - image viewer and browser_
 - ![](grey.png) _[digikam](https://packages.debian.org/bullseye/digikam) `4:7.1.0-2` - digital photo management application for KDE_
 - ![](grey.png) _[fotoxx](https://packages.debian.org/bullseye/fotoxx) `20.08-2` - Edit photos and manage a large collection_
-- ![](grey.png) _[geeqie](https://packages.debian.org/bullseye/geeqie) `1:1.6-9` - image viewer using GTK+_
+- ![](grey.png) _[geeqie](https://packages.debian.org/bullseye/geeqie) `1:1.6-9+deb11u1` - image viewer using GTK+_
 #### Image editors
 
 
@@ -78,6 +78,7 @@
 - ![](grey.png) _[mtpaint](https://packages.debian.org/bullseye/mtpaint) `3.40-3.1` - painting program to create pixel art and manipulate digital photos_
 - ![](grey.png) _[xpaint](https://packages.debian.org/bullseye/xpaint) `2.9.1.4-4` - simple paint program for X_
 - ![](grey.png) _[gnome-paint](https://packages.debian.org/bullseye/gnome-paint) `0.4.0-7` - simple, easy to use paint program for GNOME_
+- ![](grey.png) _[multimedia-animation](https://packages.debian.org/bullseye/multimedia-animation) `0.10` - Packages for creating animations_
 #### Vector editors
 
 - ![](grey.png) _[inkscape](https://packages.debian.org/bullseye/inkscape) `1.0.2-4` - vector-based drawing program_
@@ -162,6 +163,7 @@
 - ![](grey.png) _[qrencode](https://packages.debian.org/bullseye/qrencode) `4.1.1-1` - QR Code encoder into PNG image_
 - ![](grey.png) _[qtqr](https://packages.debian.org/bullseye/qtqr) `2.0~bzr33-2` - Qt frontend for QR code generator and decoder_
 - ![](grey.png) _[zbar-tools](https://packages.debian.org/bullseye/zbar-tools) `0.23.90-1` - QR code / bar code scanner and decoder (utilities)_
+- ![](grey.png) _[zint-qt](https://packages.debian.org/bullseye/zint-qt) `2.9.1-1.1` - Zint Barcode Studio, a QT frontend to zint_
 #### 3D editors
 
 - ![](grey.png) _[blender](https://packages.debian.org/bullseye/blender) `2.83.5+dfsg-5+b2` - Very fast and versatile 3D modeller/renderer_
@@ -173,7 +175,7 @@
 - ![](grey.png) _[sweethome3d-furniture-nonfree](https://packages.debian.org/bullseye/sweethome3d-furniture-nonfree) `1.6.2-2` - Interior 2D design application with 3D preview (additional non-free furniture)_
 #### CAD editors
 
-- ![](grey.png) _[librecad](https://packages.debian.org/bullseye/librecad) `2.1.3-1.3` - Computer-aided design (CAD) system_
+- ![](grey.png) _[librecad](https://packages.debian.org/bullseye/librecad) `2.1.3-1.3+deb11u1` - Computer-aided design (CAD) system_
 - ![](grey.png) _[kicad](https://packages.debian.org/bullseye/kicad) `5.1.9+dfsg1-1` - Electronic schematic and PCB design software_
 - ![](grey.png) _[freecad](https://packages.debian.org/bullseye/freecad) `0.19.1+dfsg1-2` - Extensible Open Source CAx program_
 - ![](grey.png) _[pcb-gtk](https://packages.debian.org/bullseye/pcb-gtk) `1:4.2.2-1` - printed circuit board (pcb) design program - GTK+ interface_
@@ -207,13 +209,13 @@
 - ![](green.png) [imagemagick](https://packages.debian.org/bullseye/imagemagick) `8:6.9.11.60+dfsg-1.3` - image manipulation programs -- binaries
 - ![](green.png) [optipng](https://packages.debian.org/bullseye/optipng) `0.7.7-1+b1` - advanced PNG (Portable Network Graphics) optimizer
 - ![](green.png) [jpegoptim](https://packages.debian.org/bullseye/jpegoptim) `1.4.6-1` - utility to optimize jpeg files
-- ![](green.png) [pngcrush](https://packages.debian.org/bullseye/pngcrush) `1.8.13-0.1` - optimizes PNG (Portable Network Graphics) files
 - ![](green.png) [exifprobe](https://packages.debian.org/bullseye/exifprobe) `2.0.1+git20170416.3c2b769-5` - read metadata from digital pictures
-- ![](green.png) [findimagedupes](https://packages.debian.org/bullseye/findimagedupes) `2.18-7+b2` - Finds visually similar or duplicate images
 - ![](green.png) [librsvg2-bin](https://packages.debian.org/bullseye/librsvg2-bin) `2.50.3+dfsg-1` - command-line utility to convert SVG files
-- ![](green.png) [figlet](https://packages.debian.org/bullseye/figlet) `2.2.5-3+b1` - Make large character ASCII banners out of ordinary text
-- ![](green.png) [toilet](https://packages.debian.org/bullseye/toilet) `0.3-1.3` - display large colourful characters in text mode
+- ![](grey.png) _[figlet](https://packages.debian.org/bullseye/figlet) `2.2.5-3+b1` - Make large character ASCII banners out of ordinary text_
+- ![](grey.png) _[toilet](https://packages.debian.org/bullseye/toilet) `0.3-1.3` - display large colourful characters in text mode_
 - ![](grey.png) _[converseen](https://packages.debian.org/bullseye/converseen) `0.9.9.0-1` - batch image converter and resizer_
+- ![](grey.png) _[findimagedupes](https://packages.debian.org/bullseye/findimagedupes) `2.18-7+b2` - Finds visually similar or duplicate images_
+- ![](grey.png) _[pngcrush](https://packages.debian.org/bullseye/pngcrush) `1.8.13-0.1` - optimizes PNG (Portable Network Graphics) files_
 - ![](grey.png) _[fbi](https://packages.debian.org/bullseye/fbi) `2.10-4` - Linux frame buffer image viewer_
 - ![](grey.png) _[gifsicle](https://packages.debian.org/bullseye/gifsicle) `1.92-2+b1` - Tool for manipulating GIF images_
 - ![](grey.png) _[jp2a](https://packages.debian.org/bullseye/jp2a) `1.1.0-1` - converts jpg and png images to ascii_
