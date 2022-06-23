@@ -73,7 +73,7 @@ test_imagesize:
 # rsync -avzP $BUILD_HOST:/var/debian-live-config/debian-live-config/iso/ ./
 test_kvm_bios:
 	# Run the resulting image in KVM/virt-manager (legacy BIOS mode)
-	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)iso/dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso" --memory 4096 --vcpu 2
+	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso" --memory 4096 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
@@ -81,7 +81,7 @@ test_kvm_bios:
 test_kvm_uefi:
 	# Run the resulting image in KVM/virt-manager (UEFI mode)
 	# UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
-	virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$$PWD/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom 'iso/dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso' --memory 4096 --vcpu 2
+	virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)dlc-$(LAST_TAG)-debian-bullseye-amd64.hybrid.iso" --memory 4096 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
