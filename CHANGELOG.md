@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
 
+### Removed
+- packages: remove [gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks)
+
 ### Changed
 - defaults/skel: autostart keepassxc on login
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`

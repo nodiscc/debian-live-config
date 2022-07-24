@@ -179,9 +179,8 @@ xfce4-screenshooter
 #Alt: flameshot
 
 #Section: Clocks/timers
-#Description: gnome-clocks
-gnome-clocks
 tty-clock
+#Alt: gnome-clocks
 #Alt: dclock
 #Alt: gtimer
 #Alt: stopwatch
