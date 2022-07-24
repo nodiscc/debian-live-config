@@ -13,9 +13,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
 
 ### Fixed
-
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
 - fix unattended-upgrades configuration (automatically update packages from Debian Backports)
+- fix xfce4 power manager unable to suspend the system on laptop lid close/low battery
+
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
 
