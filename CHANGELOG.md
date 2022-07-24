@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
 
 ### Changed
+- defaults/skel: autostart keepassxc on login
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
 
