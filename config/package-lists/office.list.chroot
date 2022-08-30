@@ -212,6 +212,9 @@ fonts-sil-gentium-basic
 fonts-ubuntu-title
 ttf-mscorefonts-installer
 xfonts-terminus
+#Alt: fonts-aenigma
+#Alt: fonts-agave
+#Alt: fonts-arapey
 #Alt: fonts-beteckna
 #Alt: fonts-cabin
 #Alt: fonts-comfortaa
@@ -228,6 +231,7 @@ xfonts-terminus
 #Alt: fonts-sil-galatia
 #Alt: fonts-sil-gentium
 #Alt: fonts-tomsontalks
+#Alt: fonts-train
 #Alt: fonts-vollkorn
 #Alt: fonts-yanone-kaffeesatz
 #fonts-pecita # buster only

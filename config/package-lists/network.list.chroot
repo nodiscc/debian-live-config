@@ -345,6 +345,7 @@ openssh-server
 #pcredz # buster only
 #dirsearch # bookmworm only
 #aws-nuke # bookworm only
+#firewallk # bookworm only
 #Section: Tor
 #Alt: tor-geoipdb
 #Alt: tor

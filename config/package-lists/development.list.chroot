@@ -129,6 +129,7 @@ live-build
 #Alt: live-task-mate
 #Alt: live-task-recommended
 #Alt: live-task-xfce
+#alpine-chroot-install # sid only
 
 #Section: Hex editors
 #Alt: wxhexeditor

@@ -34,6 +34,7 @@ vrms
 #Alt: packagekit-command-not-found
 #Alt: packagekit-gtk3-module
 #Alt: extrepo
+#Alt: policy-rcd-declarative-deny-all
 #pk-update-icon # buster only
 
 #Section: Task management/monitoring
