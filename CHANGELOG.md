@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - packages: remove [gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks)
 
 ### Changed
+- no longer install Linux kernel/firmware and NVIDIA drivers from backports, use versions from Debian Stable
 - defaults/skel: autostart keepassxc on login
 - defaults/skel: enable KeepassXC/Firefox integration by default
 - defaults/skel: add keytboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
@@ -22,6 +23,21 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
 - fix unattended-upgrades configuration (automatically update packages from Debian Backports)
 - fix xfce4 power manager unable to suspend the system on laptop lid close/low battery
+
+### Upgrade procedure
+
+If you have a system installed from a previous version of `debian-live-config`:
+
+- Recommended: [Backup](https://apps.gnome.org/app/org.gnome.DejaDup/) user data, [download](https://debian-live-config.readthedocs.io/en/latest/download-and-installation.html) the latest ISO image, reinstall (overwrite the existing installation), restore data from backups
+- To upgrade without reinstalling:
+
+```bash
+# remove (or comment out) APT pinning configuration
+sudo rm /etc/apt/preferences.d/99backports
+# optionally, update your configuration according to changes since the last release:
+# https://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1
+# /etc/skel modifications will only take effect after creating a new user account
+```
 
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
