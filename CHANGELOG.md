@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
-- packages: internet: add [purple-discord](https://packages.debian.org/bullseye/purple-discord (Discord messaging service plugin for pidgin/libpurple)
+- packages: internet: add [purple-discord](https://packages.debian.org/bullseye/purple-discord) (Discord messaging service plugin for pidgin/libpurple)
 
 ### Removed
 - packages: remove [gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks)
@@ -17,7 +17,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - no longer install Linux kernel/firmware and NVIDIA drivers from backports, use versions from Debian Stable
 - defaults/skel: autostart keepassxc on login
 - defaults/skel: enable KeepassXC/Firefox integration by default
-- defaults/skel: add keytboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
+- defaults/skel: add keyboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
 - firefox: always show the bookmarks toolbar (update user.js to v0.4.0)
