@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/libreoffice/1:7.0.4-4+deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/libreoffice/1:7.0.4-4+deb11u2">
 
 **[libreoffice](https://packages.debian.org/bullseye/libreoffice)** - office productivity suite (metapackage)
 
@@ -22,20 +22,20 @@
 -----------------------
 
 
-- ![](green.png) [libreoffice-writer](https://packages.debian.org/bullseye/libreoffice-writer) `1:7.0.4-4+deb11u1` - office productivity suite -- word processor
-- ![](green.png) [libreoffice-impress](https://packages.debian.org/bullseye/libreoffice-impress) `1:7.0.4-4+deb11u1` - office productivity suite -- presentation
-- ![](green.png) [libreoffice-draw](https://packages.debian.org/bullseye/libreoffice-draw) `1:7.0.4-4+deb11u1` - office productivity suite -- drawing
-- ![](green.png) [libreoffice-calc](https://packages.debian.org/bullseye/libreoffice-calc) `1:7.0.4-4+deb11u1` - office productivity suite -- spreadsheet
-- ![](green.png) [libreoffice-base](https://packages.debian.org/bullseye/libreoffice-base) `1:7.0.4-4+deb11u1` - office productivity suite -- database
-- ![](green.png) [libreoffice-gtk3](https://packages.debian.org/bullseye/libreoffice-gtk3) `1:7.0.4-4+deb11u1` - office productivity suite -- GTK+ 3 integration
-- ![](green.png) [libreoffice-java-common](https://packages.debian.org/bullseye/libreoffice-java-common) `1:7.0.4-4+deb11u1` - office productivity suite -- arch-independent Java support files
-- ![](green.png) [libreoffice-gnome](https://packages.debian.org/bullseye/libreoffice-gnome) `1:7.0.4-4+deb11u1` - office productivity suite -- GNOME integration
-- ![](green.png) [libreoffice-avmedia-backend-gstreamer](https://packages.debian.org/bullseye/libreoffice-avmedia-backend-gstreamer) `1:7.0.4-4+deb11u1` - transitional package for GStreamer backend for LibreOffice
+- ![](green.png) [libreoffice-writer](https://packages.debian.org/bullseye/libreoffice-writer) `1:7.0.4-4+deb11u2` - office productivity suite -- word processor
+- ![](green.png) [libreoffice-impress](https://packages.debian.org/bullseye/libreoffice-impress) `1:7.0.4-4+deb11u2` - office productivity suite -- presentation
+- ![](green.png) [libreoffice-draw](https://packages.debian.org/bullseye/libreoffice-draw) `1:7.0.4-4+deb11u2` - office productivity suite -- drawing
+- ![](green.png) [libreoffice-calc](https://packages.debian.org/bullseye/libreoffice-calc) `1:7.0.4-4+deb11u2` - office productivity suite -- spreadsheet
+- ![](green.png) [libreoffice-base](https://packages.debian.org/bullseye/libreoffice-base) `1:7.0.4-4+deb11u2` - office productivity suite -- database
+- ![](green.png) [libreoffice-gtk3](https://packages.debian.org/bullseye/libreoffice-gtk3) `1:7.0.4-4+deb11u2` - office productivity suite -- GTK+ 3 integration
+- ![](green.png) [libreoffice-java-common](https://packages.debian.org/bullseye/libreoffice-java-common) `1:7.0.4-4+deb11u2` - office productivity suite -- arch-independent Java support files
+- ![](green.png) [libreoffice-gnome](https://packages.debian.org/bullseye/libreoffice-gnome) `1:7.0.4-4+deb11u2` - office productivity suite -- GNOME integration
+- ![](green.png) [libreoffice-avmedia-backend-gstreamer](https://packages.debian.org/bullseye/libreoffice-avmedia-backend-gstreamer) `1:7.0.4-4+deb11u2` - transitional package for GStreamer backend for LibreOffice
 - ![](green.png) [libwmf-bin](https://packages.debian.org/bullseye/libwmf-bin) `0.2.8.4-17` - Windows metafile conversion tools
 - ![](green.png) [hyphen-fr](https://packages.debian.org/bullseye/hyphen-fr) `1:7.1.0~rc3-3` - French hyphenation patterns
-- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/bullseye/libreoffice-l10n-fr) `1:7.3.4~rc2-1~bpo11+1` - office productivity suite -- French language package
+- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/bullseye/libreoffice-l10n-fr) `1:7.0.4-4+deb11u2` - office productivity suite -- French language package
 - ![](green.png) [mythes-fr](https://packages.debian.org/bullseye/mythes-fr) `1:7.1.0~rc3-3` - French Thesaurus for LibreOffice
-- ![](green.png) [libreoffice-help-fr](https://packages.debian.org/bullseye/libreoffice-help-fr) `1:7.0.4-4+deb11u1` - office productivity suite -- French help
+- ![](green.png) [libreoffice-help-fr](https://packages.debian.org/bullseye/libreoffice-help-fr) `1:7.0.4-4+deb11u2` - office productivity suite -- French help
 - ![](grey.png) _[abiword](https://packages.debian.org/bullseye/abiword) `3.0.4~dfsg-3` - efficient, featureful word processor with collaboration_
 - ![](grey.png) _[calligraplan](https://packages.debian.org/bullseye/calligraplan) `1:3.3.0-1` - integrated project management and planning tool_
 - ![](grey.png) _[calligrasheets](https://packages.debian.org/bullseye/calligrasheets) `1:3.2.1+dfsg-2+b5` - spreadsheet for the Calligra Suite_
@@ -49,17 +49,17 @@
 - ![](grey.png) _[karbon](https://packages.debian.org/bullseye/karbon) `1:3.2.1+dfsg-2+b5` - vector graphics application for the Calligra Suite_
 - ![](grey.png) _[key2odp](https://packages.debian.org/bullseye/key2odp) `0.9.6-2` - Keynote to OpenDocument converter_
 - ![](grey.png) _[libreoffice-dmaths](https://packages.debian.org/bullseye/libreoffice-dmaths) `4.4.0.0+dfsg1-1` - Formula editing plug-in for LibreOffice Writer_
-- ![](grey.png) _[libreoffice-math](https://packages.debian.org/bullseye/libreoffice-math) `1:7.0.4-4+deb11u1` - office productivity suite -- equation editor_
-- ![](grey.png) _[libreoffice-librelogo](https://packages.debian.org/bullseye/libreoffice-librelogo) `1:7.0.4-4+deb11u1` - Logo-like programming language for LibreOffice_
-- ![](grey.png) _[libreoffice-style-sifr](https://packages.debian.org/bullseye/libreoffice-style-sifr) `1:7.0.4-4+deb11u1` - office productivity suite -- Sifr symbol style_
-- ![](grey.png) _[libreoffice-nlpsolver](https://packages.debian.org/bullseye/libreoffice-nlpsolver) `0.9+LibO7.0.4-4+deb11u1` - "Solver for Nonlinear Programming" extension for LibreOffice_
-- ![](grey.png) _[libreoffice-report-builder](https://packages.debian.org/bullseye/libreoffice-report-builder) `1:7.0.4-4+deb11u1` - LibreOffice component for building database reports_
-- ![](grey.png) _[libreoffice-script-provider-js](https://packages.debian.org/bullseye/libreoffice-script-provider-js) `1:7.0.4-4+deb11u1` - JavaScript script support provider for LibreOffice scripting framework_
-- ![](grey.png) _[libreoffice-script-provider-python](https://packages.debian.org/bullseye/libreoffice-script-provider-python) `1:7.0.4-4+deb11u1` - Python script support provider for LibreOffice scripting framework_
-- ![](grey.png) _[libreoffice-sdbc-postgresql](https://packages.debian.org/bullseye/libreoffice-sdbc-postgresql) `1:7.0.4-4+deb11u1` - PostgreSQL SDBC driver for LibreOffice_
-- ![](grey.png) _[libreoffice-wiki-publisher](https://packages.debian.org/bullseye/libreoffice-wiki-publisher) `1.2.0+LibO7.0.4-4+deb11u1` - LibreOffice extension for working with MediaWiki articles_
+- ![](grey.png) _[libreoffice-math](https://packages.debian.org/bullseye/libreoffice-math) `1:7.0.4-4+deb11u2` - office productivity suite -- equation editor_
+- ![](grey.png) _[libreoffice-librelogo](https://packages.debian.org/bullseye/libreoffice-librelogo) `1:7.0.4-4+deb11u2` - Logo-like programming language for LibreOffice_
+- ![](grey.png) _[libreoffice-style-sifr](https://packages.debian.org/bullseye/libreoffice-style-sifr) `1:7.0.4-4+deb11u2` - office productivity suite -- Sifr symbol style_
+- ![](grey.png) _[libreoffice-nlpsolver](https://packages.debian.org/bullseye/libreoffice-nlpsolver) `0.9+LibO7.0.4-4+deb11u2` - "Solver for Nonlinear Programming" extension for LibreOffice_
+- ![](grey.png) _[libreoffice-report-builder](https://packages.debian.org/bullseye/libreoffice-report-builder) `1:7.0.4-4+deb11u2` - LibreOffice component for building database reports_
+- ![](grey.png) _[libreoffice-script-provider-js](https://packages.debian.org/bullseye/libreoffice-script-provider-js) `1:7.0.4-4+deb11u2` - JavaScript script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-script-provider-python](https://packages.debian.org/bullseye/libreoffice-script-provider-python) `1:7.0.4-4+deb11u2` - Python script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-sdbc-postgresql](https://packages.debian.org/bullseye/libreoffice-sdbc-postgresql) `1:7.0.4-4+deb11u2` - PostgreSQL SDBC driver for LibreOffice_
+- ![](grey.png) _[libreoffice-wiki-publisher](https://packages.debian.org/bullseye/libreoffice-wiki-publisher) `1.2.0+LibO7.0.4-4+deb11u2` - LibreOffice extension for working with MediaWiki articles_
 - ![](grey.png) _[lyx](https://packages.debian.org/bullseye/lyx) `2.3.6-1` - document processor_
-- ![](grey.png) _[python3-uno](https://packages.debian.org/bullseye/python3-uno) `1:7.0.4-4+deb11u1` - Python-UNO bridge_
+- ![](grey.png) _[python3-uno](https://packages.debian.org/bullseye/python3-uno) `1:7.0.4-4+deb11u2` - Python-UNO bridge_
 - ![](grey.png) _[retext](https://packages.debian.org/bullseye/retext) `7.2.1-3` - Simple text editor for Markdown and reStructuredText_
 - ![](grey.png) _[scribus](https://packages.debian.org/bullseye/scribus) `1.5.6.1+dfsg-2` - Open Source Desktop Page Layout_
 - ![](grey.png) _[scribus-template](https://packages.debian.org/bullseye/scribus-template) `1.2.4.1-3` - additional scribus templates_
@@ -302,7 +302,7 @@
 - ![](green.png) [fonts-lobster](https://packages.debian.org/bullseye/fonts-lobster) `2.0-2.1` - bold condensed script with many ligatures and alternates
 - ![](green.png) [fonts-lobstertwo](https://packages.debian.org/bullseye/fonts-lobstertwo) `2.0-2.1` - updated and improved family version of the Lobster font
 - ![](green.png) [fonts-ocr-a](https://packages.debian.org/bullseye/fonts-ocr-a) `1.0-10` - ANSI font readable by the computers of the 1960s
-- ![](green.png) [fonts-opensymbol](https://packages.debian.org/bullseye/fonts-opensymbol) `2:102.11+LibO7.0.4-4+deb11u1` - OpenSymbol TrueType font
+- ![](green.png) [fonts-opensymbol](https://packages.debian.org/bullseye/fonts-opensymbol) `2:102.11+LibO7.0.4-4+deb11u2` - OpenSymbol TrueType font
 - ![](green.png) [fonts-roboto](https://packages.debian.org/bullseye/fonts-roboto) `2:0~20170802-3` - metapackage to pull in Roboto fonts
 - ![](green.png) [fonts-rufscript](https://packages.debian.org/bullseye/fonts-rufscript) `010-6` - handwriting-based font for Latin characters
 - ![](green.png) [fonts-sil-andika](https://packages.debian.org/bullseye/fonts-sil-andika) `5.000-3.1` - extended smart Unicode Latin/Greek font family for literacy
@@ -310,6 +310,9 @@
 - ![](green.png) [fonts-ubuntu-title](https://packages.debian.org/bullseye/fonts-ubuntu-title) `1:0.3-2.1` - font used to create the Ubuntu logo (2004‒2010)
 - ![](green.png) [ttf-mscorefonts-installer](https://packages.debian.org/bullseye/ttf-mscorefonts-installer) `3.8` - Installer for Microsoft TrueType core fonts
 - ![](green.png) [xfonts-terminus](https://packages.debian.org/bullseye/xfonts-terminus) `4.48-3` - Terminus - fast reading fixed-width PCF fonts for X servers
+- ![](grey.png) _[fonts-aenigma](https://packages.debian.org/bullseye/fonts-aenigma) `0.0.20080511+dfsg-4` - 465 free TrueType fonts by Brian Kent_
+- ![](grey.png) _[fonts-agave](https://packages.debian.org/bullseye/fonts-agave) `37-1` - monospaces programming font_
+- ![](grey.png) _[fonts-arapey](https://packages.debian.org/bullseye/fonts-arapey) `0+git20200408-2` - contemporary modern typeface_
 - ![](grey.png) _[fonts-beteckna](https://packages.debian.org/bullseye/fonts-beteckna) `0.5-3` - geometric Futura-like sans-serif TrueType font_
 - ![](grey.png) _[fonts-cabin](https://packages.debian.org/bullseye/fonts-cabin) `1.5-3` - humanist sans serif font_
 - ![](grey.png) _[fonts-comfortaa](https://packages.debian.org/bullseye/fonts-comfortaa) `3.001-3` - stylish, modern true type font_
@@ -326,5 +329,6 @@
 - ![](grey.png) _[fonts-sil-galatia](https://packages.debian.org/bullseye/fonts-sil-galatia) `2.1-6` - font family for Latin-1 and Greek (polytonic support)_
 - ![](grey.png) _[fonts-sil-gentium](https://packages.debian.org/bullseye/fonts-sil-gentium) `20081126:1.03-4` - extended Unicode Latin font ("a typeface for the nations")_
 - ![](grey.png) _[fonts-tomsontalks](https://packages.debian.org/bullseye/fonts-tomsontalks) `1.1-9` - comic lettering font_
+- ![](grey.png) _[fonts-train](https://packages.debian.org/bullseye/fonts-train) `1.000-20210120-2` - gothic-style typeface made with an outer and inner line_
 - ![](grey.png) _[fonts-vollkorn](https://packages.debian.org/bullseye/fonts-vollkorn) `4.105-2` - serif body text type_
 - ![](grey.png) _[fonts-yanone-kaffeesatz](https://packages.debian.org/bullseye/fonts-yanone-kaffeesatz) `0.20151005-3` - Font in four weights, reminiscent of 1920s coffee house typography_

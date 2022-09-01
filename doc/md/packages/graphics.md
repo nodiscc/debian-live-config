@@ -166,7 +166,7 @@
 - ![](grey.png) _[zint-qt](https://packages.debian.org/bullseye/zint-qt) `2.9.1-1.1` - Zint Barcode Studio, a QT frontend to zint_
 #### 3D editors
 
-- ![](grey.png) _[blender](https://packages.debian.org/bullseye/blender) `2.83.5+dfsg-5+b2` - Very fast and versatile 3D modeller/renderer_
+- ![](grey.png) _[blender](https://packages.debian.org/bullseye/blender) `2.83.5+dfsg-5+deb11u1` - Very fast and versatile 3D modeller/renderer_
 - ![](grey.png) _[g3dviewer](https://packages.debian.org/bullseye/g3dviewer) `0.2.99.5~svn130-11` - 3D model viewer for GTK+_
 - ![](grey.png) _[sweethome3d](https://packages.debian.org/bullseye/sweethome3d) `6.4.2+dfsg-2` - Interior 2D design application with 3D preview_
 - ![](grey.png) _[sweethome3d-furniture](https://packages.debian.org/bullseye/sweethome3d-furniture) `1.8-1` - Interior 2D design application with 3D preview (additional furniture)_
@@ -176,7 +176,7 @@
 #### CAD editors
 
 - ![](grey.png) _[librecad](https://packages.debian.org/bullseye/librecad) `2.1.3-1.3+deb11u1` - Computer-aided design (CAD) system_
-- ![](grey.png) _[kicad](https://packages.debian.org/bullseye/kicad) `5.1.9+dfsg1-1` - Electronic schematic and PCB design software_
+- ![](grey.png) _[kicad](https://packages.debian.org/bullseye/kicad) `5.1.9+dfsg1-1+deb11u1` - Electronic schematic and PCB design software_
 - ![](grey.png) _[freecad](https://packages.debian.org/bullseye/freecad) `0.19.1+dfsg1-2` - Extensible Open Source CAx program_
 - ![](grey.png) _[pcb-gtk](https://packages.debian.org/bullseye/pcb-gtk) `1:4.2.2-1` - printed circuit board (pcb) design program - GTK+ interface_
 - ![](grey.png) _[qelectrotech](https://packages.debian.org/bullseye/qelectrotech) `1:0.7.0-1+b1` - Electric schematic editor_

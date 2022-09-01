@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/vlc/3.0.16-1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/vlc/3.0.17.4-0+deb11u1">
 
 **[vlc](https://packages.debian.org/bullseye/vlc)** - multimedia player and streamer
 
@@ -39,16 +39,16 @@
 -----------------------
 
 
-- ![](green.png) [vlc](https://packages.debian.org/bullseye/vlc) `3.0.16-1` - multimedia player and streamer
-- ![](green.png) [vlc-plugin-notify](https://packages.debian.org/bullseye/vlc-plugin-notify) `3.0.16-1` - LibNotify plugin for VLC
-- ![](green.png) [vlc-plugin-jack](https://packages.debian.org/bullseye/vlc-plugin-jack) `3.0.16-1` - JACK audio plugins for VLC
-- ![](green.png) [vlc-plugin-samba](https://packages.debian.org/bullseye/vlc-plugin-samba) `3.0.16-1` - Samba plugin for VLC
-- ![](green.png) [vlc-plugin-skins2](https://packages.debian.org/bullseye/vlc-plugin-skins2) `3.0.16-1` - multimedia player and streamer (Skins2 plugin)
-- ![](green.png) [vlc-plugin-video-splitter](https://packages.debian.org/bullseye/vlc-plugin-video-splitter) `3.0.16-1` - multimedia player and streamer (video splitter plugins)
-- ![](green.png) [vlc-plugin-visualization](https://packages.debian.org/bullseye/vlc-plugin-visualization) `3.0.16-1` - multimedia player and streamer (visualization plugins)
-- ![](green.png) [vlc-plugin-video-output](https://packages.debian.org/bullseye/vlc-plugin-video-output) `3.0.16-1` - multimedia player and streamer (video output plugins)
-- ![](green.png) [vlc-plugin-base](https://packages.debian.org/bullseye/vlc-plugin-base) `3.0.16-1` - multimedia player and streamer (base plugins)
-- ![](green.png) [vlc-plugin-qt](https://packages.debian.org/bullseye/vlc-plugin-qt) `3.0.16-1` - multimedia player and streamer (Qt plugin)
+- ![](green.png) [vlc](https://packages.debian.org/bullseye/vlc) `3.0.17.4-0+deb11u1` - multimedia player and streamer
+- ![](green.png) [vlc-plugin-notify](https://packages.debian.org/bullseye/vlc-plugin-notify) `3.0.17.4-0+deb11u1` - LibNotify plugin for VLC
+- ![](green.png) [vlc-plugin-jack](https://packages.debian.org/bullseye/vlc-plugin-jack) `3.0.17.4-0+deb11u1` - JACK audio plugins for VLC
+- ![](green.png) [vlc-plugin-samba](https://packages.debian.org/bullseye/vlc-plugin-samba) `3.0.17.4-0+deb11u1` - Samba plugin for VLC
+- ![](green.png) [vlc-plugin-skins2](https://packages.debian.org/bullseye/vlc-plugin-skins2) `3.0.17.4-0+deb11u1` - multimedia player and streamer (Skins2 plugin)
+- ![](green.png) [vlc-plugin-video-splitter](https://packages.debian.org/bullseye/vlc-plugin-video-splitter) `3.0.17.4-0+deb11u1` - multimedia player and streamer (video splitter plugins)
+- ![](green.png) [vlc-plugin-visualization](https://packages.debian.org/bullseye/vlc-plugin-visualization) `3.0.17.4-0+deb11u1` - multimedia player and streamer (visualization plugins)
+- ![](green.png) [vlc-plugin-video-output](https://packages.debian.org/bullseye/vlc-plugin-video-output) `3.0.17.4-0+deb11u1` - multimedia player and streamer (video output plugins)
+- ![](green.png) [vlc-plugin-base](https://packages.debian.org/bullseye/vlc-plugin-base) `3.0.17.4-0+deb11u1` - multimedia player and streamer (base plugins)
+- ![](green.png) [vlc-plugin-qt](https://packages.debian.org/bullseye/vlc-plugin-qt) `3.0.17.4-0+deb11u1` - multimedia player and streamer (Qt plugin)
 - ![](green.png) [libdvd-pkg](https://packages.debian.org/bullseye/libdvd-pkg) `1.4.2-1-1` - DVD-Video playing library - installer
 - ![](green.png) [mpv](https://packages.debian.org/bullseye/mpv) `0.32.0-3` - video player based on MPlayer/mplayer2
 - ![](grey.png) _[freetuxtv](https://packages.debian.org/bullseye/freetuxtv) `0.6.8~dfsg1-1+b2` - Internet television and radio player_
@@ -61,7 +61,7 @@
 - ![](grey.png) _[subdownloader](https://packages.debian.org/bullseye/subdownloader) `2.1.0-3` - subtitle download/upload manager for video files_
 - ![](grey.png) _[totem](https://packages.debian.org/bullseye/totem) `3.38.0-2` - Simple media player for the GNOME desktop based on GStreamer_
 - ![](grey.png) _[totem-plugins](https://packages.debian.org/bullseye/totem-plugins) `3.38.0-2` - Plugins for the Totem media player_
-- ![](grey.png) _[vlc-plugin-svg](https://packages.debian.org/bullseye/vlc-plugin-svg) `3.0.16-1` - SVG plugin for VLC_
+- ![](grey.png) _[vlc-plugin-svg](https://packages.debian.org/bullseye/vlc-plugin-svg) `3.0.17.4-0+deb11u1` - SVG plugin for VLC_
 - ![](grey.png) _[celluloid](https://packages.debian.org/bullseye/celluloid) `0.20-2` - simple GTK+ frontend for mpv_
 #### Music players/library managers
 
@@ -91,7 +91,7 @@
 - ![](grey.png) _[gnome-music](https://packages.debian.org/bullseye/gnome-music) `3.36.7-1` - Music is the new GNOME music playing application_
 - ![](grey.png) _[rhythmbox](https://packages.debian.org/bullseye/rhythmbox) `3.4.4-4` - music player and organizer for GNOME_
 - ![](grey.png) _[rhythmbox-plugins](https://packages.debian.org/bullseye/rhythmbox-plugins) `3.4.4-4` - plugins for rhythmbox music player_
-- ![](grey.png) _[clementine](https://packages.debian.org/bullseye/clementine) `1.4.0~rc1+git347-gfc4cb6fc7+dfsg-1+b1` - modern music player and library organizer_
+- ![](grey.png) _[clementine](https://packages.debian.org/bullseye/clementine) `1.4.0~rc1+git347-gfc4cb6fc7+dfsg-1+deb11u1` - modern music player and library organizer_
 - ![](grey.png) _[audacious](https://packages.debian.org/bullseye/audacious) `4.0.5-1` - small and fast audio player which supports lots of formats_
 - ![](grey.png) _[audacious-plugins](https://packages.debian.org/bullseye/audacious-plugins) `4.0.5-1` - Base plugins for audacious_
 - ![](grey.png) _[projectm-pulseaudio](https://packages.debian.org/bullseye/projectm-pulseaudio) `3.1.7-1.1` - projectM PulseAudio module_
@@ -216,9 +216,9 @@
 - ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/bullseye/gstreamer1.0-libav) `1.18.4-3` - ffmpeg plugin for GStreamer
 - ![](green.png) [gstreamer1.0-plugins-bad](https://packages.debian.org/bullseye/gstreamer1.0-plugins-bad) `1.18.4-3` - GStreamer plugins from the "bad" set
 - ![](green.png) [gstreamer1.0-plugins-base](https://packages.debian.org/bullseye/gstreamer1.0-plugins-base) `1.18.4-2` - GStreamer plugins from the "base" set
-- ![](green.png) [gstreamer1.0-plugins-good](https://packages.debian.org/bullseye/gstreamer1.0-plugins-good) `1.18.4-2` - GStreamer plugins from the "good" set
+- ![](green.png) [gstreamer1.0-plugins-good](https://packages.debian.org/bullseye/gstreamer1.0-plugins-good) `1.18.4-2+deb11u1` - GStreamer plugins from the "good" set
 - ![](green.png) [gstreamer1.0-plugins-ugly](https://packages.debian.org/bullseye/gstreamer1.0-plugins-ugly) `1.18.4-2` - GStreamer plugins from the "ugly" set
-- ![](green.png) [gstreamer1.0-pulseaudio](https://packages.debian.org/bullseye/gstreamer1.0-pulseaudio) `1.18.4-2` - GStreamer plugin for PulseAudio (transitional package)
+- ![](green.png) [gstreamer1.0-pulseaudio](https://packages.debian.org/bullseye/gstreamer1.0-pulseaudio) `1.18.4-2+deb11u1` - GStreamer plugin for PulseAudio (transitional package)
 - ![](green.png) [gstreamer1.0-tools](https://packages.debian.org/bullseye/gstreamer1.0-tools) `1.18.4-2.1` - Tools for use with GStreamer
 - ![](green.png) [gstreamer1.0-x](https://packages.debian.org/bullseye/gstreamer1.0-x) `1.18.4-2` - GStreamer plugins for X11 and Pango
 - ![](green.png) [lame](https://packages.debian.org/bullseye/lame) `3.100-3` - MP3 encoding library (frontend)
@@ -240,7 +240,7 @@
 - ![](grey.png) _[x265](https://packages.debian.org/bullseye/x265) `3.4-2` - H.265/HEVC video stream encoder_
 - ![](grey.png) _[qhimdtransfer](https://packages.debian.org/bullseye/qhimdtransfer) `0.9.16-2+b1` - Transfer software for HiMD Walkman_
 - ![](grey.png) _[minidisc-utils](https://packages.debian.org/bullseye/minidisc-utils) `0.9.16-2+b1` - Command line utilities for MiniDisc access_
-- ![](grey.png) _[mat](https://packages.debian.org/bullseye/mat) `0.12.1-2` - Transitional package to migrate to mat2_
+- ![](grey.png) _[mat](https://packages.debian.org/bullseye/mat) `0.12.1-2+deb11u1` - Transitional package to migrate to mat2_
 - ![](grey.png) _[ffmpegfs](https://packages.debian.org/bullseye/ffmpegfs) `2.2-1` - Fuse Multi Media Filesystem_
 #### Audio CD extraction
 

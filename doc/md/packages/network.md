@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/91.10.0esr-1~deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/91.13.0esr-1~deb11u1">
 
 **[firefox-esr](https://packages.debian.org/bullseye/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
 
@@ -22,13 +22,13 @@
 -----------------------
 
 
-- ![](green.png) [firefox-esr](https://packages.debian.org/bullseye/firefox-esr) `91.10.0esr-1~deb11u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
-- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bullseye/firefox-esr-l10n-fr) `91.10.0esr-1~deb11u1` - French language package for Firefox ESR
-- ![](green.png) [webext-ublock-origin](https://packages.debian.org/bullseye/webext-ublock-origin) `1.37.0+dfsg-1~deb11u1` - transitional package
+- ![](green.png) [firefox-esr](https://packages.debian.org/bullseye/firefox-esr) `91.13.0esr-1~deb11u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bullseye/firefox-esr-l10n-fr) `91.13.0esr-1~deb11u1` - French language package for Firefox ESR
+- ![](green.png) [webext-ublock-origin](https://packages.debian.org/bullseye/webext-ublock-origin) `1.42.0+dfsg-1~deb11u1` - transitional package
 - ![](grey.png) _[webext-https-everywhere](https://packages.debian.org/bullseye/webext-https-everywhere) `2021.1.27-1` - Extension to force the use of HTTPS on many sites_
 - ![](grey.png) _[midori](https://packages.debian.org/bullseye/midori) `7.0-2.1` - fast, lightweight graphical web browser_
 - ![](grey.png) _[luakit](https://packages.debian.org/bullseye/luakit) `1:2.2.1-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `102.0.5005.115-1~deb11u1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `104.0.5112.101-1~deb11u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/bullseye/nss-passwords) `0.3-1` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/bullseye/w3m) `0.5.3+git20210102-6` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/bullseye/links2) `2.21-1+b1` - Web browser running in both graphics and text mode_
@@ -66,6 +66,7 @@
 - ![](green.png) [pidgin-extprefs](https://packages.debian.org/bullseye/pidgin-extprefs) `0.7-3` - extended preferences plugin for the instant messenger pidgin
 - ![](green.png) [pidgin-gnome-keyring](https://packages.debian.org/bullseye/pidgin-gnome-keyring) `2.0-2` - integrates pidgin (and libpurple) with the system keyring
 - ![](green.png) [telegram-purple](https://packages.debian.org/bullseye/telegram-purple) `1.4.3-3` - Purple plugin to support Telegram
+- ![](green.png) [purple-discord](https://packages.debian.org/bullseye/purple-discord) `0.9.2020.10.14.git.8216905-1` - Discord messaging service plugin for libpurple
 - ![](grey.png) _[empathy](https://packages.debian.org/bullseye/empathy) `3.25.90+really3.12.14-2` - GNOME multi-protocol chat and call client_
 - ![](grey.png) _[finch](https://packages.debian.org/bullseye/finch) `2.14.1-1` - text-based multi-protocol instant messaging client_
 - ![](grey.png) _[telegram-desktop](https://packages.debian.org/bullseye/telegram-desktop) `3.1.1+ds-1~deb11u2` - fast and secure messaging application_
@@ -109,7 +110,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:91.10.0-1~deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:91.13.0-1~deb11u1">
 
 **[thunderbird](https://packages.debian.org/bullseye/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
 
@@ -127,8 +128,8 @@
 -----------------------
 
 
-- ![](green.png) [thunderbird](https://packages.debian.org/bullseye/thunderbird) `1:91.10.0-1~deb11u1` - mail/news client with RSS, chat and integrated spam filter support
-- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bullseye/thunderbird-l10n-fr) `1:91.10.0-1~deb11u1` - French language package for Thunderbird
+- ![](green.png) [thunderbird](https://packages.debian.org/bullseye/thunderbird) `1:91.13.0-1~deb11u1` - mail/news client with RSS, chat and integrated spam filter support
+- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bullseye/thunderbird-l10n-fr) `1:91.13.0-1~deb11u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/bullseye/geary) `3.38.1-1` - lightweight email client designed for the GNOME desktop_
 - ![](grey.png) _[claws-mail](https://packages.debian.org/bullseye/claws-mail) `3.17.8-1+b1` - Fast, lightweight and user-friendly GTK+2 based email client_
 - ![](grey.png) _[claws-mail-plugins](https://packages.debian.org/bullseye/claws-mail-plugins) `3.17.8-1` - Installs plugins for the Claws Mail mailer_
@@ -213,14 +214,14 @@
 - ![](grey.png) _[btfs](https://packages.debian.org/bullseye/btfs) `2.24-1` - access torrent files as a filesystem_
 #### Media download
 
-- ![](green.png) [yt-dlp](https://packages.debian.org/bullseye/yt-dlp) `2022.05.18-1~bpo11+1` - downloader of videos from YouTube and other sites
+- ![](green.png) [yt-dlp](https://packages.debian.org/bullseye/yt-dlp) `2022.08.19-1~bpo11+1` - downloader of videos from YouTube and other sites
 - ![](grey.png) _[youtube-dl](https://packages.debian.org/bullseye/youtube-dl) `2021.06.06-1` - downloader of videos from YouTube and other sites_
 - ![](grey.png) _[streamlink](https://packages.debian.org/bullseye/streamlink) `2.0.0-1` - CLI for extracting video streams from various websites to a video player_
 - ![](grey.png) _[minitube](https://packages.debian.org/bullseye/minitube) `3.6.1-1` - Native YouTube client_
 - ![](grey.png) _[smtube](https://packages.debian.org/bullseye/smtube) `18.3.0-1+b1` - YouTube videos browser_
 #### Downloaders/web crawlers
 
-- ![](green.png) [curl](https://packages.debian.org/bullseye/curl) `7.74.0-1.3+deb11u1` - command line tool for transferring data with URL syntax
+- ![](green.png) [curl](https://packages.debian.org/bullseye/curl) `7.74.0-1.3+deb11u2` - command line tool for transferring data with URL syntax
 - ![](green.png) [wget](https://packages.debian.org/bullseye/wget) `1.21-1+deb11u1` - retrieves files from the web
 - ![](green.png) [kiwix](https://packages.debian.org/bullseye/kiwix) `2.0.5-3` - offline Wikipedia reader
 - ![](green.png) [kiwix-tools](https://packages.debian.org/bullseye/kiwix-tools) `3.1.2-3` - collection of Kiwix tools
@@ -239,9 +240,9 @@
 - ![](grey.png) _[feedreader](https://packages.debian.org/bullseye/feedreader) `2.10.0-1.1` - simple client for online RSS services like tt-rss and others_
 #### LAN file sharing
 
-- ![](grey.png) _[samba](https://packages.debian.org/bullseye/samba) `2:4.13.13+dfsg-1~deb11u4` - SMB/CIFS file, print, and login server for Unix_
-- ![](grey.png) _[samba-vfs-modules](https://packages.debian.org/bullseye/samba-vfs-modules) `2:4.13.13+dfsg-1~deb11u4` - Samba Virtual FileSystem plugins_
-- ![](grey.png) _[smbclient](https://packages.debian.org/bullseye/smbclient) `2:4.13.13+dfsg-1~deb11u4` - command-line SMB/CIFS clients for Unix_
+- ![](grey.png) _[samba](https://packages.debian.org/bullseye/samba) `2:4.13.13+dfsg-1~deb11u5` - SMB/CIFS file, print, and login server for Unix_
+- ![](grey.png) _[samba-vfs-modules](https://packages.debian.org/bullseye/samba-vfs-modules) `2:4.13.13+dfsg-1~deb11u5` - Samba Virtual FileSystem plugins_
+- ![](grey.png) _[smbclient](https://packages.debian.org/bullseye/smbclient) `2:4.13.13+dfsg-1~deb11u5` - command-line SMB/CIFS clients for Unix_
 #### Network management
 
 
@@ -275,12 +276,12 @@
 - ![](grey.png) _[wpagui](https://packages.debian.org/bullseye/wpagui) `2:2.9.0-21` - graphical user interface for wpa_supplicant_
 - ![](grey.png) _[network-manager-ssh](https://packages.debian.org/bullseye/network-manager-ssh) `1.2.11-1` - network management framework (SSH plugin core)_
 - ![](grey.png) _[efax-gtk](https://packages.debian.org/bullseye/efax-gtk) `3.2.8-2.2` - front end in GTK+ for the efax program_
-- ![](grey.png) _[avahi-daemon](https://packages.debian.org/bullseye/avahi-daemon) `0.8-5` - Avahi mDNS/DNS-SD daemon_
+- ![](grey.png) _[avahi-daemon](https://packages.debian.org/bullseye/avahi-daemon) `0.8-5+deb11u1` - Avahi mDNS/DNS-SD daemon_
 - ![](grey.png) _[libnss-mdns](https://packages.debian.org/bullseye/libnss-mdns) `0.14.1-2` - NSS module for Multicast DNS name resolution_
-- ![](grey.png) _[avahi-autoipd](https://packages.debian.org/bullseye/avahi-autoipd) `0.8-5` - Avahi IPv4LL network address configuration daemon_
-- ![](grey.png) _[avahi-dnsconfd](https://packages.debian.org/bullseye/avahi-dnsconfd) `0.8-5` - Avahi DNS configuration tool_
-- ![](grey.png) _[avahi-discover](https://packages.debian.org/bullseye/avahi-discover) `0.8-5` - Service discover user interface for avahi_
-- ![](grey.png) _[avahi-ui-utils](https://packages.debian.org/bullseye/avahi-ui-utils) `0.8-5` - Avahi GTK+ utilities_
+- ![](grey.png) _[avahi-autoipd](https://packages.debian.org/bullseye/avahi-autoipd) `0.8-5+deb11u1` - Avahi IPv4LL network address configuration daemon_
+- ![](grey.png) _[avahi-dnsconfd](https://packages.debian.org/bullseye/avahi-dnsconfd) `0.8-5+deb11u1` - Avahi DNS configuration tool_
+- ![](grey.png) _[avahi-discover](https://packages.debian.org/bullseye/avahi-discover) `0.8-5+deb11u1` - Service discover user interface for avahi_
+- ![](grey.png) _[avahi-ui-utils](https://packages.debian.org/bullseye/avahi-ui-utils) `0.8-5+deb11u1` - Avahi GTK+ utilities_
 #### Cellphone and modem support
 
 - ![](grey.png) _[modemmanager](https://packages.debian.org/bullseye/modemmanager) `1.14.12-0.2` - D-Bus service for managing modems_
@@ -311,7 +312,7 @@
 - ![](green.png) [bluetooth](https://packages.debian.org/bullseye/bluetooth) `5.55-3.1` - Bluetooth support (metapackage)
 - ![](green.png) [blueman](https://packages.debian.org/bullseye/blueman) `2.1.4-1+b1` - Graphical bluetooth manager
 - ![](green.png) [crda](https://packages.debian.org/bullseye/crda) `4.14+git20191112.9856751-1` - wireless Central Regulatory Domain Agent
-- ![](green.png) [wireless-regdb](https://packages.debian.org/bullseye/wireless-regdb) `2020.04.29-2` - wireless regulatory database for Linux
+- ![](green.png) [wireless-regdb](https://packages.debian.org/bullseye/wireless-regdb) `2022.04.08-2~deb11u1` - wireless regulatory database for Linux
 - ![](grey.png) _[gnome-bluetooth](https://packages.debian.org/bullseye/gnome-bluetooth) `3.34.3-2` - GNOME Bluetooth tools_
 - ![](grey.png) _[gnome-user-share](https://packages.debian.org/bullseye/gnome-user-share) `3.34.0-2` - User level public file sharing via WebDAV_
 - ![](grey.png) _[ganyremote](https://packages.debian.org/bullseye/ganyremote) `8.1-1.1` - GTK+ frontend for anyRemote_
@@ -413,7 +414,7 @@
 - ![](grey.png) _[thc-ipv6](https://packages.debian.org/bullseye/thc-ipv6) `3.8-1` - The Hacker Choice's IPv6 Attack Toolkit_
 - ![](grey.png) _[trickle](https://packages.debian.org/bullseye/trickle) `1.07-10.1+b2` - user-space bandwidth shaper_
 - ![](grey.png) _[tshark](https://packages.debian.org/bullseye/tshark) `3.4.10-0+deb11u1` - network traffic analyzer - console version_
-- ![](grey.png) _[usbip](https://packages.debian.org/bullseye/usbip) `2.0+5.10.120-1` - USB device sharing system over IP network_
+- ![](grey.png) _[usbip](https://packages.debian.org/bullseye/usbip) `2.0+5.10.136-1` - USB device sharing system over IP network_
 - ![](grey.png) _[vnstat](https://packages.debian.org/bullseye/vnstat) `2.6-3` - console-based network traffic monitor_
 - ![](grey.png) _[vnstati](https://packages.debian.org/bullseye/vnstati) `2.6-3` - image output support for vnStat_
 - ![](grey.png) _[wireshark](https://packages.debian.org/bullseye/wireshark) `3.4.10-0+deb11u1` - network traffic analyzer - meta-package_
@@ -444,7 +445,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/openssh-server/1:8.4p1-5">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/openssh-server/1:8.4p1-5+deb11u1">
 
 **[openssh-server](https://packages.debian.org/bullseye/openssh-server)** - secure shell (SSH) server, for secure access from remote machines
 
@@ -458,7 +459,7 @@
 -----------------------
 
 
-- ![](green.png) [openssh-server](https://packages.debian.org/bullseye/openssh-server) `1:8.4p1-5` - secure shell (SSH) server, for secure access from remote machines
+- ![](green.png) [openssh-server](https://packages.debian.org/bullseye/openssh-server) `1:8.4p1-5+deb11u1` - secure shell (SSH) server, for secure access from remote machines
 - ![](grey.png) _[barrier](https://packages.debian.org/bullseye/barrier) `2.3.3+dfsg-1.1` - Share mouse, keyboard and clipboard over the network_
 - ![](grey.png) _[xpra](https://packages.debian.org/bullseye/xpra) `3.0.13+dfsg1-1` - tool to detach/reattach running X programs_
 - ![](grey.png) _[lightdm-remote-session-x2go](https://packages.debian.org/bullseye/lightdm-remote-session-x2go) `0.0.2.0-2` - LightDM Remote Logon Support for X2Go sessions_

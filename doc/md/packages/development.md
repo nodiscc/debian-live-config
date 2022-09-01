@@ -130,7 +130,7 @@
 #### Live system
 
 - ![](green.png) [live-build](https://packages.debian.org/bullseye/live-build) `1:20210407` - Live System Build Components
-- ![](grey.png) _[debootstrap](https://packages.debian.org/bullseye/debootstrap) `1.0.123` - Bootstrap a basic Debian system_
+- ![](grey.png) _[debootstrap](https://packages.debian.org/bullseye/debootstrap) `1.0.123+deb11u1` - Bootstrap a basic Debian system_
 - ![](grey.png) _[live-config-doc](https://packages.debian.org/bullseye/live-config-doc) `11.0.3` - Live System Configuration Components (documentation)_
 - ![](grey.png) _[live-manual-pdf](https://packages.debian.org/bullseye/live-manual-pdf) `2:20151217.1` - Live Systems Documentation (pdf)_
 - ![](grey.png) _[live-manual-html](https://packages.debian.org/bullseye/live-manual-html) `2:20151217.1` - Live Systems Documentation (html)_
@@ -167,7 +167,7 @@
 - ![](grey.png) _[csstidy](https://packages.debian.org/bullseye/csstidy) `1.4-6` - CSS parser and optimiser_
 - ![](grey.png) _[sqlite3](https://packages.debian.org/bullseye/sqlite3) `3.34.1-3` - Command line interface for SQLite 3_
 - ![](grey.png) _[vera](https://packages.debian.org/bullseye/vera) `1.24-1` - Dictionary of computer related acronyms -- info format_
-- ![](grey.png) _[nodejs](https://packages.debian.org/bullseye/nodejs) `12.22.5~dfsg-2~11u1` - evented I/O for V8 javascript - runtime executable_
+- ![](grey.png) _[nodejs](https://packages.debian.org/bullseye/nodejs) `12.22.12~dfsg-1~deb11u1` - evented I/O for V8 javascript - runtime executable_
 - ![](grey.png) _[npm](https://packages.debian.org/bullseye/npm) `7.5.2+ds-2` - package manager for Node.js_
 - ![](grey.png) _[jsbeautifier](https://packages.debian.org/bullseye/jsbeautifier) `1.13.0-1` - JavaScript unobfuscator and beautifier_
 #### PHP

@@ -3,19 +3,66 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - UNRELEASED
+## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - 2022-09-01
 
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
+- packages: internet: add [purple-discord](https://packages.debian.org/bullseye/purple-discord) (Discord messaging service plugin for pidgin/libpurple)
+
+### Removed
+- packages: remove [gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks)
+- packages: remove NVIDIA proprietary drivers from the default installation
 
 ### Changed
+- no longer install Linux kernel/firmware and NVIDIA drivers from backports, use versions from Debian Stable
+- defaults/skel: autostart keepassxc on login
+- defaults/skel: enable KeepassXC/Firefox integration by default
+- defaults/skel: add keyboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
+- firefox: always show the bookmarks toolbar (update user.js to v0.4.0)
 
 ### Fixed
-
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
 - fix unattended-upgrades configuration (automatically update packages from Debian Backports)
+- fix xfce4 power manager unable to suspend the system on laptop lid close/low battery
+
+### Upgrade procedure
+
+If you have a system installed from a previous version of `debian-live-config`:
+
+- Recommended: [Backup](https://apps.gnome.org/app/org.gnome.DejaDup/) user data, [download](https://debian-live-config.readthedocs.io/en/latest/download-and-installation.html) the latest ISO image, reinstall (overwrite the existing installation), restore data from backups
+- To upgrade without reinstalling:
+
+```bash
+# remove (or comment out) APT pinning configuration
+sudo rm /etc/apt/preferences.d/99backports
+# force downgrade of kernel/nvidia-driver to the stable version
+sudo nano /etc/apt/preferences.d/99downgrade-backports
+```
+
+```bash
+# paste this to /etc/apt/preferences.d/99downgrade-backports, save and exit
+# always use kernel, firmware and nvidia drivers from stable
+Package: linux-image-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+
+Package: linux-headers-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+
+Package: firmware-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+
+Package: nvidia-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+```
+
+- Optionally, update your configuration according to [changes since the last release](ttps://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
+
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
 

@@ -140,7 +140,7 @@
 - ![](green.png) [unalz](https://packages.debian.org/bullseye/unalz) `0.65-8` - De-archiver for .alz files
 - ![](green.png) [unrar-free](https://packages.debian.org/bullseye/unrar-free) `1:0.0.1+cvs20140707-4+b1` - Unarchiver for .rar files
 - ![](green.png) [rar](https://packages.debian.org/bullseye/rar) `2:5.5.0-1` - Archiver for .rar files
-- ![](green.png) [unzip](https://packages.debian.org/bullseye/unzip) `6.0-26` - De-archiver for .zip files
+- ![](green.png) [unzip](https://packages.debian.org/bullseye/unzip) `6.0-26+deb11u1` - De-archiver for .zip files
 - ![](green.png) [zip](https://packages.debian.org/bullseye/zip) `3.0-12` - Archiver for .zip files
 - ![](green.png) [iat](https://packages.debian.org/bullseye/iat) `0.1.3-7+b2` - Converts many CD-ROM image formats to iso9660
 - ![](green.png) [nrg2iso](https://packages.debian.org/bullseye/nrg2iso) `0.4-4+b2` - Extracts ISO9660 data from Nero ".nrg" files
@@ -175,10 +175,10 @@
 - ![](green.png) [seahorse](https://packages.debian.org/bullseye/seahorse) `3.38.0.1-2` - GNOME front end for GnuPG
 - ![](green.png) [seahorse-daemon](https://packages.debian.org/bullseye/seahorse-daemon) `3.12.2-6` - Seahorse pass phrase caching agent
 - ![](green.png) [gnome-keyring](https://packages.debian.org/bullseye/gnome-keyring) `3.36.0-1` - GNOME keyring services (daemon and tools)
-- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bullseye/ssh-askpass-gnome) `1:8.4p1-5` - interactive X program to prompt users for a passphrase for ssh-add
+- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bullseye/ssh-askpass-gnome) `1:8.4p1-5+deb11u1` - interactive X program to prompt users for a passphrase for ssh-add
 - ![](green.png) [libpam-gnome-keyring](https://packages.debian.org/bullseye/libpam-gnome-keyring) `3.36.0-1` - PAM module to unlock the GNOME keyring upon login
-- ![](green.png) [gnupg](https://packages.debian.org/bullseye/gnupg) `2.2.27-2+deb11u1` - GNU privacy guard - a free PGP replacement
-- ![](green.png) [gnupg2](https://packages.debian.org/bullseye/gnupg2) `2.2.27-2+deb11u1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
+- ![](green.png) [gnupg](https://packages.debian.org/bullseye/gnupg) `2.2.27-2+deb11u2` - GNU privacy guard - a free PGP replacement
+- ![](green.png) [gnupg2](https://packages.debian.org/bullseye/gnupg2) `2.2.27-2+deb11u2` - GNU privacy guard - a free PGP replacement (dummy transitional package)
 - ![](green.png) [pwgen](https://packages.debian.org/bullseye/pwgen) `2.08-2` - Automatic Password generation
 - ![](green.png) [cryptsetup](https://packages.debian.org/bullseye/cryptsetup) `2:2.3.7-1+deb11u1` - disk encryption support - startup scripts
 - ![](green.png) [cryptsetup-initramfs](https://packages.debian.org/bullseye/cryptsetup-initramfs) `2:2.3.7-1+deb11u1` - disk encryption support - initramfs integration
@@ -258,7 +258,7 @@
 - ![](grey.png) _[routino](https://packages.debian.org/bullseye/routino) `3.3.3-1` - Set of tools to find a path between two points_
 - ![](grey.png) _[mkgmapgui](https://packages.debian.org/bullseye/mkgmapgui) `1.1.ds-11` - Graphical User Interface for mkgmap_
 - ![](grey.png) _[mkgmap](https://packages.debian.org/bullseye/mkgmap) `0.0.0+svn4600-1` - Generate Garmin maps from OpenStreetMap data_
-- ![](grey.png) _[foxtrotgps](https://packages.debian.org/bullseye/foxtrotgps) `1.2.2+bzr330-1` - GTK+ mapping and GPS application_
+- ![](grey.png) _[foxtrotgps](https://packages.debian.org/bullseye/foxtrotgps) `1.2.2+bzr331-1~deb11u1` - GTK+ mapping and GPS application_
 - ![](grey.png) _[gis-tasks](https://packages.debian.org/bullseye/gis-tasks) `0.0.20` - Debian GIS tasks for tasksel_
 - ![](grey.png) _[gpsprune](https://packages.debian.org/bullseye/gpsprune) `20.2-1` - visualize, edit, convert and prune GPS data_
 #### Screenshots
@@ -286,24 +286,8 @@
 - ![](grey.png) _[flameshot](https://packages.debian.org/bullseye/flameshot) `0.9.0+ds1-2` - Powerful yet simple-to-use screenshot software_
 #### Clocks/timers
 
-
-</sub>
-
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-clocks/3.38.0-1">
-
-**[gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks)** - Simple GNOME app with stopwatch, timer, and world clock support
-
-
- GNOME Clocks is a simple application to show the time and date in multiple
- locations and set alarms or timers. A stopwatch is also included.
-
-<sub>
-
------------------------
-
-
-- ![](green.png) [gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks) `3.38.0-1` - Simple GNOME app with stopwatch, timer, and world clock support
 - ![](green.png) [tty-clock](https://packages.debian.org/bullseye/tty-clock) `2.3-1+b1` - simple terminal clock
+- ![](grey.png) _[gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks) `3.38.0-1` - Simple GNOME app with stopwatch, timer, and world clock support_
 - ![](grey.png) _[dclock](https://packages.debian.org/bullseye/dclock) `2.2.2-13` - Digital clock for the X Window System with flexible display_
 - ![](grey.png) _[gtimer](https://packages.debian.org/bullseye/gtimer) `2.0.0-1.2+b1` - GTK-based X11 task timer_
 - ![](grey.png) _[stopwatch](https://packages.debian.org/bullseye/stopwatch) `3.5-8` - Virtual stopwatch and timer_

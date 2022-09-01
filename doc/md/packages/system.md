@@ -62,7 +62,7 @@
 - ![](grey.png) _[apt-forktracer](https://packages.debian.org/bullseye/apt-forktracer) `0.9` - utility for tracking non-official package versions_
 - ![](grey.png) _[apt-listbugs](https://packages.debian.org/bullseye/apt-listbugs) `0.1.35` - tool which lists critical bugs before each APT installation_
 - ![](grey.png) _[aptitude-doc-fr](https://packages.debian.org/bullseye/aptitude-doc-fr) `0.8.13-3` - French manual for aptitude, a terminal-based package manager_
-- ![](grey.png) _[debian-security-support](https://packages.debian.org/bullseye/debian-security-support) `1:11+2021.03.19` - Debian security support coverage checker_
+- ![](grey.png) _[debian-security-support](https://packages.debian.org/bullseye/debian-security-support) `1:11+2022.08.23` - Debian security support coverage checker_
 - ![](grey.png) _[deborphan](https://packages.debian.org/bullseye/deborphan) `1.7.33` - program that can find unused packages, e.g. libraries_
 - ![](grey.png) _[debtree](https://packages.debian.org/bullseye/debtree) `1.1.0` - package dependency graphs on steroids_
 - ![](grey.png) _[gnome-software](https://packages.debian.org/bullseye/gnome-software) `3.38.1-1` - Software Center for GNOME_
@@ -71,6 +71,7 @@
 - ![](grey.png) _[packagekit-command-not-found](https://packages.debian.org/bullseye/packagekit-command-not-found) `1.2.2-2` - Offer to install missing programs automatically_
 - ![](grey.png) _[packagekit-gtk3-module](https://packages.debian.org/bullseye/packagekit-gtk3-module) `1.2.2-2` - Install fonts automatically using PackageKit_
 - ![](grey.png) _[extrepo](https://packages.debian.org/bullseye/extrepo) `0.8` - External repository manager_
+- ![](grey.png) _[policy-rcd-declarative-deny-all](https://packages.debian.org/bullseye/policy-rcd-declarative-deny-all) `0.6` - Blocking default policy for policy-rcd-declarative_
 #### Task management/monitoring
 
 
@@ -357,7 +358,7 @@
 - ![](green.png) [gir1.2-spiceclientgtk-3.0](https://packages.debian.org/bullseye/gir1.2-spiceclientgtk-3.0) `0.39-1` - GTK3 widget for SPICE clients (GObject-Introspection)
 - ![](green.png) [qemu-system-x86](https://packages.debian.org/bullseye/qemu-system-x86) `1:5.2+dfsg-11+deb11u2` - QEMU full system emulation binaries (x86)
 - ![](green.png) [qemu-system-arm](https://packages.debian.org/bullseye/qemu-system-arm) `1:5.2+dfsg-11+deb11u2` - QEMU full system emulation binaries (arm)
-- ![](green.png) [qemu-utils](https://packages.debian.org/bullseye/qemu-utils) `1:7.0+dfsg-2~bpo11+2` - QEMU utilities
+- ![](green.png) [qemu-utils](https://packages.debian.org/bullseye/qemu-utils) `1:5.2+dfsg-11+deb11u2` - QEMU utilities
 - ![](green.png) [libguestfs-tools](https://packages.debian.org/bullseye/libguestfs-tools) `1:1.44.0-2` - guest disk image management system - tools
 - ![](green.png) [virt-p2v](https://packages.debian.org/bullseye/virt-p2v) `1.42.0-2` - physical-to-virtual machine converter
 - ![](green.png) [libguestfs-rsync](https://packages.debian.org/bullseye/libguestfs-rsync) `1:1.44.0-2` - guest disk image management system - rsync support
@@ -366,15 +367,15 @@
 - ![](grey.png) _[virt-p2v](https://packages.debian.org/bullseye/virt-p2v) `1.42.0-2` - physical-to-virtual machine converter_
 - ![](grey.png) _[virt-what](https://packages.debian.org/bullseye/virt-what) `1.19-1` - detect if we are running in a virtual machine_
 - ![](grey.png) _[libguestfs-tools](https://packages.debian.org/bullseye/libguestfs-tools) `1:1.44.0-2` - guest disk image management system - tools_
-- ![](grey.png) _[lxc](https://packages.debian.org/bullseye/lxc) `1:4.0.6-2` - Linux Containers userspace tools_
+- ![](grey.png) _[lxc](https://packages.debian.org/bullseye/lxc) `1:4.0.6-2+deb11u1` - Linux Containers userspace tools_
 - ![](grey.png) _[gnome-boxes](https://packages.debian.org/bullseye/gnome-boxes) `3.38.2-1` - Simple GNOME app to access remote or virtual systems_
 - ![](grey.png) _[lxc-templates](https://packages.debian.org/bullseye/lxc-templates) `3.0.4-5` - Linux Containers userspace tools (templates)_
-- ![](grey.png) _[docker.io](https://packages.debian.org/bullseye/docker.io) `20.10.5+dfsg1-1+deb11u1` - Linux container runtime_
+- ![](grey.png) _[docker.io](https://packages.debian.org/bullseye/docker.io) `20.10.5+dfsg1-1+deb11u2` - Linux container runtime_
 - ![](grey.png) _[docker-registry](https://packages.debian.org/bullseye/docker-registry) `2.7.1+ds2-7+b6` - Docker toolset to pack, ship, store, and deliver content_
-- ![](grey.png) _[docker-doc](https://packages.debian.org/bullseye/docker-doc) `20.10.5+dfsg1-1+deb11u1` - Linux container runtime -- documentation_
+- ![](grey.png) _[docker-doc](https://packages.debian.org/bullseye/docker-doc) `20.10.5+dfsg1-1+deb11u2` - Linux container runtime -- documentation_
 - ![](grey.png) _[anbox](https://packages.debian.org/bullseye/anbox) `0.0~git20210106-1` - Android in a box_
 - ![](grey.png) _[vagrant](https://packages.debian.org/bullseye/vagrant) `2.2.14+dfsg-1` - Tool for building and distributing virtualized development environments_
-- ![](grey.png) _[schroot](https://packages.debian.org/bullseye/schroot) `1.6.10-12` - Execute commands in a chroot environment_
+- ![](grey.png) _[schroot](https://packages.debian.org/bullseye/schroot) `1.6.10-12+deb11u1` - Execute commands in a chroot environment_
 - ![](grey.png) _[imvirt](https://packages.debian.org/bullseye/imvirt) `0.9.6-8` - detects several virtualizations_
 #### Configuration management
 
@@ -472,20 +473,20 @@
 - ![](green.png) [xserver-xorg-video-intel](https://packages.debian.org/bullseye/xserver-xorg-video-intel) `2:2.99.917+git20200714-1+deb11u1` - X.Org X server -- Intel i8xx, i9xx display driver
 - ![](green.png) [xfonts-base](https://packages.debian.org/bullseye/xfonts-base) `1:1.0.5` - standard fonts for X
 - ![](green.png) [hwdata](https://packages.debian.org/bullseye/hwdata) `0.345-1` - hardware identification / configuration data
-- ![](green.png) [nvidia-driver](https://packages.debian.org/bullseye/nvidia-driver) `470.103.01-3~deb11u2` - NVIDIA metapackage
+- ![](grey.png) _[nvidia-driver](https://packages.debian.org/bullseye/nvidia-driver) `470.129.06-6~deb11u1` - NVIDIA metapackage_
 #### Kernel/boot/init
 
-- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bullseye/linux-headers-amd64) `5.16.12-1~bpo11+1` - Header files for Linux amd64 configuration (meta-package)
-- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bullseye/linux-headers-686:i386) `5.10.120-1` - Header files for Linux 686 configuration (meta-package)
+- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bullseye/linux-headers-amd64) `5.10.136-1` - Header files for Linux amd64 configuration (meta-package)
+- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bullseye/linux-headers-686:i386) `5.10.136-1` - Header files for Linux 686 configuration (meta-package)
 - ![](green.png) [module-assistant](https://packages.debian.org/bullseye/module-assistant) `0.11.10` - tool to make module package creation easier
 - ![](green.png) [dkms](https://packages.debian.org/bullseye/dkms) `2.8.4-3` - Dynamic Kernel Module Support Framework
 - ![](green.png) [build-essential](https://packages.debian.org/bullseye/build-essential) `12.9` - Informational list of build-essential packages
-- ![](green.png) [systemd](https://packages.debian.org/bullseye/systemd) `247.3-7` - system and service manager
+- ![](green.png) [systemd](https://packages.debian.org/bullseye/systemd) `247.3-7+deb11u1` - system and service manager
 - ![](green.png) [os-prober](https://packages.debian.org/bullseye/os-prober) `1.79` - utility to detect other OSes on a set of drives
 - ![](green.png) [initramfs-tools](https://packages.debian.org/bullseye/initramfs-tools) `0.140` - generic modular initramfs generator (automation)
 - ![](green.png) [console-setup](https://packages.debian.org/bullseye/console-setup) `1.205` - console font and keymap setup program
 - ![](green.png) [user-setup](https://packages.debian.org/bullseye/user-setup) `1.88` - Set up initial user and password
-- ![](green.png) [libpam-systemd](https://packages.debian.org/bullseye/libpam-systemd) `247.3-7` - system and service manager - PAM module
+- ![](green.png) [libpam-systemd](https://packages.debian.org/bullseye/libpam-systemd) `247.3-7+deb11u1` - system and service manager - PAM module
 - ![](grey.png) _[kexec-tools](https://packages.debian.org/bullseye/kexec-tools) `1:2.0.20-2.1` - tools to support fast kexec reboots_
 - ![](grey.png) _[kthresher](https://packages.debian.org/bullseye/kthresher) `1.4.1-2` - Purge Unused Kernels_
 #### Firmwares
@@ -493,7 +494,7 @@
 - ![](green.png) [firmware-linux-free](https://packages.debian.org/bullseye/firmware-linux-free) `20200122-1` - Binary firmware for various drivers in the Linux kernel
 - ![](green.png) [firmware-linux-nonfree](https://packages.debian.org/bullseye/firmware-linux-nonfree) `20210315-3` - Binary firmware for various drivers in the Linux kernel (metapackage)
 - ![](green.png) [amd64-microcode](https://packages.debian.org/bullseye/amd64-microcode) `3.20191218.1` - Processor microcode firmware for AMD CPUs
-- ![](green.png) [intel-microcode](https://packages.debian.org/bullseye/intel-microcode) `3.20220207.1~deb11u1` - Processor microcode firmware for Intel CPUs
+- ![](green.png) [intel-microcode](https://packages.debian.org/bullseye/intel-microcode) `3.20220510.1~deb11u1` - Processor microcode firmware for Intel CPUs
 #### Hardware-specific packages
 
 - ![](grey.png) _[driverctl](https://packages.debian.org/bullseye/driverctl) `0.111-1` - Device driver control utility for Linux_
