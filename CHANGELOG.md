@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - defaults/skel: add keytboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
+- firefox: always show the bookmarks toolbar (update user.js to v0.4.0)
 
 ### Fixed
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
