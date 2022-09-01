@@ -271,7 +271,7 @@ xserver-xorg-video-all
 xserver-xorg-video-intel
 xfonts-base
 hwdata
-nvidia-driver
+#Alt: nvidia-driver
 
 #Section: Kernel/boot/init
 #if ARCHITECTURES amd64
