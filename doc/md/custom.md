@@ -132,9 +132,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 - [ ] `make && make checksums && make sign_checksums`
 - [ ] `make tests`
   - BIOS mode: test live mode in all languages
-  - BIOS mode: test online installation
   - BIOS mode: test offline installation
-  - UEFI mode: test online installation
   - UEFI mode: test offline installation
   - During installation, test the following disk partitioning schemes:
     - [ ] Automatic whole disk encrypted LVM
