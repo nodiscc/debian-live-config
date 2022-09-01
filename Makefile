@@ -23,7 +23,7 @@ clean:
 	make -f Makefile.extra clean
 
 bump_version:
-	@echo "Please set version to $(LAST_TAG) in Makefile doc/md/conf.py config/bootloaders/grub-pc/live-theme/theme.txt config/bootloaders/isolinux/live.cfg.in config/bootloaders/isolinux/menu.cfg auto/config doc/md/download-and-installation.md doc/md/index.md"
+	@echo "Please set version to $(LAST_TAG) in doc/md/conf.py config/bootloaders/grub-pc/live-theme/theme.txt config/bootloaders/isolinux/live.cfg.in config/bootloaders/isolinux/menu.cfg auto/config doc/md/download-and-installation.md doc/md/index.md"
 
 build:
 	# Build the live system/ISO image
