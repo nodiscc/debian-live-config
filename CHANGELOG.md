@@ -62,7 +62,7 @@ Pin: release a=bullseye
 Pin-Priority: 1000
 ```
 
-- Optionally, update your configuration according to [changes since the last release](ttps://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
+- Optionally, update your configuration according to [changes since the last release](https://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
 
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
