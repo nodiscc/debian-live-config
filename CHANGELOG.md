@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - UNRELEASED
+## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - 2022-09-01
 
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - packages: remove NVIDIA proprietary drivers from the default installation
 
 ### Changed
+- update all packages to latest stable versions
 - no longer install Linux kernel/firmware and NVIDIA drivers from backports, use versions from Debian Stable
 - defaults/skel: autostart keepassxc on login
 - defaults/skel: enable KeepassXC/Firefox integration by default
