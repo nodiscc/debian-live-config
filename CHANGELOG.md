@@ -37,10 +37,31 @@ If you have a system installed from a previous version of `debian-live-config`:
 ```bash
 # remove (or comment out) APT pinning configuration
 sudo rm /etc/apt/preferences.d/99backports
-# optionally, update your configuration according to changes since the last release:
-# https://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1
-# /etc/skel modifications will only take effect after creating a new user account
+# force downgrade of kernel/nvidia-driver to the stable version
+sudo nano /etc/apt/preferences.d/99downgrade-backports
 ```
+
+```bash
+# paste this to /etc/apt/preferences.d/99downgrade-backports, save and exit
+# always use kernel, firmware and nvidia drivers from stable
+Package: linux-image-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+
+Package: linux-headers-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+
+Package: firmware-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+
+Package: nvidia-*
+Pin: release a=bullseye
+Pin-Priority: 1000
+```
+
+- Optionally, update your configuration according to [changes since the last release](ttps://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
 
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
