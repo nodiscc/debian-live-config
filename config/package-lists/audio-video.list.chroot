@@ -30,7 +30,7 @@ mpv
 #vlc-plugin-zvbi # buster only
 #libdvdread4 # buster only
 #vlc-plugin-vlsub # buster only
-
+#mpv-mpris # bookworm only
 
 #Section: Music players/library managers
 #Description: quodlibet

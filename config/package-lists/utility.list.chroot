@@ -130,7 +130,8 @@ libblockdev-crypto2
 #Alt: zulucrypt-gui
 #Alt: zulumount-gui
 #Alt: libzulucrypt-plugins
-
+#gtkcrypto # bookworm only
+#luckyluks # bookworm only
 
 #Section: Text editors
 #Description: mousepad

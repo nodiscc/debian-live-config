@@ -67,6 +67,7 @@ lutris
 #Alt: fonts-wine
 #Alt: winetricks
 #gweled # buster only
+#proton-caller # bookworm only
 
 #Section: Game console emulators
 #Alt: pcsxr

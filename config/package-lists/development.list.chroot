@@ -24,6 +24,7 @@ cloc
 #Alt: icdiff
 #Alt: qgit
 #Alt: git-secrets
+#gh # bookworm only
 
 #Section: Shell & basic utilities
 bash
@@ -102,6 +103,7 @@ debconf-utils
 
 #Section: Debuggers
 #Alt: gdb
+#chaos-marmosets # bookworm only
 
 #Section: Python
 python3-setuptools

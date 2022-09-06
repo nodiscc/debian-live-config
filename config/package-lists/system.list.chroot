@@ -192,6 +192,8 @@ netcat-openbsd
 #Alt: schroot
 #Alt: imvirt
 #virt-sandbox # buster only
+#guestfish # bookworm only
+#guestmount # bookworm only
 
 #Section: Configuration management
 #Alt: ansible

@@ -154,6 +154,7 @@ kiwix-tools
 #Description: network-manager-gnome
 network-manager-gnome
 network-manager-openvpn-gnome
+wireguard
 dnsmasq-base
 hostname
 bridge-utils
@@ -347,6 +348,8 @@ openssh-server
 #dirsearch # bookmworm only
 #aws-nuke # bookworm only
 #firewallk # bookworm only
+#urlextractor # bookworm only
+
 #Section: Tor
 #Alt: tor-geoipdb
 #Alt: tor
@@ -359,4 +362,4 @@ openssh-server
 
 #Section: Out-of-band management
 #Alt: ipmitool
-#gwakeonlan # buster only
+Alt: gwakeonlan
