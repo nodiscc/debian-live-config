@@ -362,4 +362,4 @@ openssh-server
 
 #Section: Out-of-band management
 #Alt: ipmitool
-Alt: gwakeonlan
+#Alt: gwakeonlan
