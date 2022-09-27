@@ -7,6 +7,7 @@ meld
 colordiff
 dwdiff
 cloc
+mgitstatus
 #Alt: gitg
 #Alt: gource
 #Alt: fossil

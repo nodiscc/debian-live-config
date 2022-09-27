@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
 - packages: internet: add [purple-discord](https://packages.debian.org/bullseye/purple-discord) (Discord messaging service plugin for pidgin/libpurple)
+- packages: development: add [mgitstatus](https://github.com/fboender/multi-git-status) (show status of multiple Git repositories)
 
 ### Removed
 - packages: remove [gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks)
