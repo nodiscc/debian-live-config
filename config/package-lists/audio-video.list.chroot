@@ -49,6 +49,7 @@ sox
 #Alt: clementine
 #Alt: audacious
 #Alt: audacious-plugins
+#Alt: sayonara
 #Alt: projectm-pulseaudio
 #Alt: mpd
 #Alt: sonata
@@ -89,7 +90,8 @@ gnome-video-effects
 #Alt: v4l2loopback-utils
 #Alt: kamoso
 #Alt: zoneminder
-
+#Alt: pinhole
+#Alt: megapixels
 #Section: Screen recording/screencasting
 #Description: obs-studio
 #Description: vokoscreen

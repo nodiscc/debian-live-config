@@ -112,6 +112,7 @@ poppler-utils
 #Section: Tasks/Personal information management
 #Alt: osmo
 #Alt: zim
+#Alt: rednotebook
 #Alt: tasque
 #Alt: gnote
 #Alt: email-reminder
@@ -141,7 +142,8 @@ poppler-utils
 #Alt: tomboy-ng
 #taskcoach # buster only
 #keepnote # buster only
-
+#Alt: gourmet
+#gourmand # bookworm only
 
 #Section: Image scanning
 #Description: simple-scan
