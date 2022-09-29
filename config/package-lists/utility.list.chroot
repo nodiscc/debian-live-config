@@ -145,6 +145,7 @@ vim-tiny
 #Alt: vim-scripts
 #Alt: vim-addon-manager
 #Alt: focuswriter
+#apostrophe # bookworm only
 #Alt: gedit
 #Alt: gedit-plugins
 #Alt: gedit-source-code-browser-plugin
