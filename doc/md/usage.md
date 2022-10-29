@@ -19,6 +19,30 @@ See the package lists in the sidebar for useful links about installed software.
  * Keep your hardware in good condition
 
 
+## Keyboard shortcuts
+
+_Note: The `Super` key is also known as the Windows key._
+
+- `Super + Space`: Applications menu
+- `Super + I`: Web browser
+- `Super + E`: File manager
+- `Super + F`: Search files
+- `Super + S`: Mute/unmute volume
+- `Super + T`: Terminal
+- `Super + R`: Run command
+- `Super + L`: Lock session
+- `Super + Q`: Shutdown/suspend/restart/logout...
+- `Super + M`: E-mail client
+- `Super + P`: Display settings
+- `Super + Pause`: Settings manager
+- `Ctrl + Alt + Delete`: Task manager
+- `Alt + Mouse wheel`: Zoom
+- `Win + Left`: Tile window left
+- `Win + Right`: Tile window right
+- `Win + Up`: Tile window top right
+- `Win + Down`: Tile window bottom right
+
+
 ## Issues
 
 * [Gitlab issue tracker](https://gitlab.com/nodiscc/dlc)
