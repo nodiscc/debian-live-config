@@ -132,6 +132,7 @@ libblockdev-crypto2
 #Alt: libzulucrypt-plugins
 #gtkcrypto # bookworm only
 #luckyluks # bookworm only
+#passes-gtk # bookworm only
 
 #Section: Text editors
 #Description: mousepad
