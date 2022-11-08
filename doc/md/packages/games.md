@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/lutris/0.5.9.1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/lutris/0.5.11">
 
 **[lutris](https://packages.debian.org/bullseye/lutris)** - video game preservation platform
 
@@ -24,7 +24,7 @@
 -----------------------
 
 
-- ![](green.png) [lutris](https://packages.debian.org/bullseye/lutris) `0.5.9.1` - video game preservation platform
+- ![](green.png) [lutris](https://packages.debian.org/bullseye/lutris) `0.5.11` - video game preservation platform
 - ![](grey.png) _[cmatrix](https://packages.debian.org/bullseye/cmatrix) `2.0-3` - simulates the display from "The Matrix"_
 - ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/bullseye/cmatrix-xfont) `2.0-3` - X11 font for cmatrix_
 - ![](grey.png) _[endless-sky](https://packages.debian.org/bullseye/endless-sky) `0.9.8-1.1` - space exploration and combat game_

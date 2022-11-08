@@ -30,6 +30,7 @@
 - ![](green.png) [colordiff](https://packages.debian.org/bullseye/colordiff) `1.0.18-1.1` - tool to colorize 'diff' output
 - ![](green.png) [dwdiff](https://packages.debian.org/bullseye/dwdiff) `2.1.4-1` - diff program that operates word by word
 - ![](green.png) [cloc](https://packages.debian.org/bullseye/cloc) `1.86-1` - statistics utility to count lines of code
+- ![](green.png) [mgitstatus](https://packages.debian.org/bullseye/mgitstatus) `2.0+dfsg-2` - Show status of multiple Git repositories
 - ![](grey.png) _[gitg](https://packages.debian.org/bullseye/gitg) `3.32.1-1` - git repository viewer_
 - ![](grey.png) _[gource](https://packages.debian.org/bullseye/gource) `0.51-1+b2` - graphical source control visualisation_
 - ![](grey.png) _[fossil](https://packages.debian.org/bullseye/fossil) `1:2.15.2-1` - DSCM with built-in wiki, http interface and server, tickets database_

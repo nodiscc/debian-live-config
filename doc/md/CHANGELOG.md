@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
+
+### Added
+- extras: add [Signal Desktop](https://signal.org/download/) encrypted messaging client
+- extras: add [Thunderbird Conversations](https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/) extension
+- packages: development: add [mgitstatus](https://github.com/fboender/multi-git-status) (show status of multiple Git repositories)
+
+### Changed
+- update all packages to latest Debian Stable versions
+- update documentation
+
+
 ## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - 2022-09-01
 
 ### Added
@@ -14,6 +26,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - packages: remove NVIDIA proprietary drivers from the default installation
 
 ### Changed
+- update all packages to latest stable versions
 - no longer install Linux kernel/firmware and NVIDIA drivers from backports, use versions from Debian Stable
 - defaults/skel: autostart keepassxc on login
 - defaults/skel: enable KeepassXC/Firefox integration by default
@@ -61,7 +74,7 @@ Pin: release a=bullseye
 Pin-Priority: 1000
 ```
 
-- Optionally, update your configuration according to [changes since the last release](ttps://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
+- Optionally, update your configuration according to [changes since the last release](https://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
 
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28

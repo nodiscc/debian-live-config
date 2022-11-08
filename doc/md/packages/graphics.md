@@ -177,7 +177,7 @@
 
 - ![](grey.png) _[librecad](https://packages.debian.org/bullseye/librecad) `2.1.3-1.3+deb11u1` - Computer-aided design (CAD) system_
 - ![](grey.png) _[kicad](https://packages.debian.org/bullseye/kicad) `5.1.9+dfsg1-1+deb11u1` - Electronic schematic and PCB design software_
-- ![](grey.png) _[freecad](https://packages.debian.org/bullseye/freecad) `0.19.1+dfsg1-2` - Extensible Open Source CAx program_
+- ![](grey.png) _[freecad](https://packages.debian.org/bullseye/freecad) `0.19.1+dfsg1-2+deb11u1` - Extensible Open Source CAx program_
 - ![](grey.png) _[pcb-gtk](https://packages.debian.org/bullseye/pcb-gtk) `1:4.2.2-1` - printed circuit board (pcb) design program - GTK+ interface_
 - ![](grey.png) _[qelectrotech](https://packages.debian.org/bullseye/qelectrotech) `1:0.7.0-1+b1` - Electric schematic editor_
 #### Video editors

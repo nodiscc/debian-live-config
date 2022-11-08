@@ -56,6 +56,7 @@
 - ![](green.png) [synaptic](https://packages.debian.org/bullseye/synaptic) `0.90.2` - Graphical package manager
 - ![](green.png) [unattended-upgrades](https://packages.debian.org/bullseye/unattended-upgrades) `2.8` - automatic installation of security upgrades
 - ![](green.png) [vrms](https://packages.debian.org/bullseye/vrms) `1.27` - virtual Richard M. Stallman
+- ![](grey.png) _[gdebi](https://packages.debian.org/bullseye/gdebi) `0.9.5.7+nmu5` - simple tool to view and install deb files - GNOME GUI_
 - ![](grey.png) _[appstream-generator](https://packages.debian.org/bullseye/appstream-generator) `0.8.4-1` - Generator for AppStream metadata_
 - ![](grey.png) _[apt-config-auto-update](https://packages.debian.org/bullseye/apt-config-auto-update) `2.1+nmu1` - APT configuration for automatic cache updates_
 - ![](grey.png) _[apt-file](https://packages.debian.org/bullseye/apt-file) `3.2.2` - search for files within Debian packages (command-line interface)_
@@ -216,7 +217,7 @@
 - ![](green.png) [sdparm](https://packages.debian.org/bullseye/sdparm) `1.10-1+b1` - Output and modify SCSI device parameters
 - ![](green.png) [dosfstools](https://packages.debian.org/bullseye/dosfstools) `4.2-1` - utilities for making and checking MS-DOS FAT filesystems
 - ![](green.png) [hfsprogs](https://packages.debian.org/bullseye/hfsprogs) `540.1.linux3-4` - mkfs and fsck for HFS and HFS+ file systems
-- ![](green.png) [ntfs-3g](https://packages.debian.org/bullseye/ntfs-3g) `1:2017.3.23AR.3-4+deb11u2` - read/write NTFS driver for FUSE
+- ![](green.png) [ntfs-3g](https://packages.debian.org/bullseye/ntfs-3g) `1:2017.3.23AR.3-4+deb11u3` - read/write NTFS driver for FUSE
 - ![](green.png) [kpartx](https://packages.debian.org/bullseye/kpartx) `0.8.5-2` - create device mappings for partitions
 - ![](green.png) [xorriso](https://packages.debian.org/bullseye/xorriso) `1.5.2-1` - command line ISO-9660 and Rock Ridge manipulation tool
 - ![](green.png) [lvm2](https://packages.debian.org/bullseye/lvm2) `2.03.11-2.1` - Linux Logical Volume Manager
@@ -473,11 +474,11 @@
 - ![](green.png) [xserver-xorg-video-intel](https://packages.debian.org/bullseye/xserver-xorg-video-intel) `2:2.99.917+git20200714-1+deb11u1` - X.Org X server -- Intel i8xx, i9xx display driver
 - ![](green.png) [xfonts-base](https://packages.debian.org/bullseye/xfonts-base) `1:1.0.5` - standard fonts for X
 - ![](green.png) [hwdata](https://packages.debian.org/bullseye/hwdata) `0.345-1` - hardware identification / configuration data
-- ![](grey.png) _[nvidia-driver](https://packages.debian.org/bullseye/nvidia-driver) `470.129.06-6~deb11u1` - NVIDIA metapackage_
+- ![](grey.png) _[nvidia-driver](https://packages.debian.org/bullseye/nvidia-driver) `470.103.01-1~bpo11+1` - NVIDIA metapackage_
 #### Kernel/boot/init
 
-- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bullseye/linux-headers-amd64) `5.10.136-1` - Header files for Linux amd64 configuration (meta-package)
-- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bullseye/linux-headers-686:i386) `5.10.136-1` - Header files for Linux 686 configuration (meta-package)
+- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bullseye/linux-headers-amd64) `5.19.11-1~bpo11+1` - Header files for Linux amd64 configuration (meta-package)
+- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bullseye/linux-headers-686:i386) `5.10.149-2` - Header files for Linux 686 configuration (meta-package)
 - ![](green.png) [module-assistant](https://packages.debian.org/bullseye/module-assistant) `0.11.10` - tool to make module package creation easier
 - ![](green.png) [dkms](https://packages.debian.org/bullseye/dkms) `2.8.4-3` - Dynamic Kernel Module Support Framework
 - ![](green.png) [build-essential](https://packages.debian.org/bullseye/build-essential) `12.9` - Informational list of build-essential packages
@@ -492,7 +493,7 @@
 #### Firmwares
 
 - ![](green.png) [firmware-linux-free](https://packages.debian.org/bullseye/firmware-linux-free) `20200122-1` - Binary firmware for various drivers in the Linux kernel
-- ![](green.png) [firmware-linux-nonfree](https://packages.debian.org/bullseye/firmware-linux-nonfree) `20210315-3` - Binary firmware for various drivers in the Linux kernel (metapackage)
+- ![](green.png) [firmware-linux-nonfree](https://packages.debian.org/bullseye/firmware-linux-nonfree) `20210818-1~bpo11+1` - Binary firmware for various drivers in the Linux kernel (metapackage)
 - ![](green.png) [amd64-microcode](https://packages.debian.org/bullseye/amd64-microcode) `3.20191218.1` - Processor microcode firmware for AMD CPUs
 - ![](green.png) [intel-microcode](https://packages.debian.org/bullseye/intel-microcode) `3.20220510.1~deb11u1` - Processor microcode firmware for Intel CPUs
 #### Hardware-specific packages

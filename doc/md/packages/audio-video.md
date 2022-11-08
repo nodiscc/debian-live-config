@@ -94,6 +94,7 @@
 - ![](grey.png) _[clementine](https://packages.debian.org/bullseye/clementine) `1.4.0~rc1+git347-gfc4cb6fc7+dfsg-1+deb11u1` - modern music player and library organizer_
 - ![](grey.png) _[audacious](https://packages.debian.org/bullseye/audacious) `4.0.5-1` - small and fast audio player which supports lots of formats_
 - ![](grey.png) _[audacious-plugins](https://packages.debian.org/bullseye/audacious-plugins) `4.0.5-1` - Base plugins for audacious_
+- ![](grey.png) _[sayonara](https://packages.debian.org/bullseye/sayonara) `1.6.0~beta6+ds-1.1` - Small, clear and fast audio player_
 - ![](grey.png) _[projectm-pulseaudio](https://packages.debian.org/bullseye/projectm-pulseaudio) `3.1.7-1.1` - projectM PulseAudio module_
 - ![](grey.png) _[mpd](https://packages.debian.org/bullseye/mpd) `0.22.6-1+b1` - Music Player Daemon_
 - ![](grey.png) _[sonata](https://packages.debian.org/bullseye/sonata) `1.7.0-1` - GTK+ client for the Music Player Daemon (MPD)_
@@ -148,6 +149,8 @@
 - ![](grey.png) _[v4l2loopback-utils](https://packages.debian.org/bullseye/v4l2loopback-utils) `0.12.5-1` - Commandline utilities for the for the v4l2-loopback module_
 - ![](grey.png) _[kamoso](https://packages.debian.org/bullseye/kamoso) `20.12.1-1` - tool to take pictures and videos from your webcam_
 - ![](grey.png) _[zoneminder](https://packages.debian.org/bullseye/zoneminder) `1.34.23-1` - video camera security and surveillance solution_
+- ![](grey.png) _[pinhole](https://packages.debian.org/bullseye/pinhole) `0.1.0+git20201123-1` - Simple camera application for the GNOME desktop_
+- ![](grey.png) _[megapixels](https://packages.debian.org/bullseye/megapixels) `0.13.1-2` - GTK3 camera app for mobile using the V4L2 media request API_
 #### Screen recording/screencasting
 
 
@@ -210,7 +213,7 @@
 
 
 - ![](green.png) [qwinff](https://packages.debian.org/bullseye/qwinff) `0.2.1+git20201215-1` - GUI for FFmpeg
-- ![](green.png) [ffmpeg](https://packages.debian.org/bullseye/ffmpeg) `7:4.3.4-0+deb11u1` - Tools for transcoding, streaming and playing of multimedia files
+- ![](green.png) [ffmpeg](https://packages.debian.org/bullseye/ffmpeg) `7:4.3.5-0+deb11u1` - Tools for transcoding, streaming and playing of multimedia files
 - ![](green.png) [flac](https://packages.debian.org/bullseye/flac) `1.3.3-2+deb11u1` - Free Lossless Audio Codec - command line tools
 - ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/bullseye/gstreamer1.0-alsa) `1.18.4-2` - GStreamer plugin for ALSA
 - ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/bullseye/gstreamer1.0-libav) `1.18.4-3` - ffmpeg plugin for GStreamer
