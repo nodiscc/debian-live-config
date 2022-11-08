@@ -129,7 +129,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 - [ ] Update CHANGELOG.md
 - [ ] `make doc && git add doc/md/packages/ doc/*.md && git commit -m "doc: update auto-generated documentation (make doc)"`
 - [ ] `git tag --sign $new_version`
-- [ ] `make && make checksums && make sign_checksums`
+- [ ] `make && make checksums sign_checksums`
 - [ ] `make tests`
   - BIOS mode: test live mode in all languages
   - BIOS mode: test offline installation
