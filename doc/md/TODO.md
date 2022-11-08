@@ -2,33 +2,3 @@
 
 ### nodiscc/debian-live-config
 
-- #120 - all files owned by uid 1000? - **`3.1.0`** `bug,security`
-- #119 - release 3.1.0 - **`3.1.0`** `maintenance`
-- #112 - WIP CI/CD - **`-`** ``
-- #111 - WIP improve nvidia hardware support - **`3.2.0`** `enhancement,games,hardware`
-- #110 - Switch audio stack to pipewire? - **`-`** `audio,question`
-- #109 - Grammar checker for LibreOffice - **`-`** `easy,feature,upstream`
-- #108 - voice recognition/control/dictation? - **`-`** `feature,question`
-- #107 - WIP extras: download and install thunderbird conversations extension - **`3.2.0`** `feature`
-- #106 - improve/document accessibility improvements - **`-`** `documentation,enhancement`
-- #103 - add a folder thumbnailer? - **`-`** `feature,question`
-- #96 - Automate builds for git tags (CI/CD) - **`-`** `tools`
-- #92 - LightDM language selection does not work - **`3.1.0`** `bug,l10n/a11y`
-- #91 - install amd64/i386 vulkan/opengl libraries - **`-`** `easy,enhancement,games,UX`
-- #90 - Enable i386/multiarch in installed system - **`-`** `bug,configuration,games`
-- #89 - Touchpad tap to click should be enabled by default - **`-`** `configuration,enhancement,UX`
-- #88 - screen brightness keys do not work during boot/splash/LUKS password prompt (amdgpu) - **`-`** `boot,bug,hardware`
-- #86 - Use apt instead of wget to download extra .deb packages (verify integrity/authenticity) - **`-`** `enhancement,security,tools`
-- #83 - bullseye: don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement,UX`
-- #81 - install gdebi (graphical standalone .deb package installer) - **`3.2.0`** `feature,UX`
-- #78 - WIP: replace pulseaudio audio server with pipewire - **`-`** `enhancement,maintenance`
-- #77 - test compatibility with popular proprietary communication software? - **`-`** `question,UX`
-- #72 - Re-add xfce4-notes-plugin - **`-`** `enhancement,packaging,UX`
-- #68 - (optional) install signal-desktop? - **`3.2.0`** `feature,packaging,upstream`
-- #67 - Check additional packages - **`-`** `audio,feature,question`
-- #65 - switch build system to mmdebstrap? - **`-`** `enhancement,question,tools`
-- #64 - (optional) install tartube - **`-`** `easy,feature,packaging`
-- #63 - Makefile.extras: add a script to check for common issues? - **`-`** `feature,question,tools`
-- #62 - Offline maps and routing - **`-`** `feature,question`
-- #61 - add gaming-related packages/configuration? - **`-`** `feature,games,question`
-- #60 - integrate semi-automatic/desktop-friendly oldstable -> stable uprade mechanism - **`-`** `question`
