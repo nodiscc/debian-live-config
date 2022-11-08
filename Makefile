@@ -72,7 +72,7 @@ test_imagesize:
 	@size=$$(du -b iso/*.iso | cut -f 1); \
 	echo "[INFO] ISO image size: $$size bytes"; \
 	if [[ "$$size" -gt 2147483648 ]]; then \
-		echo '[WARNING] ISO image size is larger than 2GB!'; \
+		echo '[WARNING] ISO image size is larger than 2GB!'; exit 1; \
 	fi
 
 # requirements: iso image must be downloaded from the build machine beforehand
