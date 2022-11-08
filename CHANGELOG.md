@@ -3,15 +3,23 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
+
+### Added
+- extras: add [Signal Desktop](https://signal.org/download/) encrypted messaging client
+- extras: add [Thunderbird Conversations](https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/) extension
+- packages: development: add [mgitstatus](https://github.com/fboender/multi-git-status) (show status of multiple Git repositories)
+
+### Changed
+- update all packages to latest Debian Stable versions
+- update documentation
+
+
 ## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - 2022-09-01
 
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
 - packages: internet: add [purple-discord](https://packages.debian.org/bullseye/purple-discord) (Discord messaging service plugin for pidgin/libpurple)
-- packages: development: add [mgitstatus](https://github.com/fboender/multi-git-status) (show status of multiple Git repositories)
-- extras: add [Thunderbird Conversations](https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/) extension
-- extras: add [Signal Desktop](https://signal.org/download/) encrypted messagiong client
-
 
 ### Removed
 - packages: remove [gnome-clocks](https://packages.debian.org/bullseye/gnome-clocks)
