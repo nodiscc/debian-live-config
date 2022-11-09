@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
 
+### Removed
+- remove unfrequently used `firmware-netronome` to decrease image size
+
+### Fixed
+- decrease ISO image size to <2GB to allow upload on github releases
+
+## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
+
 ### Added
 - extras: add [Signal Desktop](https://signal.org/download/) encrypted messaging client
 - extras: add [Thunderbird Conversations](https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/) extension
