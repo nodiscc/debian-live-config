@@ -71,10 +71,9 @@ thunderbird-l10n-fr
 
 
 #Section: File transfer and synchronization
-#Description: nextcloud-desktop
-nextcloud-desktop
-nextcloud-desktop-cmd
 rsync
+#Alt: nextcloud-desktop
+#Alt: nextcloud-desktop-cmd
 #Alt: lftp
 #Alt: unison-gtk
 #Alt: rclone

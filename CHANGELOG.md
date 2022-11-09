@@ -6,8 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
 
 ### Removed
-- remove unfrequently used `firmware-netronome` to decrease image size
-- remove [zenity](https://packages.debian.org/bullseye/zenity) to decrease image size
+- remove [nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) to decrease .ISO image size
+- remove [zenity](https://packages.debian.org/bullseye/zenity) to decrease .ISO image size
+- remove unfrequently used `firmware-netronome` to decrease image .ISO size
 
 ### Fixed
 - decrease ISO image size to <2GB to allow upload on github releases
