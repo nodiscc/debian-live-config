@@ -315,7 +315,6 @@ qt5-gtk-platformtheme
 
 #Section: Other
 libnotify-bin
-zenity
 numlockx
 x11-apps
 xbitmaps
@@ -323,7 +322,6 @@ wmctrl
 xclip
 xcalib
 xbacklight
-#Alt: conky-all
 gtk2-engines
 gtk2-engines-murrine
 gtk2-engines-pixbuf
@@ -331,6 +329,8 @@ gtk2-engines-pixbuf
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
 policykit-1-gnome
+#Alt: zenity
+#Alt: conky-all
 #Alt: randtype
 #Alt: winwrangler
 #Alt: xdotool

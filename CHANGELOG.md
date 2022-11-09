@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Removed
 - remove unfrequently used `firmware-netronome` to decrease image size
+- remove [zenity](https://packages.debian.org/bullseye/zenity) to decrease image size
 
 ### Fixed
 - decrease ISO image size to <2GB to allow upload on github releases
