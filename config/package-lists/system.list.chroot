@@ -228,6 +228,7 @@ at
 
 #Section: Desktop performance
 #Alt: haveged
+#Alt: rng-tools5
 #Alt: oomd
 #Alt: irqbalance
 #Alt: preload
