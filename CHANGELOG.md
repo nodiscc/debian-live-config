@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Removed
 - remove [nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) to decrease .ISO image size
 - remove [zenity](https://packages.debian.org/bullseye/zenity) to decrease .ISO image size
+- extras: remove [Signal Desktop](https://signal.org/download/) to decrease .ISO image size
 - remove unfrequently used `firmware-netronome` to decrease image .ISO size
 
 ### Fixed
