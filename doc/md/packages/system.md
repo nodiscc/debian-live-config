@@ -429,6 +429,7 @@
 #### Desktop performance
 
 - ![](grey.png) _[haveged](https://packages.debian.org/bullseye/haveged) `1.9.14-1` - Linux entropy source using the HAVEGE algorithm_
+- ![](grey.png) _[rng-tools5](https://packages.debian.org/bullseye/rng-tools5) `5-4+b1` - Daemon to use a Hardware TRNG_
 - ![](grey.png) _[oomd](https://packages.debian.org/bullseye/oomd) `0.4.0-1+b1` - userspace Out-Of-Memory (OOM) killer for Linux systems_
 - ![](grey.png) _[irqbalance](https://packages.debian.org/bullseye/irqbalance) `1.7.0-1` - Daemon to balance interrupts for SMP systems_
 - ![](grey.png) _[preload](https://packages.debian.org/bullseye/preload) `0.6.4-5+b1` - adaptive readahead daemon_

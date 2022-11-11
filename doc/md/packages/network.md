@@ -28,7 +28,7 @@
 - ![](grey.png) _[webext-https-everywhere](https://packages.debian.org/bullseye/webext-https-everywhere) `2021.1.27-1` - Extension to force the use of HTTPS on many sites_
 - ![](grey.png) _[midori](https://packages.debian.org/bullseye/midori) `7.0-2.1` - fast, lightweight graphical web browser_
 - ![](grey.png) _[luakit](https://packages.debian.org/bullseye/luakit) `1:2.2.1-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `107.0.5304.87-1~deb11u1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `107.0.5304.110-1~deb11u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/bullseye/nss-passwords) `0.3-1` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/bullseye/w3m) `0.5.3+git20210102-6` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/bullseye/links2) `2.21-1+b1` - Web browser running in both graphics and text mode_
@@ -143,28 +143,9 @@
 - ![](grey.png) _[offlineimap](https://packages.debian.org/bullseye/offlineimap) `7.3.3+dfsg1-1+0.0~git20210225.1e7ef9e+dfsg-4` - transitional package_
 #### File transfer and synchronization
 
-
-</sub>
-
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nextcloud-desktop/3.1.1-2+deb11u1">
-
-**[nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop)** - Nextcloud folder synchronization tool
-
-
- The Nextcloud desktop app lets you always have your latest files wherever
- you are. Just specify one or more folders on the local machine to and a server
- to synchronize to. You can configure more computers to synchronize to the same
- server and any change to the files on one computer will silently and reliably
- flow across to every other.
-
-<sub>
-
------------------------
-
-
-- ![](green.png) [nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) `3.1.1-2+deb11u1` - Nextcloud folder synchronization tool
-- ![](green.png) [nextcloud-desktop-cmd](https://packages.debian.org/bullseye/nextcloud-desktop-cmd) `3.1.1-2+deb11u1` - folder synchronization with an Nextcloud server - cmd client
 - ![](green.png) [rsync](https://packages.debian.org/bullseye/rsync) `3.2.3-4+deb11u1` - fast, versatile, remote (and local) file-copying tool
+- ![](grey.png) _[nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) `3.1.1-2+deb11u1` - Nextcloud folder synchronization tool_
+- ![](grey.png) _[nextcloud-desktop-cmd](https://packages.debian.org/bullseye/nextcloud-desktop-cmd) `3.1.1-2+deb11u1` - folder synchronization with an Nextcloud server - cmd client_
 - ![](grey.png) _[lftp](https://packages.debian.org/bullseye/lftp) `4.8.4-2+b1` - Sophisticated command-line FTP/HTTP/BitTorrent client programs_
 - ![](grey.png) _[unison-gtk](https://packages.debian.org/bullseye/unison-gtk) `2.51.3+1` - file-synchronization tool for Unix and Windows with GTK+ interface_
 - ![](grey.png) _[rclone](https://packages.debian.org/bullseye/rclone) `1.53.3-1+b6` - rsync for commercial cloud storage_

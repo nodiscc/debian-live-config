@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v3.1.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.1) - 2022-11-11
+
+### Removed
+- remove [nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) to decrease .ISO image size
+- remove [zenity](https://packages.debian.org/bullseye/zenity) to decrease .ISO image size
+- extras: remove [Signal Desktop](https://signal.org/download/) to decrease .ISO image size
+- remove unfrequently used `firmware-netronome` to decrease image .ISO size
+
+### Fixed
+- decrease ISO image size to <2GB to allow upload on github releases
+
+
 ## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
 
 ### Added

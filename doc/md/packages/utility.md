@@ -476,7 +476,6 @@
 #### Other
 
 - ![](green.png) [libnotify-bin](https://packages.debian.org/bullseye/libnotify-bin) `0.7.9-3` - sends desktop notifications to a notification daemon (Utilities)
-- ![](green.png) [zenity](https://packages.debian.org/bullseye/zenity) `3.32.0-6` - Display graphical dialog boxes from shell scripts
 - ![](green.png) [numlockx](https://packages.debian.org/bullseye/numlockx) `1.2-8` - enable NumLock in X11 sessions
 - ![](green.png) [x11-apps](https://packages.debian.org/bullseye/x11-apps) `7.7+8` - X applications
 - ![](green.png) [xbitmaps](https://packages.debian.org/bullseye/xbitmaps) `1.1.1-2.1` - Base X bitmaps
@@ -484,13 +483,14 @@
 - ![](green.png) [xclip](https://packages.debian.org/bullseye/xclip) `0.13-2` - command line interface to X selections
 - ![](green.png) [xcalib](https://packages.debian.org/bullseye/xcalib) `0.8.dfsg1-2.1` - Tiny monitor calibration loader for Xorg
 - ![](green.png) [xbacklight](https://packages.debian.org/bullseye/xbacklight) `1.2.1-1+b3` - simple utility to set the backlight level
-- ![](grey.png) _[conky-all](https://packages.debian.org/bullseye/conky-all) `1.11.6-2` - highly configurable system monitor (all features enabled)_
 - ![](green.png) [gtk2-engines](https://packages.debian.org/bullseye/gtk2-engines) `1:2.20.2-5` - theme engines for GTK+ 2.x
 - ![](green.png) [gtk2-engines-murrine](https://packages.debian.org/bullseye/gtk2-engines-murrine) `0.98.2-3` - cairo-based gtk+-2.0 theme engine
 - ![](green.png) [gtk2-engines-pixbuf](https://packages.debian.org/bullseye/gtk2-engines-pixbuf) `2.24.33-2` - pixbuf-based theme for GTK 2
 - ![](green.png) [xdg-user-dirs-gtk](https://packages.debian.org/bullseye/xdg-user-dirs-gtk) `0.10-3` - tool to manage well known user directories (Gtk extension)
 - ![](green.png) [libfile-mimeinfo-perl](https://packages.debian.org/bullseye/libfile-mimeinfo-perl) `0.30-1` - Perl module to determine file types
 - ![](green.png) [policykit-1-gnome](https://packages.debian.org/bullseye/policykit-1-gnome) `0.105-7` - authentication agent for PolicyKit
+- ![](grey.png) _[zenity](https://packages.debian.org/bullseye/zenity) `3.32.0-6` - Display graphical dialog boxes from shell scripts_
+- ![](grey.png) _[conky-all](https://packages.debian.org/bullseye/conky-all) `1.11.6-2` - highly configurable system monitor (all features enabled)_
 - ![](grey.png) _[randtype](https://packages.debian.org/bullseye/randtype) `1.13-11+b1` - semi-random text typer_
 - ![](grey.png) _[winwrangler](https://packages.debian.org/bullseye/winwrangler) `0.2.4-5+b1` - Daemon for manipulating windows (tiled layout, etc.)_
 - ![](grey.png) _[xdotool](https://packages.debian.org/bullseye/xdotool) `1:3.20160805.1-4` - simulate (generate) X11 keyboard/mouse input events_
