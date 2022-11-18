@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v3.1.2](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.2) - UNRELEASED
+
+### Fixed
+- fix XFCE power manager unable to suspend the system on laptop lid close/low battery
+
+
 ## [v3.1.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.1) - 2022-11-11
 
 ### Removed
@@ -50,7 +56,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Fixed
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
 - fix unattended-upgrades configuration (automatically update packages from Debian Backports)
-- fix xfce4 power manager unable to suspend the system on laptop lid close/low battery
+- fix XFCE power manager unable to suspend the system on laptop lid close/low battery
 
 ### Upgrade procedure
 

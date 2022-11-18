@@ -268,8 +268,8 @@
                 <description gettext-domain="systemd">Suspend the system</description>
                 <message gettext-domain="systemd">Authentication is required to suspend the system.</message>
                 <defaults>
-                        <allow_any>any</allow_any>
-                        <allow_inactive>any</allow_inactive>
+                        <allow_any>yes</allow_any>
+                        <allow_inactive>yes</allow_inactive>
                         <allow_active>yes</allow_active>
                 </defaults>
         </action>
