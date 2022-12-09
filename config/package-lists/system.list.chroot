@@ -128,7 +128,7 @@ lvm2
 #Alt: loggedfs
 #disk-manager # buster only
 
-#Section: data recovery
+#Section: Data recovery
 #Description: testdisk
 testdisk
 #Alt: foremost
@@ -319,3 +319,4 @@ live-config-systemd
 user-setup
 live-tools
 eject
+#Alt: installation-birthday
