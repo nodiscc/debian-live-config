@@ -26,6 +26,7 @@ mgitstatus
 #Alt: qgit
 #Alt: git-secrets
 #gh # bookworm only
+#git-delete-merged-branches # sid only
 
 #Section: Shell & basic utilities
 bash
