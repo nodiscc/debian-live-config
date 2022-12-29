@@ -149,13 +149,14 @@ live-build
 #Section: Ruby
 #Alt: ruby-dev
 
-#Section: HTML/CC/JS
+#Section: HTML/CSS/JS
 #Alt: csstidy
 #Alt: sqlite3
 #Alt: vera
 #Alt: nodejs
 #Alt: npm
 #Alt: jsbeautifier
+#Alt: yarnpkg
 #webcheck # buster only
 
 #Section: PHP

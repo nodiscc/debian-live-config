@@ -88,6 +88,7 @@ rsync
 #Alt: filezilla
 #Alt: gftp
 #Alt: pastebinit
+#onionshare-cli # bookworm only
 #owncloud-client # buster only
 
 
