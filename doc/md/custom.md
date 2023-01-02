@@ -112,6 +112,11 @@ See [Makefile.extra](https://gitlab.com/nodiscc/debian-live-config/-/blob/master
 Scripts used to run arbitrary commands at different stages of the build (`*.hook.chroot` or `.*chroot.binary`). See `/usr/share/doc/live-build/examples/hooks/` for examples.
 
 
+### config/archives/
+
+This directory contains lists of APT repositories from which packages will be downloaded during the build [[1]](https://live-team.pages.debian.net/live-manual/html/live-manual/customizing-package-installation.en.html#380). It uses the [sources.list](https://wiki.debian.org/SourcesList) format.
+
+
 ### config/includes.binary/
 
 Additional files to place at the root of the ISO image filesystem (these files will be directly accessible when mounting the ISO).
