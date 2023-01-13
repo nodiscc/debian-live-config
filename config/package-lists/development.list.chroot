@@ -101,6 +101,7 @@ debconf-utils
 #Alt: pypi2deb
 #Alt: dgit
 #Alt: aptly
+#Alt: python-is-python3
 #lintian-brush # buster only
 
 #Section: Debuggers
