@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v3.1.2](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.2) - UNRELEASED
 
+### Added
+- skel: bash: add an alias `gss` to show the status of git repositories under `~/GIT` using `mgitstatus`
+
 ### Fixed
 - fix XFCE power manager unable to suspend the system on laptop lid close/low battery
 
