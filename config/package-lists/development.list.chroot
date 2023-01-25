@@ -83,6 +83,7 @@ dos2unix
 #ansifilter # bookworm only
 #ansifilter-gui # bookworm only
 #reserialize # sid only
+#yq # sid only
 
 #Section: Packaging
 build-essential

@@ -99,7 +99,7 @@ obs-studio
 vokoscreen
 #Alt: kazam
 #Alt: byzanz
-#Alt: obs-studio
+#Alt: obs-source-clone
 #Alt: simplescreenrecorder
 #gtk-recordmydesktop # buster only
 #key-mon # buster only
