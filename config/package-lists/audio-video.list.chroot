@@ -26,6 +26,7 @@ mpv
 #Alt: totem-plugins
 #Alt: vlc-plugin-svg
 #Alt: celluloid
+#Alt: vlc-plugin-bittorrent
 #zapping # buster only
 #vlc-plugin-zvbi # buster only
 #libdvdread4 # buster only
