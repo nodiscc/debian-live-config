@@ -44,7 +44,6 @@ xfce4-taskmanager
 htop
 iotop
 lm-sensors
-hddtemp
 inxi
 lsof
 strace
