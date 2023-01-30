@@ -187,7 +187,6 @@ ethtool
 blueman
 bluetooth
 blueman
-crda
 wireless-regdb
 #Alt: gnome-bluetooth
 #Alt: gnome-user-share
