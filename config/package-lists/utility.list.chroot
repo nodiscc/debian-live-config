@@ -3,7 +3,7 @@
 #Section: File management
 #Description: thunar
 gvfs-backends
-gvfs-bin
+libglib2.0-bin
 gvfs-fuse
 jdupes
 libgphoto2-l10n
