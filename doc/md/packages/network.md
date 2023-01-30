@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/102.4.0esr-1~deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/102.7.0esr-1~deb11u1">
 
 **[firefox-esr](https://packages.debian.org/bullseye/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
 
@@ -22,13 +22,13 @@
 -----------------------
 
 
-- ![](green.png) [firefox-esr](https://packages.debian.org/bullseye/firefox-esr) `102.4.0esr-1~deb11u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
-- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bullseye/firefox-esr-l10n-fr) `102.4.0esr-1~deb11u1` - French language package for Firefox ESR
+- ![](green.png) [firefox-esr](https://packages.debian.org/bullseye/firefox-esr) `102.7.0esr-1~deb11u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bullseye/firefox-esr-l10n-fr) `102.7.0esr-1~deb11u1` - French language package for Firefox ESR
 - ![](green.png) [webext-ublock-origin](https://packages.debian.org/bullseye/webext-ublock-origin) `1.42.0+dfsg-1~deb11u1` - transitional package
 - ![](grey.png) _[webext-https-everywhere](https://packages.debian.org/bullseye/webext-https-everywhere) `2021.1.27-1` - Extension to force the use of HTTPS on many sites_
 - ![](grey.png) _[midori](https://packages.debian.org/bullseye/midori) `7.0-2.1` - fast, lightweight graphical web browser_
 - ![](grey.png) _[luakit](https://packages.debian.org/bullseye/luakit) `1:2.2.1-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `107.0.5304.110-1~deb11u1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/bullseye/chromium) `109.0.5414.119-1~deb11u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/bullseye/nss-passwords) `0.3-1` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/bullseye/w3m) `0.5.3+git20210102-6` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/bullseye/links2) `2.21-1+b1` - Web browser running in both graphics and text mode_
@@ -110,7 +110,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:102.4.0-1~deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:102.6.0-1~deb11u1">
 
 **[thunderbird](https://packages.debian.org/bullseye/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
 
@@ -128,17 +128,17 @@
 -----------------------
 
 
-- ![](green.png) [thunderbird](https://packages.debian.org/bullseye/thunderbird) `1:102.4.0-1~deb11u1` - mail/news client with RSS, chat and integrated spam filter support
-- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bullseye/thunderbird-l10n-fr) `1:102.4.0-1~deb11u1` - French language package for Thunderbird
+- ![](green.png) [thunderbird](https://packages.debian.org/bullseye/thunderbird) `1:102.6.0-1~deb11u1` - mail/news client with RSS, chat and integrated spam filter support
+- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bullseye/thunderbird-l10n-fr) `1:102.6.0-1~deb11u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/bullseye/geary) `3.38.1-1` - lightweight email client designed for the GNOME desktop_
 - ![](grey.png) _[claws-mail](https://packages.debian.org/bullseye/claws-mail) `3.17.8-1+b1` - Fast, lightweight and user-friendly GTK+2 based email client_
 - ![](grey.png) _[claws-mail-plugins](https://packages.debian.org/bullseye/claws-mail-plugins) `3.17.8-1` - Installs plugins for the Claws Mail mailer_
 - ![](grey.png) _[mailnag](https://packages.debian.org/bullseye/mailnag) `2.0.0-0.2` - extensible mail notification daemon_
-- ![](grey.png) _[mutt](https://packages.debian.org/bullseye/mutt) `2.0.5-4.1+deb11u1` - text-based mailreader supporting MIME, GPG, PGP and threading_
+- ![](grey.png) _[mutt](https://packages.debian.org/bullseye/mutt) `2.0.5-4.1+deb11u2` - text-based mailreader supporting MIME, GPG, PGP and threading_
 - ![](grey.png) _[alpine](https://packages.debian.org/bullseye/alpine) `2.24+dfsg1-1` - Text-based email client, friendly for novices but powerful_
 - ![](grey.png) _[getmail](https://packages.debian.org/bullseye/getmail) `6.14-1` - transitional package_
-- ![](grey.png) _[evolution](https://packages.debian.org/bullseye/evolution) `3.38.3-1` - groupware suite with mail client and organizer_
-- ![](grey.png) _[evolution-plugins](https://packages.debian.org/bullseye/evolution-plugins) `3.38.3-1` - standard plugins for Evolution_
+- ![](grey.png) _[evolution](https://packages.debian.org/bullseye/evolution) `3.38.3-1+deb11u1` - groupware suite with mail client and organizer_
+- ![](grey.png) _[evolution-plugins](https://packages.debian.org/bullseye/evolution-plugins) `3.38.3-1+deb11u1` - standard plugins for Evolution_
 - ![](grey.png) _[evolution-rss](https://packages.debian.org/bullseye/evolution-rss) `0.3.96-2+b1` - Evolution RSS Reader Plugin_
 - ![](grey.png) _[offlineimap](https://packages.debian.org/bullseye/offlineimap) `7.3.3+dfsg1-1+0.0~git20210225.1e7ef9e+dfsg-4` - transitional package_
 #### File transfer and synchronization
@@ -195,14 +195,14 @@
 - ![](grey.png) _[btfs](https://packages.debian.org/bullseye/btfs) `2.24-1` - access torrent files as a filesystem_
 #### Media download
 
-- ![](green.png) [yt-dlp](https://packages.debian.org/bullseye/yt-dlp) `2022.10.04-1~bpo11+1` - downloader of videos from YouTube and other sites
+- ![](green.png) [yt-dlp](https://packages.debian.org/bullseye/yt-dlp) `2023.01.06` - download videos from youtube.com or other video platforms. yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project
 - ![](grey.png) _[youtube-dl](https://packages.debian.org/bullseye/youtube-dl) `2021.06.06-1` - downloader of videos from YouTube and other sites_
 - ![](grey.png) _[streamlink](https://packages.debian.org/bullseye/streamlink) `2.0.0-1` - CLI for extracting video streams from various websites to a video player_
 - ![](grey.png) _[minitube](https://packages.debian.org/bullseye/minitube) `3.6.1-1` - Native YouTube client_
 - ![](grey.png) _[smtube](https://packages.debian.org/bullseye/smtube) `18.3.0-1+b1` - YouTube videos browser_
 #### Downloaders/web crawlers
 
-- ![](green.png) [curl](https://packages.debian.org/bullseye/curl) `7.74.0-1.3+deb11u3` - command line tool for transferring data with URL syntax
+- ![](green.png) [curl](https://packages.debian.org/bullseye/curl) `7.74.0-1.3+deb11u5` - command line tool for transferring data with URL syntax
 - ![](green.png) [wget](https://packages.debian.org/bullseye/wget) `1.21-1+deb11u1` - retrieves files from the web
 - ![](green.png) [kiwix](https://packages.debian.org/bullseye/kiwix) `2.0.5-3` - offline Wikipedia reader
 - ![](green.png) [kiwix-tools](https://packages.debian.org/bullseye/kiwix-tools) `3.1.2-3` - collection of Kiwix tools
@@ -356,7 +356,7 @@
 
 - ![](green.png) [gnome-nettool](https://packages.debian.org/bullseye/gnome-nettool) `3.8.1-3` - network information tool for GNOME
 - ![](green.png) [traceroute](https://packages.debian.org/bullseye/traceroute) `1:2.1.0-2+b1` - Traces the route taken by packets over an IPv4/IPv6 network
-- ![](green.png) [dnsutils](https://packages.debian.org/bullseye/dnsutils) `1:9.16.33-1~deb11u1` - Transitional package for bind9-dnsutils
+- ![](green.png) [dnsutils](https://packages.debian.org/bullseye/dnsutils) `1:9.16.37-1~deb11u1` - Transitional package for bind9-dnsutils
 - ![](grey.png) _[dnsmasq](https://packages.debian.org/bullseye/dnsmasq) `2.85-1` - Small caching DNS proxy and DHCP/TFTP server_
 - ![](grey.png) _[dns-root-data](https://packages.debian.org/bullseye/dns-root-data) `2021011101` - DNS root data including root zone and DNSSEC key_
 - ![](grey.png) _[arp-scan](https://packages.debian.org/bullseye/arp-scan) `1.9.7-2` - arp scanning and fingerprinting tool_
@@ -396,7 +396,7 @@
 - ![](grey.png) _[thc-ipv6](https://packages.debian.org/bullseye/thc-ipv6) `3.8-1` - The Hacker Choice's IPv6 Attack Toolkit_
 - ![](grey.png) _[trickle](https://packages.debian.org/bullseye/trickle) `1.07-10.1+b2` - user-space bandwidth shaper_
 - ![](grey.png) _[tshark](https://packages.debian.org/bullseye/tshark) `3.4.10-0+deb11u1` - network traffic analyzer - console version_
-- ![](grey.png) _[usbip](https://packages.debian.org/bullseye/usbip) `2.0+5.10.149-2` - USB device sharing system over IP network_
+- ![](grey.png) _[usbip](https://packages.debian.org/bullseye/usbip) `2.0+5.10.162-1` - USB device sharing system over IP network_
 - ![](grey.png) _[vnstat](https://packages.debian.org/bullseye/vnstat) `2.6-3` - console-based network traffic monitor_
 - ![](grey.png) _[vnstati](https://packages.debian.org/bullseye/vnstati) `2.6-3` - image output support for vnStat_
 - ![](grey.png) _[wireshark](https://packages.debian.org/bullseye/wireshark) `3.4.10-0+deb11u1` - network traffic analyzer - meta-package_
@@ -490,8 +490,8 @@
 - ![](grey.png) _[dnsenum](https://packages.debian.org/bullseye/dnsenum) `1.3.0-4` - tool to enumerate domain DNS information_
 #### Tor
 
-- ![](grey.png) _[tor-geoipdb](https://packages.debian.org/bullseye/tor-geoipdb) `0.4.5.10-1~deb11u1` - GeoIP database for Tor_
-- ![](grey.png) _[tor](https://packages.debian.org/bullseye/tor) `0.4.5.10-1~deb11u1` - anonymizing overlay network for TCP_
+- ![](grey.png) _[tor-geoipdb](https://packages.debian.org/bullseye/tor-geoipdb) `0.4.5.16-1` - GeoIP database for Tor_
+- ![](grey.png) _[tor](https://packages.debian.org/bullseye/tor) `0.4.5.16-1` - anonymizing overlay network for TCP_
 - ![](grey.png) _[torsocks](https://packages.debian.org/bullseye/torsocks) `2.3.0-3` - use SOCKS-friendly applications with Tor_
 - ![](grey.png) _[torbrowser-launcher](https://packages.debian.org/bullseye/torbrowser-launcher) `0.3.3-6` - helps download and run the Tor Browser Bundle_
 #### GeoIP databases

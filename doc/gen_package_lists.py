@@ -31,7 +31,7 @@ def get_package_metadata(package):
 	long_desc = re.sub(r'^[A-z].*', '', long_desc)
 	long_desc = long_desc.split('\n\n')[0]
 	screenshot_url = 'https://screenshots.debian.net/thumbnail-with-version/{}/{}'.format(package, version)
-	pdo_url = 'https://packages.debian.org/bullseye/{}'.format(package)
+	pdo_url = 'https://packages.debian.org/bookworm/{}'.format(package)
 	return short_desc, long_desc, screenshot_url, pdo_url, version
 
 

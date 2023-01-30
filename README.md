@@ -22,7 +22,7 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Download
 
-**[![](doc/md/download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/3.0.1/dlc-3.0.1-debian-bullseye-amd64.hybrid.iso)** (64-bit)
+**[![](doc/md/download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/3.0.1/dlc-3.0.1-debian-bookworm-amd64.hybrid.iso)** (64-bit)
 
 
 ## Documentation

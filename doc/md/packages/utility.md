@@ -216,7 +216,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/5.4-2+deb11u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/5.4-2+deb11u2">
 
 **[nano](https://packages.debian.org/bullseye/nano)** - small, friendly text editor inspired by Pico
 
@@ -231,7 +231,7 @@
 
 
 - ![](green.png) [mousepad](https://packages.debian.org/bullseye/mousepad) `0.5.2-1` - simple Xfce oriented text editor
-- ![](green.png) [nano](https://packages.debian.org/bullseye/nano) `5.4-2+deb11u1` - small, friendly text editor inspired by Pico
+- ![](green.png) [nano](https://packages.debian.org/bullseye/nano) `5.4-2+deb11u2` - small, friendly text editor inspired by Pico
 - ![](green.png) [vim-tiny](https://packages.debian.org/bullseye/vim-tiny) `2:8.2.2434-3+deb11u1` - Vi IMproved - enhanced vi editor - compact version
 - ![](grey.png) _[gnome-builder](https://packages.debian.org/bullseye/gnome-builder) `3.38.2-1` - IDE for GNOME_
 - ![](grey.png) _[vim](https://packages.debian.org/bullseye/vim) `2:8.2.2434-3+deb11u1` - Vi IMproved - enhanced vi editor_
@@ -383,7 +383,7 @@
 - ![](grey.png) _[cdrdao](https://packages.debian.org/bullseye/cdrdao) `1:1.2.4-2` - records CDs in Disk-At-Once (DAO) mode_
 #### Desktop configuration utilities
 
-- ![](green.png) [xfce4-settings](https://packages.debian.org/bullseye/xfce4-settings) `4.16.0-1` - graphical application for managing Xfce settings
+- ![](green.png) [xfce4-settings](https://packages.debian.org/bullseye/xfce4-settings) `4.16.0-1+deb11u1` - graphical application for managing Xfce settings
 - ![](green.png) [gnome-system-tools](https://packages.debian.org/bullseye/gnome-system-tools) `3.0.0-9.1` - Cross-platform configuration utilities
 - ![](green.png) [menulibre](https://packages.debian.org/bullseye/menulibre) `2.2.1-1` - advanced FreeDesktop.org compliant menu editor
 - ![](green.png) [dconf-editor](https://packages.debian.org/bullseye/dconf-editor) `3.38.2-1` - simple configuration storage system - graphical editor

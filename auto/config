@@ -17,10 +17,10 @@ lb config noauto \
 --clean \
 --debconf-frontend noninteractive \
 --debian-installer live \
---debian-installer-distribution bullseye \
+--debian-installer-distribution bookworm \
 --debian-installer-gui true \
 --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
---distribution bullseye \
+--distribution bookworm \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \
