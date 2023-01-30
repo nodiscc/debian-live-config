@@ -298,7 +298,7 @@ wfrench
 desktop-base
 papirus-icon-theme
 arc-theme
-gnome-themes-standard
+gnome-themes-extra
 sound-theme-freedesktop
 gnome-audio
 qt5-gtk-platformtheme
