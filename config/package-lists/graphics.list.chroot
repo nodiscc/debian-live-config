@@ -27,7 +27,6 @@ ristretto
 #Description: gimp
 gimp
 gimp-data-extras
-gimp-gap
 gimp-plugin-registry
 gimp-texturize
 gimp-gutenprint
