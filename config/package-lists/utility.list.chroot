@@ -24,9 +24,7 @@ catfish
 #Alt: gprename
 #Alt: thunar-gtkhash
 #Alt: nautilus
-#Alt: nautilus-sendto
 #Alt: ooo-thumbnailer
-#Alt: nautilus-wipe
 #Alt: nautilus-image-converter
 #Alt: gnome-sushi
 #Alt: gtkhash
@@ -36,14 +34,15 @@ catfish
 #Alt: cksfv
 #Alt: safe-rm
 #Alt: mmv
-#Alt: hardlink
 #Alt: ranger
 #Alt: chkboot
 #Alt: reflex
 #Alt: fzf
 #Alt: ripgrep
 #Alt: fd-find
-
+#Alt: dupeguru
+#nautilus-sendto # bullseye only
+#nautilus-wipe # bullseye only
 
 #Section: Desktop environment
 #Description: xfce4
@@ -72,8 +71,6 @@ xfce4-pulseaudio-plugin
 #Alt: compiz-plugins-main
 #Alt: compton
 #Alt: compton-conf
-#activity-log-manager # buster only
-
 
 #Section: Archive management
 #Description: file-roller
@@ -130,9 +127,9 @@ libblockdev-crypto2
 #Alt: zulucrypt-gui
 #Alt: zulumount-gui
 #Alt: libzulucrypt-plugins
-#gtkcrypto # bookworm only
-#luckyluks # bookworm only
-#passes-gtk # bookworm only
+#Alt: gtkcrypto
+#Alt: luckyluks
+#Alt: passes-gtk
 
 #Section: Text editors
 #Description: mousepad
@@ -146,7 +143,8 @@ vim-tiny
 #Alt: vim-scripts
 #Alt: vim-addon-manager
 #Alt: focuswriter
-#apostrophe # bookworm only
+#Alt: ghostwriter
+#Alt: apostrophe
 #Alt: gedit
 #Alt: gedit-plugins
 #Alt: gedit-source-code-browser-plugin
@@ -154,9 +152,8 @@ vim-tiny
 #Alt: nfoview
 
 #Section: Sticky notes
-#xfce4-notes # buster only
+#xfce4-notes # experimental only
 #Alt: xpad
-
 
 #Section: Maps
 ##Description: gnome-maps
@@ -202,9 +199,8 @@ bc
 units
 #Alt: num-utils
 #Alt: speedcrunch
-#Alt: gbase
 #Alt: graphmonkey
-#qalculate # bookworm only
+#gbase # sid only
 
 #Section: Terminal emulators
 #Description: xfce4-terminal
@@ -239,10 +235,8 @@ redshift-gtk
 xfce4-settings
 gnome-system-tools
 menulibre
-#gconf-editor # buster only
 dconf-editor
 dconf-cli
-#qt4-qtconfig # buster only
 dconf-gsettings-backend
 #Alt: gnome-tweaks
 #Alt: gnome-settings-daemon
@@ -263,7 +257,6 @@ laptop-mode-tools
 fancontrol
 rfkill
 cpufrequtils
-#hibernate # buster only
 pm-utils
 #Alt: powerdebug
 #Alt: tlp
@@ -272,7 +265,6 @@ pm-utils
 #Alt: usbtop
 #Alt: primus
 #Alt: hd-idle
-#eeepc-acpi-scripts #sid only
 
 #Section: Character map/font viewer
 gucharmap
@@ -308,13 +300,13 @@ qt5-gtk-platformtheme
 #Alt: faenza-icon-theme
 #Alt: deepin-icon-theme
 #Alt: paper-icon-theme
-#clearlooks-phenix-theme # buster only
+#clearlooks-phenix-theme # sid only
 
 #Section: Virtual keyboards
 #Alt: onboard
 #Alt: onboard-data
 #Alt: cellwriter
-#florence # buster only
+#florence # sid only
 
 #Section: Other
 libnotify-bin
@@ -328,7 +320,6 @@ xbacklight
 gtk2-engines
 gtk2-engines-murrine
 gtk2-engines-pixbuf
-#gtk2-engines-xfce # buster only
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
 policykit-1-gnome
@@ -338,4 +329,3 @@ policykit-1-gnome
 #Alt: winwrangler
 #Alt: xdotool
 #Alt: wtype
-#scrcpy # sid only

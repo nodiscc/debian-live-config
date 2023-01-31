@@ -11,11 +11,8 @@ mgitstatus
 #Alt: gitg
 #Alt: gource
 #Alt: fossil
-#Alt: ghi
 #Alt: git-mediawiki
-#Alt: git-sizer
 #Alt: svn2git
-#Alt: github-backup
 #Alt: hub
 #Alt: mercurial
 #Alt: myrepos
@@ -25,8 +22,12 @@ mgitstatus
 #Alt: icdiff
 #Alt: qgit
 #Alt: git-secrets
-#gh # bookworm only
-#git-delete-merged-branches # sid only
+#Alt: gh
+#Alt: git-delete-merged-branches
+#ghi # bullseye only
+#git-sizer # sid only
+#github-backup # sid only
+#gitleaks # sid only
 
 #Section: Shell & basic utilities
 bash
@@ -64,7 +65,10 @@ manpages-dev
 #Alt: ripgrep
 #Alt: retry
 #Alt: jc
-
+#Alt: delay
+#Alt: debian-faq
+#Alt: doc-debian
+#trurl # sid only
 
 #Section: Parsers/converters/documentation generators
 jq
@@ -80,10 +84,10 @@ dos2unix
 #Alt: roffit
 #Alt: archmage
 #Alt: html2text
-#ansifilter # bookworm only
-#ansifilter-gui # bookworm only
-#reserialize # sid only
-#yq # sid only
+#Alt: ansifilter
+#Alt: ansifilter-gui
+#Alt: reserialize
+#Alt: yq
 
 #Section: Packaging
 build-essential
@@ -103,11 +107,11 @@ debconf-utils
 #Alt: dgit
 #Alt: aptly
 #Alt: python-is-python3
-#lintian-brush # buster only
+#Alt: lintian-brush
 
 #Section: Debuggers
 #Alt: gdb
-#chaos-marmosets # bookworm only
+#Alt: chaos-marmosets
 
 #Section: Python
 python3-setuptools
@@ -135,7 +139,7 @@ live-build
 #Alt: live-task-mate
 #Alt: live-task-recommended
 #Alt: live-task-xfce
-#alpine-chroot-install # sid only
+#Alt: alpine-chroot-install
 
 #Section: Hex editors
 #Alt: wxhexeditor
@@ -154,13 +158,15 @@ live-build
 
 #Section: HTML/CSS/JS
 #Alt: csstidy
-#Alt: sqlite3
 #Alt: vera
 #Alt: nodejs
 #Alt: npm
 #Alt: jsbeautifier
 #Alt: yarnpkg
-#webcheck # buster only
+
+#Section: Databases
+#Alt: sqlite3
+#Alt: sqlfluff
 
 #Section: PHP
 #Alt: php-cli
@@ -171,5 +177,5 @@ live-build
 #Alt: fastboot
 #Alt: adb
 #Alt: fastboot
-#Alt: scrcpy
-#gplaycli # bookworm only
+#scrcpy # sid only
+#gplaycli # sid only

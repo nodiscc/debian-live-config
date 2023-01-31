@@ -41,10 +41,7 @@ create-resources
 #Alt: xpaint
 #Alt: gnome-paint
 #Alt: multimedia-animation
-#gimp-ufraw # buster only
-#delaboratory # buster only
 #pinta # sid only
-
 
 #Section: Vector editors
 ##Description: inkscape
@@ -54,15 +51,12 @@ create-resources
 #Alt: pencil2d
 #Alt: dia
 #Alt: birdfont
-#python-lxml # buster only
-
 
 #Section: Drawing
 #Description: xournal
 xournal
 #Alt: akira
-#xournalpp # bookworm only
-
+#Alt: xournalpp
 
 #Section: Non-destructive editors (lightroom)
 #Alt: darktable
@@ -96,7 +90,6 @@ gcolor3
 dia
 dia-shapes
 gsfonts-x11 
-#asciio # buster only
 
 #Section: Label/barcode editors
 ##Screenshot: glabels
@@ -105,6 +98,7 @@ gsfonts-x11
 #Alt: qtqr
 #Alt: zbar-tools
 #Alt: zint-qt
+#Alt: qrterminal
 
 #Section: 3D editors
 ##Description: blender
@@ -115,8 +109,6 @@ gsfonts-x11
 #Alt: sweethome3d-furniture-editor
 #Alt: sweethome3d-textures-editor
 #Alt: sweethome3d-furniture-nonfree
-#makehuman # buster only
-
 
 #Section: CAD editors
 #Alt: librecad
@@ -126,12 +118,11 @@ gsfonts-x11
 #Alt: qelectrotech
 
 #Section: Video editors
-#Alt: openshot
+#Alt: openshot-qt
 #Alt: kdenlive
 #Alt: devede
 #Alt: dvdauthor
 #Alt: imagination
-#Alt: ffdiaporama
 #Alt: screenkey
 #Alt: dvgrab
 #Alt: vgrabbj
@@ -139,16 +130,17 @@ gsfonts-x11
 #Alt: multimedia-video
 #Alt: flowblade
 #Alt: handbrake
-#Alt: lives
 #Alt: rtmpdump
-#Alt: shotdetect
 #Alt: tsdecrypt
 #Alt: videotrans
 #Alt: voctomix
 #Alt: stopmotion
 #Alt: education-video
-#Alt: slowmovideo
-#auto-editor # bookworm only
+#Alt: auto-editor
+#ffdiaporama # bullseye only
+#lives # sid only
+#shotdetect # sid only
+#slowmovideo # bullseye only
 
 #Section: Command-line image manipulation
 imagemagick
@@ -170,4 +162,4 @@ librsvg2-bin
 #Alt: lolcat
 #Alt: advancecomp
 #Alt: caca-utils
-#timg # bookworm only
+#Alt: timg

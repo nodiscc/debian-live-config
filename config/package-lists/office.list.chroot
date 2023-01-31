@@ -27,7 +27,6 @@ libreoffice-help-fr
 #Alt: impressive
 #Alt: karbon
 #Alt: key2odp
-#libreoffice-grammalecte #bookworm only
 #Alt: libreoffice-dmaths
 #Alt: libreoffice-math
 #Alt: libreoffice-librelogo
@@ -38,6 +37,7 @@ libreoffice-help-fr
 #Alt: libreoffice-script-provider-python
 #Alt: libreoffice-sdbc-postgresql
 #Alt: libreoffice-wiki-publisher
+#Alt: libreoffice-grammalecte
 #Alt: lyx
 #Alt: python3-uno
 #Alt: retext python3-enchant python3-yaml
@@ -49,20 +49,12 @@ libreoffice-help-fr
 #Alt: plume-creator
 #braindump # sid only
 #calligraflow # sid only
-#sozi # buster only
-#libreoffice-style-tango # buster only
-#libreoffice-pdfimport # buster only
-#libreoffice-avmedia-backend-vlc # buster only
-
 
 # Section: Calendars/contacts management
 #Alt: gnome-calendar
 #Alt: evolution-data-server
 #Alt: abook
-#orage # buster only
-#lightning-l10n-fr # buster only
-#pycarddav # buster only
-
+#Alt: orage
 
 #Section: Personal finance
 #Description: homebank
@@ -86,8 +78,6 @@ evince
 
 #Section: E-book
 #Alt: calibre
-#cdcat # buster only
-
 
 #Section: PDF editor/utilities
 #Description: pdfchain
@@ -95,8 +85,6 @@ pdfchain
 pdfgrep
 poppler-utils
 #Alt: qpdf
-#Alt: pdfmod
-#Alt: pdfshuffler
 #Alt: pdftk
 #Alt: pdfcrack
 #Alt: diffpdf
@@ -105,15 +93,13 @@ poppler-utils
 #Alt: html2text
 #Alt: pdfarranger
 #Alt: pdfproctools
-#python-html2text # buster only
-#chm2pdf # buster only
-
+#pdfmod # sid only
+#pdfshuffler # bullseye only
 
 #Section: Tasks/Personal information management
 #Alt: osmo
 #Alt: zim
 #Alt: rednotebook
-#Alt: tasque
 #Alt: gnote
 #Alt: email-reminder
 #Alt: todotxt-cli
@@ -129,21 +115,20 @@ poppler-utils
 #Alt: wyrd
 #Alt: calcurse
 #Alt: gnome-contacts
-#Alt: gnome-documents
 #Alt: khal
 #Alt: treesheets
 #Alt: hnb
 #Alt: etm
 #Alt: almanah
 #Alt: nixnote2
-#gtg # buster only
+#Alt: gtg
 #Alt: cherrytree
 #Alt: hamster-time-tracker
 #Alt: tomboy-ng
-#taskcoach # buster only
-#keepnote # buster only
 #Alt: gourmet
-#gourmand # bookworm only
+#Alt: gourmand
+#tasque # sid only
+#gnome-documents # bullseye only
 
 #Section: Image scanning
 #Description: simple-scan
@@ -176,8 +161,8 @@ system-config-printer
 system-config-printer-udev
 cups-browsed
 #Alt: hplip-gui
-#Alt: mtink
 #Alt: colord
+#mtink # sid only
 
 #Section: Fonts
 #Description: fonts-hack-ttf
@@ -236,4 +221,4 @@ xfonts-terminus
 #Alt: fonts-train
 #Alt: fonts-vollkorn
 #Alt: fonts-yanone-kaffeesatz
-#fonts-pecita # buster only
+#fonts-pecita # sid only

@@ -4,10 +4,8 @@
 #Description: firefox-esr
 firefox-esr
 firefox-esr-l10n-fr
-#pkg-mozilla-archive-keyring # buster only
 webext-ublock-origin-firefox
 #Alt: webext-https-everywhere
-#Alt: midori
 #Alt: luakit
 #Alt: chromium
 #Alt: nss-passwords
@@ -15,6 +13,8 @@ webext-ublock-origin-firefox
 #Alt: links2
 #Alt: surf
 #Alt: elinks
+#pkg-mozilla-archive-keyring # sid only
+#midori # bullseye only
 
 #Section: Instant messaging
 #Description: pidgin
@@ -30,20 +30,19 @@ pidgin-plugin-pack
 pidgin-extprefs
 pidgin-gnome-keyring
 purple-discord
-#Alt: empathy
 #Alt: finch
+#Alt: jami
 #Alt: telegram-desktop
+#Alt: telegram-send
 #Alt: pidgin-skype
 #Alt: dino-im
 #Alt: gajim
 #Alt: mcabber
-#Alt: smuxi
 #Alt: weechat
 #Alt: purple-mm-sms
 #Alt: purple-xmpp-http-upload
-#purple-matrix # sid only
-#xchat # buster only
-#ekg2 # buster only
+#empathy # bullseye only
+#smuxi # sid only
 
 #Section: VoIP/videoconference
 #Description: mumble
@@ -62,12 +61,11 @@ thunderbird-l10n-fr
 #Alt: mailnag
 #Alt: mutt
 #Alt: alpine
-#Alt: getmail
+#Alt: getmail6
 #Alt: evolution
 #Alt: evolution-plugins
-#Alt: evolution-rss
 #Alt: offlineimap
-
+#evolution-rss # bullseye only
 
 #Section: File transfer and synchronization
 rsync
@@ -76,10 +74,10 @@ rsync
 #Alt: lftp
 #Alt: unison-gtk
 #Alt: rclone
+#Alt: rclone-browser
 #Alt: git-annex
 #Alt: nautilus-dropbox
 #Alt: syncthing
-#Alt: sparkleshare
 #Alt: seafile-cli
 #Alt: seafile-daemon
 #Alt: seafile-gui
@@ -87,9 +85,9 @@ rsync
 #Alt: filezilla
 #Alt: gftp
 #Alt: pastebinit
-#onionshare-cli # bookworm only
-#owncloud-client # buster only
-
+#Alt: onionshare-cli
+#Alt: owncloud-client
+#sparkleshare # sid only
 
 #Section: Bittorrent
 #Firewall: transmission bittorrent client
@@ -104,23 +102,17 @@ transmission-cli
 #Alt: transmission-remote-gtk
 #Alt: uget
 #Alt: aria2
-#Alt: amule
-#Alt: amule-gnome-support
 #Alt: rtorrent
 #Alt: btfs
-#transmission-remote-cli # buster only
-#nicotine # buster only
+#amule # sid only
+#amule-gnome-support # sid only
 
 #Section: Media download
-##Description yt-dlp
+#Description: yt-dlp
 yt-dlp
-##Description: youtube-dl
-#Alt: youtube-dl
 #Alt: streamlink
 #Alt: minitube
 #Alt: smtube
-#get-flash-videos # buster only
-#gnome-twitch # buster only
 
 #Section: Downloaders/web crawlers
 curl
@@ -131,7 +123,8 @@ kiwix-tools
 #Alt: zim-tools
 #Alt: httrack
 #Alt: axel
-#Alt: plowshare
+#Alt: wike
+#plowshare # bullseye only
 
 #Section: Feed readers
 ##Description: liferea
@@ -140,14 +133,15 @@ kiwix-tools
 #Alt: gnome-feeds
 #Alt: quiterss
 #Alt: tickr
-#Alt: feedreader
+#feedreader # sid only
 
 #Section: LAN file sharing
 ##Firewall: samba server
 #Alt: samba
 #Alt: samba-vfs-modules 
 #Alt: smbclient
-#smbc # buster only
+#Alt: servefile
+#smbc # sid only
 
 #Section: Network management
 #Description: network-manager-gnome
@@ -170,17 +164,19 @@ ethtool
 #Alt: avahi-dnsconfd
 #Alt: avahi-discover
 #Alt: avahi-ui-utils
-#wicd # buster only
-#wicd-curses # buster only
-#wammu # buster only
+#wicd # experimental only
+#wicd-curses # experimental only
+#wicd-cli # experimental only
+#wicd-gtk # experimental only
+#wicd-daemon # experimental only
 
 #Section: Cellphone and modem support
 #Alt: modemmanager
 #Alt: modem-manager-gui
 #Alt: mobile-broadband-provider-info
 #Alt: usb-modeswitch
-#Alt: gnome-phone-manager
 #Alt: kdeconnect
+#gnome-phone-manager # bullseye only
 
 #Section: Wireless
 #Description: blueman
@@ -194,7 +190,6 @@ wireless-regdb
 #Alt: hostapd
 #Alt: aircrack-ng
 #Alt: btscanner
-#blueproximity # buster only
 #zeek # sid only
 
 #Section: Firewall
@@ -207,6 +202,7 @@ iptables
 #Alt: firehol
 #Alt: fail2ban
 #Alt: ipset-persistent
+#Alt: crowdsec
 
 #Section: Network diagnostic/monitoring
 #Description: gnome-nettool
@@ -215,7 +211,6 @@ traceroute
 dnsutils
 #Alt: dnsmasq
 #Alt: dns-root-data
-#Alt: arp-scan
 #Alt: arpwatch
 #Alt: bwm-ng
 #Alt: darkstat
@@ -228,6 +223,9 @@ dnsutils
 #Alt: iftop
 #Alt: ipcalc
 #Alt: ipcalc-ng
+#Alt: sipcalc
+#Alt: ipv6calc
+#Alt: subnetcalc
 #Alt: iperf
 #Alt: iptraf-ng
 #Alt: jmeter
@@ -246,7 +244,6 @@ dnsutils
 #Alt: speedometer
 #Alt: speedtest-cli
 #Alt: sslsniff
-#Alt: subnetcalc
 #Alt: tcpdump
 #Alt: tcpstat
 #Alt: thc-ipv6
@@ -259,12 +256,11 @@ dnsutils
 #Alt: termshark
 #Alt: fierce
 #Alt: sslscan
-#namebench # buster only
-#ntopng # buster only
-#snetz # buster only
-#sslstrip # buster only
-#python-scapy # buster only
-#dropwatch # sid only
+#Alt: dropwatch
+#Alt: notus-scanner
+#Alt: sublist3r
+#Alt: sockperf
+#ntopng # sid only
 
 #Section: SSH
 #Alt: sshuttle
@@ -274,19 +270,16 @@ dnsutils
 #Alt: autossh
 #Alt: endlessh
 
-
 #Section: Remote access/desktop clients
 #Alt: remmina
-#Alt: remmina-plugin-nx
 #Alt: remmina-plugin-rdp
-#Alt: remmina-plugin-spice
 #Alt: remmina-plugin-vnc
-#Alt: remmina-plugin-xdmcp
 #Alt: vinagre
 #Alt: weevely
 #Alt: x2goclient
-#remmina-plugin-telepathy # buster only
-
+#remmina-plugin-nx # sid only
+#remmina-plugin-spice # sid only
+#remmina-plugin-xdmcp # sid only
 
 #Section: SSH
 #Firewall: SSH server
@@ -338,15 +331,11 @@ openssh-server
 #Alt: mdk3
 #Alt: dnsmap
 #Alt: dnsenum
-#prads # buster only
-#zenmap # buster only
-#kismet # buster only
-#kismet-plugins # buster only
-#pcredz # buster only
-#dirsearch # bookmworm only
-#aws-nuke # bookworm only
-#firewallk # bookworm only
-#urlextractor # bookworm only
+#Alt: prads
+#Alt: dirsearch
+#Alt: aws-nuke
+#Alt: firewalk
+#Alt: urlextractor
 
 #Section: Tor
 #Alt: tor-geoipdb

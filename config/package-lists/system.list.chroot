@@ -36,7 +36,6 @@ gdebi
 #Alt: packagekit-gtk3-module
 #Alt: extrepo
 #Alt: policy-rcd-declarative-deny-all
-#pk-update-icon # buster only
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
@@ -50,7 +49,7 @@ strace
 memtest86+
 #Alt: gnome-system-monitor
 #Alt: screenfetch
-#screentest # bookworm only
+#Alt: screentest
 #Alt: hardinfo
 #Alt: cputool
 #Alt: usbview
@@ -69,14 +68,13 @@ memtest86+
 #Alt: read-edid
 #Alt: cpu-x
 #Alt: i7z
-#glances # buster only
-
+#Alt: glances
 
 #Section: Backup
 #Screenshot: deja-dup
 #Description: deja-dup
 deja-dup
-#Alt: backintime-qt4
+#Alt: backintime-qt
 #Alt: tmfs
 #Alt: duplicity
 #Alt: rdiff-backup
@@ -89,7 +87,8 @@ deja-dup
 #Alt: backupninja
 #Alt: duply
 #Alt: vorta
-#rsnapshot # buster only
+#Alt: rsnapshot
+#Alt: borgbackup2
 
 #Section: Disk management
 #Description: gnome-disk-utility
@@ -123,10 +122,10 @@ lvm2
 #Alt: gdmap
 #Alt: clonezilla
 #Alt: exfatprogs
-#Alt: crazydiskinfo
 #Alt: disk-filltest
 #Alt: loggedfs
-#disk-manager # buster only
+#Alt: squashfuse
+#crazydiskinfo # sid only
 
 #Section: Data recovery
 #Description: testdisk
@@ -145,7 +144,6 @@ testdisk
 #Description: bleachbit
 bleachbit
 localepurge
-#fslint # buster only
 
 #Section: Log viewers
 #Description: gnome-system-log
@@ -159,7 +157,7 @@ colortail
 #Alt: logtop
 #Alt: since
 #Alt: multitail
-
+#Alt: logswan
 
 #Section: Virtualization
 #Description: virt-manager
@@ -177,7 +175,6 @@ libguestfs-tools
 virt-p2v
 libguestfs-rsync
 libguestfs-rescue
-#virt-top # buster only
 netcat-openbsd
 #Alt: virt-p2v
 #Alt: virt-what
@@ -188,14 +185,16 @@ netcat-openbsd
 #Alt: docker.io
 #Alt: docker-registry
 #Alt: docker-doc
-#Alt: anbox
 #Alt: vagrant
 #Alt: schroot
 #Alt: imvirt
-#virt-sandbox # buster only
-#guestfish # bookworm only
-#guestmount # bookworm only
-#virtnbdbackup # bookworm only
+#Alt: guestfish
+#Alt: guestmount
+#Alt: virtnbdbackup
+#Alt: open-infrastructure-compute-tools
+#Alt: debvm
+#virt-top # sid only
+#anbox # bullseye only
 
 #Section: Configuration management
 #Alt: ansible
@@ -232,8 +231,6 @@ at
 #Alt: oomd
 #Alt: irqbalance
 #Alt: preload
-#ulatencyd # buster only
-
 
 #Section: Security & sandboxing
 apparmor

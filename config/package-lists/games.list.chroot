@@ -8,7 +8,7 @@ lutris
 #Alt: cmatrix-xfont
 #Alt: endless-sky
 #Alt: play.it
-#Alt: steam:i386
+#Alt: steam-installer
 #Alt: supertuxkart
 #Alt: hedgewars
 #Alt: 0ad
@@ -66,13 +66,13 @@ lutris
 #Alt: playonlinux
 #Alt: fonts-wine
 #Alt: winetricks
-#gweled # buster only
-#proton-caller # bookworm only
+#Alt: proton-caller
+#Alt: gweled
 
 #Section: Game console emulators
 #Alt: pcsxr
-#Alt: zsnes:i386
-#Alt: higan
+#Alt: pcsx2
+#Alt: zsnes
 #Alt: desmume
 #Alt: mupen64plus-qt
 #Alt: mupen64plus-input-all
@@ -104,8 +104,6 @@ lutris
 #Alt: mame-extra
 #Alt: nestopia
 #Alt: dosbox
-#Alt: pcsx2:i386
 #Alt: games-emulator
-#mupen64plus # buster only
-#libretro-genesisplusgx # buster only
-#dolphin-emu # buster only
+#Alt: dolphin-emu
+#higan # bullseye only

@@ -27,11 +27,7 @@ mpv
 #Alt: vlc-plugin-svg
 #Alt: celluloid
 #Alt: vlc-plugin-bittorrent
-#zapping # buster only
-#vlc-plugin-zvbi # buster only
-#libdvdread4 # buster only
-#vlc-plugin-vlsub # buster only
-#mpv-mpris # bookworm only
+#Alt: mpv-mpris
 
 #Section: Music players/library managers
 #Description: quodlibet
@@ -39,10 +35,6 @@ quodlibet
 exfalso
 libgpod-common
 libgpod4
-#python-cddb # buster only
-#python-feedparser # buster only
-#python-musicbrainzngs # buster only
-#python-pyinotify # buster only
 sox
 #Alt: gnome-music
 #Alt: rhythmbox
@@ -63,7 +55,6 @@ sox
 #Alt: moc-ffmpeg-plugin
 #Alt: mpg123
 #Alt: beets
-#Alt: cowbell
 #Alt: easytag
 #Alt: puddletag
 #Alt: eyed3
@@ -76,10 +67,7 @@ sox
 #Alt: gtkpod
 #Alt: playerctl
 #Alt: streamtuner2
-#gmusicbrowser # buster only
-#musique # buster only
-#radiotray # buster
-
+#cowbell # sid only
 
 #Section: Webcam
 #Description: cheese
@@ -93,6 +81,7 @@ gnome-video-effects
 #Alt: zoneminder
 #Alt: pinhole
 #Alt: megapixels
+
 #Section: Screen recording/screencasting
 #Description: obs-studio
 #Description: vokoscreen-ng
@@ -102,9 +91,20 @@ vokoscreen-ng
 #Alt: byzanz
 #Alt: obs-source-clone
 #Alt: simplescreenrecorder
-#gtk-recordmydesktop # buster only
-#key-mon # buster only
-
+#Alt: obs-ashmanix-countdown
+#Alt: obs-advanced-scene-switcher
+#Alt: obs-cli
+#Alt: obs-gradient-source
+#Alt: obs-move-transition
+#Alt: obs-plugins
+#Alt: obs-scene-collection-manager
+#Alt: obs-scene-notes-dock
+#Alt: obs-source-clone
+#Alt: obs-source-copy
+#Alt: obs-transition-table
+#obs-command-source # experimental only
+#obs-ptz # sid only
+#obs-scene-tree-view # experimental only
 
 #Section: Media conversion/codecs
 #Description: qwinff
@@ -129,8 +129,6 @@ media-player-info
 #Alt: handbrake
 #Alt: mp3splt
 #Alt: oggvideotools
-#Alt: ogmrip
-#Alt: ogmrip-plugins
 #Alt: soundconverter
 #Alt: winff
 #Alt: winff-doc
@@ -139,9 +137,11 @@ media-player-info
 #Alt: x265
 #Alt: qhimdtransfer
 #Alt: minidisc-utils
-#Alt: mat
+#Alt: mat2
+#Alt: metadata-cleaner
 #Alt: ffmpegfs
-
+#ogmrip # sid only
+#ogmrip-plugins # sid only
 
 #Section: Audio CD extraction
 ##Description: asunder
