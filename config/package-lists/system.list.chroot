@@ -19,7 +19,7 @@ software-properties-gtk
 synaptic
 unattended-upgrades
 vrms
-#Alt: gdebi
+gdebi
 #Alt: appstream-generator
 #Alt: apt-config-auto-update
 #Alt: apt-file
