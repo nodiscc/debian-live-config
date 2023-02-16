@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Added
 - skel: bash: add an alias `gss` to show the status of git repositories under `~/GIT` using `mgitstatus`
 
+### Changed
+- enable tap-to-click by default for all touchpads
+
 ### Fixed
 - fix XFCE power manager unable to suspend the system on laptop lid close/low battery
 
