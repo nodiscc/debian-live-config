@@ -31,6 +31,10 @@ download_extra: clean
 	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/p/pidgin-opensteamworks/pidgin-opensteamworks_1.7-1_amd64.deb
 	cp cache/downloads/pidgin-opensteamworks_1.7-1_amd64.deb config/packages.chroot/
 
+	# DISABLED https://github.com/axcore/tartube
+	#$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/t/tartube/python3-tartube_2.4.260.deb
+	#cp cache/downloads/python3-tartube_2.4.260.deb config/packages.chroot/
+
 	# EXTRA https://github.com/nodiscc/user.js
 	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.4.0-1_all.deb
 	cp cache/downloads/user.js_0.4.0-1_all.deb config/packages.chroot/
