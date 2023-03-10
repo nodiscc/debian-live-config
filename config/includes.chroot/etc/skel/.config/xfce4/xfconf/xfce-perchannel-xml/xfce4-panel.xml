@@ -43,6 +43,7 @@
     <property name="plugin-5" type="string" value="clock">
       <property name="show-frame" type="bool" value="false"/>
       <property name="digital-format" type="string" value="%R %a %d"/>
+      <property name="digital-time-font" type="string" value="Roboto 9"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="show-frame" type="bool" value="false"/>
