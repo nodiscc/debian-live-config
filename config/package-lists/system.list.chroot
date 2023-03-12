@@ -69,6 +69,7 @@ memtest86+
 #Alt: memlockd
 #Alt: read-edid
 #Alt: cpu-x
+#Alt: i7z
 #glances # buster only
 
 
