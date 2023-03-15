@@ -95,9 +95,9 @@ gnome-video-effects
 #Alt: megapixels
 #Section: Screen recording/screencasting
 #Description: obs-studio
-#Description: vokoscreen
+#Description: vokoscreen-ng
 obs-studio
-vokoscreen
+vokoscreen-ng
 #Alt: kazam
 #Alt: byzanz
 #Alt: obs-source-clone
