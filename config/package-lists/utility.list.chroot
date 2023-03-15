@@ -182,6 +182,9 @@ xfce4-screenshooter
 #Alt: flameshot
 
 #Section: Clocks/timers
+#Description: alarm-clock-applet
+#Screenshot: alarm-clock-applet
+alarm-clock-applet
 tty-clock
 #Alt: gnome-clocks
 #Alt: dclock
