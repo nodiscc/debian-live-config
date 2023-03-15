@@ -234,7 +234,6 @@ at
 
 #Section: Security & sandboxing
 apparmor
-apparmor-easyprof
 apparmor-profiles
 apparmor-utils
 libpam-tmpdir
