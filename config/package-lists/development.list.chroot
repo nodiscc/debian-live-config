@@ -91,9 +91,9 @@ dos2unix
 
 #Section: Packaging
 build-essential
-checkinstall
-fakeroot
 debconf-utils
+#Alt: checkinstall
+#Alt: fakeroot
 #Alt: lintian
 #Alt: autoconf
 #Alt: devscripts

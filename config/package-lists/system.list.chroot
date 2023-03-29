@@ -14,7 +14,6 @@ debsums
 gnome-packagekit
 packagekit
 packagekit-tools
-reportbug
 software-properties-gtk
 synaptic
 unattended-upgrades
@@ -36,6 +35,7 @@ gdebi
 #Alt: packagekit-gtk3-module
 #Alt: extrepo
 #Alt: policy-rcd-declarative-deny-all
+#Alt: reportbug
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
