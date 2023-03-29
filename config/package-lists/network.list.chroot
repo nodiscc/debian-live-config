@@ -282,6 +282,7 @@ dnsutils
 #Section: SSH
 #Description: openssh-server
 openssh-server
+openssh-client
 #Alt: barrier
 #Alt: xpra
 #Alt: lightdm-remote-session-x2go
