@@ -5,11 +5,10 @@ Components that are not part of the official Debian distribution are listed in [
 
 <!-- grep '# EXTRA' Makefile.extra -->
 
- - <https://github.com/az0/cleanerml>
- - <https://github.com/nodiscc/user.js>
- - <https://github.com/EionRobb/pidgin-opensteamworks/>
- - <https://github.com/yt-dlp/yt-dlp>
- - <https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/>
- - <https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/>
+- <https://github.com/az0/cleanerml>
+- <https://github.com/nodiscc/user.js>
+- <https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/>
+- <https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/>
+- <https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/>
 
 These components are downloaded from a [third-party repository](http://nodiscc.gitlab.io/toolbox) or directly from their upstream project. You will not receive any updates for these packages unless you [enable the APT repository manually](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/config/includes.chroot/etc/apt/sources.list.d/debian-live-config.list) or if an official package with the same name is someday [added to Debian repositories](https://wnpp.debian.net/).
