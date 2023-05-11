@@ -4,7 +4,7 @@
 
 [Debian GNU/Linux](https://www.debian.org/) desktop operating system for personal computers & workstations.
 
-![](https://i.imgur.com/xbRbpM3.png)
+![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/xbRbpM3.png)
 
 ## Features
 
@@ -43,9 +43,9 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Screenshots
 
-![](https://i.imgur.com/xbRbpM3.png)
+![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/xbRbpM3.png)
 
-![](https://i.imgur.com/iyA3bov.png)
+![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/iyA3bov.png)
 
 
 ## Source code
