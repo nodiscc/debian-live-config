@@ -36,6 +36,7 @@ gdebi
 #Alt: extrepo
 #Alt: policy-rcd-declarative-deny-all
 #Alt: reportbug
+#Alt: nala
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
@@ -69,6 +70,7 @@ memtest86+
 #Alt: cpu-x
 #Alt: i7z
 #Alt: glances
+#Alt: sysdig
 
 #Section: Backup
 #Screenshot: deja-dup

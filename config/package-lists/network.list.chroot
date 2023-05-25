@@ -226,6 +226,9 @@ dnsutils
 #Alt: subnetcalc
 #Alt: iperf
 #Alt: iptraf-ng
+#Alt: ngrep
+#Alt: p0f
+#Alt: pktstat
 #Alt: jmeter
 #Alt: jnettop
 #Alt: logstalgia
@@ -234,6 +237,7 @@ dnsutils
 #Alt: mtr
 #Alt: natpmpc
 #Alt: nethogs
+#Alt: bmon
 #Alt: netmask
 #Alt: nmon
 #Alt: prips
@@ -243,7 +247,9 @@ dnsutils
 #Alt: speedtest-cli
 #Alt: sslsniff
 #Alt: tcpdump
+#Alt: dhcpdump
 #Alt: tcpstat
+#Alt: tcptrack
 #Alt: thc-ipv6
 #Alt: trickle
 #Alt: tshark

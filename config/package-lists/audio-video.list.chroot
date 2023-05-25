@@ -105,6 +105,10 @@ vokoscreen-ng
 #obs-command-source # experimental only
 #obs-ptz # sid only
 #obs-scene-tree-view # experimental only
+#obs-scene-as-transition # sid only
+#obs-scene-tree-view # sid only
+#obs-3d-effect # sid only
+#obs-color-monitor # sid only
 
 #Section: Media conversion/codecs
 #Description: qwinff
