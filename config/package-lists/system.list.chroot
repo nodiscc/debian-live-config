@@ -19,6 +19,7 @@ synaptic
 unattended-upgrades
 vrms
 gdebi
+#Alt: debfoster
 #Alt: appstream-generator
 #Alt: apt-config-auto-update
 #Alt: apt-file
