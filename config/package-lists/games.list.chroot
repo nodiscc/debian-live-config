@@ -1,9 +1,9 @@
 #Title: Games
 
 #Section: Games
-#Description: lutris
-#Screenshot: lutris
-lutris
+##Description: lutris
+##Screenshot: lutris
+#Alt: lutris
 #Alt: cmatrix
 #Alt: cmatrix-xfont
 #Alt: endless-sky
