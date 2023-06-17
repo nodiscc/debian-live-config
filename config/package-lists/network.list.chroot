@@ -21,15 +21,14 @@ webext-ublock-origin-firefox
 pidgin
 pidgin-otr
 libpurple-bin
-purple-lurch
-purple-rocketchat
-purple-discord
+#Alt: purple-rocketchat
+#Alt: purple-discord
 purple-xmpp-http-upload
 purple-xmpp-carbons
 pidgin-plugin-pack
 pidgin-extprefs
 pidgin-gnome-keyring
-purple-discord
+purple-lurch
 #Alt: finch
 #Alt: jami
 #Alt: telegram-desktop
