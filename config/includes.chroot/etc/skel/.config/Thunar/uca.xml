@@ -11,15 +11,6 @@
 	<directories/>
 </action>
 <action>
-	<icon>system-search</icon>
-	<name>Search...</name>
-	<unique-id>1376145324304167-1</unique-id>
-	<command>catfish %f</command>
-	<description>Search files and directories</description>
-	<patterns>*</patterns>
-	<directories/>
-</action>
-<action>
 	<icon>deja-dup</icon>
 	<name>Restore files...</name>
 	<unique-id>1623864079910491-1</unique-id>
