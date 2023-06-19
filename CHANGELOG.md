@@ -6,10 +6,28 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ## [v3.1.2](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.2) - UNRELEASED
 
 ### Added
+- config: add the [`non-free-firmware`](https://wiki.debian.org/Firmware) component to APT sources list
+- packages: utility: add [alarm-clock-applet](https://packages.debian.org/bookworm/alarm-clock-applet)
 - skel: bash: add an alias `gss` to show the status of git repositories under `~/GIT` using `mgitstatus`
 
 ### Changed
-- enable tap-to-click by default for all touchpads
+- rebase on [Debian 12 "Bookworm"](https://www.debian.org/releases/bookworm/)
+- config: enable tap-to-click by default for all touchpads
+- config: xfce4-panel: set clock panel plugin font to Roboto 9
+- config: remove catfish file search from Thunar custom actions and xfce4-whiskermenu favorites (Thunar file manager now has a native file search feature)
+- config: remove custom wallpapers/backgrounds, use the new Debian 12 "Emerald" theme everywhere
+- cleanup: packages: update package names to their Debian 12 names
+- tests: update test tooling
+- doc: update documentation
+
+### Removed
+- cleanup/packages: remove obsolete packages whose functionality is now included in core packages (`libreoffice-avmedia-backend-gstreamer`, `crda`, `gvfs-bin`)
+- packages: system: remove [hddtemp](https://packages.debian.org/bullseye/hddtemp) - can be replaced with the `drivetemp` kernel module (`sudo modprobe drivetemp; sudo sensors`)
+- packages: graphics: remove [gimp-gap](https://packages.debian.org/bullseye/gimp-gap) (removed from Debian)
+- packages: network: remove [telegram-purple](https://packages.debian.org/bullseye/telegram-purple) (removed from Debian) and [purple-discord](https://packages.debian.org/bullseye/purple-discord) and [purple-rocketchat](https://packages.debian.org/bullseye/purple-rocketchat)
+- packages: audio/video: remove [subliminal](https://packages.debian.org/bullseye/subliminal)
+- packages: games: remove [lutris](https://packages.debian.org/bullseye/lutris) (removed from Debian)
+- packages: development: remove [checkinstall](https://packages.debian.org/bullseye/checkinstall), [fakeroot](https://packages.debian.org/bullseye/fakeroot), [reportbug](https://packages.debian.org/bullseye/reportbug)
 
 ### Fixed
 - fix XFCE power manager unable to suspend the system on laptop lid close/low battery
