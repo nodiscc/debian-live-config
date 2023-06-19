@@ -77,6 +77,7 @@ test_imagesize:
 
 # requirements: iso image must be downloaded from the build machine beforehand
 # rsync -avzP $BUILD_HOST:/var/debian-live-config/iso/ ./
+# cp iso/*.iso /var/lib/libvirt/images/
 .PHONY: test_kvm_bios # test resulting live image in libvirt VM with legacy BIOS
 test_kvm_bios:
 	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)dlc-$(LAST_TAG)-debian-bookworm-amd64.hybrid.iso" --memory 3048 --vcpu 2
