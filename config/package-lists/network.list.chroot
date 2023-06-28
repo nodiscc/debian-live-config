@@ -264,6 +264,7 @@ dnsutils
 #Alt: sublist3r
 #Alt: sockperf
 #ntopng # sid only
+#ripcalc # sid only
 
 #Section: SSH
 #Alt: sshuttle
