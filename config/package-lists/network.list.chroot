@@ -265,6 +265,7 @@ dnsutils
 #Alt: sockperf
 #ntopng # sid only
 #ripcalc # sid only
+#gping # sid only
 
 #Section: SSH
 #Alt: sshuttle
