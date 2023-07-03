@@ -6,4 +6,5 @@
   <property name="last-compact-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_100_PERCENT"/>
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLEST"/>
   <property name="last-location-bar" type="string" value="ThunarLocationButtons"/>
+  <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_LONG"/>
 </channel>
