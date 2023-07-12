@@ -76,7 +76,7 @@ test_imagesize:
 	fi
 
 # requirements: iso image must be downloaded from the build machine beforehand
-# rsync -avzP $BUILD_HOST:/var/debian-live-config/iso/ ./
+# rsync -avzP $BUILD_HOST:/var/debian-live-config/iso ./
 # cp iso/*.iso /var/lib/libvirt/images/
 .PHONY: test_kvm_bios # test resulting live image in libvirt VM with legacy BIOS
 test_kvm_bios:
