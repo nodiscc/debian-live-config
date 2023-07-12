@@ -22,7 +22,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - config: use long date format to display dates in Thunar file manager
 - config: remove pidgin from whiskermenu favorites
 - config: remove custom wallpapers/backgrounds, use the new Debian 12 "Emerald" theme everywhere
-- firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.7.1)
+- firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions, display bookmarks toolbar by default, display separate search/location bars by default, disable Firefox studies (Shield), set the default search engine to DuckDuckGo instead of Google (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.8.0)
 - cleanup: packages: update package names to their Debian 12 names
 - tests: update test tooling
 - doc: update documentation
