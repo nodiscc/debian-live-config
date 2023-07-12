@@ -51,7 +51,6 @@ strace
 memtest86+
 #Alt: gnome-system-monitor
 #Alt: screenfetch
-#Alt: screentest
 #Alt: hardinfo
 #Alt: cputool
 #Alt: usbview
@@ -72,6 +71,7 @@ memtest86+
 #Alt: i7z
 #Alt: glances
 #Alt: sysdig
+#screentest # buster only
 
 #Section: Backup
 #Screenshot: deja-dup

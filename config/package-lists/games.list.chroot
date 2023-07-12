@@ -71,8 +71,8 @@
 
 #Section: Game console emulators
 #Alt: pcsxr
-#Alt: pcsx2
-#Alt: zsnes
+#Alt: pcsx2:i386
+#Alt: zsnes:i386
 #Alt: desmume
 #Alt: mupen64plus-qt
 #Alt: mupen64plus-input-all

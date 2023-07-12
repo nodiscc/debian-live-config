@@ -214,9 +214,9 @@ xfce4-terminal
 
 #Section: Science
 #Alt: stellarium
-#Alt: lightspeed
 #Alt: wxmaxima
 #Alt: gramps
+#lightspeed # bullseye only
 
 #Section: Color management
 #Description: redshift-gtk
@@ -305,7 +305,7 @@ qt5-gtk-platformtheme
 #Section: Virtual keyboards
 #Alt: onboard
 #Alt: onboard-data
-#Alt: cellwriter
+#cellwriter # bullseye only
 #florence # sid only
 
 #Section: Other
