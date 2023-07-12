@@ -1,2 +1,3 @@
 # Uncomment to receive updates for packages installed from https://nodiscc.gitlab.io/toolbox
-#deb https://nodiscc.gitlab.io/toolbox/ bookworm main
+# You will also need add this repository's GPG key to trusted APT keys: wget -O- https://nodiscc.gitlab.io/toolbox/gpg.key | gpg --dearmor > nodiscc-toolbox.gpg && cat nodiscc-toolbox.gpg | sudo tee -a /usr/share/keyrings/nodiscc-toolbox.gpg > /dev/null
+#deb [signed-by=/usr/share/keyrings/nodiscc-toolbox.gpg] https://nodiscc.gitlab.io/toolbox/ bookworm main
