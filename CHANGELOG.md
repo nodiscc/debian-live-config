@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v3.1.2](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.2) - UNRELEASED
 
+**Upgrade procedure:** Follow the official [Debian upgrade procedure](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.html), or backup your data, reinstall, and restore. Note: some changes will only take effect after creating a new user account. If upgrading without reinstalling, you will need to apply some of the changes below (notably add/remove packages) manually.
+
 ### Added
 - config: add the [`non-free-firmware`](https://wiki.debian.org/Firmware) component to APT sources list
 - packages: utility: add [alarm-clock-applet](https://packages.debian.org/bookworm/alarm-clock-applet)
@@ -15,7 +17,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - config: enable tap-to-click by default for all touchpads
 - config: xfce4-panel: set clock panel plugin font to Roboto 9, set clock format to `HH:MM`
 - config: autostart: disable alarm-clock-applet autostart
-
 - config: remove catfish file search from Thunar custom actions and xfce4-whiskermenu favorites (Thunar file manager now has a native file search feature)
 - config: xsettings: sync xfwm4 theme to GTK theme changes if possible
 - config: use long date format to display dates in Thunar file manager
