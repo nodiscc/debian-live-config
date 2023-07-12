@@ -1,13 +1,11 @@
 #Title: Development
 #Section: Version control
-#Description: meld
-##Description: gource
 git
-meld
 colordiff
 dwdiff
 cloc
 mgitstatus
+#Alt: meld
 #Alt: gitg
 #Alt: gource
 #Alt: fossil
