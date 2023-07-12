@@ -9,11 +9,13 @@
 ## Features
 
 - Ready-to-use operating system for personal computers/workstations
-- Preinstalled/preconfigured software for common tasks (office, multimedia, network...)
+- Preinstalled, preconfigured software for common tasks (office, multimedia, network...)
+- Good out-of-the-box experience with a focus on usability
 - Installation time < 10 minutes, without Internet access
-- Also runs [live](https://en.wikipedia.org/wiki/Live_USB) from USB drive (no installation required)
+- Able to run [live](https://en.wikipedia.org/wiki/Live_USB) from USB drive (no installation required)
 - Fits on a 2GB USB drive
-- Reliable, low maintenance (Based on Debian [stable](https://wiki.debian.org/DebianStable) + [backports](https://wiki.debian.org/Backports))
+- Only uses official Debian [stable](https://wiki.debian.org/DebianStable) + [backports](https://wiki.debian.org/Backports) packages and as few third-party components as possible
+- Reliable, low maintenance
 - Lightweight/low resource usage, good performance on low-end or recycled hardware
 - Proprietary drivers/firmware for good compatibility with recent hardware
 
@@ -22,7 +24,7 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Download
 
-**[![](download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/debian-live-config-4.0.0-debian-bookworm-amd64.hybrid.iso)** (64-bit)
+**[![](download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/3.0.1/dlc-3.0.1-debian-bookworm-amd64.hybrid.iso)** (64-bit)
 
 
 ## Documentation

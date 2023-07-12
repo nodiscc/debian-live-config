@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v4.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.0.0) - UNRELEASED
+
+**Upgrade procedure:** Follow the official [Debian upgrade procedure](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.html), or backup your data, reinstall, and restore. Note: some changes will only take effect after creating a new user account. If upgrading without reinstalling, you will need to apply some of the changes below (notably add/remove packages) manually.
+
+### Added
+- config: add the [`non-free-firmware`](https://wiki.debian.org/Firmware) component to APT sources list
+- packages: utility: add [alarm-clock-applet](https://packages.debian.org/bookworm/alarm-clock-applet)
+- skel: bash: add an alias `gss` to show the status of git repositories under `~/GIT` using `mgitstatus`
+
+### Changed
+- rebase on [Debian 12 "Bookworm"](https://www.debian.org/releases/bookworm/)
+- config: enable tap-to-click by default for all touchpads
+- config: xfce4-panel: set clock panel plugin font to Roboto 9, set clock format to `HH:MM`
+- config: autostart: disable alarm-clock-applet autostart
+- config: remove catfish file search from Thunar custom actions and xfce4-whiskermenu favorites (Thunar file manager now has a native file search feature)
+- config: xsettings: sync xfwm4 theme to GTK theme changes if possible
+- config: use long date format to display dates in Thunar file manager
+- config: remove pidgin from whiskermenu favorites
+- config: remove custom wallpapers/backgrounds, use the new Debian 12 "Emerald" theme everywhere
+- firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions, display bookmarks toolbar by default, display separate search/location bars by default, disable Firefox studies (Shield), set the default search engine to DuckDuckGo instead of Google (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.8.0)
+- cleanup: packages: update package names to their Debian 12 names
+- tests: update test tooling
+- doc: update documentation
+
+### Removed
+- packages: system: remove [hddtemp](https://packages.debian.org/bullseye/hddtemp) - can be replaced with the `drivetemp` kernel module (`sudo modprobe drivetemp; sudo sensors`)
+- packages: graphics: remove [gimp-gap](https://packages.debian.org/bullseye/gimp-gap) (removed from Debian)
+- packages: network: remove [telegram-purple](https://packages.debian.org/bullseye/telegram-purple) (removed from Debian) and [purple-discord](https://packages.debian.org/bullseye/purple-discord) and [purple-rocketchat](https://packages.debian.org/bullseye/purple-rocketchat), [pidgin-opensteamworks](https://github.com/EionRobb/pidgin-opensteamworks)
+- packages: audio/video: remove [subliminal](https://packages.debian.org/bullseye/subliminal)
+- packages: games: remove [lutris](https://packages.debian.org/bullseye/lutris) (removed from Debian)
+- packages: development: remove [checkinstall](https://packages.debian.org/bullseye/checkinstall), [fakeroot](https://packages.debian.org/bullseye/fakeroot), [reportbug](https://packages.debian.org/bullseye/reportbug), [meld](https://packages.debian.org/bullseye/meld)
+- cleanup/packages: remove obsolete packages whose functionality is now included in core packages (`libreoffice-avmedia-backend-gstreamer`, `crda`, `gvfs-bin`)
+
+### Fixed
+- fix XFCE power manager unable to suspend the system on laptop lid close/low battery
+
+
 ## [v3.1.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.1) - 2022-11-11
 
 ### Removed
@@ -45,12 +82,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - defaults/skel: add keyboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
-- firefox: always show the bookmarks toolbar (update user.js to v0.4.0)
+- firefox: always show the bookmarks toolbar (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.4.0)
 
 ### Fixed
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
 - fix unattended-upgrades configuration (automatically update packages from Debian Backports)
-- fix xfce4 power manager unable to suspend the system on laptop lid close/low battery
+- fix XFCE power manager unable to suspend the system on laptop lid close/low battery
 
 ### Upgrade procedure
 
@@ -98,7 +135,7 @@ Pin-Priority: 1000
 - apt: update APT sources lists/configuration
 - replace [backintime](https://packages.debian.org/bullseye/backintime-qt) backup tool with [deja-dup](https://wiki.gnome.org/Apps/DejaDup)
 - games: install lutris from official Debian repositories, remove third-party package download
-- extras: use `.deb` packages to manage additional/unofficial software ([bleachbit-cleanerml](https://github.com/bleachbit/cleanerml), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [pidgin-opensteamworks](https://github.com/eionrobb/pidgin-opensteamworks), [user.js](https://github.com/nodiscc/user.js)), remove custom installation logic, update all extra packages to latest releases
+- extras: use `.deb` packages to manage additional/unofficial software ([bleachbit-cleanerml](https://github.com/bleachbit/cleanerml), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [pidgin-opensteamworks](https://github.com/eionrobb/pidgin-opensteamworks), [user.js](https://gitlab.com/nodiscc/user.js)), remove custom installation logic, update all extra packages to latest releases
 - network/audio-video: replace [youtube-dl](https://packages.debian.org/bullseye/youtube-dl)/[streamlink](https://packages.debian.org/bullseye/streamlink) with [yt-dlp](https://github.com/yt-dlp/yt-dlp) ([third-party package](https://nodiscc.gitlab.io/toolbox/))
 - skel: update and fix [conky](https://packages.debian.org/bullseye/conky-all) configuration for recent versions
 - skel/session: don't autostart blueman bluetooth manager by default
@@ -233,7 +270,7 @@ Bugfix release.
 ### Changed
 
 - Disable window manager compositor by default (improve video performance/prevent tearing)
-- Update user.js to 0.1
+- Update [user.js](https://gitlab.com/nodiscc/user.js) to 0.1
 - Remove unused locales from live system (only keep en/fr), decrease iso image size
 
 ### Added
@@ -267,7 +304,7 @@ Bugfix release.
 - add third party package for https://github.com/EionRobb/pidgin-opensteamworks/
 - add third party download for https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 - add third party download for https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
-- add third party download for https://github.com/nodiscc/user.js
+- add third party download for https://gitlab.com/nodiscc/user.js
 - add third-party download for https://github.com/az0/cleanerml
 - add (disabled) third party download for  https://www.sublimetext.com/
 - Makefile: add a target to generate a TODO.md from a list of gitea issues, add TODO.md
