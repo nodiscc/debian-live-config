@@ -13,8 +13,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Changed
 - rebase on [Debian 12 "Bookworm"](https://www.debian.org/releases/bookworm/)
 - config: enable tap-to-click by default for all touchpads
-- config: xfce4-panel: set clock panel plugin font to Roboto 9
+- config: xfce4-panel: set clock panel plugin font to Roboto 9, set clock format to `HH:MM`
+- config: autostart: disable alarm-clock-applet autostart
+
 - config: remove catfish file search from Thunar custom actions and xfce4-whiskermenu favorites (Thunar file manager now has a native file search feature)
+- config: xsettings: sync xfwm4 theme to GTK theme changes if possible
+- config: use long date format to display dates in Thunar file manager
+- config: remove pidgin from whiskermenu favorites
 - config: remove custom wallpapers/backgrounds, use the new Debian 12 "Emerald" theme everywhere
 - firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.7.1)
 - cleanup: packages: update package names to their Debian 12 names
@@ -22,13 +27,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - doc: update documentation
 
 ### Removed
-- cleanup/packages: remove obsolete packages whose functionality is now included in core packages (`libreoffice-avmedia-backend-gstreamer`, `crda`, `gvfs-bin`)
 - packages: system: remove [hddtemp](https://packages.debian.org/bullseye/hddtemp) - can be replaced with the `drivetemp` kernel module (`sudo modprobe drivetemp; sudo sensors`)
 - packages: graphics: remove [gimp-gap](https://packages.debian.org/bullseye/gimp-gap) (removed from Debian)
-- packages: network: remove [telegram-purple](https://packages.debian.org/bullseye/telegram-purple) (removed from Debian) and [purple-discord](https://packages.debian.org/bullseye/purple-discord) and [purple-rocketchat](https://packages.debian.org/bullseye/purple-rocketchat)
+- packages: network: remove [telegram-purple](https://packages.debian.org/bullseye/telegram-purple) (removed from Debian) and [purple-discord](https://packages.debian.org/bullseye/purple-discord) and [purple-rocketchat](https://packages.debian.org/bullseye/purple-rocketchat), [pidgin-opensteamworks](https://github.com/EionRobb/pidgin-opensteamworks)
 - packages: audio/video: remove [subliminal](https://packages.debian.org/bullseye/subliminal)
 - packages: games: remove [lutris](https://packages.debian.org/bullseye/lutris) (removed from Debian)
-- packages: development: remove [checkinstall](https://packages.debian.org/bullseye/checkinstall), [fakeroot](https://packages.debian.org/bullseye/fakeroot), [reportbug](https://packages.debian.org/bullseye/reportbug)
+- packages: development: remove [checkinstall](https://packages.debian.org/bullseye/checkinstall), [fakeroot](https://packages.debian.org/bullseye/fakeroot), [reportbug](https://packages.debian.org/bullseye/reportbug), [meld](https://packages.debian.org/bullseye/meld)
+- cleanup/packages: remove obsolete packages whose functionality is now included in core packages (`libreoffice-avmedia-backend-gstreamer`, `crda`, `gvfs-bin`)
 
 ### Fixed
 - fix XFCE power manager unable to suspend the system on laptop lid close/low battery
