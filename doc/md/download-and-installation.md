@@ -10,19 +10,19 @@
 
 ## Download
 
-**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/dlc-4.0.0-debian-bookworm-amd64.hybrid.iso)** the latest ISO image
+**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/debian-live-config-4.0.0-debian-bookworm-amd64.hybrid.iso)** the latest ISO image
 
 (Recommended) verify file integrity and authenticity with GPG:
 
 ```bash
 # download the iso, signing key, checksums and signature
-wget https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/dlc-4.0.0-debian-bookworm-amd64.hybrid.iso
-wget https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/dlc-release.key
+wget https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/debian-live-config-4.0.0-debian-bookworm-amd64.hybrid.iso
+wget https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/debian-live-config-release.key
 wget https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/SHA512SUMS
 wget https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/SHA512SUMS.sign
 # import the release signing key
 # the key used to sign releases has key ID EE73FC8FD71E3CC83606FDF361B23168A539DBBD
-gpg --import dlc-release.key
+gpg --import debian-live-config-release.key
 # verify that checksums are authentic
 gpg --verify SHA512SUMS.sign
 # verify integrity of the ISO image

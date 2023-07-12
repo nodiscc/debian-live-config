@@ -43,7 +43,7 @@ checksums:
 	@mkdir -p iso/
 	mv *.iso iso/
 	cd iso/; \
-	rename "s/live-image/dlc-$(LAST_TAG)-debian-bookworm/" *; \
+	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-bookworm/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
 
 # the signing key must be present and loaded on the build machine
@@ -56,7 +56,7 @@ sign_checksums:
 	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 	# Export the public GPG key used for signing
-	gpg --export --armor nodiscc@gmail.com > iso/dlc-release.key
+	gpg --export --armor nodiscc@gmail.com > iso/debian-live-config-release.key
 
 .PHONY: release_archive # generate a source code archive
 release_archive:
@@ -80,7 +80,7 @@ test_imagesize:
 # cp iso/*.iso /var/lib/libvirt/images/
 .PHONY: test_kvm_bios # test resulting live image in libvirt VM with legacy BIOS
 test_kvm_bios:
-	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)dlc-$(LAST_TAG)-debian-bookworm-amd64.hybrid.iso" --memory 3048 --vcpu 2
+	virt-install --name dlc-test --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-bookworm-amd64.hybrid.iso" --memory 3048 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
@@ -88,7 +88,7 @@ test_kvm_bios:
 # UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
 .PHONY: test_kvm_uefi # test resulting live image in libvirt VM with UEFI
 test_kvm_uefi:
-	virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)dlc-$(LAST_TAG)-debian-bookworm-amd64.hybrid.iso" --memory 3048 --vcpu 2
+	virt-install --name dlc-test --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-bookworm-amd64.hybrid.iso" --memory 3048 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2

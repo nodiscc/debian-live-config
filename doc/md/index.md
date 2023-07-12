@@ -22,7 +22,7 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Download
 
-**[![](download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/dlc-4.0.0-debian-bookworm-amd64.hybrid.iso)** (64-bit)
+**[![](download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/debian-live-config-4.0.0-debian-bookworm-amd64.hybrid.iso)** (64-bit)
 
 
 ## Documentation
