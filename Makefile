@@ -22,6 +22,7 @@ install_buildenv:
 clean:
 	sudo lb clean --all
 	make -f Makefile.extra clean
+	rm -rf .venv
 
 build:
 	# Build the live system/ISO image
@@ -139,6 +140,14 @@ BUILDDIR      = doc/html  # répertoire destination (html)
 .PHONY: doc_html # manual - HTML documentation generation (sphinx-build --help)
 doc_html:
 	source .venv/bin/activate && sphinx-build -c doc/md -b html doc/md doc/html
+
+.PHONY: codespell # manual - run interactive spell checker
+codespell:
+	python3 -m venv .venv && \
+	source .venv/bin/activate && \
+    pip3 install codespell && \
+	codespell --write-changes --interactive 3 --uri-ignore-words-list '*' \
+	--skip '*.venv/*,./.git/*,./doc/md/packages/*'
 
 #####
 

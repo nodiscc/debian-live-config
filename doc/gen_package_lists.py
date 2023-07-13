@@ -36,7 +36,7 @@ def get_package_metadata(package):
 
 
 def package_to_markdown(package, short_desc, long_desc, screenshot_url, pdo_url, version, pkg_type):
-	'''format package metdata to markdown
+	'''format package metadata to markdown
 	returns: markdown string'''
 	installed_icon = '![](green.png)'
 	optional_icon = '![](grey.png)'

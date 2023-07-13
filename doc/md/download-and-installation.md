@@ -82,7 +82,7 @@ A live system runs entirely in memory and allows you to use the operating system
 
 No changes to the Live filesystem are kept after reboot, (eg. files in user directories), the system will reset to it's original state when the computer is powered off/rebooted. Changes to files/directory on other drives (external/USB drive, existing fixed disk...) attached to the computer _will_ be kept - save your work there if you need to keep your changes.
 
-The screen will lock after 5 minutes of inactivity during the live session. The passord to unlock it is `live`.
+The screen will lock after 5 minutes of inactivity during the live session. The password to unlock it is `live`.
 
 See **[Usage](usage.md)**
 
