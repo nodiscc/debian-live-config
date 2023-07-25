@@ -145,7 +145,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
     - [ ] Automated whole disk partitioning
     - [ ] Manual
 - [ ] Copy latest CHANGELOG.md entry to a new [Github](https://github.com/nodiscc/debian-live-config/releases)/[Gitlab](https://gitlab.com/nodiscc/debian-live-config/-/releases) release
-- [ ] attach `debian-live-config-X.Y.Z-debian-bookworm-amd64.hybrid.iso debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
+- [ ] attach `debian-live-config-X.Y.Z-debian-bookworm-amd64.iso debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
 - `Publish release`
  
 
