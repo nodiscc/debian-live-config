@@ -19,6 +19,7 @@ synaptic
 unattended-upgrades
 vrms
 gdebi
+#Alt: gnome-package-updater
 #Alt: debfoster
 #Alt: appstream-generator
 #Alt: apt-config-auto-update
@@ -161,6 +162,7 @@ colortail
 #Alt: since
 #Alt: multitail
 #Alt: logswan
+#tailspin # sid only
 
 #Section: Virtualization
 #Description: virt-manager
@@ -276,6 +278,7 @@ xserver-xorg-video-intel
 xfonts-base
 hwdata
 #Alt: nvidia-driver
+#corctrl # sid only
 
 #Section: Kernel/boot/init
 #if ARCHITECTURES amd64

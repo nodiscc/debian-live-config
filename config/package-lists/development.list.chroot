@@ -26,6 +26,7 @@ mgitstatus
 #git-sizer # sid only
 #github-backup # sid only
 #gitleaks # sid only
+#glab # sid only
 
 #Section: Shell & basic utilities
 bash
@@ -106,6 +107,7 @@ debconf-utils
 #Alt: aptly
 #Alt: python-is-python3
 #Alt: lintian-brush
+#Alt: nvchecker
 
 #Section: Debuggers
 #Alt: gdb

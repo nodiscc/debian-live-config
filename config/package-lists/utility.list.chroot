@@ -300,6 +300,7 @@ qt5-gtk-platformtheme
 #Alt: faenza-icon-theme
 #Alt: deepin-icon-theme
 #Alt: paper-icon-theme
+#Alt: mint-y-icons
 #clearlooks-phenix-theme # sid only
 
 #Section: Virtual keyboards

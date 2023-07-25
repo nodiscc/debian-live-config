@@ -129,6 +129,7 @@ poppler-utils
 #Alt: gourmand
 #tasque # sid only
 #gnome-documents # bullseye only
+#iotas # sid only
 
 #Section: Image scanning
 #Description: simple-scan
@@ -222,3 +223,5 @@ xfonts-terminus
 #Alt: fonts-vollkorn
 #Alt: fonts-yanone-kaffeesatz
 #fonts-pecita # sid only
+#fonts-atarist # sid only
+

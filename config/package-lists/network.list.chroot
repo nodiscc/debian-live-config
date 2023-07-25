@@ -173,7 +173,10 @@ ethtool
 #Alt: mobile-broadband-provider-info
 #Alt: usb-modeswitch
 #Alt: kdeconnect
+#Alt: fdroidcl
 #gnome-phone-manager # bullseye only
+#scrcpy # sid only
+#scrcpy-server # sid only
 
 #Section: Wireless
 #Description: blueman
