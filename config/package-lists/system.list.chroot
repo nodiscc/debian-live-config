@@ -279,6 +279,7 @@ xserver-xorg-input-wacom
 xserver-xorg-input-joystick
 xserver-xorg-input-kbd
 xserver-xorg-input-mouse
+#Alt: xserver-xorg-input-mutouch
 xserver-xorg-input-multitouch
 xserver-xorg-input-synaptics
 xserver-xorg-video-all
@@ -287,6 +288,9 @@ xfonts-base
 hwdata
 #Alt: nvidia-driver
 #Alt: nvidia-vaapi-driver
+#Alt: xserver-xorg-input-aiptek
+#Alt: xserver-xorg-input-elographics
+#Alt: xserver-xorg-input-mutouch
 #corctrl # sid only
 
 #Section: Kernel/boot/init

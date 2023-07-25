@@ -68,6 +68,7 @@ xfce4-pulseaudio-plugin
 #Alt: zeitgeist-datahub
 #Alt: compiz
 #Alt: compiz-plugins
+#Alt: compiz-plugins-default
 #Alt: compiz-plugins-extra
 #Alt: compiz-plugins-main
 #Alt: compton
@@ -261,6 +262,7 @@ rfkill
 pm-utils
 #Alt: laptop-mode-tools
 #Alt: powerdebug
+#Alt: tlp
 #Alt: powerstat
 #Alt: i8kutils
 #Alt: usbtop
