@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v4.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.1.0) - UNRELEASED
+
+### Changed
+- firefox: update user.js to v0.9.0 (UI: replace the window title bar with the tabs bar)
+
+
+---------------------
+
 ## [v4.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.0.0) - 2023-07-13
 
 **Upgrade procedure:** Follow the official [Debian upgrade procedure](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.html), or backup your data, reinstall, and restore. Note: some changes will only take effect after creating a new user account. If upgrading without reinstalling, you will need to apply some of the changes below (notably add/remove packages) manually.

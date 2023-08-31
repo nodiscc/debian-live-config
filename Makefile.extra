@@ -36,8 +36,8 @@ download_extra: clean
 	#cp cache/downloads/python3-tartube_2.4.260.deb config/packages.chroot/
 
 	# EXTRA https://github.com/nodiscc/user.js
-	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.8.0-1_all.deb
-	cp cache/downloads/user.js_0.8.0-1_all.deb config/packages.chroot/
+	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.9.0-1_all.deb
+	cp cache/downloads/user.js_0.9.0-1_all.deb config/packages.chroot/
 
 	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
