@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v4.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.1.0) - UNRELEASED
 
+### Added
+- system: add firmware for Realtek, Atheros, Broadcom and Intel Wi-Fi devices
+
 ### Changed
 - firefox: update user.js to v0.9.0 (UI: replace the window title bar with the tabs bar)
 

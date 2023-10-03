@@ -299,6 +299,13 @@ libpam-systemd
 #Section: Firmwares
 firmware-linux-free
 firmware-linux-nonfree
+firmware-realtek
+firmware-atheros
+firmware-b43-installer
+firmware-brcm80211
+firmware-intel-sound
+firmware-ipw2x00
+firmware-iwlwifi
 amd64-microcode
 intel-microcode
 
