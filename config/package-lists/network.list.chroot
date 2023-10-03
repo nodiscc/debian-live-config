@@ -17,18 +17,18 @@ webext-ublock-origin-firefox
 #midori # bullseye only
 
 #Section: Instant messaging
-#Description: pidgin
-pidgin
-pidgin-otr
-libpurple-bin
+##Description: pidgin
+#Alt: pidgin
+#Alt: pidgin-otr
+#Alt: libpurple-bin
 #Alt: purple-rocketchat
 #Alt: purple-discord
-purple-xmpp-http-upload
-purple-xmpp-carbons
-pidgin-plugin-pack
-pidgin-extprefs
-pidgin-gnome-keyring
-purple-lurch
+#Alt: purple-xmpp-http-upload
+#Alt: purple-xmpp-carbons
+#Alt: pidgin-plugin-pack
+#Alt: pidgin-extprefs
+#Alt: pidgin-gnome-keyring
+#Alt: purple-lurch
 #Alt: finch
 #Alt: jami
 #Alt: telegram-desktop

@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Added
 - system: add firmware for Realtek, Atheros, Broadcom and Intel Wi-Fi devices
 
+### Removed
+- network: remove [Pidgin](https://pidgin.im/) instant messaging client
+
 ### Changed
 - firefox: update user.js to v0.9.0 (UI: replace the window title bar with the tabs bar)
 
