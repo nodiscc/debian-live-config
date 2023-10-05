@@ -120,7 +120,7 @@ doc: install_dev_docs doc_package_lists doc_md doc_html
 .PHONY: install_dev_docs # install documentation generator (sphinx + markdown + theme)
 install_dev_docs:
 	python3 -m venv .venv/
-	source .venv/bin/activate && pip3 install sphinx recommonmark sphinx_rtd_theme
+	source .venv/bin/activate && pip3 install sphinx myst_parser sphinx_rtd_theme
 
 .PHONY: doc_md # generate markdown documentation
 doc_md:

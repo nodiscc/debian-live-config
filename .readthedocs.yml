@@ -5,7 +5,7 @@
 # Required
 version: 2
 
-# Build documentation with MkDocs
+# Build documentation with Sphinx
 sphinx:
   configuration: doc/md/conf.py
 
@@ -13,3 +13,7 @@ sphinx:
 # https://github.com/rtfd/readthedocs.org/issues/5250
 python:
   version: 3.5
+
+python:
+  install:
+    - requirements: doc/md/requirements.txt

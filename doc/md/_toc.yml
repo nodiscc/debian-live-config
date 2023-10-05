@@ -1,0 +1,26 @@
+root: index.md
+entries:
+  - file: download-and-installation.md
+    title: Download and installation
+  - file: usage.md
+    title: Usage
+  - file: packages/utility.md
+    title: "Software: Utility"
+  - file: packages/network.md
+    title: "Software: Internet and network"
+  - file: packages/audio-video.md
+    title: "Software: Audio and video"
+  - file: packages/office.md
+    title: "Software: Office"
+  - file: packages/graphics.md
+    title: "Software: Graphics"
+  - file: packages/system.md
+    title: "Software: System"
+  - file: packages/development.md
+    title: "Software: Development"
+  - file: packages/games.md
+    title: "Software: Games"
+  - file: packages/extras.md
+    title: "Software: Extras"
+  - file: CHANGELOG.md
+    title: "Changelog"
