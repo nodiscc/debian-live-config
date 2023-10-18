@@ -1,0 +1,16 @@
+name: CI
+on:
+  push:
+
+concurrency:
+  group: ${{ gitea.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: host
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v2
+    - name: run build
+      run: make
