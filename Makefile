@@ -20,9 +20,9 @@ install_buildenv:
 
 .PHONY: clean # clear all caches, only required when changing the mirrors/architecture config
 clean:
-	sudo lb clean --all
+	sudo lb clean --purge
 	make -f Makefile.extra clean
-	rm -rf .venv
+	rm -rf .venv/ doc/html/ binary/ cache/ chroot/ .build/ builod.log chroot.files chrrot.packages.install chroot.packages.live config/binary/ config/bootstrap/ config/chroot/
 
 build:
 	# Build the live system/ISO image
