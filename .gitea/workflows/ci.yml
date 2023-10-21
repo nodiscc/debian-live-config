@@ -1,3 +1,11 @@
+# this workflow will not work in containers, only on VMs/bare-metal hosts sue to limitation of
+# container-based environments (filesystems mounted with nodev/noexec). Since parts of the build
+# process require root access/the following should be configured in /etc/sudoers.d/debian-live-config:
+# act-runner ALL=NOPASSWD: /usr/bin/apt -y install live-build make build-essential wget git unzip colordiff apt-transport-https rename ovmf rsync python3-venv gnupg
+# act-runner ALL=NOPASSWD: /usr/bin/lb
+# act-runner ALL=NOPASSWD: /usr/bin/lb
+# act-runner ALL=NOPASSWD: /usr/bin/lb
+
 name: CI
 on:
   push:
