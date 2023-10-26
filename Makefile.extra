@@ -6,12 +6,10 @@ all: download_extra
 
 clean:
 	rm -rvf config/packages.chroot/
-	rm -rvf cache/downloads
 	rm -rf config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
 
-clean_all: clean
+clean_purge: clean
 	rm -rvf cache/downloads/
-
 
 download_extra: clean
 	# Download additional software from third-party repository (https://nodiscc.gitlab.io/toolbox)
