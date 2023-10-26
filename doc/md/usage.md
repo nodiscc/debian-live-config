@@ -43,8 +43,17 @@ _Note: The `Super` key is also known as the Windows key._
 - `Win + Down`: Tile window bottom right
 
 
+## See also
+
+These projects can help you run Free and Open Source software on other devices.
+
+- [LineageOS](https://lineageos.org/) - A Free and Open Source operating system for mobile devices, based on Android.
+- [F-Droid](https://f-droid.org/) - A catalogue of Free and Open Source Software applications for the Android platform.
+- [xsrv](https://xsrv.readthedocs.io/en/latest/) - Install, manage and run self-hosted network services and applications on your own server(s).
+
+
 ## Issues
 
-* [Gitlab issue tracker](https://gitlab.com/nodiscc/dlc)
 * [TODO.md](TODO.md)
+* [Gitlab issue tracker](https://gitlab.com/nodiscc/debian-live-config/-/issues)
 * [Debian bug tracker (BTS)](https://wiki.debian.org/BTS)
