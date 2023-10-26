@@ -18,11 +18,16 @@ install_buildenv:
 
 ##############################
 
-.PHONY: clean # clear all caches, only required when changing the mirrors/architecture config
+.PHONY: clean # clear chroot, binary, stage and source
 clean:
 	sudo lb clean --all
 	make -f Makefile.extra clean
 	rm -rf .venv/ doc/html/
+
+.PHONY: clean_purge # clear chroot, binaray, stage, source and all caches
+clean_purge: clean
+	sudo lb clean --purge
+	make -f Makefile.extra clean_purge
 
 build:
 	# Build the live system/ISO image
