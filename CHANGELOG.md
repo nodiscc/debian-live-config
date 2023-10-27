@@ -14,7 +14,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Changed
 - grub: enable auto-detection of other Operating Systems (dual-boot configurations)
 - firefox: update user.js to v0.9.0 (UI: replace the window title bar with the tabs bar)
-
+- update documentation
 
 ---------------------
 
@@ -54,6 +54,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Fixed
 - fix XFCE power manager unable to suspend the system on laptop lid close/low battery
 
+---------------------
 
 ## [v3.1.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.1) - 2022-11-11
 
@@ -66,6 +67,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Fixed
 - decrease ISO image size to <2GB to allow upload on github releases
 
+---------------------
 
 ## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
 
@@ -78,6 +80,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - update all packages to latest Debian Stable versions
 - update documentation
 
+---------------------
 
 ## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - 2022-09-01
 
@@ -140,6 +143,7 @@ Pin-Priority: 1000
 
 - Optionally, update your configuration according to [changes since the last release](https://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
 
+---------------------
 
 ## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
 
@@ -217,6 +221,8 @@ sudo apt update && sudo apt dist-upgrade
 # https://gitlab.com/nodiscc/debian-live-config/-/compare/2.2.5...3.0.0
 # /etc/skel modifications will only take effect after creating a new user account
 ```
+
+---------------------
 
 ## [v2.2.5](https://gitlab.com/nodiscc/dlc/releases/tag/2.2.5) - 2020-12-16
 

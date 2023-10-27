@@ -109,6 +109,7 @@ vokoscreen-ng
 #obs-scene-tree-view # sid only
 #obs-3d-effect # sid only
 #obs-color-monitor # sid only
+#obs-time-source # sid only
 
 #Section: Media conversion/codecs
 #Description: qwinff
@@ -154,7 +155,7 @@ media-player-info
 #Alt: goobox
 #Alt: ripperx
 #Alt: xcfa
-
+#cyanrip: # sid only
 
 #Section: Subtitles
 #Alt: subliminal

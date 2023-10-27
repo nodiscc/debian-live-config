@@ -278,6 +278,7 @@ xserver-xorg-video-intel
 xfonts-base
 hwdata
 #Alt: nvidia-driver
+#Alt: nvidia-vaapi-driver
 #corctrl # sid only
 
 #Section: Kernel/boot/init

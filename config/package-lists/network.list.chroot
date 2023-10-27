@@ -111,6 +111,7 @@ yt-dlp
 #Alt: streamlink
 #Alt: minitube
 #Alt: smtube
+#video-downloaded # sid only
 
 #Section: Downloaders/web crawlers
 curl
