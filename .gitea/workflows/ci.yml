@@ -21,7 +21,7 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@v2
     - name: restore cache
-      uses: actions/cache@v3
+      uses: actions/cache/restore@v3
       with:
         path: cache/
         key: packages-cache
@@ -30,7 +30,7 @@ jobs:
     - name: compute and sign checksums
       run: make checksums
     - name: save cache
-      uses: actions/cache@v3
+      uses: actions/cache/save@v3
       with:
         path: cache/
         key: packages-cache
