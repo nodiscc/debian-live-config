@@ -24,10 +24,11 @@ clean:
 	make -f Makefile.extra clean
 	rm -rf .venv/ doc/html/
 
-.PHONY: clean_purge # clear chroot, binaray, stage, source and all caches
+.PHONY: clean_purge # clear chroot, binary, stage, source, all caches and build artifacts
 clean_purge: clean
 	sudo lb clean --purge
 	make -f Makefile.extra clean_purge
+	rm -rf iso/
 
 build:
 	# Build the live system/ISO image

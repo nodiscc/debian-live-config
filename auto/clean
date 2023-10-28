@@ -1,3 +1,31 @@
 #!/bin/sh
-
+set -e
 lb clean noauto "$@"
+rm -f config/binary config/bootstrap config/chroot config/common config/source
+rm -f build.log
+rm -f \
+	config/hooks/live/0010-disable-kexec-tools.hook.chroot \
+	config/hooks/live/0050-disable-sysvinit-tmpfs.hook.chroot \
+	config/hooks/normal/1000-create-mtab-symlink.hook.chroot \
+	config/hooks/normal/1010-enable-cryptsetup.hook.chroot \
+	config/hooks/normal/1020-create-locales-files.hook.chroot \
+	config/hooks/normal/5000-update-apt-file-cache.hook.chroot \
+	config/hooks/normal/5010-update-apt-xapian-index.hook.chroot \
+	config/hooks/normal/5020-update-glx-alternative.hook.chroot \
+	config/hooks/normal/5030-update-plocate-database.hook.chroot \
+	config/hooks/normal/5040-update-nvidia-alternative.hook.chroot \
+	config/hooks/normal/8000-remove-adjtime-configuration.hook.chroot \
+	config/hooks/normal/8010-remove-backup-files.hook.chroot \
+	config/hooks/normal/8020-remove-dbus-machine-id.hook.chroot \
+	config/hooks/normal/8030-truncate-log-files.hook.chroot \
+	config/hooks/normal/8040-remove-mdadm-configuration.hook.chroot \
+	config/hooks/normal/8050-remove-openssh-server-host-keys.hook.chroot \
+	config/hooks/normal/8060-remove-systemd-machine-id.hook.chroot \
+	config/hooks/normal/8070-remove-temporary-files.hook.chroot \
+	config/hooks/normal/8080-reproducible-glibc.hook.chroot \
+	config/hooks/normal/8090-remove-ssl-cert-snakeoil.hook.chroot \
+	config/hooks/normal/8100-remove-udev-persistent-cd-rules.hook.chroot \
+	config/hooks/normal/8110-remove-udev-persistent-net-rules.hook.chroot \
+	config/hooks/normal/9000-remove-gnome-icon-cache.hook.chroot \
+	config/hooks/normal/9010-remove-python-pyc.hook.chroot \
+	config/hooks/normal/9020-remove-man-cache.hook.chroot \
