@@ -24,6 +24,8 @@ jobs:
     steps:
     - name: checkout repo
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 # full history must be fetched for git tag detection mechanism in Makefile to work
     - name: debug
       run: 'echo "GITHUB_SERVER_URL: $GITHUB_SERVER_URL; GITEA_SERVER_URL: $GITEA_SERVER_URL"'
     - name: restore cache
