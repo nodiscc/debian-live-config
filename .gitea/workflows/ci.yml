@@ -4,6 +4,12 @@
 # act-runner ALL=NOPASSWD: /usr/bin/apt -y install live-build make build-essential wget git unzip colordiff apt-transport-https rename ovmf rsync python3-venv gnupg
 # act-runner ALL=NOPASSWD: /usr/bin/lb
 
+# To publish the resulting ISO to GItea's generic package, registry, a personal
+# access token must be created from /user/settings/applications with permissions
+# to read/write from packge registry, and the value of the token must be added
+# as a repository secret from $REPOSITORY/settings/actions/secrets, with the
+# name PACKAGE_REGISTRY_API_TOKEN
+
 name: CI
 on:
   push:
@@ -19,16 +25,7 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@v2
     - name: debug
-      run: 'echo "GITHUB_API_URL: $GITHUB_API_URL; GITHUB_ACTOR: $GITHUB_ACTOR"'
-    - name: debug
-      run: touch example.iso
-    - name: publish ISO file to generic package registry
-      run: |
-        curl --user $GITHUB_ACTOR:$GITEA_PACKAGE_REGISTRY_API_TOKEN \
-        --upload-file ./example.iso \
-        $GITHUB_API_URL/packages/$GITHUB_REPOSITORY/generic/iso/latest/example.iso
-    - name: abort
-      run: exit 1
+      run: 'echo "GITHUB_SERVER_URL: $GITHUB_SERVER_URL; GITEA_SERVER_URL: $GITEA_SERVER_URL"'
     - name: restore cache
       uses: actions/cache/restore@v3
       with:
@@ -38,6 +35,15 @@ jobs:
       run: make
     - name: compute and sign checksums
       run: make checksums
+    - name: publish ISO file to generic package registry
+      run: |
+        set -o errexit; \
+        package_registry_url="$GITHUB_SERVER_URL/api/packages/$GITHUB_REPOSITORY_OWNER/generic/iso/latest"; \
+        package_registry_user="$GITHUB_REPOSITORY_OWNER:${{ secrets.PACKAGE_REGISTRY_API_TOKEN }}"; \
+        curl --user "$package_registry_user" -X DELETE "$package_registry_url/example.iso" || true; \
+        curl --user "$package_registry_user" -X DELETE "$package_registry_url/sha.txt" || true; \
+        curl --user "$package_registry_user" --upload-file ./iso/*.iso "$package_registry_url/debian-live-config-latest.iso"; \
+        curl --user "$package_registry_user" --upload-file ./iso/SHA512SUMS "$package_registry_url/SHA512SUMS"; \
     - name: save cache
       uses: actions/cache/save@v3
       with:
