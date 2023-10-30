@@ -19,7 +19,14 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@v2
     - name: debug
-      run: 'echo "GITHUB_API_URL: $GITHUB_API_URL; GITEA_API_URL: $GITEA_API_URL"'
+      run: 'echo "GITHUB_API_URL: $GITHUB_API_URL; GITHUB_ACTOR: $GITHUB_ACTOR"'
+    - name: debug
+      run: touch example.iso
+    - name: publish ISO file to generic package registry
+      run: |
+        curl --user $GITHUB_ACTOR:$GITEA_PACKAGE_REGISTRY_API_TOKEN \
+        --upload-file ./example.iso \
+        $GITHUB_API_URL/packages/$GITHUB_REPOSITORY/generic/iso/latest/example.iso
     - name: abort
       run: exit 1
     - name: restore cache
