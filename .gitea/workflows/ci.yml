@@ -26,8 +26,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 0 # full history must be fetched for git tag detection mechanism in Makefile to work
-    - name: debug
-      run: 'echo "GITHUB_SERVER_URL: $GITHUB_SERVER_URL; GITEA_SERVER_URL: $GITEA_SERVER_URL"'
     - name: restore cache
       uses: actions/cache/restore@v3
       with:
@@ -40,11 +38,12 @@ jobs:
     - name: publish ISO file to generic package registry
       run: |
         set -o errexit; \
-        package_registry_url="$GITHUB_SERVER_URL/api/packages/$GITHUB_REPOSITORY_OWNER/generic/iso/latest"; \
+        package_registry_url="$GITHUB_SERVER_URL/api/packages/$GITHUB_REPOSITORY_OWNER/generic/debian-live-config/$GITHUB_REF"; \
         package_registry_user="$GITHUB_REPOSITORY_OWNER:${{ secrets.PACKAGE_REGISTRY_API_TOKEN }}"; \
-        curl --user "$package_registry_user" -X DELETE "$package_registry_url/example.iso" || true; \
-        curl --user "$package_registry_user" -X DELETE "$package_registry_url/sha.txt" || true; \
-        curl --user "$package_registry_user" --upload-file ./iso/*.iso "$package_registry_url/debian-live-config-latest.iso"; \
+        last_tag=(git describe --tags --abbrev=0); \
+        curl --user "$package_registry_user" -X DELETE "$package_registry_url/debian-live-config-debian-bookworm.iso" || true; \
+        curl --user "$package_registry_user" -X DELETE "$package_registry_url/SHA512SUMS.txt" || true; \
+        curl --user "$package_registry_user" --upload-file ./iso/*.iso "$package_registry_url/debian-live-config-debian-bookworm.iso"; \
         curl --user "$package_registry_user" --upload-file ./iso/SHA512SUMS "$package_registry_url/SHA512SUMS"; \
     - name: save cache
       uses: actions/cache/save@v3
