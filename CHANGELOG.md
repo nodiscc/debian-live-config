@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ## [v4.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.1.0) - UNRELEASED
 
 ### Added
+- packages: system/package management: add gnome-package-updater (`gpk-update-viewer`)
 - system: add firmware for Realtek, Atheros, Broadcom and Intel Wi-Fi devices
 
 ### Removed

@@ -12,6 +12,7 @@ debian-keyring
 debsecan
 debsums
 gnome-packagekit
+gnome-package-updater
 packagekit
 packagekit-tools
 software-properties-gtk
