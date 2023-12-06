@@ -32,7 +32,7 @@ sha512sum -c SHA512SUMS
 
 ## Write the bootable media
 
-#### To USB - From Linux
+### To USB - From Linux
 
   * Insert a 2GB+ USB drive
   * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires [gnome-disks](https://packages.debian.org/bookworm/gnome-disk-utility)) **Caution, all data on the USB drive will be erased**
@@ -41,7 +41,7 @@ sha512sum -c SHA512SUMS
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/1fYOBty.png)
 
 
-#### To USB - From Windows
+### To USB - From Windows
 
   * Insert a blank 2GB+ USB drive
   * Download [win32diskimager](http://sourceforge.net/projects/win32diskimager/files/latest/download), extract it in a directory, then run the program.
@@ -52,12 +52,12 @@ sha512sum -c SHA512SUMS
 ![](https://a.fsdn.com/con/app/proj/win32diskimager/screenshots/Win32DiskImager-1.0.png/max/max/1)
 
 
-#### To DVD
+### To DVD
 
   * Select "burn a disk image" in your disk burning utility (Windows: [InfraRecorder](http://infrarecorder.org/?page_id=5))
 
 
-#### Virtualization
+### Virtualization
 
 You can also run the system in a virtual machine on top of your existing system. In that case writing a bootable drive is not needed and you can simply load the `.iso` file in the virtual machine's CD drive. Free and open-source virtualization software includes [virt-manager](https://stdout.root.sx/docs/virt-manager.md) (Linux) or [VirtualBox](https://www.virtualbox.org) (Linux/MacOS/Windows).
 
