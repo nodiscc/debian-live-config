@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v4.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.1.0) - UNRELEASED
+## [v4.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.1.0) - 2023-12-06
 
 ### Added
 - packages: system/package management: add gnome-package-updater (`gpk-update-viewer`)
@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - network: remove [Pidgin](https://pidgin.im/) instant messaging client
 
 ### Changed
+- update all packages to latest versions, rebase on Debian 12.2.0 [[1]](https://www.debian.org/News/2023/20230722) [[2]](https://www.debian.org/News/2023/20231007)
 - grub: enable auto-detection of other Operating Systems (dual-boot configurations)
 - firefox: update user.js to v0.9.0 (UI: replace the window title bar with the tabs bar)
 - update documentation
