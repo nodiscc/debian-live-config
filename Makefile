@@ -45,6 +45,7 @@ checksums:
 	mv *.iso iso/
 	cd iso/; \
 	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-bookworm/" *; \
+	rename "s/.hybrid.iso/.iso/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
 
 # the signing key must be present and loaded on the build machine
