@@ -6,7 +6,7 @@
 
 #### Games
 
-- ![](grey.png) _[lutris](https://packages.debian.org/bookworm/lutris) `0.5.12-1` - video game preservation platform_
+- ![](grey.png) _[lutris](https://packages.debian.org/bookworm/lutris) `0.5.14` - video game preservation platform_
 - ![](grey.png) _[cmatrix](https://packages.debian.org/bookworm/cmatrix) `2.0-3` - simulates the display from "The Matrix"_
 - ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/bookworm/cmatrix-xfont) `2.0-3` - X11 font for cmatrix_
 - ![](grey.png) _[endless-sky](https://packages.debian.org/bookworm/endless-sky) `0.9.8-1.2` - space exploration and combat game_
@@ -92,7 +92,7 @@
 - ![](grey.png) _[libretro-bsnes-mercury-performance](https://packages.debian.org/bookworm/libretro-bsnes-mercury-performance) `094+git20220807-8` - Libretro wrapper for bsnes-mercury performance core_
 - ![](grey.png) _[libretro-desmume](https://packages.debian.org/bookworm/libretro-desmume) `0.9.11+git20160819+dfsg1-2` - Libretro wrapper for DeSmuME_
 - ![](grey.png) _[libretro-gambatte](https://packages.debian.org/bookworm/libretro-gambatte) `0.5.0+git20160522+dfsg1-2.1` - Libretro wrapper for Gambatte_
-- ![](grey.png) _[libretro-mgba](https://packages.debian.org/bookworm/libretro-mgba) `0.10.1+dfsg-1` - Libretro wrapper for mGBA_
+- ![](grey.png) _[libretro-mgba](https://packages.debian.org/bookworm/libretro-mgba) `0.10.1+dfsg-1+deb12u1` - Libretro wrapper for mGBA_
 - ![](grey.png) _[libretro-nestopia](https://packages.debian.org/bookworm/libretro-nestopia) `1.52.0+20230102.gitcb1e24e-1` - libretro wrapper for Nestopia_
 - ![](grey.png) _[libretro-snes9x](https://packages.debian.org/bookworm/libretro-snes9x) `1.61+dfsg-1` - Libretro wrapper for Snes9x_
 - ![](grey.png) _[yabause-gtk](https://packages.debian.org/bookworm/yabause-gtk) `0.9.14-4+b3` - beautiful and under-rated Saturn emulator - Gtk port_

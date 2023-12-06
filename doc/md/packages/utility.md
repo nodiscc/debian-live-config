@@ -61,6 +61,7 @@
 - ![](grey.png) _[ripgrep](https://packages.debian.org/bookworm/ripgrep) `13.0.0-4+b2` - Recursively searches directories for a regex pattern_
 - ![](grey.png) _[fd-find](https://packages.debian.org/bookworm/fd-find) `8.6.0-3` - Simple, fast and user-friendly alternative to find_
 - ![](grey.png) _[dupeguru](https://packages.debian.org/bookworm/dupeguru) `4.3.1-3+b1` - GUI tool to find duplicate files in a system_
+- ![](grey.png) _[rdfind](https://packages.debian.org/bookworm/rdfind) `1.5.0-1.1+b1` - find duplicate files utility_
 #### Desktop environment
 
 
@@ -137,7 +138,7 @@
 - ![](green.png) [unace](https://packages.debian.org/bookworm/unace) `1.2b-23` - extract, test and view .ace archives
 - ![](green.png) [unalz](https://packages.debian.org/bookworm/unalz) `0.65-8` - De-archiver for .alz files
 - ![](green.png) [unrar-free](https://packages.debian.org/bookworm/unrar-free) `1:0.1.3-1` - Unarchiver for .rar files
-- ![](green.png) [rar](https://packages.debian.org/bookworm/rar) `2:6.20-0.1` - Archiver for .rar files
+- ![](green.png) [rar](https://packages.debian.org/bookworm/rar) `2:6.23-1~deb12u1` - Archiver for .rar files
 - ![](green.png) [unzip](https://packages.debian.org/bookworm/unzip) `6.0-28` - De-archiver for .zip files
 - ![](green.png) [zip](https://packages.debian.org/bookworm/zip) `3.0-13` - Archiver for .zip files
 - ![](green.png) [iat](https://packages.debian.org/bookworm/iat) `0.1.3-7.1` - Converts many CD-ROM image formats to iso9660
@@ -173,7 +174,7 @@
 - ![](green.png) [seahorse](https://packages.debian.org/bookworm/seahorse) `43.0-1` - GNOME front end for GnuPG
 - ![](green.png) [seahorse-daemon](https://packages.debian.org/bookworm/seahorse-daemon) `3.12.2-7` - Seahorse pass phrase caching agent
 - ![](green.png) [gnome-keyring](https://packages.debian.org/bookworm/gnome-keyring) `42.1-1+b2` - GNOME keyring services (daemon and tools)
-- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bookworm/ssh-askpass-gnome) `1:9.2p1-2` - interactive X program to prompt users for a passphrase for ssh-add
+- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bookworm/ssh-askpass-gnome) `1:9.2p1-2+deb12u1` - interactive X program to prompt users for a passphrase for ssh-add
 - ![](green.png) [libpam-gnome-keyring](https://packages.debian.org/bookworm/libpam-gnome-keyring) `42.1-1+b2` - PAM module to unlock the GNOME keyring upon login
 - ![](green.png) [gnupg](https://packages.debian.org/bookworm/gnupg) `2.2.40-1.1` - GNU privacy guard - a free PGP replacement
 - ![](green.png) [gnupg2](https://packages.debian.org/bookworm/gnupg2) `2.2.40-1.1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
@@ -252,7 +253,7 @@
 - ![](grey.png) _[xpad](https://packages.debian.org/bookworm/xpad) `5.8.0-1` - sticky note application for X_
 #### Maps
 
-- ![](grey.png) _[gnome-maps](https://packages.debian.org/bookworm/gnome-maps) `43.4-1` - map application for GNOME_
+- ![](grey.png) _[gnome-maps](https://packages.debian.org/bookworm/gnome-maps) `43.5-2~deb12u1` - map application for GNOME_
 - ![](grey.png) _[marble-qt](https://packages.debian.org/bookworm/marble-qt) `4:22.12.3-1` - globe and map widget (no KDE dependencies)_
 - ![](grey.png) _[geoclue-2.0](https://packages.debian.org/bookworm/geoclue-2.0) `2.6.0-2` - geoinformation service_
 - ![](grey.png) _[josm](https://packages.debian.org/bookworm/josm) `0.0.svn18646+dfsg-1` - Editor for OpenStreetMap_
@@ -477,7 +478,7 @@
 - ![](grey.png) _[verbiste-gnome](https://packages.debian.org/bookworm/verbiste-gnome) `0.1.47-1+b1` - French and Italian conjugator - GNOME interface_
 #### Resources
 
-- ![](green.png) [desktop-base](https://packages.debian.org/bookworm/desktop-base) `12.0.6` - common files for the Debian Desktop
+- ![](green.png) [desktop-base](https://packages.debian.org/bookworm/desktop-base) `12.0.6+nmu1~deb12u1` - common files for the Debian Desktop
 - ![](green.png) [papirus-icon-theme](https://packages.debian.org/bookworm/papirus-icon-theme) `20230104-2` - Papirus open source icon theme for Linux
 - ![](green.png) [arc-theme](https://packages.debian.org/bookworm/arc-theme) `20221218-1` - Flat theme with transparent elements
 - ![](green.png) [gnome-themes-extra](https://packages.debian.org/bookworm/gnome-themes-extra) `3.28-2` - Adwaita GTK 2 theme — engine
@@ -487,6 +488,7 @@
 - ![](grey.png) _[faenza-icon-theme](https://packages.debian.org/bookworm/faenza-icon-theme) `1.3.1-3` - square shaped, colorful icons for desktops_
 - ![](grey.png) _[deepin-icon-theme](https://packages.debian.org/bookworm/deepin-icon-theme) `2021.11.24-1` - Icon Theme for Deepin software and Deepin Desktop Environment_
 - ![](grey.png) _[paper-icon-theme](https://packages.debian.org/bookworm/paper-icon-theme) `1.5.0+git20200312.aa3e8af-4` - simple and modern icon and cursor theme_
+- ![](grey.png) _[mint-y-icons](https://packages.debian.org/bookworm/mint-y-icons) `1.6.5-1` - Mint-Y icon theme_
 #### Virtual keyboards
 
 - ![](grey.png) _[onboard](https://packages.debian.org/bookworm/onboard) `1.4.1-5+b7` - Simple On-screen Keyboard_

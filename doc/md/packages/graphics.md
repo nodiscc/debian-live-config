@@ -45,7 +45,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/2.10.34-1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/2.10.34-1+deb12u1">
 
 **[gimp](https://packages.debian.org/bookworm/gimp)** - GNU Image Manipulation Program
 
@@ -62,7 +62,7 @@
 -----------------------
 
 
-- ![](green.png) [gimp](https://packages.debian.org/bookworm/gimp) `2.10.34-1` - GNU Image Manipulation Program
+- ![](green.png) [gimp](https://packages.debian.org/bookworm/gimp) `2.10.34-1+deb12u1` - GNU Image Manipulation Program
 - ![](green.png) [gimp-data-extras](https://packages.debian.org/bookworm/gimp-data-extras) `1:2.0.2-1.1` - Extra brushes and patterns for GIMP
 - ![](green.png) [gimp-plugin-registry](https://packages.debian.org/bookworm/gimp-plugin-registry) `9.20200928+b1` - repository of optional extensions for GIMP
 - ![](green.png) [gimp-texturize](https://packages.debian.org/bookworm/gimp-texturize) `2.2-3` - generates large textures from a small sample
@@ -208,7 +208,7 @@
 - ![](green.png) [optipng](https://packages.debian.org/bookworm/optipng) `0.7.7-2+b1` - advanced PNG (Portable Network Graphics) optimizer
 - ![](green.png) [jpegoptim](https://packages.debian.org/bookworm/jpegoptim) `1.4.7-1` - utility to optimize jpeg files
 - ![](green.png) [exifprobe](https://packages.debian.org/bookworm/exifprobe) `2.0.1+git20170416.3c2b769-5` - read metadata from digital pictures
-- ![](green.png) [librsvg2-bin](https://packages.debian.org/bookworm/librsvg2-bin) `2.54.5+dfsg-1` - command-line utility to convert SVG files
+- ![](green.png) [librsvg2-bin](https://packages.debian.org/bookworm/librsvg2-bin) `2.54.7+dfsg-1~deb12u1` - command-line utility to convert SVG files
 - ![](grey.png) _[figlet](https://packages.debian.org/bookworm/figlet) `2.2.5-3+b1` - Make large character ASCII banners out of ordinary text_
 - ![](grey.png) _[toilet](https://packages.debian.org/bookworm/toilet) `0.3-1.4` - display large colourful characters in text mode_
 - ![](grey.png) _[converseen](https://packages.debian.org/bookworm/converseen) `0.9.11.0-1` - batch image converter and resizer_
@@ -223,4 +223,4 @@
 - ![](grey.png) _[lolcat](https://packages.debian.org/bookworm/lolcat) `100.0.1-3` - colorful `cat`_
 - ![](grey.png) _[advancecomp](https://packages.debian.org/bookworm/advancecomp) `2.5-1` - collection of recompression utilities_
 - ![](grey.png) _[caca-utils](https://packages.debian.org/bookworm/caca-utils) `0.99.beta20-3` - text mode graphics utilities_
-- ![](grey.png) _[timg](https://packages.debian.org/bookworm/timg) `1.4.5-1` - terminal image and video viewer_
+- ![](grey.png) _[timg](https://packages.debian.org/bookworm/timg) `1.4.5-1+deb12u1` - terminal image and video viewer_

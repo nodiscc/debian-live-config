@@ -75,7 +75,7 @@
 - ![](green.png) [dos2unix](https://packages.debian.org/bookworm/dos2unix) `7.4.3-1` - convert text file line endings between CRLF and LF
 - ![](grey.png) _[aha](https://packages.debian.org/bookworm/aha) `0.5.1-3` - ANSI color to HTML converter_
 - ![](grey.png) _[xmlstarlet](https://packages.debian.org/bookworm/xmlstarlet) `1.6.1-3` - command line XML toolkit_
-- ![](grey.png) _[pandoc](https://packages.debian.org/bookworm/pandoc) `2.17.1.1-1.1` - general markup converter_
+- ![](grey.png) _[pandoc](https://packages.debian.org/bookworm/pandoc) `2.17.1.1-2~deb12u1` - general markup converter_
 - ![](grey.png) _[man2html-base](https://packages.debian.org/bookworm/man2html-base) `1.6g-14` - convert man pages into HTML format_
 - ![](grey.png) _[txt2tags](https://packages.debian.org/bookworm/txt2tags) `3.4-4` - conversion tool to generating several file formats_
 - ![](grey.png) _[mkdocs](https://packages.debian.org/bookworm/mkdocs) `1.4.2+dfsg-2` - Static site generator geared towards building project documentation_
@@ -103,7 +103,7 @@
 - ![](grey.png) _[apt-build](https://packages.debian.org/bookworm/apt-build) `0.12.49` - frontend to apt to build, optimize and install packages_
 - ![](grey.png) _[python3-stdeb](https://packages.debian.org/bookworm/python3-stdeb) `0.10.0-2` - Python to Debian source package conversion plugins for distutils_
 - ![](grey.png) _[pypi2deb](https://packages.debian.org/bookworm/pypi2deb) `3.20230219` - PyPI to Debian converter_
-- ![](grey.png) _[dgit](https://packages.debian.org/bookworm/dgit) `10.7` - git interoperability with the Debian archive_
+- ![](grey.png) _[dgit](https://packages.debian.org/bookworm/dgit) `10.7+deb12u2` - git interoperability with the Debian archive_
 - ![](grey.png) _[aptly](https://packages.debian.org/bookworm/aptly) `1.5.0+ds1-1+b4` - Swiss army knife for Debian repository management - main package_
 - ![](grey.png) _[python-is-python3](https://packages.debian.org/bookworm/python-is-python3) `3.11.1-3` - symlinks /usr/bin/python to python3_
 - ![](grey.png) _[lintian-brush](https://packages.debian.org/bookworm/lintian-brush) `0.147` - automatically fix lintian problems_
