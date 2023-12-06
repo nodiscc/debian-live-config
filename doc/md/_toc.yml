@@ -22,5 +22,7 @@ entries:
     title: "Software: Games"
   - file: packages/extras.md
     title: "Software: Extras"
+  - file: custom.md
+    title: "Customizing the build"
   - file: CHANGELOG.md
     title: "Changelog"
