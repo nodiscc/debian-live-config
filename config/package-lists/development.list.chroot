@@ -107,7 +107,7 @@ debconf-utils
 #Alt: aptly
 #Alt: python-is-python3
 #Alt: lintian-brush
-#Alt: nvchecker
+#nvchecker # sid only
 
 #Section: Debuggers
 #Alt: gdb
