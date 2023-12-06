@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v4.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.1.0) - 2023-12-06
+## [v4.1.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.1.0) - 2023-12-06
 
 ### Added
 - packages: system/package management: add gnome-package-updater (`gpk-update-viewer`)
@@ -20,7 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v4.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/4.0.0) - 2023-07-13
+## [v4.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.0.0) - 2023-07-13
 
 **Upgrade procedure:** Follow the official [Debian upgrade procedure](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.html), or backup your data, reinstall, and restore. Note: some changes will only take effect after creating a new user account. If upgrading without reinstalling, you will need to apply some of the changes below (notably add/remove packages) manually.
 
@@ -58,7 +58,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.1.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.1) - 2022-11-11
+## [v3.1.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.1.1) - 2022-11-11
 
 ### Removed
 - remove [nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) to decrease .ISO image size
@@ -71,7 +71,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.1.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.1.0) - 2022-11-08
+## [v3.1.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.1.0) - 2022-11-08
 
 ### Added
 - extras: add [Signal Desktop](https://signal.org/download/) encrypted messaging client
@@ -84,7 +84,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.0.1](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.1) - 2022-09-01
+## [v3.0.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.0.1) - 2022-09-01
 
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
@@ -147,7 +147,7 @@ Pin-Priority: 1000
 
 ---------------------
 
-## [v3.0.0](https://gitlab.com/nodiscc/dlc/releases/tag/3.0.0) - 2021-10-28
+## [v3.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.0.0) - 2021-10-28
 
 ### Changed
 
@@ -226,7 +226,7 @@ sudo apt update && sudo apt dist-upgrade
 
 ---------------------
 
-## [v2.2.5](https://gitlab.com/nodiscc/dlc/releases/tag/2.2.5) - 2020-12-16
+## [v2.2.5](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.5) - 2020-12-16
 
 ### Removed
 
@@ -246,7 +246,7 @@ sudo apt update && sudo apt dist-upgrade
 
 -------------------------------
 
-## [v2.2.4](https://gitlab.com/nodiscc/dlc/releases/tag/2.2.4) - 2020-10-22
+## [v2.2.4](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.4) - 2020-10-22
 
 ### Added
 
@@ -270,7 +270,7 @@ sudo apt update && sudo apt dist-upgrade
 
 -------------------------------
 
-## [v2.2.3](https://gitlab.com/nodiscc/dlc/releases/tag/2.2.3) - 2020-05-10
+## [v2.2.3](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.3) - 2020-05-10
 
 Bugfix release.
 
@@ -343,7 +343,7 @@ Bugfix release.
 
 -------------------------------
 
-## [v2.2](https://gitlab.com/nodiscc/dlc/releases/tag/2.2) - 2020-03-08
+## [v2.2](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2) - 2020-03-08
 
 Initial release, git repository reset and rebuilt from scratch. See commit messages and documentation.
 
