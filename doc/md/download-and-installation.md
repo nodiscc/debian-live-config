@@ -12,7 +12,8 @@
 
 **[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/4.1.0/debian-live-config-4.1.0-debian-bookworm-amd64.iso)** the latest ISO image
 
-(Recommended) verify file integrity and authenticity with GPG:
+<details>
+<summary>(Recommended) verify file integrity and authenticity of the ISO image with GPG:</summary>
 
 ```bash
 # download the iso, signing key, checksums and signature
@@ -28,7 +29,8 @@ gpg --verify SHA512SUMS.sign
 # verify integrity of the ISO image
 sha512sum -c SHA512SUMS
 ```
-
+</details>
+<br/>
 
 ## Write the bootable media
 
