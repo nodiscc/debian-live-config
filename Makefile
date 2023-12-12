@@ -112,12 +112,7 @@ update_todo:
 	rm -rf gitea-cli
 
 .PHONY: doc # run all documentation generation tasks
-doc: install_dev_docs doc_package_lists doc_md doc_html
-
-.PHONY: install_dev_docs # install documentation generator (sphinx + markdown + theme)
-install_dev_docs:
-	python3 -m venv .venv/
-	source .venv/bin/activate && pip3 install sphinx myst_parser sphinx_rtd_theme sphinx_external_toc
+doc: doc_package_lists doc_md doc_html
 
 .PHONY: doc_md # generate markdown documentation
 doc_md:
@@ -130,12 +125,17 @@ doc_md:
 doc_package_lists:
 	./doc/gen_package_lists.py
 
+.PHONY: install_dev_docs # install documentation generator (sphinx + markdown + theme)
+install_dev_docs:
+	python3 -m venv .venv/
+	source .venv/bin/activate && pip3 install sphinx myst_parser sphinx_rtd_theme sphinx_external_toc
+
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = doc/md    # répertoire source (markdown)
 BUILDDIR      = doc/html  # répertoire destination (html)
 .PHONY: doc_html # manual - HTML documentation generation (sphinx-build --help)
-doc_html:
+doc_html: install_dev_docs
 	source .venv/bin/activate && sphinx-build -c doc/md -b html doc/md doc/html
 
 .PHONY: codespell # manual - run interactive spell checker
