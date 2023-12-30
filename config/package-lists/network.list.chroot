@@ -203,6 +203,7 @@ iptables
 #Alt: fail2ban
 #Alt: ipset-persistent
 #Alt: crowdsec
+#Alt: opensnitch
 
 #Section: Network diagnostic/monitoring
 #Description: gnome-nettool
