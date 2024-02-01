@@ -68,6 +68,7 @@ sox
 #Alt: playerctl
 #Alt: streamtuner2
 #cowbell # sid only
+#amberol # sid only
 
 #Section: Webcam
 #Description: cheese
@@ -81,6 +82,8 @@ gnome-video-effects
 #Alt: zoneminder
 #Alt: pinhole
 #Alt: megapixels
+#snapshot # sid only
+#cam2ip # sid only
 
 #Section: Screen recording/screencasting
 #Description: obs-studio

@@ -33,6 +33,7 @@ command-not-found
 #Alt: deborphan
 #Alt: debtree
 #Alt: gnome-software
+#Alt: gnome-software-plugin-flatpak
 #Alt: gstreamer1.0-packagekit
 #Alt: needrestart
 #Alt: packagekit-command-not-found
@@ -41,6 +42,8 @@ command-not-found
 #Alt: policy-rcd-declarative-deny-all
 #Alt: reportbug
 #Alt: nala
+#gnome-software-plugin-deb # sid only
+#ngome-software-plugin-fwupd # sid only
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
@@ -202,6 +205,7 @@ netcat-openbsd
 #Alt: debvm
 #virt-top # sid only
 #anbox # bullseye only
+#virtiofsd # sid only
 
 #Section: Configuration management
 #Alt: ansible

@@ -27,6 +27,7 @@ mgitstatus
 #github-backup # sid only
 #gitleaks # sid only
 #glab # sid only
+#tea-cli # sid only
 
 #Section: Shell & basic utilities
 bash
@@ -86,6 +87,7 @@ dos2unix
 #Alt: ansifilter-gui
 #Alt: reserialize
 #Alt: yq
+#Alt: markdownlint
 
 #Section: Packaging
 build-essential

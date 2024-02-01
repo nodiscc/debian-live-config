@@ -271,6 +271,7 @@ dnsutils
 #ntopng # sid only
 #ripcalc # sid only
 #gping # sid only
+#sploitscan # sid only
 
 #Section: SSH
 #Alt: sshuttle
@@ -346,6 +347,7 @@ openssh-client
 #Alt: aws-nuke
 #Alt: firewalk
 #Alt: urlextractor
+#assetfinded # sid only
 
 #Section: Tor
 #Alt: tor-geoipdb

@@ -21,7 +21,7 @@ ristretto
 #Alt: fotoxx
 #Alt: geeqie
 #nomacs # sid only
-
+#loupe # sid only
 
 #Section: Image editors
 #Description: gimp
@@ -141,6 +141,7 @@ gsfonts-x11
 #lives # sid only
 #shotdetect # sid only
 #slowmovideo # bullseye only
+#gnome-video-trimmer # sid only
 
 #Section: Command-line image manipulation
 imagemagick

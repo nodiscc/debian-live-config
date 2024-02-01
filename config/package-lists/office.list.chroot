@@ -140,15 +140,14 @@ sane-utils
 #Alt: scanbd
 #Alt: xsane
 
-
 #Section: Optical Character Recognition (OCR)
 #Alt: paperwork-gtk
 #Alt: ocrfeeder
 #Alt: tesseract-ocr-fra
+#Alt: ocrmypdf
 #Alt: unpaper
 #Alt: yagf
 #Alt: ocrad
-
 
 #Section: Printing
 #Description: system-config-printer
@@ -225,4 +224,4 @@ xfonts-terminus
 #Alt: fonts-yanone-kaffeesatz
 #fonts-pecita # sid only
 #fonts-atarist # sid only
-
+#font-downloader # sid only
