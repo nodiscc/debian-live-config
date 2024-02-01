@@ -5,6 +5,7 @@
 firefox-esr
 firefox-esr-l10n-fr
 webext-ublock-origin-firefox
+webext-keepassxc-browser
 #Alt: luakit
 #Alt: chromium
 #Alt: nss-passwords

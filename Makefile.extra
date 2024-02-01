@@ -39,10 +39,10 @@ download_extra: clean
 	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.9.0-1_all.deb
 	cp cache/downloads/user.js_0.9.0-1_all.deb config/packages.chroot/
 
-	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
-	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
 	mkdir -p config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
-	$(WGET) https://addons.mozilla.org/firefox/downloads/file/3465157/keepassxc_browser-latest-fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/keepassxc-browser@keepassxc.org.xpi
+	# DISABLED https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/ (replaced with webext-keepassxc-browser)
+	# $(WGET) https://addons.mozilla.org/firefox/downloads/file/3465157/keepassxc_browser-latest-fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/keepassxc-browser@keepassxc.org.xpi
+	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
 	$(WGET) https://addons.mozilla.org/firefox/downloads/file/3711829/cookie_autodelete-3.6.0-an+fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/CookieAutoDelete@kennydo.com.xpi
 
 	# EXTRA https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/
