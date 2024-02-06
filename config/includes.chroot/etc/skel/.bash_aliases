@@ -11,7 +11,7 @@ alias chx='chmod a+x' # set execute permission
 alias clipboard='xclip -selection c; notify-send --icon=gtk-paste "Copied to clipboard." 2>/dev/null' # send stdin to clipboard
 function f { find ./ -name "*$1*"; } # find files in the currect directory
 function psg { ps -fp $(pgrep -f "$@"); } # find running process matching a name
-alias gss='mgitstatus -f --depth=1 ~/GIT' # show uncommitted/untracked/unpushed changes in Git repos under ~/GIT
+alias gss='mgitstatus --flatten --no-ok --depth=1 ~/GIT' # show uncommitted/untracked/unpushed changes in Git repos under ~/GIT
 # alias rm="trash-put" # do not delete files with rm, put them to trash
 # alias frm="\rm" # add an alias for rm
 # alias mkdir='mkdir -pv' # create directories and their parents by default

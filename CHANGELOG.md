@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Changed
 - network: install keepassxc-browser Firefox extension from official Debian package
 - firefox: user.js: enable WebRender by default for better performance
+- skel: bash_aliases: gss: don't show repositories with status ok
 
 ---------------------
 
