@@ -20,6 +20,7 @@ synaptic
 unattended-upgrades
 vrms
 gdebi
+command-not-found
 #Alt: gnome-package-updater
 #Alt: debfoster
 #Alt: appstream-generator

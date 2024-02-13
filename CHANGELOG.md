@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - UNRELEASED
 
+### Added
+- system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
+
 ### Changed
 - network: install keepassxc-browser Firefox extension from official Debian package
 - firefox: user.js: enable WebRender by default for better performance
