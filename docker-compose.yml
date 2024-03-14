@@ -1,0 +1,6 @@
+services:
+  debian-live-config:
+    build: .
+    privileged: true
+    volumes:
+      - .:/tmp/workspace
