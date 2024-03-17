@@ -1,7 +1,5 @@
 FROM debian:bookworm
 
-WORKDIR /tmp/workspace
-
 # enable contrib, non-free and non-free-firmware
 # required to find packages like rar
 RUN sed -i 's/Components: main/& contrib non-free non-free-firmware/' /etc/apt/sources.list.d/debian.sources
@@ -11,25 +9,13 @@ RUN sed -i 's/Components: main/& contrib non-free non-free-firmware/' /etc/apt/s
 RUN dpkg --add-architecture i386
 
 # install packages required to build the image
-RUN apt update && apt -y install \
-	apt-transport-https \
-	build-essential \
-	colordiff \
-	git \
-	gnupg \
-	live-build \
-	make \
-	ovmf \
-	python3-apt \
-	python3-venv \
-	rename \
-	rsync \
-	sudo \
-	unzip \
-	wget
+RUN apt update && apt -y install make sudo
 
-# trust the temporary workspace directory
-RUN git config --global --add safe.directory /tmp/workspace
+# copy source files to the container
+COPY . /build
 
-# remove 'download_extra' to build without third party software/dotfiles
-CMD ["make", "doc", "download_extra", "build"]
+# install build dependencies in the container
+RUN cd /build && make install_buildenv
+
+# build the image
+RUN cd /build && make
