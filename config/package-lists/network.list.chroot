@@ -346,6 +346,7 @@ openssh-client
 #Alt: aws-nuke
 #Alt: firewalk
 #Alt: urlextractor
+#assetfinded # sid only
 
 #Section: Tor
 #Alt: tor-geoipdb
