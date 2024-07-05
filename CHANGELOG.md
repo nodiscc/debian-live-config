@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - network: install keepassxc-browser Firefox extension from official Debian package
 - firefox: user.js: enable WebRender by default for better performance
 - skel: bash_aliases: gss: don't show repositories with status ok
+- system: enable `non-free-firmware` repositories section during image build
 
 ---------------------
 
