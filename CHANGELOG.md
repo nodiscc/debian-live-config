@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Added
 - system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
+- system: firmware: improve hardware support (add `firmware-misc-nonfree` and `firmware-amd-graphics` packages)
 
 ### Changed
 - network: install keepassxc-browser Firefox extension from official Debian package

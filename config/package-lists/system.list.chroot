@@ -317,6 +317,8 @@ firmware-brcm80211
 firmware-intel-sound
 firmware-ipw2x00
 firmware-iwlwifi
+firmware-misc-nonfree
+firmware-amd-graphics
 amd64-microcode
 intel-microcode
 
