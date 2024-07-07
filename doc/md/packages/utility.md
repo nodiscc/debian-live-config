@@ -23,9 +23,9 @@
 
 
 - ![](green.png) [gvfs-backends](https://packages.debian.org/bookworm/gvfs-backends) `1.50.3-1` - userspace virtual filesystem - backends
-- ![](green.png) [libglib2.0-bin](https://packages.debian.org/bookworm/libglib2.0-bin) `2.74.6-2` - Programs for the GLib library
+- ![](green.png) [libglib2.0-bin](https://packages.debian.org/bookworm/libglib2.0-bin) `2.74.6-2+deb12u3` - Programs for the GLib library
 - ![](green.png) [gvfs-fuse](https://packages.debian.org/bookworm/gvfs-fuse) `1.50.3-1` - userspace virtual filesystem - fuse server
-- ![](green.png) [jdupes](https://packages.debian.org/bookworm/jdupes) `1.21.3-1` - identify and delete or link duplicate files
+- ![](green.png) [jdupes](https://packages.debian.org/bookworm/jdupes) `1.21.3-1+deb12u1` - identify and delete or link duplicate files
 - ![](green.png) [libgphoto2-l10n](https://packages.debian.org/bookworm/libgphoto2-l10n) `2.5.30-1` - gphoto2 digital camera library - localized messages
 - ![](green.png) [libmtp-runtime](https://packages.debian.org/bookworm/libmtp-runtime) `1.1.20-1` - Media Transfer Protocol (MTP) runtime tools
 - ![](green.png) [mlocate](https://packages.debian.org/bookworm/mlocate) `1.1.18-1` - transitional dummy package
@@ -105,7 +105,7 @@
 - ![](grey.png) _[compiz-plugins-default](https://packages.debian.org/bookworm/compiz-plugins-default) `2:0.8.18-5` - transitional dummy package_
 - ![](grey.png) _[compiz-plugins-extra](https://packages.debian.org/bookworm/compiz-plugins-extra) `2:0.8.18-3` - Compiz Reloaded plugins - extra collection_
 - ![](grey.png) _[compiz-plugins-main](https://packages.debian.org/bookworm/compiz-plugins-main) `2:0.8.18-5` - Compiz Reloaded plugins - main collection_
-- ![](grey.png) _[compton](https://packages.debian.org/bookworm/compton) `1-1` - compositor for X11, based on xcompmgr_
+- ![](grey.png) _[compton](https://packages.debian.org/bookworm/compton) `1-1+deb12u1` - compositor for X11, based on xcompmgr_
 - ![](grey.png) _[compton-conf](https://packages.debian.org/bookworm/compton-conf) `0.16.0-2` - Compton Configurator for Qt_
 #### Archive management
 
@@ -174,13 +174,13 @@
 - ![](green.png) [seahorse](https://packages.debian.org/bookworm/seahorse) `43.0-1` - GNOME front end for GnuPG
 - ![](green.png) [seahorse-daemon](https://packages.debian.org/bookworm/seahorse-daemon) `3.12.2-7` - Seahorse pass phrase caching agent
 - ![](green.png) [gnome-keyring](https://packages.debian.org/bookworm/gnome-keyring) `42.1-1+b2` - GNOME keyring services (daemon and tools)
-- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bookworm/ssh-askpass-gnome) `1:9.2p1-2+deb12u1` - interactive X program to prompt users for a passphrase for ssh-add
+- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bookworm/ssh-askpass-gnome) `1:9.2p1-2+deb12u3` - interactive X program to prompt users for a passphrase for ssh-add
 - ![](green.png) [libpam-gnome-keyring](https://packages.debian.org/bookworm/libpam-gnome-keyring) `42.1-1+b2` - PAM module to unlock the GNOME keyring upon login
 - ![](green.png) [gnupg](https://packages.debian.org/bookworm/gnupg) `2.2.40-1.1` - GNU privacy guard - a free PGP replacement
 - ![](green.png) [gnupg2](https://packages.debian.org/bookworm/gnupg2) `2.2.40-1.1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
 - ![](green.png) [pwgen](https://packages.debian.org/bookworm/pwgen) `2.08-2` - Automatic Password generation
-- ![](green.png) [cryptsetup](https://packages.debian.org/bookworm/cryptsetup) `2:2.6.1-4~deb12u1` - disk encryption support - startup scripts
-- ![](green.png) [cryptsetup-initramfs](https://packages.debian.org/bookworm/cryptsetup-initramfs) `2:2.6.1-4~deb12u1` - disk encryption support - initramfs integration
+- ![](green.png) [cryptsetup](https://packages.debian.org/bookworm/cryptsetup) `2:2.6.1-4~deb12u2` - disk encryption support - startup scripts
+- ![](green.png) [cryptsetup-initramfs](https://packages.debian.org/bookworm/cryptsetup-initramfs) `2:2.6.1-4~deb12u2` - disk encryption support - initramfs integration
 - ![](green.png) [libblockdev-crypto2](https://packages.debian.org/bookworm/libblockdev-crypto2) `2.28-2` - Crypto plugin for libblockdev
 - ![](grey.png) _[keepassx](https://packages.debian.org/bookworm/keepassx) `2.0.3+keepassxc1` - Cross Platform Password Manager (empty transitional package)_
 - ![](grey.png) _[keepass2](https://packages.debian.org/bookworm/keepass2) `2.47+dfsg-2` - Password manager_
@@ -218,7 +218,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/7.2-1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/7.2-1+deb12u1">
 
 **[nano](https://packages.debian.org/bookworm/nano)** - small, friendly text editor inspired by Pico
 
@@ -233,7 +233,7 @@
 
 
 - ![](green.png) [mousepad](https://packages.debian.org/bookworm/mousepad) `0.5.10-2` - simple Xfce oriented text editor
-- ![](green.png) [nano](https://packages.debian.org/bookworm/nano) `7.2-1` - small, friendly text editor inspired by Pico
+- ![](green.png) [nano](https://packages.debian.org/bookworm/nano) `7.2-1+deb12u1` - small, friendly text editor inspired by Pico
 - ![](green.png) [vim-tiny](https://packages.debian.org/bookworm/vim-tiny) `2:9.0.1378-2` - Vi IMproved - enhanced vi editor - compact version
 - ![](grey.png) _[gnome-builder](https://packages.debian.org/bookworm/gnome-builder) `43.6-3` - IDE for GNOME_
 - ![](grey.png) _[vim](https://packages.debian.org/bookworm/vim) `2:9.0.1378-2` - Vi IMproved - enhanced vi editor_
@@ -437,13 +437,13 @@
 - ![](green.png) [bumblebee](https://packages.debian.org/bookworm/bumblebee) `3.2.1-29` - NVIDIA Optimus support for Linux
 - ![](green.png) [vbetool](https://packages.debian.org/bookworm/vbetool) `1.1-5` - run real-mode video BIOS code to alter hardware state
 - ![](green.png) [powertop](https://packages.debian.org/bookworm/powertop) `2.14-1+b2` - diagnose issues with power consumption and management
-- ![](green.png) [usbutils](https://packages.debian.org/bookworm/usbutils) `1:014-1` - Linux USB utilities
+- ![](green.png) [usbutils](https://packages.debian.org/bookworm/usbutils) `1:014-1+deb12u1` - Linux USB utilities
 - ![](green.png) [acpi](https://packages.debian.org/bookworm/acpi) `1.7-1.2` - displays information on ACPI devices
 - ![](green.png) [acpi-support](https://packages.debian.org/bookworm/acpi-support) `0.143-5.1` - scripts for handling many ACPI events
 - ![](green.png) [acpi-support-base](https://packages.debian.org/bookworm/acpi-support-base) `0.143-5.1` - scripts for handling base ACPI events such as the power button
 - ![](green.png) [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) `1.74-1.2` - Tools for Power Savings based on battery/AC status
 - ![](green.png) [fancontrol](https://packages.debian.org/bookworm/fancontrol) `1:3.6.0-7.1` - utility to control the fan speed
-- ![](green.png) [rfkill](https://packages.debian.org/bookworm/rfkill) `2.38.1-5+b1` - tool for enabling and disabling wireless devices
+- ![](green.png) [rfkill](https://packages.debian.org/bookworm/rfkill) `2.38.1-5+deb12u1` - tool for enabling and disabling wireless devices
 - ![](green.png) [cpufrequtils](https://packages.debian.org/bookworm/cpufrequtils) `008-2` - utilities to deal with the cpufreq Linux kernel feature
 - ![](green.png) [pm-utils](https://packages.debian.org/bookworm/pm-utils) `1.4.1-19` - utilities and scripts for power management
 - ![](grey.png) _[powerdebug](https://packages.debian.org/bookworm/powerdebug) `0.7.0-2013.08-2` - tool to display regulator, sensor and clock information_
@@ -484,7 +484,7 @@
 - ![](green.png) [gnome-themes-extra](https://packages.debian.org/bookworm/gnome-themes-extra) `3.28-2` - Adwaita GTK 2 theme — engine
 - ![](green.png) [sound-theme-freedesktop](https://packages.debian.org/bookworm/sound-theme-freedesktop) `0.8-2` - freedesktop.org sound theme
 - ![](green.png) [gnome-audio](https://packages.debian.org/bookworm/gnome-audio) `2.22.2-1.2` - Audio files for GNOME
-- ![](green.png) [qt5-gtk-platformtheme](https://packages.debian.org/bookworm/qt5-gtk-platformtheme) `5.15.8+dfsg-11` - Qt 5 GTK+ 3 platform theme
+- ![](green.png) [qt5-gtk-platformtheme](https://packages.debian.org/bookworm/qt5-gtk-platformtheme) `5.15.8+dfsg-11+deb12u2` - Qt 5 GTK+ 3 platform theme
 - ![](grey.png) _[faenza-icon-theme](https://packages.debian.org/bookworm/faenza-icon-theme) `1.3.1-3` - square shaped, colorful icons for desktops_
 - ![](grey.png) _[deepin-icon-theme](https://packages.debian.org/bookworm/deepin-icon-theme) `2021.11.24-1` - Icon Theme for Deepin software and Deepin Desktop Environment_
 - ![](grey.png) _[paper-icon-theme](https://packages.debian.org/bookworm/paper-icon-theme) `1.5.0+git20200312.aa3e8af-4` - simple and modern icon and cursor theme_

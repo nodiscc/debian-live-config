@@ -10,17 +10,17 @@
 
 ## Download
 
-**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/4.1.0/debian-live-config-4.1.0-debian-bookworm-amd64.iso)** the latest ISO image
+**[![](download.png) Download](https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/debian-live-config-4.2.0-debian-bookworm-amd64.iso)** the latest ISO image
 
 <details>
 <summary>(Recommended) verify file integrity and authenticity of the ISO image with GPG:</summary>
 
 ```bash
 # download the iso, signing key, checksums and signature
-wget https://github.com/nodiscc/debian-live-config/releases/download/4.1.0/debian-live-config-4.1.0-debian-bookworm-amd64.iso
-wget https://github.com/nodiscc/debian-live-config/releases/download/4.1.0/debian-live-config-release.key
-wget https://github.com/nodiscc/debian-live-config/releases/download/4.1.0/SHA512SUMS
-wget https://github.com/nodiscc/debian-live-config/releases/download/4.1.0/SHA512SUMS.sign
+wget https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/debian-live-config-4.2.0-debian-bookworm-amd64.iso
+wget https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/debian-live-config-release.key
+wget https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/SHA512SUMS
+wget https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/SHA512SUMS.sign
 # import the release signing key
 # the key used to sign releases has key ID EE73FC8FD71E3CC83606FDF361B23168A539DBBD
 gpg --import debian-live-config-release.key

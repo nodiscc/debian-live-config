@@ -30,16 +30,16 @@
 - ![](grey.png) _[git-delete-merged-branches](https://packages.debian.org/bookworm/git-delete-merged-branches) `7.4.0-1` - command-line tool to delete merged git branches_
 #### Shell & basic utilities
 
-- ![](green.png) [bash](https://packages.debian.org/bookworm/bash) `5.2.15-2+b2` - GNU Bourne Again SHell
+- ![](green.png) [bash](https://packages.debian.org/bookworm/bash) `5.2.15-2+b7` - GNU Bourne Again SHell
 - ![](green.png) [autojump](https://packages.debian.org/bookworm/autojump) `22.5.1-1.1` - shell extension to jump to frequently used directories
 - ![](green.png) [bash-completion](https://packages.debian.org/bookworm/bash-completion) `1:2.11-6` - programmable completion for the bash shell
 - ![](green.png) [pv](https://packages.debian.org/bookworm/pv) `1.6.20-1` - Shell pipeline element to meter data passing through
 - ![](green.png) [sed](https://packages.debian.org/bookworm/sed) `4.9-1` - GNU stream editor for filtering/transforming text
-- ![](green.png) [util-linux](https://packages.debian.org/bookworm/util-linux) `2.38.1-5+b1` - miscellaneous system utilities
-- ![](green.png) [util-linux-locales](https://packages.debian.org/bookworm/util-linux-locales) `2.38.1-5` - locales files for util-linux
+- ![](green.png) [util-linux](https://packages.debian.org/bookworm/util-linux) `2.38.1-5+deb12u1` - miscellaneous system utilities
+- ![](green.png) [util-linux-locales](https://packages.debian.org/bookworm/util-linux-locales) `2.38.1-5+deb12u1` - locales files for util-linux
 - ![](green.png) [whiptail](https://packages.debian.org/bookworm/whiptail) `0.52.23-1+b1` - Displays user-friendly dialog boxes from shell scripts
 - ![](green.png) [moreutils](https://packages.debian.org/bookworm/moreutils) `0.67-1` - additional Unix utilities
-- ![](green.png) [less](https://packages.debian.org/bookworm/less) `590-2` - pager program similar to more
+- ![](green.png) [less](https://packages.debian.org/bookworm/less) `590-2.1~deb12u2` - pager program similar to more
 - ![](green.png) [dialog](https://packages.debian.org/bookworm/dialog) `1.3-20230209-1` - Displays user-friendly dialog boxes from shell scripts
 - ![](green.png) [manpages](https://packages.debian.org/bookworm/manpages) `6.03-2` - Manual pages about using a GNU/Linux system
 - ![](green.png) [manpages-dev](https://packages.debian.org/bookworm/manpages-dev) `6.03-2` - Manual pages about using GNU/Linux for development
@@ -51,7 +51,6 @@
 - ![](grey.png) _[ack](https://packages.debian.org/bookworm/ack) `3.6.0-1` - grep-like program specifically for large source trees_
 - ![](grey.png) _[bd](https://packages.debian.org/bookworm/bd) `1.03-3` - quickly go back to a specific parent directory in bash_
 - ![](grey.png) _[beep](https://packages.debian.org/bookworm/beep) `1.4.9-1+b1` - advanced PC-speaker beeper_
-- ![](grey.png) _[command-not-found](https://packages.debian.org/bookworm/command-not-found) `23.04.0-1` - Suggest installation of packages in interactive bash sessions_
 - ![](grey.png) _[detox](https://packages.debian.org/bookworm/detox) `1.4.5-4` - replace problematic characters in filenames_
 - ![](grey.png) _[grc](https://packages.debian.org/bookworm/grc) `1.13.1-1` - generic colouriser for everything_
 - ![](grey.png) _[pv](https://packages.debian.org/bookworm/pv) `1.6.20-1` - Shell pipeline element to meter data passing through_
@@ -87,6 +86,7 @@
 - ![](grey.png) _[ansifilter-gui](https://packages.debian.org/bookworm/ansifilter-gui) `2.18+dfsg1-2` - parse common (terminal) ANSI codes and remove or convert them (GUI)_
 - ![](grey.png) _[reserialize](https://packages.debian.org/bookworm/reserialize) `20220929-2` - convert between YAML, JSON, TOML and BSON_
 - ![](grey.png) _[yq](https://packages.debian.org/bookworm/yq) `3.1.0-3` - Command-line YAML processor - jq wrapper for YAML documents_
+- ![](grey.png) _[markdownlint](https://packages.debian.org/bookworm/markdownlint) `0.13.0-4~bpo12+1` - Markdown lint tool_
 #### Packaging
 
 - ![](green.png) [build-essential](https://packages.debian.org/bookworm/build-essential) `12.9` - Informational list of build-essential packages
@@ -95,7 +95,7 @@
 - ![](grey.png) _[fakeroot](https://packages.debian.org/bookworm/fakeroot) `1.31-1.2` - tool for simulating superuser privileges_
 - ![](grey.png) _[lintian](https://packages.debian.org/bookworm/lintian) `2.116.3` - Debian package checker_
 - ![](grey.png) _[autoconf](https://packages.debian.org/bookworm/autoconf) `2.71-3` - automatic configure script builder_
-- ![](grey.png) _[devscripts](https://packages.debian.org/bookworm/devscripts) `2.23.4` - scripts to make the life of a Debian Package maintainer easier_
+- ![](grey.png) _[devscripts](https://packages.debian.org/bookworm/devscripts) `2.23.4+deb12u1` - scripts to make the life of a Debian Package maintainer easier_
 - ![](grey.png) _[dh-make](https://packages.debian.org/bookworm/dh-make) `2.202301` - tool that converts source archives into Debian package source_
 - ![](grey.png) _[equivs](https://packages.debian.org/bookworm/equivs) `2.3.1` - Circumvent Debian package dependencies_
 - ![](grey.png) _[git-buildpackage](https://packages.debian.org/bookworm/git-buildpackage) `0.9.30` - Suite to help with Debian packages in Git repositories_
@@ -105,7 +105,7 @@
 - ![](grey.png) _[pypi2deb](https://packages.debian.org/bookworm/pypi2deb) `3.20230219` - PyPI to Debian converter_
 - ![](grey.png) _[dgit](https://packages.debian.org/bookworm/dgit) `10.7+deb12u2` - git interoperability with the Debian archive_
 - ![](grey.png) _[aptly](https://packages.debian.org/bookworm/aptly) `1.5.0+ds1-1+b4` - Swiss army knife for Debian repository management - main package_
-- ![](grey.png) _[python-is-python3](https://packages.debian.org/bookworm/python-is-python3) `3.11.1-3` - symlinks /usr/bin/python to python3_
+- ![](grey.png) _[python-is-python3](https://packages.debian.org/bookworm/python-is-python3) `3.11.2-1+deb12u1` - symlinks /usr/bin/python to python3_
 - ![](grey.png) _[lintian-brush](https://packages.debian.org/bookworm/lintian-brush) `0.147` - automatically fix lintian problems_
 #### Debuggers
 
@@ -121,7 +121,7 @@
 #### Live system
 
 - ![](green.png) [live-build](https://packages.debian.org/bookworm/live-build) `1:20230502` - Live System Build Components
-- ![](grey.png) _[debootstrap](https://packages.debian.org/bookworm/debootstrap) `1.0.128+nmu2` - Bootstrap a basic Debian system_
+- ![](grey.png) _[debootstrap](https://packages.debian.org/bookworm/debootstrap) `1.0.128+nmu2+deb12u1` - Bootstrap a basic Debian system_
 - ![](grey.png) _[live-config-doc](https://packages.debian.org/bookworm/live-config-doc) `11.0.3+nmu1` - Live System Configuration Components (documentation)_
 - ![](grey.png) _[live-manual-pdf](https://packages.debian.org/bookworm/live-manual-pdf) `2:20151217.2` - Live Systems Documentation (pdf)_
 - ![](grey.png) _[live-manual-html](https://packages.debian.org/bookworm/live-manual-html) `2:20151217.2` - Live Systems Documentation (html)_
@@ -158,10 +158,10 @@
 
 - ![](grey.png) _[csstidy](https://packages.debian.org/bookworm/csstidy) `1.4-7` - CSS parser and optimiser_
 - ![](grey.png) _[vera](https://packages.debian.org/bookworm/vera) `1.24-1` - Dictionary of computer related acronyms -- info format_
-- ![](grey.png) _[nodejs](https://packages.debian.org/bookworm/nodejs) `18.13.0+dfsg1-1` - evented I/O for V8 javascript - runtime executable_
+- ![](grey.png) _[nodejs](https://packages.debian.org/bookworm/nodejs) `18.19.0+dfsg-6~deb12u2` - evented I/O for V8 javascript - runtime executable_
 - ![](grey.png) _[npm](https://packages.debian.org/bookworm/npm) `9.2.0~ds1-1` - package manager for Node.js_
 - ![](grey.png) _[jsbeautifier](https://packages.debian.org/bookworm/jsbeautifier) `1.14.4-1` - JavaScript unobfuscator and beautifier_
-- ![](grey.png) _[yarnpkg](https://packages.debian.org/bookworm/yarnpkg) `1.22.19+~cs24.27.18-2` - Fast, reliable and secure npm alternative_
+- ![](grey.png) _[yarnpkg](https://packages.debian.org/bookworm/yarnpkg) `1.22.19+~cs24.27.18-2+deb12u1` - Fast, reliable and secure npm alternative_
 #### Databases
 
 - ![](grey.png) _[sqlite3](https://packages.debian.org/bookworm/sqlite3) `3.40.1-2` - Command line interface for SQLite 3_

@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/vlc/3.0.20-0+deb12u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/vlc/3.0.21-0+deb12u1">
 
 **[vlc](https://packages.debian.org/bookworm/vlc)** - multimedia player and streamer
 
@@ -39,16 +39,16 @@
 -----------------------
 
 
-- ![](green.png) [vlc](https://packages.debian.org/bookworm/vlc) `3.0.20-0+deb12u1` - multimedia player and streamer
-- ![](green.png) [vlc-plugin-notify](https://packages.debian.org/bookworm/vlc-plugin-notify) `3.0.20-0+deb12u1` - LibNotify plugin for VLC
-- ![](green.png) [vlc-plugin-jack](https://packages.debian.org/bookworm/vlc-plugin-jack) `3.0.20-0+deb12u1` - JACK audio plugins for VLC
-- ![](green.png) [vlc-plugin-samba](https://packages.debian.org/bookworm/vlc-plugin-samba) `3.0.20-0+deb12u1` - Samba plugin for VLC
-- ![](green.png) [vlc-plugin-skins2](https://packages.debian.org/bookworm/vlc-plugin-skins2) `3.0.20-0+deb12u1` - multimedia player and streamer (Skins2 plugin)
-- ![](green.png) [vlc-plugin-video-splitter](https://packages.debian.org/bookworm/vlc-plugin-video-splitter) `3.0.20-0+deb12u1` - multimedia player and streamer (video splitter plugins)
-- ![](green.png) [vlc-plugin-visualization](https://packages.debian.org/bookworm/vlc-plugin-visualization) `3.0.20-0+deb12u1` - multimedia player and streamer (visualization plugins)
-- ![](green.png) [vlc-plugin-video-output](https://packages.debian.org/bookworm/vlc-plugin-video-output) `3.0.20-0+deb12u1` - multimedia player and streamer (video output plugins)
-- ![](green.png) [vlc-plugin-base](https://packages.debian.org/bookworm/vlc-plugin-base) `3.0.20-0+deb12u1` - multimedia player and streamer (base plugins)
-- ![](green.png) [vlc-plugin-qt](https://packages.debian.org/bookworm/vlc-plugin-qt) `3.0.20-0+deb12u1` - multimedia player and streamer (Qt plugin)
+- ![](green.png) [vlc](https://packages.debian.org/bookworm/vlc) `3.0.21-0+deb12u1` - multimedia player and streamer
+- ![](green.png) [vlc-plugin-notify](https://packages.debian.org/bookworm/vlc-plugin-notify) `3.0.21-0+deb12u1` - LibNotify plugin for VLC
+- ![](green.png) [vlc-plugin-jack](https://packages.debian.org/bookworm/vlc-plugin-jack) `3.0.21-0+deb12u1` - JACK audio plugins for VLC
+- ![](green.png) [vlc-plugin-samba](https://packages.debian.org/bookworm/vlc-plugin-samba) `3.0.21-0+deb12u1` - Samba plugin for VLC
+- ![](green.png) [vlc-plugin-skins2](https://packages.debian.org/bookworm/vlc-plugin-skins2) `3.0.21-0+deb12u1` - multimedia player and streamer (Skins2 plugin)
+- ![](green.png) [vlc-plugin-video-splitter](https://packages.debian.org/bookworm/vlc-plugin-video-splitter) `3.0.21-0+deb12u1` - multimedia player and streamer (video splitter plugins)
+- ![](green.png) [vlc-plugin-visualization](https://packages.debian.org/bookworm/vlc-plugin-visualization) `3.0.21-0+deb12u1` - multimedia player and streamer (visualization plugins)
+- ![](green.png) [vlc-plugin-video-output](https://packages.debian.org/bookworm/vlc-plugin-video-output) `3.0.21-0+deb12u1` - multimedia player and streamer (video output plugins)
+- ![](green.png) [vlc-plugin-base](https://packages.debian.org/bookworm/vlc-plugin-base) `3.0.21-0+deb12u1` - multimedia player and streamer (base plugins)
+- ![](green.png) [vlc-plugin-qt](https://packages.debian.org/bookworm/vlc-plugin-qt) `3.0.21-0+deb12u1` - multimedia player and streamer (Qt plugin)
 - ![](green.png) [libdvd-pkg](https://packages.debian.org/bookworm/libdvd-pkg) `1.4.3-1-1` - DVD-Video playing library - installer
 - ![](green.png) [mpv](https://packages.debian.org/bookworm/mpv) `0.35.1-4` - video player based on MPlayer/mplayer2
 - ![](grey.png) _[freetuxtv](https://packages.debian.org/bookworm/freetuxtv) `0.6.8~dfsg1-1+b3` - Internet television and radio player_
@@ -61,7 +61,7 @@
 - ![](grey.png) _[subdownloader](https://packages.debian.org/bookworm/subdownloader) `2.1.0-5` - subtitle download/upload manager for video files_
 - ![](grey.png) _[totem](https://packages.debian.org/bookworm/totem) `43.0-2` - Simple media player for the GNOME desktop based on GStreamer_
 - ![](grey.png) _[totem-plugins](https://packages.debian.org/bookworm/totem-plugins) `43.0-2` - Plugins for the Totem media player_
-- ![](grey.png) _[vlc-plugin-svg](https://packages.debian.org/bookworm/vlc-plugin-svg) `3.0.20-0+deb12u1` - SVG plugin for VLC_
+- ![](grey.png) _[vlc-plugin-svg](https://packages.debian.org/bookworm/vlc-plugin-svg) `3.0.21-0+deb12u1` - SVG plugin for VLC_
 - ![](grey.png) _[celluloid](https://packages.debian.org/bookworm/celluloid) `0.20-2+b1` - simple GTK+ frontend for mpv_
 - ![](grey.png) _[vlc-plugin-bittorrent](https://packages.debian.org/bookworm/vlc-plugin-bittorrent) `2.14-1+b1` - Bittorrent plugin for VLC_
 - ![](grey.png) _[mpv-mpris](https://packages.debian.org/bookworm/mpv-mpris) `0.7.1-1` - MPRIS plugin for mpv_
@@ -228,17 +228,17 @@
 
 
 - ![](green.png) [qwinff](https://packages.debian.org/bookworm/qwinff) `0.2.1+git20201215-2` - GUI for FFmpeg
-- ![](green.png) [ffmpeg](https://packages.debian.org/bookworm/ffmpeg) `7:5.1.4-0+deb12u1` - Tools for transcoding, streaming and playing of multimedia files
+- ![](green.png) [ffmpeg](https://packages.debian.org/bookworm/ffmpeg) `7:5.1.5-0+deb12u1` - Tools for transcoding, streaming and playing of multimedia files
 - ![](green.png) [flac](https://packages.debian.org/bookworm/flac) `1.4.2+ds-2` - Free Lossless Audio Codec - command line tools
-- ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/bookworm/gstreamer1.0-alsa) `1.22.0-3+deb12u1` - GStreamer plugin for ALSA
+- ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/bookworm/gstreamer1.0-alsa) `1.22.0-3+deb12u2` - GStreamer plugin for ALSA
 - ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/bookworm/gstreamer1.0-libav) `1.22.0-2` - ffmpeg plugin for GStreamer
-- ![](green.png) [gstreamer1.0-plugins-bad](https://packages.debian.org/bookworm/gstreamer1.0-plugins-bad) `1.22.0-4+deb12u3` - GStreamer plugins from the "bad" set
-- ![](green.png) [gstreamer1.0-plugins-base](https://packages.debian.org/bookworm/gstreamer1.0-plugins-base) `1.22.0-3+deb12u1` - GStreamer plugins from the "base" set
+- ![](green.png) [gstreamer1.0-plugins-bad](https://packages.debian.org/bookworm/gstreamer1.0-plugins-bad) `1.22.0-4+deb12u5` - GStreamer plugins from the "bad" set
+- ![](green.png) [gstreamer1.0-plugins-base](https://packages.debian.org/bookworm/gstreamer1.0-plugins-base) `1.22.0-3+deb12u2` - GStreamer plugins from the "base" set
 - ![](green.png) [gstreamer1.0-plugins-good](https://packages.debian.org/bookworm/gstreamer1.0-plugins-good) `1.22.0-5+deb12u1` - GStreamer plugins from the "good" set
 - ![](green.png) [gstreamer1.0-plugins-ugly](https://packages.debian.org/bookworm/gstreamer1.0-plugins-ugly) `1.22.0-2+deb12u1` - GStreamer plugins from the "ugly" set
 - ![](green.png) [gstreamer1.0-pulseaudio](https://packages.debian.org/bookworm/gstreamer1.0-pulseaudio) `1.22.0-5+deb12u1` - GStreamer plugin for PulseAudio (transitional package)
 - ![](green.png) [gstreamer1.0-tools](https://packages.debian.org/bookworm/gstreamer1.0-tools) `1.22.0-2` - Tools for use with GStreamer
-- ![](green.png) [gstreamer1.0-x](https://packages.debian.org/bookworm/gstreamer1.0-x) `1.22.0-3+deb12u1` - GStreamer plugins for X11 and Pango
+- ![](green.png) [gstreamer1.0-x](https://packages.debian.org/bookworm/gstreamer1.0-x) `1.22.0-3+deb12u2` - GStreamer plugins for X11 and Pango
 - ![](green.png) [lame](https://packages.debian.org/bookworm/lame) `3.100-6` - MP3 encoding library (frontend)
 - ![](green.png) [libmp3lame0](https://packages.debian.org/bookworm/libmp3lame0) `3.100-6` - MP3 encoding library
 - ![](green.png) [libxvidcore4](https://packages.debian.org/bookworm/libxvidcore4) `2:1.3.7-1` - Open source MPEG-4 video codec (library)

@@ -5,8 +5,8 @@
 
 project = 'debian-live-config'
 author = 'nodiscc@gmail.com'
-version = '4.1.0'
-release = '4.1.0'
+version = '4.2.0'
+release = '4.2.0'
 html_show_copyright = True
 
 # -- General configuration ---------------------------------------------------

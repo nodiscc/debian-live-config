@@ -45,7 +45,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/2.10.34-1+deb12u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/2.10.34-1+deb12u2">
 
 **[gimp](https://packages.debian.org/bookworm/gimp)** - GNU Image Manipulation Program
 
@@ -62,7 +62,7 @@
 -----------------------
 
 
-- ![](green.png) [gimp](https://packages.debian.org/bookworm/gimp) `2.10.34-1+deb12u1` - GNU Image Manipulation Program
+- ![](green.png) [gimp](https://packages.debian.org/bookworm/gimp) `2.10.34-1+deb12u2` - GNU Image Manipulation Program
 - ![](green.png) [gimp-data-extras](https://packages.debian.org/bookworm/gimp-data-extras) `1:2.0.2-1.1` - Extra brushes and patterns for GIMP
 - ![](green.png) [gimp-plugin-registry](https://packages.debian.org/bookworm/gimp-plugin-registry) `9.20200928+b1` - repository of optional extensions for GIMP
 - ![](green.png) [gimp-texturize](https://packages.debian.org/bookworm/gimp-texturize) `2.2-3` - generates large textures from a small sample
@@ -162,7 +162,7 @@
 - ![](grey.png) _[glabels](https://packages.debian.org/bookworm/glabels) `3.4.1-4` - label, business card and media cover creation program for GNOME_
 - ![](grey.png) _[qrencode](https://packages.debian.org/bookworm/qrencode) `4.1.1-1` - QR Code encoder into PNG image_
 - ![](grey.png) _[qtqr](https://packages.debian.org/bookworm/qtqr) `2.1~bzr46-4` - Qt frontend for QR code generator and decoder_
-- ![](grey.png) _[zbar-tools](https://packages.debian.org/bookworm/zbar-tools) `0.23.92-7` - QR code / bar code scanner and decoder (utilities)_
+- ![](grey.png) _[zbar-tools](https://packages.debian.org/bookworm/zbar-tools) `0.23.92-7+deb12u1` - QR code / bar code scanner and decoder (utilities)_
 - ![](grey.png) _[zint-qt](https://packages.debian.org/bookworm/zint-qt) `2.11.1-1` - Zint Barcode Studio, a QT frontend to zint_
 - ![](grey.png) _[qrterminal](https://packages.debian.org/bookworm/qrterminal) `3.0.0-2+b4` - Display QR Codes in terminal (program)_
 #### 3D editors
@@ -204,7 +204,7 @@
 - ![](grey.png) _[auto-editor](https://packages.debian.org/bookworm/auto-editor) `22w52a+ds-1` - Effort free video editing_
 #### Command-line image manipulation
 
-- ![](green.png) [imagemagick](https://packages.debian.org/bookworm/imagemagick) `8:6.9.11.60+dfsg-1.6` - image manipulation programs -- binaries
+- ![](green.png) [imagemagick](https://packages.debian.org/bookworm/imagemagick) `8:6.9.11.60+dfsg-1.6+deb12u1` - image manipulation programs -- binaries
 - ![](green.png) [optipng](https://packages.debian.org/bookworm/optipng) `0.7.7-2+b1` - advanced PNG (Portable Network Graphics) optimizer
 - ![](green.png) [jpegoptim](https://packages.debian.org/bookworm/jpegoptim) `1.4.7-1` - utility to optimize jpeg files
 - ![](green.png) [exifprobe](https://packages.debian.org/bookworm/exifprobe) `2.0.1+git20170416.3c2b769-5` - read metadata from digital pictures

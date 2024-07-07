@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/libreoffice/4:7.4.7-1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/libreoffice/4:7.4.7-1+deb12u3">
 
 **[libreoffice](https://packages.debian.org/bookworm/libreoffice)** - office productivity suite (metapackage)
 
@@ -22,19 +22,19 @@
 -----------------------
 
 
-- ![](green.png) [libreoffice-writer](https://packages.debian.org/bookworm/libreoffice-writer) `4:7.4.7-1` - office productivity suite -- word processor
-- ![](green.png) [libreoffice-impress](https://packages.debian.org/bookworm/libreoffice-impress) `4:7.4.7-1` - office productivity suite -- presentation
-- ![](green.png) [libreoffice-draw](https://packages.debian.org/bookworm/libreoffice-draw) `4:7.4.7-1` - office productivity suite -- drawing
-- ![](green.png) [libreoffice-calc](https://packages.debian.org/bookworm/libreoffice-calc) `4:7.4.7-1` - office productivity suite -- spreadsheet
-- ![](green.png) [libreoffice-base](https://packages.debian.org/bookworm/libreoffice-base) `4:7.4.7-1` - office productivity suite -- database
-- ![](green.png) [libreoffice-gtk3](https://packages.debian.org/bookworm/libreoffice-gtk3) `4:7.4.7-1` - office productivity suite -- GTK+ 3 integration
-- ![](green.png) [libreoffice-java-common](https://packages.debian.org/bookworm/libreoffice-java-common) `4:7.4.7-1` - office productivity suite -- arch-independent Java support files
-- ![](green.png) [libreoffice-gnome](https://packages.debian.org/bookworm/libreoffice-gnome) `4:7.4.7-1` - office productivity suite -- GNOME integration
+- ![](green.png) [libreoffice-writer](https://packages.debian.org/bookworm/libreoffice-writer) `4:7.4.7-1+deb12u3` - office productivity suite -- word processor
+- ![](green.png) [libreoffice-impress](https://packages.debian.org/bookworm/libreoffice-impress) `4:7.4.7-1+deb12u3` - office productivity suite -- presentation
+- ![](green.png) [libreoffice-draw](https://packages.debian.org/bookworm/libreoffice-draw) `4:7.4.7-1+deb12u3` - office productivity suite -- drawing
+- ![](green.png) [libreoffice-calc](https://packages.debian.org/bookworm/libreoffice-calc) `4:7.4.7-1+deb12u3` - office productivity suite -- spreadsheet
+- ![](green.png) [libreoffice-base](https://packages.debian.org/bookworm/libreoffice-base) `4:7.4.7-1+deb12u3` - office productivity suite -- database
+- ![](green.png) [libreoffice-gtk3](https://packages.debian.org/bookworm/libreoffice-gtk3) `4:7.4.7-1+deb12u3` - office productivity suite -- GTK+ 3 integration
+- ![](green.png) [libreoffice-java-common](https://packages.debian.org/bookworm/libreoffice-java-common) `4:7.4.7-1+deb12u3` - office productivity suite -- arch-independent Java support files
+- ![](green.png) [libreoffice-gnome](https://packages.debian.org/bookworm/libreoffice-gnome) `4:7.4.7-1+deb12u3` - office productivity suite -- GNOME integration
 - ![](green.png) [libwmf-bin](https://packages.debian.org/bookworm/libwmf-bin) `0.2.12-5.1` - Windows metafile conversion tools
 - ![](green.png) [hyphen-fr](https://packages.debian.org/bookworm/hyphen-fr) `1:7.5.0-1` - French hyphenation patterns
-- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/bookworm/libreoffice-l10n-fr) `4:7.4.7-1` - office productivity suite -- French language package
+- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/bookworm/libreoffice-l10n-fr) `4:7.4.7-1+deb12u3` - office productivity suite -- French language package
 - ![](green.png) [mythes-fr](https://packages.debian.org/bookworm/mythes-fr) `1:7.5.0-1` - French Thesaurus for LibreOffice
-- ![](green.png) [libreoffice-help-fr](https://packages.debian.org/bookworm/libreoffice-help-fr) `4:7.4.7-1` - office productivity suite -- French help
+- ![](green.png) [libreoffice-help-fr](https://packages.debian.org/bookworm/libreoffice-help-fr) `4:7.4.7-1+deb12u3` - office productivity suite -- French help
 - ![](grey.png) _[abiword](https://packages.debian.org/bookworm/abiword) `3.0.5~dfsg-3.2` - efficient, featureful word processor with collaboration_
 - ![](grey.png) _[calligraplan](https://packages.debian.org/bookworm/calligraplan) `1:3.3.0-2` - integrated project management and planning tool_
 - ![](grey.png) _[calligrasheets](https://packages.debian.org/bookworm/calligrasheets) `1:3.2.1+dfsg-6+b3` - spreadsheet for the Calligra Suite_
@@ -48,18 +48,18 @@
 - ![](grey.png) _[karbon](https://packages.debian.org/bookworm/karbon) `1:3.2.1+dfsg-6+b3` - vector graphics application for the Calligra Suite_
 - ![](grey.png) _[key2odp](https://packages.debian.org/bookworm/key2odp) `0.9.6-3` - Keynote to OpenDocument converter_
 - ![](grey.png) _[libreoffice-dmaths](https://packages.debian.org/bookworm/libreoffice-dmaths) `4.4.0.0+dfsg1-2` - Formula editing plug-in for LibreOffice Writer_
-- ![](grey.png) _[libreoffice-math](https://packages.debian.org/bookworm/libreoffice-math) `4:7.4.7-1` - office productivity suite -- equation editor_
-- ![](grey.png) _[libreoffice-librelogo](https://packages.debian.org/bookworm/libreoffice-librelogo) `4:7.4.7-1` - Logo-like programming language for LibreOffice_
-- ![](grey.png) _[libreoffice-style-sifr](https://packages.debian.org/bookworm/libreoffice-style-sifr) `4:7.4.7-1` - office productivity suite -- Sifr symbol style_
-- ![](grey.png) _[libreoffice-nlpsolver](https://packages.debian.org/bookworm/libreoffice-nlpsolver) `4:0.9+LibO7.4.7-1` - "Solver for Nonlinear Programming" extension for LibreOffice_
-- ![](grey.png) _[libreoffice-report-builder](https://packages.debian.org/bookworm/libreoffice-report-builder) `4:7.4.7-1` - LibreOffice component for building database reports_
-- ![](grey.png) _[libreoffice-script-provider-js](https://packages.debian.org/bookworm/libreoffice-script-provider-js) `4:7.4.7-1` - JavaScript script support provider for LibreOffice scripting framework_
-- ![](grey.png) _[libreoffice-script-provider-python](https://packages.debian.org/bookworm/libreoffice-script-provider-python) `4:7.4.7-1` - Python script support provider for LibreOffice scripting framework_
-- ![](grey.png) _[libreoffice-sdbc-postgresql](https://packages.debian.org/bookworm/libreoffice-sdbc-postgresql) `4:7.4.7-1` - PostgreSQL SDBC driver for LibreOffice_
-- ![](grey.png) _[libreoffice-wiki-publisher](https://packages.debian.org/bookworm/libreoffice-wiki-publisher) `4:1.2.0+LibO7.4.7-1` - LibreOffice extension for working with MediaWiki articles_
+- ![](grey.png) _[libreoffice-math](https://packages.debian.org/bookworm/libreoffice-math) `4:7.4.7-1+deb12u3` - office productivity suite -- equation editor_
+- ![](grey.png) _[libreoffice-librelogo](https://packages.debian.org/bookworm/libreoffice-librelogo) `4:7.4.7-1+deb12u3` - Logo-like programming language for LibreOffice_
+- ![](grey.png) _[libreoffice-style-sifr](https://packages.debian.org/bookworm/libreoffice-style-sifr) `4:7.4.7-1+deb12u3` - office productivity suite -- Sifr symbol style_
+- ![](grey.png) _[libreoffice-nlpsolver](https://packages.debian.org/bookworm/libreoffice-nlpsolver) `4:0.9+LibO7.4.7-1+deb12u3` - "Solver for Nonlinear Programming" extension for LibreOffice_
+- ![](grey.png) _[libreoffice-report-builder](https://packages.debian.org/bookworm/libreoffice-report-builder) `4:7.4.7-1+deb12u3` - LibreOffice component for building database reports_
+- ![](grey.png) _[libreoffice-script-provider-js](https://packages.debian.org/bookworm/libreoffice-script-provider-js) `4:7.4.7-1+deb12u3` - JavaScript script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-script-provider-python](https://packages.debian.org/bookworm/libreoffice-script-provider-python) `4:7.4.7-1+deb12u3` - Python script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-sdbc-postgresql](https://packages.debian.org/bookworm/libreoffice-sdbc-postgresql) `4:7.4.7-1+deb12u3` - PostgreSQL SDBC driver for LibreOffice_
+- ![](grey.png) _[libreoffice-wiki-publisher](https://packages.debian.org/bookworm/libreoffice-wiki-publisher) `4:1.2.0+LibO7.4.7-1+deb12u3` - LibreOffice extension for working with MediaWiki articles_
 - ![](grey.png) _[libreoffice-grammalecte](https://packages.debian.org/bookworm/libreoffice-grammalecte) `2.1.2+ds2-2` - French spellchecker and grammar checker (LibreOffice extension)_
 - ![](grey.png) _[lyx](https://packages.debian.org/bookworm/lyx) `2.3.7-1` - document processor_
-- ![](grey.png) _[python3-uno](https://packages.debian.org/bookworm/python3-uno) `4:7.4.7-1` - Python-UNO bridge_
+- ![](grey.png) _[python3-uno](https://packages.debian.org/bookworm/python3-uno) `4:7.4.7-1+deb12u3` - Python-UNO bridge_
 - ![](grey.png) _[retext](https://packages.debian.org/bookworm/retext) `8.0.0-1` - Simple text editor for Markdown and reStructuredText_
 - ![](grey.png) _[scribus](https://packages.debian.org/bookworm/scribus) `1.5.8+dfsg-4+b4` - Open Source Desktop Page Layout_
 - ![](grey.png) _[scribus-template](https://packages.debian.org/bookworm/scribus-template) `1.2.4.1-6` - additional scribus templates_
@@ -123,7 +123,7 @@
 - ![](grey.png) _[mupdf](https://packages.debian.org/bookworm/mupdf) `1.21.1+ds2-1+b4` - lightweight PDF viewer_
 - ![](grey.png) _[apvlv](https://packages.debian.org/bookworm/apvlv) `0.4.0+repack-1` - PDF viewer with Vim-like behaviour_
 - ![](grey.png) _[xpdf](https://packages.debian.org/bookworm/xpdf) `3.04+git20220601-1+b2` - Motif-based PDF reader using the Poppler library_
-- ![](grey.png) _[calibre](https://packages.debian.org/bookworm/calibre) `6.13.0+repack-2+deb12u1` - powerful and easy to use e-book manager_
+- ![](grey.png) _[calibre](https://packages.debian.org/bookworm/calibre) `6.13.0+repack-2+deb12u3` - powerful and easy to use e-book manager_
 - ![](grey.png) _[zathura](https://packages.debian.org/bookworm/zathura) `0.5.2-1` - document viewer with a minimalistic interface_
 - ![](grey.png) _[fbreader](https://packages.debian.org/bookworm/fbreader) `0.12.10dfsg2-6` - e-book reader_
 - ![](grey.png) _[yelp](https://packages.debian.org/bookworm/yelp) `42.2-1` - Help browser for GNOME_
@@ -131,7 +131,7 @@
 - ![](grey.png) _[bookworm](https://packages.debian.org/bookworm/bookworm) `1.1.2+git20210715-2` - Simple, focused eBook Reader_
 #### E-book
 
-- ![](grey.png) _[calibre](https://packages.debian.org/bookworm/calibre) `6.13.0+repack-2+deb12u1` - powerful and easy to use e-book manager_
+- ![](grey.png) _[calibre](https://packages.debian.org/bookworm/calibre) `6.13.0+repack-2+deb12u3` - powerful and easy to use e-book manager_
 #### PDF editor/utilities
 
 
@@ -154,7 +154,7 @@
 - ![](green.png) [pdfchain](https://packages.debian.org/bookworm/pdfchain) `1:0.4.4.2-2` - graphical user interface for the PDF Tool Kit
 - ![](green.png) [pdfgrep](https://packages.debian.org/bookworm/pdfgrep) `2.1.2-1` - search in pdf files for strings matching a regular expression
 - ![](green.png) [poppler-utils](https://packages.debian.org/bookworm/poppler-utils) `22.12.0-2+b1` - PDF utilities (based on Poppler)
-- ![](grey.png) _[qpdf](https://packages.debian.org/bookworm/qpdf) `11.3.0-1` - tools for transforming and inspecting PDF files_
+- ![](grey.png) _[qpdf](https://packages.debian.org/bookworm/qpdf) `11.3.0-1+deb12u1` - tools for transforming and inspecting PDF files_
 - ![](grey.png) _[pdftk](https://packages.debian.org/bookworm/pdftk) `2.02-5+b1` - transitional package for pdftk, a tool for manipulating PDF documents_
 - ![](grey.png) _[pdfcrack](https://packages.debian.org/bookworm/pdfcrack) `0.20-1` - PDF files password cracker_
 - ![](grey.png) _[diffpdf](https://packages.debian.org/bookworm/diffpdf) `2.1.3.1-2` - compare two PDF files textually or visually_
@@ -215,7 +215,7 @@
 
 
 - ![](green.png) [simple-scan](https://packages.debian.org/bookworm/simple-scan) `42.5-2` - Simple Scanning Utility
-- ![](green.png) [imagemagick](https://packages.debian.org/bookworm/imagemagick) `8:6.9.11.60+dfsg-1.6` - image manipulation programs -- binaries
+- ![](green.png) [imagemagick](https://packages.debian.org/bookworm/imagemagick) `8:6.9.11.60+dfsg-1.6+deb12u1` - image manipulation programs -- binaries
 - ![](green.png) [sane-utils](https://packages.debian.org/bookworm/sane-utils) `1.2.1-2` - API library for scanners -- utilities
 - ![](grey.png) _[scanbd](https://packages.debian.org/bookworm/scanbd) `1.5.1-6+b1` - Scanner button daemon_
 - ![](grey.png) _[xsane](https://packages.debian.org/bookworm/xsane) `0.999-12+b1` - featureful graphical frontend for SANE (Scanner Access Now Easy)_
@@ -224,6 +224,7 @@
 - ![](grey.png) _[paperwork-gtk](https://packages.debian.org/bookworm/paperwork-gtk) `2.1.1-1` - Paperwork is a personal document manager - GTK3 frontend_
 - ![](grey.png) _[ocrfeeder](https://packages.debian.org/bookworm/ocrfeeder) `0.8.5-1` - Document layout analysis and optical character recognition system_
 - ![](grey.png) _[tesseract-ocr-fra](https://packages.debian.org/bookworm/tesseract-ocr-fra) `1:4.1.0-2` - tesseract-ocr language files for French_
+- ![](grey.png) _[ocrmypdf](https://packages.debian.org/bookworm/ocrmypdf) `14.0.1+dfsg1-1` - add an OCR text layer to PDF files_
 - ![](grey.png) _[unpaper](https://packages.debian.org/bookworm/unpaper) `7.0.0-0.1` - post-processing tool for scanned pages_
 - ![](grey.png) _[yagf](https://packages.debian.org/bookworm/yagf) `0.9.5+repack1-1` - graphical interface for cuneiform and tesseract_
 - ![](grey.png) _[ocrad](https://packages.debian.org/bookworm/ocrad) `0.28-3` - optical character recognition program_
@@ -247,8 +248,8 @@
 -----------------------
 
 
-- ![](green.png) [cups](https://packages.debian.org/bookworm/cups) `2.4.2-3+deb12u4` - Common UNIX Printing System(tm) - PPD/driver support, web interface
-- ![](green.png) [cups-client](https://packages.debian.org/bookworm/cups-client) `2.4.2-3+deb12u4` - Common UNIX Printing System(tm) - client programs (SysV)
+- ![](green.png) [cups](https://packages.debian.org/bookworm/cups) `2.4.2-3+deb12u5` - Common UNIX Printing System(tm) - PPD/driver support, web interface
+- ![](green.png) [cups-client](https://packages.debian.org/bookworm/cups-client) `2.4.2-3+deb12u5` - Common UNIX Printing System(tm) - client programs (SysV)
 - ![](green.png) [gutenprint-locales](https://packages.debian.org/bookworm/gutenprint-locales) `5.3.4.20220624T01008808d602-1` - locale data files for Gutenprint
 - ![](green.png) [cups-pk-helper](https://packages.debian.org/bookworm/cups-pk-helper) `0.2.6-1+b1` - PolicyKit helper to configure cups with fine-grained privileges
 - ![](green.png) [printer-driver-all](https://packages.debian.org/bookworm/printer-driver-all) `0.20210903` - printer drivers metapackage
@@ -302,7 +303,7 @@
 - ![](green.png) [fonts-lobster](https://packages.debian.org/bookworm/fonts-lobster) `2.0-2.1` - bold condensed script with many ligatures and alternates
 - ![](green.png) [fonts-lobstertwo](https://packages.debian.org/bookworm/fonts-lobstertwo) `2.0-2.1` - updated and improved family version of the Lobster font
 - ![](green.png) [fonts-ocr-a](https://packages.debian.org/bookworm/fonts-ocr-a) `1.0-10` - ANSI font readable by the computers of the 1960s
-- ![](green.png) [fonts-opensymbol](https://packages.debian.org/bookworm/fonts-opensymbol) `4:102.12+LibO7.4.7-1` - OpenSymbol TrueType font
+- ![](green.png) [fonts-opensymbol](https://packages.debian.org/bookworm/fonts-opensymbol) `4:102.12+LibO7.4.7-1+deb12u3` - OpenSymbol TrueType font
 - ![](green.png) [fonts-roboto](https://packages.debian.org/bookworm/fonts-roboto) `2:0~20170802-3` - metapackage to pull in Roboto fonts
 - ![](green.png) [fonts-rufscript](https://packages.debian.org/bookworm/fonts-rufscript) `010-6` - handwriting-based font for Latin characters
 - ![](green.png) [fonts-sil-andika](https://packages.debian.org/bookworm/fonts-sil-andika) `6.101-2` - Font family designed for literacy use
