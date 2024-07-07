@@ -3,13 +3,14 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - UNRELEASED
+## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-07-07
 
 ### Added
 - system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
 - system: firmware: improve hardware support (add `firmware-misc-nonfree` and `firmware-amd-graphics` packages)
 
 ### Changed
+- update all packages to latest versions, rebase on Debian 12.6.0
 - network: install keepassxc-browser Firefox extension from official Debian package
 - firefox: user.js: enable WebRender by default for better performance
 - skel: bash_aliases: gss: don't show repositories with status ok
