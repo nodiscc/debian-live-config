@@ -207,6 +207,7 @@ netcat-openbsd
 #virt-top # sid only
 #anbox # bullseye only
 #virtiofsd # sid only
+#quickemu # sid only
 
 #Section: Configuration management
 #Alt: ansible
