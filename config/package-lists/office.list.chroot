@@ -6,7 +6,6 @@ libreoffice-writer
 libreoffice-impress
 libreoffice-draw
 libreoffice-calc
-libreoffice-base
 libreoffice-gtk3
 libreoffice-java-common
 libreoffice-gnome
@@ -15,6 +14,7 @@ hyphen-fr
 libreoffice-l10n-fr
 mythes-fr
 libreoffice-help-fr
+#Alt: libreoffice-base
 #Alt: abiword
 #Alt: calligraplan
 #Alt: calligrasheets

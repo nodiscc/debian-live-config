@@ -3,11 +3,14 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-07-28
+## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-08-07
 
 ### Added
 - system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
 - system: firmware: improve hardware support (add `firmware-misc-nonfree` and `firmware-amd-graphics` packages)
+
+### Removed
+- office: remove [libreoffice-base](https://www.libreoffice.org/discover/base/)
 
 ### Changed
 - update all packages to latest versions, rebase on Debian 12.6.0
