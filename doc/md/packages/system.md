@@ -510,18 +510,18 @@
 #### Firmwares
 
 - ![](green.png) [firmware-linux-free](https://packages.debian.org/bookworm/firmware-linux-free) `20200122-1` - Binary firmware for various drivers in the Linux kernel
-- ![](green.png) [firmware-linux-nonfree](https://packages.debian.org/bookworm/firmware-linux-nonfree) `20230210-5` - Binary firmware for various drivers in the Linux kernel (metapackage)
 - ![](green.png) [firmware-realtek](https://packages.debian.org/bookworm/firmware-realtek) `20230210-5` - Binary firmware for Realtek wired/wifi/BT adapters
 - ![](green.png) [firmware-atheros](https://packages.debian.org/bookworm/firmware-atheros) `20230210-5` - Binary firmware for Qualcomm Atheros wireless cards
 - ![](green.png) [firmware-b43-installer](https://packages.debian.org/bookworm/firmware-b43-installer) `1:019-8` - firmware installer for the b43 driver
 - ![](green.png) [firmware-brcm80211](https://packages.debian.org/bookworm/firmware-brcm80211) `20230210-5` - Binary firmware for Broadcom/Cypress 802.11 wireless cards
-- ![](green.png) [firmware-intel-sound](https://packages.debian.org/bookworm/firmware-intel-sound) `20230210-5` - Binary firmware for Intel sound DSPs
 - ![](green.png) [firmware-ipw2x00](https://packages.debian.org/bookworm/firmware-ipw2x00) `20230210-5` - Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
 - ![](green.png) [firmware-iwlwifi](https://packages.debian.org/bookworm/firmware-iwlwifi) `20230210-5` - Binary firmware for Intel Wireless cards
-- ![](green.png) [firmware-misc-nonfree](https://packages.debian.org/bookworm/firmware-misc-nonfree) `20230210-5` - Binary firmware for various drivers in the Linux kernel
-- ![](green.png) [firmware-amd-graphics](https://packages.debian.org/bookworm/firmware-amd-graphics) `20230210-5` - Binary firmware for AMD/ATI graphics chips
 - ![](green.png) [amd64-microcode](https://packages.debian.org/bookworm/amd64-microcode) `3.20230808.1.1~deb12u1` - Processor microcode firmware for AMD CPUs
 - ![](green.png) [intel-microcode](https://packages.debian.org/bookworm/intel-microcode) `3.20240514.1~deb12u1` - Processor microcode firmware for Intel CPUs
+- ![](grey.png) _[firmware-linux-nonfree](https://packages.debian.org/bookworm/firmware-linux-nonfree) `20230210-5` - Binary firmware for various drivers in the Linux kernel (metapackage)_
+- ![](grey.png) _[firmware-misc-nonfree](https://packages.debian.org/bookworm/firmware-misc-nonfree) `20230210-5` - Binary firmware for various drivers in the Linux kernel_
+- ![](grey.png) _[firmware-amd-graphics](https://packages.debian.org/bookworm/firmware-amd-graphics) `20230210-5` - Binary firmware for AMD/ATI graphics chips_
+- ![](grey.png) _[firmware-intel-sound](https://packages.debian.org/bookworm/firmware-intel-sound) `20230210-5` - Binary firmware for Intel sound DSPs_
 #### Hardware-specific packages
 
 - ![](grey.png) _[driverctl](https://packages.debian.org/bookworm/driverctl) `0.111-1` - Device driver control utility for Linux_
