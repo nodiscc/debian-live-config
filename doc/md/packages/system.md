@@ -494,8 +494,8 @@
 - ![](grey.png) _[nvidia-vaapi-driver](https://packages.debian.org/bookworm/nvidia-vaapi-driver) `0.0.8-1` - VA-API implementation that uses NVDEC as a backend_
 #### Kernel/boot/init
 
-- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bookworm/linux-headers-amd64) `6.1.99-1` - Header files for Linux amd64 configuration (meta-package)
-- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bookworm/linux-headers-686:i386) `6.1.99-1` - Header files for Linux 686 configuration (meta-package)
+- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bookworm/linux-headers-amd64) `6.1.94-1` - Header files for Linux amd64 configuration (meta-package)
+- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bookworm/linux-headers-686:i386) `6.1.94-1` - Header files for Linux 686 configuration (meta-package)
 - ![](green.png) [module-assistant](https://packages.debian.org/bookworm/module-assistant) `0.11.11` - tool to make module package creation easier
 - ![](green.png) [dkms](https://packages.debian.org/bookworm/dkms) `3.0.10-8+deb12u1` - Dynamic Kernel Module System (DKMS)
 - ![](green.png) [build-essential](https://packages.debian.org/bookworm/build-essential) `12.9` - Informational list of build-essential packages
