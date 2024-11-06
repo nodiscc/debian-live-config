@@ -62,7 +62,6 @@ homebank
 #Alt: gnucash
 #Alt: grisbi
 
-
 #Section: Document viewers
 #Description: evince
 evince
@@ -131,6 +130,7 @@ poppler-utils
 #gnome-documents # bullseye only
 #iotas # sid only
 #errands # sid only
+#gnome-recipes # sid only
 
 #Section: Image scanning
 #Description: simple-scan

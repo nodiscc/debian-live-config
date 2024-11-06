@@ -89,6 +89,7 @@ dos2unix
 #Alt: yq
 #Alt: markdownlint
 #names # sid only
+#md2html # sid only
 
 #Section: Packaging
 build-essential

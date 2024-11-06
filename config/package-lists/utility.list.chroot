@@ -44,6 +44,7 @@ catfish
 #Alt: rdfind
 #nautilus-sendto # bullseye only
 #nautilus-wipe # bullseye only
+#fsearch # sid only
 
 #Section: Desktop environment
 #Description: xfce4
@@ -99,7 +100,6 @@ gzrt
 #Alt: isomaster
 #Alt: p7zip-rar
 #Alt: gztool
-
 
 #Section: Password management/file/disk encryption
 #Description: keepassxc
@@ -190,7 +190,6 @@ tty-clock
 #Alt: stopwatch
 #Alt: xfce4-timer-plugin
 #Alt: screenruler
-
 
 #Section: Calculators
 #Description: gnome-calculator

@@ -87,6 +87,8 @@ rsync
 #Alt: onionshare-cli
 #Alt: owncloud-client
 #sparkleshare # sid only
+#warp # sid only
+#wormhole-rs # sid only
 
 #Section: Bittorrent
 #Description: transmission-gtk
@@ -104,6 +106,7 @@ transmission-cli
 #Alt: btfs
 #amule # sid only
 #amule-gnome-support # sid only
+#fragments # sid only
 
 #Section: Media download
 #Description: yt-dlp
