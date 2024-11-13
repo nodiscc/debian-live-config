@@ -1,0 +1,8 @@
+#!/bin/bash
+rm -vr pool/non-free-firmware/f/firmware-nonfree/firmware-amd-graphics*
+rm -vr pool/non-free-firmware/f/firmware-nonfree/firmware-libertas*
+rm -vr pool/non-free-firmware/f/firmware-nonfree/firmware-qcom-soc*
+rm -vr pool/non-free-firmware/f/firmware-nonfree/firmware-netronome*
+rm -vr pool/non-free-firmware/f/firmware-nonfree/firmware-atheros*
+rm -vr pool/non-free-firmware/n/nvidia-graphics-drivers
+rm -vr pool/non-free-firmware/n/nvidia-graphics-drivers-tesla

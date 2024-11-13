@@ -1,2 +1,2 @@
 #!/bin/bash
-apt-get -y purge firmware-netronome
+apt-get -y purge firmware-netronome firmware-qcom-soc firmware-nvidia-gsp nvidia-tesla-470-kernel-support firmware-nvidia-tesla-gsp firmware-nvidia-graphics firmware-amd-graphics firmware-sof-signed firmware-atheros firmware-libertas raspi-firmware
