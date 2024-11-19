@@ -77,6 +77,16 @@ test_imagesize:
 		echo '[WARNING] ISO image size is larger than 2GB!'; exit 1; \
 	fi
 
+.PHONY: debug_imagesize # generate ISO/squashfs image disk usage report (requires duc)
+debug_imagesize:
+	sudo mkdir -p /mnt/debian-live-config-iso /mnt/debian-live-config-squashfs
+	-sudo mount iso/*.iso /mnt/debian-live-config-iso
+	-sudo mount /mnt/debian-live-config-iso/live/filesystem.squashfs /mnt/debian-live-config-squashfs
+	sudo duc index /mnt/debian-live-config-squashfs -d debian-live-config-squashfs.duc-index
+	sudo duc index /mnt/debian-live-config-iso -d debian-live-config-iso.duc-index
+	#duc gui /mnt/debian-live-config-squashfs -d debian-live-config-squashfs.duc-index
+	duc gui /mnt/debian-live-config-iso -d debian-live-config-iso.duc-index
+
 # requirements: iso image must be downloaded from the build machine beforehand
 # rsync -avzP $BUILD_HOST:/var/debian-live-config/iso ./
 # cp iso/*.iso /var/lib/libvirt/images/

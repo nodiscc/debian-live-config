@@ -12,3 +12,5 @@ config/binary
 config/bootstrap
 config/chroot
 config/common
+*.duc-index
+iso/
