@@ -68,7 +68,7 @@ manpages-dev
 #Alt: debian-faq
 #Alt: doc-debian
 #trurl # sid only
-
+#tty-record # sid only
 #Section: Parsers/converters/documentation generators
 jq
 groff

@@ -114,6 +114,7 @@ vokoscreen-ng
 #obs-3d-effect # sid only
 #obs-color-monitor # sid only
 #obs-time-source # sid only
+#kooha # sid only
 
 #Section: Media conversion/codecs
 #Description: qwinff
