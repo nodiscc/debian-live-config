@@ -87,10 +87,10 @@ gnome-video-effects
 #cam2ip # sid only
 
 #Section: Screen recording/screencasting
-#Description: obs-studio
 #Description: vokoscreen-ng
-obs-studio
+#Description: obs-studio
 vokoscreen-ng
+#Alt: obs-studio
 #Alt: kazam
 #Alt: byzanz
 #Alt: obs-source-clone

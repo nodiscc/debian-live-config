@@ -9,7 +9,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
 
 ### Removed
-- office: remove [libreoffice-base](https://www.libreoffice.org/discover/base/)
+- office: remove [libreoffice-base](https://www.libreoffice.org/discover/base/) from the default installation
+- audio/video: remove [OBS Studio](https://obsproject.com/) from the default installation
+- audio/video: remove [OBS Studio](https://obsproject.com/) from the default installation
+- network & internet: remove [Kiwix](https://wiki.kiwix.org/wiki/Main_Page) from the default installation
 
 ### Changed
 - update all packages to latest versions, rebase on Debian 12.6.0

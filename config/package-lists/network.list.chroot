@@ -117,10 +117,11 @@ yt-dlp
 #video-downloaded # sid only
 
 #Section: Downloaders/web crawlers
+#Description: kiwix
 curl
 wget
-kiwix
-kiwix-tools
+#Alt: kiwix
+#Alt: kiwix-tools
 #Alt: aria2
 #Alt: zim-tools
 #Alt: httrack
