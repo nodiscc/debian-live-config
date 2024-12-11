@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - remove large or rarely used non-free firmware from the binary image (reduce ISO image size, only affects the installer, not the installed/live system)
 
 ### Changed
-- update all packages to latest versions, rebase on Debian 12.6.0
+- update all packages to latest versions, rebase on Debian 12.8.0
 - system: firmware: only install firmware for network devices and CPU microcode by default
 - network: install keepassxc-browser Firefox extension from official Debian package
 - firefox: user.js: enable WebRender by default for better performance
