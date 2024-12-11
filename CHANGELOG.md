@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - audio/video: remove [OBS Studio](https://obsproject.com/) from the default installation
 - audio/video: remove [OBS Studio](https://obsproject.com/) from the default installation
 - network & internet: remove [Kiwix](https://wiki.kiwix.org/wiki/Main_Page) from the default installation
+- remove large or rarely used non-free firmware from the binary image (reduce ISO image size, only affects the installer, not the installed/live system)
 
 ### Changed
 - update all packages to latest versions, rebase on Debian 12.6.0
