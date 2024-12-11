@@ -11,6 +11,8 @@ The live/ISO image build process is managed by [live-build](https://packages.deb
 * [`man live-build`](https://manpages.debian.org/bookworm/live-build/live-build.7.en.html)
 * `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz` ([live-manual](https://packages.debian.org/bookworm/live-manual) package)
 
+Run `make help` for a description of available Makefile targets.
+
 
 ## Build using the default configuration
 
