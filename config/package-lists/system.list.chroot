@@ -19,7 +19,6 @@ software-properties-gtk
 synaptic
 unattended-upgrades
 vrms
-gdebi
 command-not-found
 #Alt: gnome-package-updater
 #Alt: debfoster
@@ -42,6 +41,7 @@ command-not-found
 #Alt: policy-rcd-declarative-deny-all
 #Alt: reportbug
 #Alt: nala
+#Alt: gdebi
 #gnome-software-plugin-deb # sid only
 #ngome-software-plugin-fwupd # sid only
 
