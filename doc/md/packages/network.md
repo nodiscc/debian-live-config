@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/115.14.0esr-1~deb12u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/128.5.0esr-1~deb12u1">
 
 **[firefox-esr](https://packages.debian.org/bookworm/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
 
@@ -22,12 +22,12 @@
 -----------------------
 
 
-- ![](green.png) [firefox-esr](https://packages.debian.org/bookworm/firefox-esr) `115.14.0esr-1~deb12u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
-- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bookworm/firefox-esr-l10n-fr) `115.14.0esr-1~deb12u1` - French language package for Firefox ESR
+- ![](green.png) [firefox-esr](https://packages.debian.org/bookworm/firefox-esr) `128.5.0esr-1~deb12u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bookworm/firefox-esr-l10n-fr) `128.5.0esr-1~deb12u1` - French language package for Firefox ESR
 - ![](green.png) [webext-ublock-origin-firefox](https://packages.debian.org/bookworm/webext-ublock-origin-firefox) `1.46.0+dfsg-1` - lightweight and efficient ads, malware, trackers blocker (Firefox)
 - ![](green.png) [webext-keepassxc-browser](https://packages.debian.org/bookworm/webext-keepassxc-browser) `1.8.4+repack1-7` - Web browser extension to organize web site credentials in KeePassXC
 - ![](grey.png) _[luakit](https://packages.debian.org/bookworm/luakit) `1:2.3.3-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/bookworm/chromium) `127.0.6533.99-1~deb12u1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/bookworm/chromium) `131.0.6778.139-1~deb12u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/bookworm/nss-passwords) `0.3-2` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/bookworm/w3m) `0.5.3+git20230121-2` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/bookworm/links2) `2.28-1+b2` - Web browser running in both graphics and text mode_
@@ -89,7 +89,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:115.14.0-1~deb12u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:128.5.0esr-1~deb12u1">
 
 **[thunderbird](https://packages.debian.org/bookworm/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
 
@@ -107,8 +107,8 @@
 -----------------------
 
 
-- ![](green.png) [thunderbird](https://packages.debian.org/bookworm/thunderbird) `1:115.14.0-1~deb12u1` - mail/news client with RSS, chat and integrated spam filter support
-- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bookworm/thunderbird-l10n-fr) `1:115.14.0-1~deb12u1` - French language package for Thunderbird
+- ![](green.png) [thunderbird](https://packages.debian.org/bookworm/thunderbird) `1:128.5.0esr-1~deb12u1` - mail/news client with RSS, chat and integrated spam filter support
+- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bookworm/thunderbird-l10n-fr) `1:128.5.0esr-1~deb12u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/bookworm/geary) `43.0-1+b1` - lightweight email client designed for the GNOME desktop_
 - ![](grey.png) _[claws-mail](https://packages.debian.org/bookworm/claws-mail) `4.1.1-2+b1` - Fast, lightweight and user-friendly GTK based email client_
 - ![](grey.png) _[claws-mail-plugins](https://packages.debian.org/bookworm/claws-mail-plugins) `4.1.1-2` - Installs plugins for the Claws Mail mailer_
@@ -176,7 +176,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2024.08.06-1~bpo12+1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2024.12.06-1~bpo12+1">
 
 **[yt-dlp](https://packages.debian.org/bookworm/yt-dlp)** - downloader of videos from YouTube and other sites
 
@@ -190,16 +190,35 @@
 -----------------------
 
 
-- ![](green.png) [yt-dlp](https://packages.debian.org/bookworm/yt-dlp) `2024.08.06-1~bpo12+1` - downloader of videos from YouTube and other sites
+- ![](green.png) [yt-dlp](https://packages.debian.org/bookworm/yt-dlp) `2024.12.06-1~bpo12+1` - downloader of videos from YouTube and other sites
 - ![](grey.png) _[streamlink](https://packages.debian.org/bookworm/streamlink) `5.2.1-1` - CLI for extracting video streams from various websites to a video player_
 - ![](grey.png) _[minitube](https://packages.debian.org/bookworm/minitube) `3.9.3-2` - Native YouTube client_
 - ![](grey.png) _[smtube](https://packages.debian.org/bookworm/smtube) `21.7.0-1+b1` - YouTube videos browser_
 #### Downloaders/web crawlers
 
-- ![](green.png) [curl](https://packages.debian.org/bookworm/curl) `7.88.1-10+deb12u6` - command line tool for transferring data with URL syntax
+
+</sub>
+
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/kiwix/2.3.0-1">
+
+**[kiwix](https://packages.debian.org/bookworm/kiwix)** - offline Wikipedia reader
+
+
+ Kiwix is an offline reader and manager for online content
+ like Wikipedia, Project Gutenberg, or TED Talks.
+ Kiwix allows you to read and search through offline content
+ as they were online. Similar to a browser, Kiwix works with
+ the highly compressed ZIM file format.
+
+<sub>
+
+-----------------------
+
+
+- ![](green.png) [curl](https://packages.debian.org/bookworm/curl) `7.88.1-10+deb12u8` - command line tool for transferring data with URL syntax
 - ![](green.png) [wget](https://packages.debian.org/bookworm/wget) `1.21.3-1+b2` - retrieves files from the web
-- ![](green.png) [kiwix](https://packages.debian.org/bookworm/kiwix) `2.3.0-1` - offline Wikipedia reader
-- ![](green.png) [kiwix-tools](https://packages.debian.org/bookworm/kiwix-tools) `3.3.0-3+b1` - collection of Kiwix tools
+- ![](grey.png) _[kiwix](https://packages.debian.org/bookworm/kiwix) `2.3.0-1` - offline Wikipedia reader_
+- ![](grey.png) _[kiwix-tools](https://packages.debian.org/bookworm/kiwix-tools) `3.3.0-3+b1` - collection of Kiwix tools_
 - ![](grey.png) _[aria2](https://packages.debian.org/bookworm/aria2) `1.36.0-1` - High speed download utility_
 - ![](grey.png) _[zim-tools](https://packages.debian.org/bookworm/zim-tools) `3.1.3-1` - various ZIM command-line tools_
 - ![](grey.png) _[httrack](https://packages.debian.org/bookworm/httrack) `3.49.4-1` - Copy websites to your computer (Offline browser)_
@@ -397,11 +416,11 @@
 - ![](grey.png) _[tcptrack](https://packages.debian.org/bookworm/tcptrack) `1.4.3-1+b1` - TCP connection tracker, with states and speeds_
 - ![](grey.png) _[thc-ipv6](https://packages.debian.org/bookworm/thc-ipv6) `3.8-1+b1` - The Hacker Choice's IPv6 Attack Toolkit_
 - ![](grey.png) _[trickle](https://packages.debian.org/bookworm/trickle) `1.07-12` - user-space bandwidth shaper_
-- ![](grey.png) _[tshark](https://packages.debian.org/bookworm/tshark) `4.0.11-1~deb12u1` - network traffic analyzer - console version_
-- ![](grey.png) _[usbip](https://packages.debian.org/bookworm/usbip) `2.0+6.1.99-1` - USB device sharing system over IP network_
+- ![](grey.png) _[tshark](https://packages.debian.org/bookworm/tshark) `4.0.17-0+deb12u1` - network traffic analyzer - console version_
+- ![](grey.png) _[usbip](https://packages.debian.org/bookworm/usbip) `2.0+6.1.119-1` - USB device sharing system over IP network_
 - ![](grey.png) _[vnstat](https://packages.debian.org/bookworm/vnstat) `2.10-2` - console-based network traffic monitor_
 - ![](grey.png) _[vnstati](https://packages.debian.org/bookworm/vnstati) `2.10-2` - image output support for vnStat_
-- ![](grey.png) _[wireshark](https://packages.debian.org/bookworm/wireshark) `4.0.11-1~deb12u1` - network traffic analyzer - meta-package_
+- ![](grey.png) _[wireshark](https://packages.debian.org/bookworm/wireshark) `4.0.17-0+deb12u1` - network traffic analyzer - meta-package_
 - ![](grey.png) _[termshark](https://packages.debian.org/bookworm/termshark) `2.4.0-1+b6` - Terminal UI for tshark, inspired by Wireshark_
 - ![](grey.png) _[fierce](https://packages.debian.org/bookworm/fierce) `1.5.0-1` - Domain DNS scanner_
 - ![](grey.png) _[sslscan](https://packages.debian.org/bookworm/sslscan) `2.0.7-1+b1` - Tests SSL/TLS enabled services to discover supported cipher suites_
@@ -414,7 +433,7 @@
 - ![](grey.png) _[sshuttle](https://packages.debian.org/bookworm/sshuttle) `1.1.1-1` - Transparent proxy server for VPN over SSH_
 - ![](grey.png) _[sshfs](https://packages.debian.org/bookworm/sshfs) `3.7.3-1.1` - filesystem client based on SSH File Transfer Protocol_
 - ![](grey.png) _[pssh](https://packages.debian.org/bookworm/pssh) `2.3.4-2` - Parallel versions of SSH-based tools_
-- ![](grey.png) _[putty-tools](https://packages.debian.org/bookworm/putty-tools) `0.78-2+deb12u1` - command-line tools for SSH, SCP, and SFTP_
+- ![](grey.png) _[putty-tools](https://packages.debian.org/bookworm/putty-tools) `0.78-2+deb12u2` - command-line tools for SSH, SCP, and SFTP_
 - ![](grey.png) _[autossh](https://packages.debian.org/bookworm/autossh) `1.4g-1+b1` - Automatically restart SSH sessions and tunnels_
 - ![](grey.png) _[endlessh](https://packages.debian.org/bookworm/endlessh) `1.1-5+b1` - SSH tarpit that slowly sends an endless connection banner_
 #### Remote access/desktop clients
@@ -509,5 +528,5 @@
 - ![](grey.png) _[geoip-database](https://packages.debian.org/bookworm/geoip-database) `20230203-1` - IP lookup command line tools that use the GeoIP library (country database)_
 #### Out-of-band management
 
-- ![](grey.png) _[ipmitool](https://packages.debian.org/bookworm/ipmitool) `1.8.19-4` - utility for IPMI control with kernel driver or LAN interface (daemon)_
+- ![](grey.png) _[ipmitool](https://packages.debian.org/bookworm/ipmitool) `1.8.19-4+deb12u2` - utility for IPMI control with kernel driver or LAN interface (daemon)_
 - ![](grey.png) _[gwakeonlan](https://packages.debian.org/bookworm/gwakeonlan) `0.8.5-1` - wakes up your machines using Wake on LAN_

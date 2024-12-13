@@ -6,7 +6,7 @@
 
 #### Version control
 
-- ![](green.png) [git](https://packages.debian.org/bookworm/git) `1:2.39.2-1.1` - fast, scalable, distributed revision control system
+- ![](green.png) [git](https://packages.debian.org/bookworm/git) `1:2.39.5-0+deb12u1` - fast, scalable, distributed revision control system
 - ![](green.png) [colordiff](https://packages.debian.org/bookworm/colordiff) `1.0.20-1` - tool to colorize 'diff' output
 - ![](green.png) [dwdiff](https://packages.debian.org/bookworm/dwdiff) `2.1.4-2+b2` - diff program that operates word by word
 - ![](green.png) [cloc](https://packages.debian.org/bookworm/cloc) `1.96-1` - statistics utility to count lines of code
@@ -15,7 +15,7 @@
 - ![](grey.png) _[gitg](https://packages.debian.org/bookworm/gitg) `41-2` - git repository viewer_
 - ![](grey.png) _[gource](https://packages.debian.org/bookworm/gource) `0.54-1` - graphical source control visualisation_
 - ![](grey.png) _[fossil](https://packages.debian.org/bookworm/fossil) `1:2.21-1` - DSCM with built-in wiki, http interface and server, tickets database_
-- ![](grey.png) _[git-mediawiki](https://packages.debian.org/bookworm/git-mediawiki) `1:2.39.2-1.1` - fast, scalable, distributed revision control system (MediaWiki remote helper)_
+- ![](grey.png) _[git-mediawiki](https://packages.debian.org/bookworm/git-mediawiki) `1:2.39.5-0+deb12u1` - fast, scalable, distributed revision control system (MediaWiki remote helper)_
 - ![](grey.png) _[svn2git](https://packages.debian.org/bookworm/svn2git) `2.4.0-3` - Ruby tool for migrating svn projects to git_
 - ![](grey.png) _[hub](https://packages.debian.org/bookworm/hub) `2.14.2~ds1-1+b11` - make git easier with GitHub_
 - ![](grey.png) _[mercurial](https://packages.debian.org/bookworm/mercurial) `6.3.2-1` - easy-to-use, scalable distributed version control system_
@@ -35,8 +35,8 @@
 - ![](green.png) [bash-completion](https://packages.debian.org/bookworm/bash-completion) `1:2.11-6` - programmable completion for the bash shell
 - ![](green.png) [pv](https://packages.debian.org/bookworm/pv) `1.6.20-1` - Shell pipeline element to meter data passing through
 - ![](green.png) [sed](https://packages.debian.org/bookworm/sed) `4.9-1` - GNU stream editor for filtering/transforming text
-- ![](green.png) [util-linux](https://packages.debian.org/bookworm/util-linux) `2.38.1-5+deb12u1` - miscellaneous system utilities
-- ![](green.png) [util-linux-locales](https://packages.debian.org/bookworm/util-linux-locales) `2.38.1-5+deb12u1` - locales files for util-linux
+- ![](green.png) [util-linux](https://packages.debian.org/bookworm/util-linux) `2.38.1-5+deb12u2` - miscellaneous system utilities
+- ![](green.png) [util-linux-locales](https://packages.debian.org/bookworm/util-linux-locales) `2.38.1-5+deb12u2` - locales files for util-linux
 - ![](green.png) [whiptail](https://packages.debian.org/bookworm/whiptail) `0.52.23-1+b1` - Displays user-friendly dialog boxes from shell scripts
 - ![](green.png) [moreutils](https://packages.debian.org/bookworm/moreutils) `0.67-1` - additional Unix utilities
 - ![](green.png) [less](https://packages.debian.org/bookworm/less) `590-2.1~deb12u2` - pager program similar to more
@@ -95,7 +95,7 @@
 - ![](grey.png) _[fakeroot](https://packages.debian.org/bookworm/fakeroot) `1.31-1.2` - tool for simulating superuser privileges_
 - ![](grey.png) _[lintian](https://packages.debian.org/bookworm/lintian) `2.116.3` - Debian package checker_
 - ![](grey.png) _[autoconf](https://packages.debian.org/bookworm/autoconf) `2.71-3` - automatic configure script builder_
-- ![](grey.png) _[devscripts](https://packages.debian.org/bookworm/devscripts) `2.23.4+deb12u1` - scripts to make the life of a Debian Package maintainer easier_
+- ![](grey.png) _[devscripts](https://packages.debian.org/bookworm/devscripts) `2.23.4+deb12u2` - scripts to make the life of a Debian Package maintainer easier_
 - ![](grey.png) _[dh-make](https://packages.debian.org/bookworm/dh-make) `2.202301` - tool that converts source archives into Debian package source_
 - ![](grey.png) _[equivs](https://packages.debian.org/bookworm/equivs) `2.3.1` - Circumvent Debian package dependencies_
 - ![](grey.png) _[git-buildpackage](https://packages.debian.org/bookworm/git-buildpackage) `0.9.30` - Suite to help with Debian packages in Git repositories_
@@ -164,7 +164,7 @@
 - ![](grey.png) _[yarnpkg](https://packages.debian.org/bookworm/yarnpkg) `1.22.19+~cs24.27.18-2+deb12u1` - Fast, reliable and secure npm alternative_
 #### Databases
 
-- ![](grey.png) _[sqlite3](https://packages.debian.org/bookworm/sqlite3) `3.40.1-2` - Command line interface for SQLite 3_
+- ![](grey.png) _[sqlite3](https://packages.debian.org/bookworm/sqlite3) `3.40.1-2+deb12u1` - Command line interface for SQLite 3_
 - ![](grey.png) _[sqlfluff](https://packages.debian.org/bookworm/sqlfluff) `1.4.5-2` - SQL linter tool_
 #### PHP
 

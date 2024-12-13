@@ -56,7 +56,6 @@
 - ![](green.png) [synaptic](https://packages.debian.org/bookworm/synaptic) `0.91.3` - Graphical package manager
 - ![](green.png) [unattended-upgrades](https://packages.debian.org/bookworm/unattended-upgrades) `2.9.1+nmu3` - automatic installation of security upgrades
 - ![](green.png) [vrms](https://packages.debian.org/bookworm/vrms) `1.33` - transitional package for check-dfsg-status
-- ![](green.png) [gdebi](https://packages.debian.org/bookworm/gdebi) `0.9.5.7+nmu6` - simple tool to view and install deb files - GNOME GUI
 - ![](green.png) [command-not-found](https://packages.debian.org/bookworm/command-not-found) `23.04.0-1` - Suggest installation of packages in interactive bash sessions
 - ![](grey.png) _[gnome-package-updater](https://packages.debian.org/bookworm/gnome-package-updater) `43.0-1` - Software package updater for GNOME_
 - ![](grey.png) _[debfoster](https://packages.debian.org/bookworm/debfoster) `2.7-2.1+b2` - Install only wanted Debian packages_
@@ -72,13 +71,14 @@
 - ![](grey.png) _[gnome-software](https://packages.debian.org/bookworm/gnome-software) `43.5-1~deb12u1` - Software Center for GNOME_
 - ![](grey.png) _[gnome-software-plugin-flatpak](https://packages.debian.org/bookworm/gnome-software-plugin-flatpak) `43.5-1~deb12u1` - Flatpak support for GNOME Software_
 - ![](grey.png) _[gstreamer1.0-packagekit](https://packages.debian.org/bookworm/gstreamer1.0-packagekit) `1.2.6-5` - GStreamer plugin to install codecs using PackageKit_
-- ![](grey.png) _[needrestart](https://packages.debian.org/bookworm/needrestart) `3.6-4+deb12u1` - check which daemons need to be restarted after library upgrades_
+- ![](grey.png) _[needrestart](https://packages.debian.org/bookworm/needrestart) `3.6-4+deb12u3` - check which daemons need to be restarted after library upgrades_
 - ![](grey.png) _[packagekit-command-not-found](https://packages.debian.org/bookworm/packagekit-command-not-found) `1.2.6-5` - Offer to install missing programs automatically_
 - ![](grey.png) _[packagekit-gtk3-module](https://packages.debian.org/bookworm/packagekit-gtk3-module) `1.2.6-5` - Install fonts automatically using PackageKit_
 - ![](grey.png) _[extrepo](https://packages.debian.org/bookworm/extrepo) `0.11` - External repository manager_
 - ![](grey.png) _[policy-rcd-declarative-deny-all](https://packages.debian.org/bookworm/policy-rcd-declarative-deny-all) `0.6` - Blocking default policy for policy-rcd-declarative_
 - ![](grey.png) _[reportbug](https://packages.debian.org/bookworm/reportbug) `12.0.0` - reports bugs in the Debian distribution_
 - ![](grey.png) _[nala](https://packages.debian.org/bookworm/nala) `0.12.2` - Commandline frontend for the APT package manager_
+- ![](grey.png) _[gdebi](https://packages.debian.org/bookworm/gdebi) `0.9.5.7+nmu6` - simple tool to view and install deb files - GNOME GUI_
 #### Task management/monitoring
 
 
@@ -119,7 +119,7 @@
 - ![](grey.png) _[memtester](https://packages.debian.org/bookworm/memtester) `4.6.0-1` - Utility for testing the memory subsystem_
 - ![](grey.png) _[dstat](https://packages.debian.org/bookworm/dstat) `0.7.4-6.1` - versatile resource statistics tool_
 - ![](grey.png) _[sysstat](https://packages.debian.org/bookworm/sysstat) `12.6.1-1` - system performance tools for Linux_
-- ![](grey.png) _[cacti](https://packages.debian.org/bookworm/cacti) `1.2.24+ds1-1+deb12u2` - web interface for graphing of monitoring systems_
+- ![](grey.png) _[cacti](https://packages.debian.org/bookworm/cacti) `1.2.24+ds1-1+deb12u4` - web interface for graphing of monitoring systems_
 - ![](grey.png) _[hwloc](https://packages.debian.org/bookworm/hwloc) `2.9.0-1` - Hierarchical view of the machine - utilities_
 - ![](grey.png) _[memlockd](https://packages.debian.org/bookworm/memlockd) `1.3-2.1+b1` - daemon to lock files into RAM_
 - ![](grey.png) _[read-edid](https://packages.debian.org/bookworm/read-edid) `3.0.2-1.1` - hardware information-gathering tool for VESA PnP monitors_
@@ -228,7 +228,7 @@
 - ![](green.png) [sdparm](https://packages.debian.org/bookworm/sdparm) `1.12-1` - Output and modify SCSI device parameters
 - ![](green.png) [dosfstools](https://packages.debian.org/bookworm/dosfstools) `4.2-1` - utilities for making and checking MS-DOS FAT filesystems
 - ![](green.png) [hfsprogs](https://packages.debian.org/bookworm/hfsprogs) `540.1.linux3-5+b1` - mkfs and fsck for HFS and HFS+ file systems
-- ![](green.png) [ntfs-3g](https://packages.debian.org/bookworm/ntfs-3g) `1:2022.10.3-1+b1` - read/write NTFS driver for FUSE
+- ![](green.png) [ntfs-3g](https://packages.debian.org/bookworm/ntfs-3g) `1:2022.10.3-1+deb12u2` - read/write NTFS driver for FUSE
 - ![](green.png) [kpartx](https://packages.debian.org/bookworm/kpartx) `0.9.4-3+deb12u1` - create device mappings for partitions
 - ![](green.png) [xorriso](https://packages.debian.org/bookworm/xorriso) `1.5.4-4` - command line ISO-9660 and Rock Ridge manipulation tool
 - ![](green.png) [lvm2](https://packages.debian.org/bookworm/lvm2) `2.03.16-2` - Linux Logical Volume Manager
@@ -367,11 +367,11 @@
 - ![](green.png) [virt-viewer](https://packages.debian.org/bookworm/virt-viewer) `11.0-2` - Displaying the graphical console of a virtual machine
 - ![](green.png) [ebtables](https://packages.debian.org/bookworm/ebtables) `2.0.11-5` - Ethernet bridge frame table administration
 - ![](green.png) [dnsmasq-base](https://packages.debian.org/bookworm/dnsmasq-base) `2.89-1` - Small caching DNS proxy and DHCP/TFTP server
-- ![](green.png) [libvirt-daemon-system](https://packages.debian.org/bookworm/libvirt-daemon-system) `9.0.0-4` - Libvirt daemon configuration files
+- ![](green.png) [libvirt-daemon-system](https://packages.debian.org/bookworm/libvirt-daemon-system) `9.0.0-4+deb12u2` - Libvirt daemon configuration files
 - ![](green.png) [gir1.2-spiceclientgtk-3.0](https://packages.debian.org/bookworm/gir1.2-spiceclientgtk-3.0) `0.42-1` - GTK3 widget for SPICE clients (GObject-Introspection)
-- ![](green.png) [qemu-system-x86](https://packages.debian.org/bookworm/qemu-system-x86) `1:7.2+dfsg-7+deb12u6` - QEMU full system emulation binaries (x86)
-- ![](green.png) [qemu-system-arm](https://packages.debian.org/bookworm/qemu-system-arm) `1:7.2+dfsg-7+deb12u6` - QEMU full system emulation binaries (arm)
-- ![](green.png) [qemu-utils](https://packages.debian.org/bookworm/qemu-utils) `1:7.2+dfsg-7+deb12u6` - QEMU utilities
+- ![](green.png) [qemu-system-x86](https://packages.debian.org/bookworm/qemu-system-x86) `1:7.2+dfsg-7+deb12u7` - QEMU full system emulation binaries (x86)
+- ![](green.png) [qemu-system-arm](https://packages.debian.org/bookworm/qemu-system-arm) `1:7.2+dfsg-7+deb12u7` - QEMU full system emulation binaries (arm)
+- ![](green.png) [qemu-utils](https://packages.debian.org/bookworm/qemu-utils) `1:7.2+dfsg-7+deb12u7` - QEMU utilities
 - ![](green.png) [libguestfs-tools](https://packages.debian.org/bookworm/libguestfs-tools) `1:1.48.6-2` - guest disk image management system - tools
 - ![](green.png) [virt-p2v](https://packages.debian.org/bookworm/virt-p2v) `1.42.3-1` - physical-to-virtual machine converter
 - ![](green.png) [libguestfs-rsync](https://packages.debian.org/bookworm/libguestfs-rsync) `1:1.48.6-2` - guest disk image management system - rsync support
@@ -383,9 +383,9 @@
 - ![](grey.png) _[lxc](https://packages.debian.org/bookworm/lxc) `1:5.0.2-1+deb12u2` - Linux Containers userspace tools_
 - ![](grey.png) _[gnome-boxes](https://packages.debian.org/bookworm/gnome-boxes) `43.2-1` - Simple GNOME app to access virtual systems_
 - ![](grey.png) _[lxc-templates](https://packages.debian.org/bookworm/lxc-templates) `3.0.4.48.g4765da8-1+deb12u1` - Linux Containers userspace tools (templates)_
-- ![](grey.png) _[docker.io](https://packages.debian.org/bookworm/docker.io) `20.10.24+dfsg1-1+b3` - Linux container runtime_
+- ![](grey.png) _[docker.io](https://packages.debian.org/bookworm/docker.io) `20.10.24+dfsg1-1+deb12u1` - Linux container runtime_
 - ![](grey.png) _[docker-registry](https://packages.debian.org/bookworm/docker-registry) `2.8.2+ds1-1` - Docker toolset to pack, ship, store, and deliver content_
-- ![](grey.png) _[docker-doc](https://packages.debian.org/bookworm/docker-doc) `20.10.24+dfsg1-1` - Linux container runtime -- documentation_
+- ![](grey.png) _[docker-doc](https://packages.debian.org/bookworm/docker-doc) `20.10.24+dfsg1-1+deb12u1` - Linux container runtime -- documentation_
 - ![](grey.png) _[vagrant](https://packages.debian.org/bookworm/vagrant) `2.3.4+dfsg-1` - Tool for building and distributing virtualized development environments_
 - ![](grey.png) _[schroot](https://packages.debian.org/bookworm/schroot) `1.6.13-3+b2` - Execute commands in a chroot environment_
 - ![](grey.png) _[imvirt](https://packages.debian.org/bookworm/imvirt) `0.9.6-11` - detects several virtualizations_
@@ -396,7 +396,7 @@
 - ![](grey.png) _[debvm](https://packages.debian.org/bookworm/debvm) `0.2.10+deb12u1` - create and run virtual machines for various Debian releases and architectures_
 #### Configuration management
 
-- ![](grey.png) _[ansible](https://packages.debian.org/bookworm/ansible) `7.3.0+dfsg-1` - Configuration management, deployment, and task execution system_
+- ![](grey.png) _[ansible](https://packages.debian.org/bookworm/ansible) `7.7.0+dfsg-3+deb12u1` - Configuration management, deployment, and task execution system_
 #### Java
 
 - ![](green.png) [default-jre](https://packages.debian.org/bookworm/default-jre) `2:1.17-74` - Standard Java or Java compatible Runtime
@@ -494,18 +494,18 @@
 - ![](grey.png) _[nvidia-vaapi-driver](https://packages.debian.org/bookworm/nvidia-vaapi-driver) `0.0.8-1` - VA-API implementation that uses NVDEC as a backend_
 #### Kernel/boot/init
 
-- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bookworm/linux-headers-amd64) `6.1.94-1` - Header files for Linux amd64 configuration (meta-package)
-- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bookworm/linux-headers-686:i386) `6.1.94-1` - Header files for Linux 686 configuration (meta-package)
+- ![](green.png) [linux-headers-amd64](https://packages.debian.org/bookworm/linux-headers-amd64) `6.1.119-1` - Header files for Linux amd64 configuration (meta-package)
+- ![](green.png) [linux-headers-686:i386](https://packages.debian.org/bookworm/linux-headers-686:i386) `6.1.119-1` - Header files for Linux 686 configuration (meta-package)
 - ![](green.png) [module-assistant](https://packages.debian.org/bookworm/module-assistant) `0.11.11` - tool to make module package creation easier
 - ![](green.png) [dkms](https://packages.debian.org/bookworm/dkms) `3.0.10-8+deb12u1` - Dynamic Kernel Module System (DKMS)
 - ![](green.png) [build-essential](https://packages.debian.org/bookworm/build-essential) `12.9` - Informational list of build-essential packages
-- ![](green.png) [systemd](https://packages.debian.org/bookworm/systemd) `252.26-1~deb12u2` - system and service manager
+- ![](green.png) [systemd](https://packages.debian.org/bookworm/systemd) `252.31-1~deb12u1` - system and service manager
 - ![](green.png) [os-prober](https://packages.debian.org/bookworm/os-prober) `1.81` - utility to detect other OSes on a set of drives
-- ![](green.png) [initramfs-tools](https://packages.debian.org/bookworm/initramfs-tools) `0.142` - generic modular initramfs generator (automation)
+- ![](green.png) [initramfs-tools](https://packages.debian.org/bookworm/initramfs-tools) `0.142+deb12u1` - generic modular initramfs generator (automation)
 - ![](green.png) [console-setup](https://packages.debian.org/bookworm/console-setup) `1.221` - console font and keymap setup program
 - ![](green.png) [user-setup](https://packages.debian.org/bookworm/user-setup) `1.95` - Set up initial user and password
-- ![](green.png) [libpam-systemd](https://packages.debian.org/bookworm/libpam-systemd) `252.26-1~deb12u2` - system and service manager - PAM module
-- ![](grey.png) _[kexec-tools](https://packages.debian.org/bookworm/kexec-tools) `1:2.0.25-3+b1` - tools to support fast kexec reboots_
+- ![](green.png) [libpam-systemd](https://packages.debian.org/bookworm/libpam-systemd) `252.31-1~deb12u1` - system and service manager - PAM module
+- ![](grey.png) _[kexec-tools](https://packages.debian.org/bookworm/kexec-tools) `1:2.0.25-3+deb12u1` - tools to support fast kexec reboots_
 - ![](grey.png) _[kthresher](https://packages.debian.org/bookworm/kthresher) `1.4.1-2` - Purge Unused Kernels_
 #### Firmwares
 
@@ -516,8 +516,8 @@
 - ![](green.png) [firmware-brcm80211](https://packages.debian.org/bookworm/firmware-brcm80211) `20230210-5` - Binary firmware for Broadcom/Cypress 802.11 wireless cards
 - ![](green.png) [firmware-ipw2x00](https://packages.debian.org/bookworm/firmware-ipw2x00) `20230210-5` - Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
 - ![](green.png) [firmware-iwlwifi](https://packages.debian.org/bookworm/firmware-iwlwifi) `20230210-5` - Binary firmware for Intel Wireless cards
-- ![](green.png) [amd64-microcode](https://packages.debian.org/bookworm/amd64-microcode) `3.20230808.1.1~deb12u1` - Processor microcode firmware for AMD CPUs
-- ![](green.png) [intel-microcode](https://packages.debian.org/bookworm/intel-microcode) `3.20240514.1~deb12u1` - Processor microcode firmware for Intel CPUs
+- ![](green.png) [amd64-microcode](https://packages.debian.org/bookworm/amd64-microcode) `3.20240820.1~deb12u1` - Platform firmware and microcode for AMD CPUs and SoCs
+- ![](green.png) [intel-microcode](https://packages.debian.org/bookworm/intel-microcode) `3.20240910.1~deb12u1` - Processor microcode firmware for Intel CPUs
 - ![](grey.png) _[firmware-linux-nonfree](https://packages.debian.org/bookworm/firmware-linux-nonfree) `20230210-5` - Binary firmware for various drivers in the Linux kernel (metapackage)_
 - ![](grey.png) _[firmware-misc-nonfree](https://packages.debian.org/bookworm/firmware-misc-nonfree) `20230210-5` - Binary firmware for various drivers in the Linux kernel_
 - ![](grey.png) _[firmware-amd-graphics](https://packages.debian.org/bookworm/firmware-amd-graphics) `20230210-5` - Binary firmware for AMD/ATI graphics chips_
@@ -538,5 +538,5 @@
 - ![](green.png) [live-config-systemd](https://packages.debian.org/bookworm/live-config-systemd) `11.0.3+nmu1` - Live System Configuration Components (systemd backend)
 - ![](green.png) [user-setup](https://packages.debian.org/bookworm/user-setup) `1.95` - Set up initial user and password
 - ![](green.png) [live-tools](https://packages.debian.org/bookworm/live-tools) `1:20190831.1` - Live System Extra Components
-- ![](green.png) [eject](https://packages.debian.org/bookworm/eject) `2.38.1-5+deb12u1` - ejects CDs and operates CD-Changers under Linux
+- ![](green.png) [eject](https://packages.debian.org/bookworm/eject) `2.38.1-5+deb12u2` - ejects CDs and operates CD-Changers under Linux
 - ![](grey.png) _[installation-birthday](https://packages.debian.org/bookworm/installation-birthday) `15` - Receive a message on system installation anniversary_

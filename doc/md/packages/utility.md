@@ -23,7 +23,7 @@
 
 
 - ![](green.png) [gvfs-backends](https://packages.debian.org/bookworm/gvfs-backends) `1.50.3-1` - userspace virtual filesystem - backends
-- ![](green.png) [libglib2.0-bin](https://packages.debian.org/bookworm/libglib2.0-bin) `2.74.6-2+deb12u3` - Programs for the GLib library
+- ![](green.png) [libglib2.0-bin](https://packages.debian.org/bookworm/libglib2.0-bin) `2.74.6-2+deb12u4` - Programs for the GLib library
 - ![](green.png) [gvfs-fuse](https://packages.debian.org/bookworm/gvfs-fuse) `1.50.3-1` - userspace virtual filesystem - fuse server
 - ![](green.png) [jdupes](https://packages.debian.org/bookworm/jdupes) `1.21.3-1+deb12u1` - identify and delete or link duplicate files
 - ![](green.png) [libgphoto2-l10n](https://packages.debian.org/bookworm/libgphoto2-l10n) `2.5.30-1` - gphoto2 digital camera library - localized messages
@@ -443,7 +443,7 @@
 - ![](green.png) [acpi-support-base](https://packages.debian.org/bookworm/acpi-support-base) `0.143-5.1` - scripts for handling base ACPI events such as the power button
 - ![](green.png) [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) `1.74-1.2` - Tools for Power Savings based on battery/AC status
 - ![](green.png) [fancontrol](https://packages.debian.org/bookworm/fancontrol) `1:3.6.0-7.1` - utility to control the fan speed
-- ![](green.png) [rfkill](https://packages.debian.org/bookworm/rfkill) `2.38.1-5+deb12u1` - tool for enabling and disabling wireless devices
+- ![](green.png) [rfkill](https://packages.debian.org/bookworm/rfkill) `2.38.1-5+deb12u2` - tool for enabling and disabling wireless devices
 - ![](green.png) [cpufrequtils](https://packages.debian.org/bookworm/cpufrequtils) `008-2` - utilities to deal with the cpufreq Linux kernel feature
 - ![](green.png) [pm-utils](https://packages.debian.org/bookworm/pm-utils) `1.4.1-19` - utilities and scripts for power management
 - ![](grey.png) _[powerdebug](https://packages.debian.org/bookworm/powerdebug) `0.7.0-2013.08-2` - tool to display regulator, sensor and clock information_
@@ -505,7 +505,7 @@
 - ![](green.png) [xbacklight](https://packages.debian.org/bookworm/xbacklight) `1.2.1-1+b3` - simple utility to set the backlight level
 - ![](green.png) [gtk2-engines](https://packages.debian.org/bookworm/gtk2-engines) `1:2.20.2-5+b1` - theme engines for GTK+ 2.x
 - ![](green.png) [gtk2-engines-murrine](https://packages.debian.org/bookworm/gtk2-engines-murrine) `0.98.2-3+b1` - cairo-based gtk+-2.0 theme engine
-- ![](green.png) [gtk2-engines-pixbuf](https://packages.debian.org/bookworm/gtk2-engines-pixbuf) `2.24.33-2` - pixbuf-based theme for GTK 2
+- ![](green.png) [gtk2-engines-pixbuf](https://packages.debian.org/bookworm/gtk2-engines-pixbuf) `2.24.33-2+deb12u1` - pixbuf-based theme for GTK 2
 - ![](green.png) [xdg-user-dirs-gtk](https://packages.debian.org/bookworm/xdg-user-dirs-gtk) `0.11-1` - tool to manage well known user directories (Gtk extension)
 - ![](green.png) [libfile-mimeinfo-perl](https://packages.debian.org/bookworm/libfile-mimeinfo-perl) `0.33-1` - Perl module to determine file types
 - ![](green.png) [policykit-1-gnome](https://packages.debian.org/bookworm/policykit-1-gnome) `0.105-8` - authentication agent for PolicyKit

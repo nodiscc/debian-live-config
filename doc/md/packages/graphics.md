@@ -204,7 +204,7 @@
 - ![](grey.png) _[auto-editor](https://packages.debian.org/bookworm/auto-editor) `22w52a+ds-1` - Effort free video editing_
 #### Command-line image manipulation
 
-- ![](green.png) [imagemagick](https://packages.debian.org/bookworm/imagemagick) `8:6.9.11.60+dfsg-1.6+deb12u1` - image manipulation programs -- binaries
+- ![](green.png) [imagemagick](https://packages.debian.org/bookworm/imagemagick) `8:6.9.11.60+dfsg-1.6+deb12u2` - image manipulation programs -- binaries
 - ![](green.png) [optipng](https://packages.debian.org/bookworm/optipng) `0.7.7-2+b1` - advanced PNG (Portable Network Graphics) optimizer
 - ![](green.png) [jpegoptim](https://packages.debian.org/bookworm/jpegoptim) `1.4.7-1` - utility to optimize jpeg files
 - ![](green.png) [exifprobe](https://packages.debian.org/bookworm/exifprobe) `2.0.1+git20170416.3c2b769-5` - read metadata from digital pictures

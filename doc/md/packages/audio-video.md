@@ -107,7 +107,7 @@
 - ![](grey.png) _[moc](https://packages.debian.org/bookworm/moc) `1:2.6.0~svn-r3005-3` - ncurses based console audio player_
 - ![](grey.png) _[cmus](https://packages.debian.org/bookworm/cmus) `2.10.0-3` - lightweight ncurses audio player_
 - ![](grey.png) _[moc-ffmpeg-plugin](https://packages.debian.org/bookworm/moc-ffmpeg-plugin) `1:2.6.0~svn-r3005-3` - ncurses based console audio player - ffmpeg plugin_
-- ![](grey.png) _[mpg123](https://packages.debian.org/bookworm/mpg123) `1.31.2-1` - MPEG layer 1/2/3 audio player_
+- ![](grey.png) _[mpg123](https://packages.debian.org/bookworm/mpg123) `1.31.2-1+deb12u1` - MPEG layer 1/2/3 audio player_
 - ![](grey.png) _[beets](https://packages.debian.org/bookworm/beets) `1.6.0-4` - music tagger and library organizer_
 - ![](grey.png) _[easytag](https://packages.debian.org/bookworm/easytag) `2.4.3-5+b1` - GTK+ editor for audio file tags_
 - ![](grey.png) _[puddletag](https://packages.debian.org/bookworm/puddletag) `2.2.0-2` - simple, powerful audio tag editor_
@@ -157,22 +157,6 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/obs-studio/29.0.2+dfsg-1+b1">
-
-**[obs-studio](https://packages.debian.org/bookworm/obs-studio)** - recorder and streamer for live video content
-
-
- OBS Studio is designed for efficiently recording and streaming live video
- content. It supports live RTP streaming to various streaming sites.
-
-<sub>
-
------------------------
-
-
-
-</sub>
-
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/vokoscreen-ng/3.5.0-1">
 
 **[vokoscreen-ng](https://packages.debian.org/bookworm/vokoscreen-ng)** - easy to use screencast creator
@@ -188,8 +172,24 @@
 -----------------------
 
 
-- ![](green.png) [obs-studio](https://packages.debian.org/bookworm/obs-studio) `29.0.2+dfsg-1+b1` - recorder and streamer for live video content
+
+</sub>
+
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/obs-studio/29.0.2+dfsg-1+b1">
+
+**[obs-studio](https://packages.debian.org/bookworm/obs-studio)** - recorder and streamer for live video content
+
+
+ OBS Studio is designed for efficiently recording and streaming live video
+ content. It supports live RTP streaming to various streaming sites.
+
+<sub>
+
+-----------------------
+
+
 - ![](green.png) [vokoscreen-ng](https://packages.debian.org/bookworm/vokoscreen-ng) `3.5.0-1` - easy to use screencast creator
+- ![](grey.png) _[obs-studio](https://packages.debian.org/bookworm/obs-studio) `29.0.2+dfsg-1+b1` - recorder and streamer for live video content_
 - ![](grey.png) _[kazam](https://packages.debian.org/bookworm/kazam) `1.4.5-6` - screencast and screenshot application created with design in mind_
 - ![](grey.png) _[byzanz](https://packages.debian.org/bookworm/byzanz) `0.3.0+git20160312-5+b1` - small screencast creator_
 - ![](grey.png) _[obs-source-clone](https://packages.debian.org/bookworm/obs-source-clone) `0.1.1-6` - plugin for OBS Studio to clone sources from a scene_
@@ -228,7 +228,7 @@
 
 
 - ![](green.png) [qwinff](https://packages.debian.org/bookworm/qwinff) `0.2.1+git20201215-2` - GUI for FFmpeg
-- ![](green.png) [ffmpeg](https://packages.debian.org/bookworm/ffmpeg) `7:5.1.5-0+deb12u1` - Tools for transcoding, streaming and playing of multimedia files
+- ![](green.png) [ffmpeg](https://packages.debian.org/bookworm/ffmpeg) `7:5.1.6-0+deb12u1` - Tools for transcoding, streaming and playing of multimedia files
 - ![](green.png) [flac](https://packages.debian.org/bookworm/flac) `1.4.2+ds-2` - Free Lossless Audio Codec - command line tools
 - ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/bookworm/gstreamer1.0-alsa) `1.22.0-3+deb12u2` - GStreamer plugin for ALSA
 - ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/bookworm/gstreamer1.0-libav) `1.22.0-2` - ffmpeg plugin for GStreamer

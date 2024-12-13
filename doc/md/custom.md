@@ -132,9 +132,9 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 
 ### Release process
 
-- [ ] `make bump_version`, update version indicators
-- [ ] Update CHANGELOG.md
-- [ ] `make doc && git add  && git commit -m "doc: update auto-generated documentation (make doc)"`
+- [ ] `make bump_version`, update version indicators, `git add` changes
+- [ ] Update release date in CHANGELOG.md, `git add CHANGELOG.md`
+- [ ] `make doc && git add doc/md && git commit -m "release vNEW_VERSION"`
 - [ ] `git tag --sign $new_version`
 - [ ] `make && make checksums sign_checksums`
 - [ ] `make tests`

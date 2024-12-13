@@ -6,7 +6,7 @@
 
 #### Games
 
-- ![](grey.png) _[lutris](https://packages.debian.org/bookworm/lutris) `0.5.17` - video game preservation platform_
+- ![](grey.png) _[lutris](https://packages.debian.org/bookworm/lutris) `0.5.18` - video game preservation platform_
 - ![](grey.png) _[cmatrix](https://packages.debian.org/bookworm/cmatrix) `2.0-3` - simulates the display from "The Matrix"_
 - ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/bookworm/cmatrix-xfont) `2.0-3` - X11 font for cmatrix_
 - ![](grey.png) _[endless-sky](https://packages.debian.org/bookworm/endless-sky) `0.9.8-1.2` - space exploration and combat game_

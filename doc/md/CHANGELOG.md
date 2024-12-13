@@ -3,21 +3,24 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - UNRELEASED
+## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-12-13
 
 ### Added
 - system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
 
 ### Removed
-- office: remove [libreoffice-base](https://www.libreoffice.org/discover/base/)
+- office: remove [libreoffice-base](https://www.libreoffice.org/discover/base/) from the default installation
+- audio/video: remove [OBS Studio](https://obsproject.com/) from the default installation
+- network & internet: remove [Kiwix](https://wiki.kiwix.org/wiki/Main_Page) from the default installation
+- system: remove gdebi graphical package installer
 
 ### Changed
-- update all packages to latest versions, rebase on Debian 12.6.0
-- system: firmware: only install firmware for nnetwork devices and CPU microcode by default
-- network: install keepassxc-browser Firefox extension from official Debian package
-- firefox: user.js: enable WebRender by default for better performance
-- skel: bash_aliases: gss: don't show repositories with status ok
-- system: enable `non-free-firmware` repositories section during image build
+- update all packages to latest versions, rebase on Debian 12.8.0
+- system: firmware: only install firmware for network devices and CPU microcode by default
+- network: install [keepassxc-browser](https://packages.debian.org/bookworm/webext-keepassxc-browser) Firefox extension from official Debian package instead of addons.mozilla.org
+- firefox: user.js: enable WebRender GPU-based rendering by default (improve performance)
+- skel: `bash_aliases`: `gss`: don't show repositories with status `ok`
+- system: enable `non-free-firmware` repositories section during image build (but exclude large or rarely used non-free firmware from the binary image to keep the ISO image under 2GB)
 
 ---------------------
 
