@@ -22,7 +22,7 @@ wget https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/debia
 wget https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/SHA512SUMS
 wget https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/SHA512SUMS.sign
 # import the release signing key
-# the key used to sign releases has key ID EE73FC8FD71E3CC83606FDF361B23168A539DBBD
+# the key used to sign releases has key ID 59349F4B8349C90DF1FA85C82811B9A88CFE7F24
 gpg --import debian-live-config-release.key
 # verify that checksums are authentic
 gpg --verify SHA512SUMS.sign
