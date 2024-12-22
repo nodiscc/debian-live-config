@@ -125,7 +125,7 @@ update_todo:
 doc: doc_package_lists doc_md doc_html
 
 .PHONY: doc_md # generate markdown documentation
-doc_md:
+doc_md: update_todo
 	cp README.md doc/md/index.md
 	cp CHANGELOG.md doc/md/
 	cp LICENSE doc/md/LICENSE.md
