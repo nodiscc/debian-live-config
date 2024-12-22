@@ -2,20 +2,28 @@
 
 ### nodiscc/debian-live-config
 
+- #153 - live mode: changing the locale to FR in lightdm does nothing/locale still en_US - **`4.3.0`** `bug`
+- #151 - WIP adapt docker build to run using docker build ./podman build . - **`4.3.0`** `enhancement,tools`
+- #150 - WIP: config: skell: add conky configuration - **`4.3.0`** `enhancement`
+- #149 - switch to yaru gtk theme? - **`-`** `question`
+- #147 - lb config exit code is always 0, even on error. - **`-`** `bug,tools`
+- #146 - better out-of-the-box support for nvidia proprietary drivers - **`4.3.0`** `enhancement,games,hardware`
+- #145 - alternative desktop (GNOME)? - **`5.0.0`** `feature,question`
 - #143 - gcolor3: color picker does not work - **`-`** `bug,upstream`
-- #141 - automate builds with gitea actions - **`4.1.0`** `tools`
+- #141 - automate builds with gitea actions - **`4.3.0`** `tools`
 - #138 - install all files under includes.chroot/ using custom debian packages - **`-`** `enhancement`
 - #136 - support suspend-then-hibernate? - **`-`** `enhancement`
+- #135 - Better support for Flatpak - **`4.3.0`** `enhancement`
 - #134 - load the drivetemp kernel module automatically? - **`-`** `easy,enhancement,question`
-- #128 - firewall: replace ufw with firewalld - **`4.1.0`** `enhancement,maintenance`
-- #122 - WIP: add an icon on the live system desktop to install the system to disk permanently - **`4.1.0`** `enhancement,feature,upstream`
-- #111 - WIP: improve nvidia hardware support - **`4.1.0`** `enhancement,games,hardware`
+- #128 - firewall: replace ufw with firewalld - **`4.3.0`** `enhancement,maintenance`
+- #122 - WIP: add an icon on the live system desktop to install the system to disk permanently - **`4.3.0`** `enhancement,feature,upstream`
+- #111 - WIP: improve nvidia hardware support - **`4.3.0`** `enhancement,games,hardware`
 - #110 - Switch audio stack to pipewire? - **`-`** `audio,maintenance`
 - #108 - voice recognition/control/dictation? - **`-`** `feature,question`
-- #96 - Automate builds for git tags (CI/CD) - **`4.1.0`** `tools`
+- #96 - Automate builds for git tags (CI/CD) - **`4.3.0`** `tools`
 - #86 - Use apt instead of wget to download extra .deb packages (verify integrity/authenticity) - **`-`** `enhancement,security,tools`
 - #83 - don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement,UX`
-- #78 - WIP: replace pulseaudio audio server with pipewire - **`4.1.0`** `enhancement,maintenance,question`
+- #78 - WIP: replace pulseaudio audio server with pipewire - **`5.0.0`** `enhancement,maintenance,question`
 - #72 - Re-add xfce4-notes-plugin - **`5.0.0`** `enhancement,packaging,UX`
 - #67 - Check additional packages - **`-`** `audio,feature,question`
 - #63 - tests: add a script to check for common issues? - **`-`** `feature,question,tools`
@@ -24,10 +32,8 @@
 - #52 - Document default keyboard shortcuts - **`-`** `documentation`
 - #51 - document passwordless or automatic desktop session login - **`-`** `configuration,documentation,enhancement,UX`
 - #50 - Add a visual keyboard - **`-`** `feature,l10n/a11y`
-- #48 - Replace gnome-clocks with better alarm software - **`4.1.0`** `question`
 - #45 - System-wide support for DNS-over-HTTPS/TLS - **`-`** `feature,security`
 - #44 - add cron GUI - **`-`** `feature,UX`
-- #42 - firefox: display bookmarks/personal toolbar by default - **`-`** `enhancement`
 - #41 - add thunar custom action to open text files as root - **`-`** `feature,UX`
 - #35 - test accessing samba shares - **`-`** `feature,UX`
 - #33 - Some .desktop launchers are not localized in xfce4-whiskermenu-plugin - **`-`** `bug,l10n/a11y`
