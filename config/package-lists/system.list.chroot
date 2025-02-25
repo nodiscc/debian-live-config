@@ -78,6 +78,7 @@ memtest86+
 #Alt: glances
 #Alt: sysdig
 #Alt: btop
+#Alt: bpytop
 #screentest # buster only
 
 #Section: Backup
