@@ -154,6 +154,8 @@ dnsmasq-base
 hostname
 bridge-utils
 ethtool
+iw
+wpasupplicant
 #Alt: connman
 #Alt: connman-ui
 #Alt: cmst
