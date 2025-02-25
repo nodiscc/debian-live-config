@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v4.2.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - UNRELEASED
+
+### Fixed
+- system/networking: fix inability to use Wi-Fi network adapters
+
+### Changed
+
+- upgrade all packages to latest versions
+
+---------------------
+
 ## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-12-17
 
 ### Added

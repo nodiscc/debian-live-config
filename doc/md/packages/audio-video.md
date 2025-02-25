@@ -230,15 +230,15 @@
 - ![](green.png) [qwinff](https://packages.debian.org/bookworm/qwinff) `0.2.1+git20201215-2` - GUI for FFmpeg
 - ![](green.png) [ffmpeg](https://packages.debian.org/bookworm/ffmpeg) `7:5.1.6-0+deb12u1` - Tools for transcoding, streaming and playing of multimedia files
 - ![](green.png) [flac](https://packages.debian.org/bookworm/flac) `1.4.2+ds-2` - Free Lossless Audio Codec - command line tools
-- ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/bookworm/gstreamer1.0-alsa) `1.22.0-3+deb12u2` - GStreamer plugin for ALSA
+- ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/bookworm/gstreamer1.0-alsa) `1.22.0-3+deb12u4` - GStreamer plugin for ALSA
 - ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/bookworm/gstreamer1.0-libav) `1.22.0-2` - ffmpeg plugin for GStreamer
 - ![](green.png) [gstreamer1.0-plugins-bad](https://packages.debian.org/bookworm/gstreamer1.0-plugins-bad) `1.22.0-4+deb12u5` - GStreamer plugins from the "bad" set
-- ![](green.png) [gstreamer1.0-plugins-base](https://packages.debian.org/bookworm/gstreamer1.0-plugins-base) `1.22.0-3+deb12u2` - GStreamer plugins from the "base" set
-- ![](green.png) [gstreamer1.0-plugins-good](https://packages.debian.org/bookworm/gstreamer1.0-plugins-good) `1.22.0-5+deb12u1` - GStreamer plugins from the "good" set
+- ![](green.png) [gstreamer1.0-plugins-base](https://packages.debian.org/bookworm/gstreamer1.0-plugins-base) `1.22.0-3+deb12u4` - GStreamer plugins from the "base" set
+- ![](green.png) [gstreamer1.0-plugins-good](https://packages.debian.org/bookworm/gstreamer1.0-plugins-good) `1.22.0-5+deb12u2` - GStreamer plugins from the "good" set
 - ![](green.png) [gstreamer1.0-plugins-ugly](https://packages.debian.org/bookworm/gstreamer1.0-plugins-ugly) `1.22.0-2+deb12u1` - GStreamer plugins from the "ugly" set
-- ![](green.png) [gstreamer1.0-pulseaudio](https://packages.debian.org/bookworm/gstreamer1.0-pulseaudio) `1.22.0-5+deb12u1` - GStreamer plugin for PulseAudio (transitional package)
-- ![](green.png) [gstreamer1.0-tools](https://packages.debian.org/bookworm/gstreamer1.0-tools) `1.22.0-2` - Tools for use with GStreamer
-- ![](green.png) [gstreamer1.0-x](https://packages.debian.org/bookworm/gstreamer1.0-x) `1.22.0-3+deb12u2` - GStreamer plugins for X11 and Pango
+- ![](green.png) [gstreamer1.0-pulseaudio](https://packages.debian.org/bookworm/gstreamer1.0-pulseaudio) `1.22.0-5+deb12u2` - GStreamer plugin for PulseAudio (transitional package)
+- ![](green.png) [gstreamer1.0-tools](https://packages.debian.org/bookworm/gstreamer1.0-tools) `1.22.0-2+deb12u1` - Tools for use with GStreamer
+- ![](green.png) [gstreamer1.0-x](https://packages.debian.org/bookworm/gstreamer1.0-x) `1.22.0-3+deb12u4` - GStreamer plugins for X11 and Pango
 - ![](green.png) [lame](https://packages.debian.org/bookworm/lame) `3.100-6` - MP3 encoding library (frontend)
 - ![](green.png) [libmp3lame0](https://packages.debian.org/bookworm/libmp3lame0) `3.100-6` - MP3 encoding library
 - ![](green.png) [libxvidcore4](https://packages.debian.org/bookworm/libxvidcore4) `2:1.3.7-1` - Open source MPEG-4 video codec (library)

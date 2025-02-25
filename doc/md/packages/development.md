@@ -6,7 +6,7 @@
 
 #### Version control
 
-- ![](green.png) [git](https://packages.debian.org/bookworm/git) `1:2.39.5-0+deb12u1` - fast, scalable, distributed revision control system
+- ![](green.png) [git](https://packages.debian.org/bookworm/git) `1:2.39.5-0+deb12u2` - fast, scalable, distributed revision control system
 - ![](green.png) [colordiff](https://packages.debian.org/bookworm/colordiff) `1.0.20-1` - tool to colorize 'diff' output
 - ![](green.png) [dwdiff](https://packages.debian.org/bookworm/dwdiff) `2.1.4-2+b2` - diff program that operates word by word
 - ![](green.png) [cloc](https://packages.debian.org/bookworm/cloc) `1.96-1` - statistics utility to count lines of code
@@ -15,7 +15,7 @@
 - ![](grey.png) _[gitg](https://packages.debian.org/bookworm/gitg) `41-2` - git repository viewer_
 - ![](grey.png) _[gource](https://packages.debian.org/bookworm/gource) `0.54-1` - graphical source control visualisation_
 - ![](grey.png) _[fossil](https://packages.debian.org/bookworm/fossil) `1:2.21-1` - DSCM with built-in wiki, http interface and server, tickets database_
-- ![](grey.png) _[git-mediawiki](https://packages.debian.org/bookworm/git-mediawiki) `1:2.39.5-0+deb12u1` - fast, scalable, distributed revision control system (MediaWiki remote helper)_
+- ![](grey.png) _[git-mediawiki](https://packages.debian.org/bookworm/git-mediawiki) `1:2.39.5-0+deb12u2` - fast, scalable, distributed revision control system (MediaWiki remote helper)_
 - ![](grey.png) _[svn2git](https://packages.debian.org/bookworm/svn2git) `2.4.0-3` - Ruby tool for migrating svn projects to git_
 - ![](grey.png) _[hub](https://packages.debian.org/bookworm/hub) `2.14.2~ds1-1+b11` - make git easier with GitHub_
 - ![](grey.png) _[mercurial](https://packages.debian.org/bookworm/mercurial) `6.3.2-1` - easy-to-use, scalable distributed version control system_
@@ -35,8 +35,8 @@
 - ![](green.png) [bash-completion](https://packages.debian.org/bookworm/bash-completion) `1:2.11-6` - programmable completion for the bash shell
 - ![](green.png) [pv](https://packages.debian.org/bookworm/pv) `1.6.20-1` - Shell pipeline element to meter data passing through
 - ![](green.png) [sed](https://packages.debian.org/bookworm/sed) `4.9-1` - GNU stream editor for filtering/transforming text
-- ![](green.png) [util-linux](https://packages.debian.org/bookworm/util-linux) `2.38.1-5+deb12u2` - miscellaneous system utilities
-- ![](green.png) [util-linux-locales](https://packages.debian.org/bookworm/util-linux-locales) `2.38.1-5+deb12u2` - locales files for util-linux
+- ![](green.png) [util-linux](https://packages.debian.org/bookworm/util-linux) `2.38.1-5+deb12u3` - miscellaneous system utilities
+- ![](green.png) [util-linux-locales](https://packages.debian.org/bookworm/util-linux-locales) `2.38.1-5+deb12u3` - locales files for util-linux
 - ![](green.png) [whiptail](https://packages.debian.org/bookworm/whiptail) `0.52.23-1+b1` - Displays user-friendly dialog boxes from shell scripts
 - ![](green.png) [moreutils](https://packages.debian.org/bookworm/moreutils) `0.67-1` - additional Unix utilities
 - ![](green.png) [less](https://packages.debian.org/bookworm/less) `590-2.1~deb12u2` - pager program similar to more
@@ -113,7 +113,7 @@
 - ![](grey.png) _[chaos-marmosets](https://packages.debian.org/bookworm/chaos-marmosets) `0.1.1-1` - Small chaos monkey programs_
 #### Python
 
-- ![](green.png) [python3-setuptools](https://packages.debian.org/bookworm/python3-setuptools) `66.1.1-1` - Python3 Distutils Enhancements
+- ![](green.png) [python3-setuptools](https://packages.debian.org/bookworm/python3-setuptools) `66.1.1-1+deb12u1` - Python3 Distutils Enhancements
 - ![](green.png) [python3-wheel](https://packages.debian.org/bookworm/python3-wheel) `0.38.4-2` - built-package format for Python
 - ![](green.png) [python3-pip](https://packages.debian.org/bookworm/python3-pip) `23.0.1+dfsg-1` - Python package installer
 - ![](green.png) [python3-venv](https://packages.debian.org/bookworm/python3-venv) `3.11.2-1+b1` - venv module for python3 (default python3 version)
@@ -121,7 +121,7 @@
 #### Live system
 
 - ![](green.png) [live-build](https://packages.debian.org/bookworm/live-build) `1:20230502` - Live System Build Components
-- ![](grey.png) _[debootstrap](https://packages.debian.org/bookworm/debootstrap) `1.0.128+nmu2+deb12u1` - Bootstrap a basic Debian system_
+- ![](grey.png) _[debootstrap](https://packages.debian.org/bookworm/debootstrap) `1.0.128+nmu2+deb12u2` - Bootstrap a basic Debian system_
 - ![](grey.png) _[live-config-doc](https://packages.debian.org/bookworm/live-config-doc) `11.0.3+nmu1` - Live System Configuration Components (documentation)_
 - ![](grey.png) _[live-manual-pdf](https://packages.debian.org/bookworm/live-manual-pdf) `2:20151217.2` - Live Systems Documentation (pdf)_
 - ![](grey.png) _[live-manual-html](https://packages.debian.org/bookworm/live-manual-html) `2:20151217.2` - Live Systems Documentation (html)_

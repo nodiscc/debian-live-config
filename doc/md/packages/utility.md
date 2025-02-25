@@ -23,7 +23,7 @@
 
 
 - ![](green.png) [gvfs-backends](https://packages.debian.org/bookworm/gvfs-backends) `1.50.3-1` - userspace virtual filesystem - backends
-- ![](green.png) [libglib2.0-bin](https://packages.debian.org/bookworm/libglib2.0-bin) `2.74.6-2+deb12u4` - Programs for the GLib library
+- ![](green.png) [libglib2.0-bin](https://packages.debian.org/bookworm/libglib2.0-bin) `2.74.6-2+deb12u5` - Programs for the GLib library
 - ![](green.png) [gvfs-fuse](https://packages.debian.org/bookworm/gvfs-fuse) `1.50.3-1` - userspace virtual filesystem - fuse server
 - ![](green.png) [jdupes](https://packages.debian.org/bookworm/jdupes) `1.21.3-1+deb12u1` - identify and delete or link duplicate files
 - ![](green.png) [libgphoto2-l10n](https://packages.debian.org/bookworm/libgphoto2-l10n) `2.5.30-1` - gphoto2 digital camera library - localized messages
@@ -174,7 +174,7 @@
 - ![](green.png) [seahorse](https://packages.debian.org/bookworm/seahorse) `43.0-1` - GNOME front end for GnuPG
 - ![](green.png) [seahorse-daemon](https://packages.debian.org/bookworm/seahorse-daemon) `3.12.2-7` - Seahorse pass phrase caching agent
 - ![](green.png) [gnome-keyring](https://packages.debian.org/bookworm/gnome-keyring) `42.1-1+b2` - GNOME keyring services (daemon and tools)
-- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bookworm/ssh-askpass-gnome) `1:9.2p1-2+deb12u3` - interactive X program to prompt users for a passphrase for ssh-add
+- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/bookworm/ssh-askpass-gnome) `1:9.2p1-2+deb12u5` - interactive X program to prompt users for a passphrase for ssh-add
 - ![](green.png) [libpam-gnome-keyring](https://packages.debian.org/bookworm/libpam-gnome-keyring) `42.1-1+b2` - PAM module to unlock the GNOME keyring upon login
 - ![](green.png) [gnupg](https://packages.debian.org/bookworm/gnupg) `2.2.40-1.1` - GNU privacy guard - a free PGP replacement
 - ![](green.png) [gnupg2](https://packages.debian.org/bookworm/gnupg2) `2.2.40-1.1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
@@ -255,7 +255,7 @@
 
 - ![](grey.png) _[gnome-maps](https://packages.debian.org/bookworm/gnome-maps) `43.5-2~deb12u1` - map application for GNOME_
 - ![](grey.png) _[marble-qt](https://packages.debian.org/bookworm/marble-qt) `4:22.12.3-1` - globe and map widget (no KDE dependencies)_
-- ![](grey.png) _[geoclue-2.0](https://packages.debian.org/bookworm/geoclue-2.0) `2.6.0-2` - geoinformation service_
+- ![](grey.png) _[geoclue-2.0](https://packages.debian.org/bookworm/geoclue-2.0) `2.6.0-2+deb12u1` - geoinformation service_
 - ![](grey.png) _[josm](https://packages.debian.org/bookworm/josm) `0.0.svn18646+dfsg-1` - Editor for OpenStreetMap_
 - ![](grey.png) _[navit](https://packages.debian.org/bookworm/navit) `0.5.6+dfsg.1-2` - Car navigation system with routing engine_
 - ![](grey.png) _[gpsd](https://packages.debian.org/bookworm/gpsd) `3.22-4.1+b1` - Global Positioning System - daemon_
@@ -443,7 +443,7 @@
 - ![](green.png) [acpi-support-base](https://packages.debian.org/bookworm/acpi-support-base) `0.143-5.1` - scripts for handling base ACPI events such as the power button
 - ![](green.png) [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) `1.74-1.2` - Tools for Power Savings based on battery/AC status
 - ![](green.png) [fancontrol](https://packages.debian.org/bookworm/fancontrol) `1:3.6.0-7.1` - utility to control the fan speed
-- ![](green.png) [rfkill](https://packages.debian.org/bookworm/rfkill) `2.38.1-5+deb12u2` - tool for enabling and disabling wireless devices
+- ![](green.png) [rfkill](https://packages.debian.org/bookworm/rfkill) `2.38.1-5+deb12u3` - tool for enabling and disabling wireless devices
 - ![](green.png) [cpufrequtils](https://packages.debian.org/bookworm/cpufrequtils) `008-2` - utilities to deal with the cpufreq Linux kernel feature
 - ![](green.png) [pm-utils](https://packages.debian.org/bookworm/pm-utils) `1.4.1-19` - utilities and scripts for power management
 - ![](grey.png) _[powerdebug](https://packages.debian.org/bookworm/powerdebug) `0.7.0-2013.08-2` - tool to display regulator, sensor and clock information_

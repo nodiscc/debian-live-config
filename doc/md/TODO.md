@@ -2,7 +2,7 @@
 
 ### nodiscc/debian-live-config
 
-- #153 - live mode: changing the locale to FR in lightdm does nothing/locale still en_US - **`4.3.0`** `bug`
+- #154 - installer: mount filesystems with noatime,nodiratime options by default - **`-`** `easy,enhancement,performance`
 - #151 - WIP adapt docker build to run using docker build ./podman build . - **`4.3.0`** `enhancement,tools`
 - #150 - WIP: config: skell: add conky configuration - **`4.3.0`** `enhancement`
 - #149 - switch to yaru gtk theme? - **`-`** `question`

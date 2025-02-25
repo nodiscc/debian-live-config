@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/128.5.0esr-1~deb12u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/128.7.0esr-1~deb12u1">
 
 **[firefox-esr](https://packages.debian.org/bookworm/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
 
@@ -22,12 +22,12 @@
 -----------------------
 
 
-- ![](green.png) [firefox-esr](https://packages.debian.org/bookworm/firefox-esr) `128.5.0esr-1~deb12u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
-- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bookworm/firefox-esr-l10n-fr) `128.5.0esr-1~deb12u1` - French language package for Firefox ESR
+- ![](green.png) [firefox-esr](https://packages.debian.org/bookworm/firefox-esr) `128.7.0esr-1~deb12u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/bookworm/firefox-esr-l10n-fr) `128.7.0esr-1~deb12u1` - French language package for Firefox ESR
 - ![](green.png) [webext-ublock-origin-firefox](https://packages.debian.org/bookworm/webext-ublock-origin-firefox) `1.46.0+dfsg-1` - lightweight and efficient ads, malware, trackers blocker (Firefox)
 - ![](green.png) [webext-keepassxc-browser](https://packages.debian.org/bookworm/webext-keepassxc-browser) `1.8.4+repack1-7` - Web browser extension to organize web site credentials in KeePassXC
 - ![](grey.png) _[luakit](https://packages.debian.org/bookworm/luakit) `1:2.3.3-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/bookworm/chromium) `131.0.6778.139-1~deb12u1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/bookworm/chromium) `133.0.6943.126-1~deb12u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/bookworm/nss-passwords) `0.3-2` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/bookworm/w3m) `0.5.3+git20230121-2` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/bookworm/links2) `2.28-1+b2` - Web browser running in both graphics and text mode_
@@ -89,7 +89,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:128.5.0esr-1~deb12u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:128.7.0esr-1~deb12u1">
 
 **[thunderbird](https://packages.debian.org/bookworm/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
 
@@ -107,8 +107,8 @@
 -----------------------
 
 
-- ![](green.png) [thunderbird](https://packages.debian.org/bookworm/thunderbird) `1:128.5.0esr-1~deb12u1` - mail/news client with RSS, chat and integrated spam filter support
-- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bookworm/thunderbird-l10n-fr) `1:128.5.0esr-1~deb12u1` - French language package for Thunderbird
+- ![](green.png) [thunderbird](https://packages.debian.org/bookworm/thunderbird) `1:128.7.0esr-1~deb12u1` - mail/news client with RSS, chat and integrated spam filter support
+- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/bookworm/thunderbird-l10n-fr) `1:128.7.0esr-1~deb12u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/bookworm/geary) `43.0-1+b1` - lightweight email client designed for the GNOME desktop_
 - ![](grey.png) _[claws-mail](https://packages.debian.org/bookworm/claws-mail) `4.1.1-2+b1` - Fast, lightweight and user-friendly GTK based email client_
 - ![](grey.png) _[claws-mail-plugins](https://packages.debian.org/bookworm/claws-mail-plugins) `4.1.1-2` - Installs plugins for the Claws Mail mailer_
@@ -121,7 +121,7 @@
 - ![](grey.png) _[offlineimap](https://packages.debian.org/bookworm/offlineimap) `7.3.3+dfsg1-1+0.0~git20211018.e64c254+dfsg-2` - transitional package_
 #### File transfer and synchronization
 
-- ![](green.png) [rsync](https://packages.debian.org/bookworm/rsync) `3.2.7-1` - fast, versatile, remote (and local) file-copying tool
+- ![](green.png) [rsync](https://packages.debian.org/bookworm/rsync) `3.2.7-1+deb12u2` - fast, versatile, remote (and local) file-copying tool
 - ![](grey.png) _[nextcloud-desktop](https://packages.debian.org/bookworm/nextcloud-desktop) `3.7.3-1+deb12u1` - Nextcloud folder synchronization tool_
 - ![](grey.png) _[nextcloud-desktop-cmd](https://packages.debian.org/bookworm/nextcloud-desktop-cmd) `3.7.3-1+deb12u1` - folder synchronization with an Nextcloud server - cmd client_
 - ![](grey.png) _[lftp](https://packages.debian.org/bookworm/lftp) `4.9.2-2+b1` - Sophisticated command-line FTP/HTTP/BitTorrent client programs_
@@ -176,7 +176,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2024.12.06-1~bpo12+1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2025.02.19-1~bpo12+1">
 
 **[yt-dlp](https://packages.debian.org/bookworm/yt-dlp)** - downloader of videos from YouTube and other sites
 
@@ -190,7 +190,7 @@
 -----------------------
 
 
-- ![](green.png) [yt-dlp](https://packages.debian.org/bookworm/yt-dlp) `2024.12.06-1~bpo12+1` - downloader of videos from YouTube and other sites
+- ![](green.png) [yt-dlp](https://packages.debian.org/bookworm/yt-dlp) `2025.02.19-1~bpo12+1` - downloader of videos from YouTube and other sites
 - ![](grey.png) _[streamlink](https://packages.debian.org/bookworm/streamlink) `5.2.1-1` - CLI for extracting video streams from various websites to a video player_
 - ![](grey.png) _[minitube](https://packages.debian.org/bookworm/minitube) `3.9.3-2` - Native YouTube client_
 - ![](grey.png) _[smtube](https://packages.debian.org/bookworm/smtube) `21.7.0-1+b1` - YouTube videos browser_
@@ -261,22 +261,24 @@
 - ![](green.png) [network-manager-gnome](https://packages.debian.org/bookworm/network-manager-gnome) `1.30.0-2` - network management framework (GNOME frontend)
 - ![](green.png) [network-manager-openvpn-gnome](https://packages.debian.org/bookworm/network-manager-openvpn-gnome) `1.10.2-2` - network management framework (OpenVPN plugin GNOME GUI)
 - ![](green.png) [wireguard](https://packages.debian.org/bookworm/wireguard) `1.0.20210914-1` - fast, modern, secure kernel VPN tunnel (metapackage)
-- ![](green.png) [dnsmasq-base](https://packages.debian.org/bookworm/dnsmasq-base) `2.89-1` - Small caching DNS proxy and DHCP/TFTP server
+- ![](green.png) [dnsmasq-base](https://packages.debian.org/bookworm/dnsmasq-base) `2.90-4~deb12u1` - Small caching DNS proxy and DHCP/TFTP server - executable
 - ![](green.png) [hostname](https://packages.debian.org/bookworm/hostname) `3.23+nmu1` - utility to set/show the host name or domain name
 - ![](green.png) [bridge-utils](https://packages.debian.org/bookworm/bridge-utils) `1.7.1-1` - Utilities for configuring the Linux Ethernet bridge
 - ![](green.png) [ethtool](https://packages.debian.org/bookworm/ethtool) `1:6.1-1` - display or change Ethernet device settings
+- ![](green.png) [iw](https://packages.debian.org/bookworm/iw) `5.19-1` - tool for configuring Linux wireless devices
+- ![](green.png) [wpasupplicant](https://packages.debian.org/bookworm/wpasupplicant) `2:2.10-12+deb12u2` - client support for WPA and WPA2 (IEEE 802.11i)
 - ![](grey.png) _[connman](https://packages.debian.org/bookworm/connman) `1.41-3` - Intel Connection Manager daemon_
 - ![](grey.png) _[connman-ui](https://packages.debian.org/bookworm/connman-ui) `0~20150623-1+b2` - full-featured GTK-based tray icon UI for ConnMan_
 - ![](grey.png) _[cmst](https://packages.debian.org/bookworm/cmst) `2022.11.30-1` - QT GUI for Connman with system tray icon_
 - ![](grey.png) _[wpagui](https://packages.debian.org/bookworm/wpagui) `2:2.10-12+deb12u2` - graphical user interface for wpa_supplicant_
 - ![](grey.png) _[network-manager-ssh](https://packages.debian.org/bookworm/network-manager-ssh) `1.2.11-1` - network management framework (SSH plugin core)_
 - ![](grey.png) _[efax-gtk](https://packages.debian.org/bookworm/efax-gtk) `3.2.8-2.3+b1` - front end in GTK+ for the efax program_
-- ![](grey.png) _[avahi-daemon](https://packages.debian.org/bookworm/avahi-daemon) `0.8-10` - Avahi mDNS/DNS-SD daemon_
+- ![](grey.png) _[avahi-daemon](https://packages.debian.org/bookworm/avahi-daemon) `0.8-10+deb12u1` - Avahi mDNS/DNS-SD daemon_
 - ![](grey.png) _[libnss-mdns](https://packages.debian.org/bookworm/libnss-mdns) `0.15.1-3` - NSS module for Multicast DNS name resolution_
-- ![](grey.png) _[avahi-autoipd](https://packages.debian.org/bookworm/avahi-autoipd) `0.8-10` - Avahi IPv4LL network address configuration daemon_
-- ![](grey.png) _[avahi-dnsconfd](https://packages.debian.org/bookworm/avahi-dnsconfd) `0.8-10` - Avahi DNS configuration tool_
-- ![](grey.png) _[avahi-discover](https://packages.debian.org/bookworm/avahi-discover) `0.8-10` - Service discover user interface for avahi_
-- ![](grey.png) _[avahi-ui-utils](https://packages.debian.org/bookworm/avahi-ui-utils) `0.8-10` - Avahi GTK+ utilities_
+- ![](grey.png) _[avahi-autoipd](https://packages.debian.org/bookworm/avahi-autoipd) `0.8-10+deb12u1` - Avahi IPv4LL network address configuration daemon_
+- ![](grey.png) _[avahi-dnsconfd](https://packages.debian.org/bookworm/avahi-dnsconfd) `0.8-10+deb12u1` - Avahi DNS configuration tool_
+- ![](grey.png) _[avahi-discover](https://packages.debian.org/bookworm/avahi-discover) `0.8-10+deb12u1` - Service discover user interface for avahi_
+- ![](grey.png) _[avahi-ui-utils](https://packages.debian.org/bookworm/avahi-ui-utils) `0.8-10+deb12u1` - Avahi GTK+ utilities_
 #### Cellphone and modem support
 
 - ![](grey.png) _[modemmanager](https://packages.debian.org/bookworm/modemmanager) `1.20.4-1` - D-Bus service for managing modems_
@@ -370,8 +372,8 @@
 
 - ![](green.png) [gnome-nettool](https://packages.debian.org/bookworm/gnome-nettool) `42.0-1` - network information tool for GNOME
 - ![](green.png) [traceroute](https://packages.debian.org/bookworm/traceroute) `1:2.1.2-1` - Traces the route taken by packets over an IPv4/IPv6 network
-- ![](green.png) [dnsutils](https://packages.debian.org/bookworm/dnsutils) `1:9.18.28-1~deb12u2` - Transitional package for bind9-dnsutils
-- ![](grey.png) _[dnsmasq](https://packages.debian.org/bookworm/dnsmasq) `2.89-1` - Small caching DNS proxy and DHCP/TFTP server_
+- ![](green.png) [dnsutils](https://packages.debian.org/bookworm/dnsutils) `1:9.18.33-1~deb12u2` - Transitional package for bind9-dnsutils
+- ![](grey.png) _[dnsmasq](https://packages.debian.org/bookworm/dnsmasq) `2.90-4~deb12u1` - Small caching DNS proxy and DHCP/TFTP server - system daemon_
 - ![](grey.png) _[dns-root-data](https://packages.debian.org/bookworm/dns-root-data) `2024041801~deb12u1` - DNS root hints and DNSSEC trust anchor_
 - ![](grey.png) _[arpwatch](https://packages.debian.org/bookworm/arpwatch) `2.1a15-8+b1` - Ethernet/FDDI station activity monitor_
 - ![](grey.png) _[bwm-ng](https://packages.debian.org/bookworm/bwm-ng) `0.6.3-2+b1` - small and simple console-based bandwidth monitor_
@@ -417,7 +419,7 @@
 - ![](grey.png) _[thc-ipv6](https://packages.debian.org/bookworm/thc-ipv6) `3.8-1+b1` - The Hacker Choice's IPv6 Attack Toolkit_
 - ![](grey.png) _[trickle](https://packages.debian.org/bookworm/trickle) `1.07-12` - user-space bandwidth shaper_
 - ![](grey.png) _[tshark](https://packages.debian.org/bookworm/tshark) `4.0.17-0+deb12u1` - network traffic analyzer - console version_
-- ![](grey.png) _[usbip](https://packages.debian.org/bookworm/usbip) `2.0+6.1.119-1` - USB device sharing system over IP network_
+- ![](grey.png) _[usbip](https://packages.debian.org/bookworm/usbip) `2.0+6.1.128-1` - USB device sharing system over IP network_
 - ![](grey.png) _[vnstat](https://packages.debian.org/bookworm/vnstat) `2.10-2` - console-based network traffic monitor_
 - ![](grey.png) _[vnstati](https://packages.debian.org/bookworm/vnstati) `2.10-2` - image output support for vnStat_
 - ![](grey.png) _[wireshark](https://packages.debian.org/bookworm/wireshark) `4.0.17-0+deb12u1` - network traffic analyzer - meta-package_
@@ -449,7 +451,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/openssh-server/1:9.2p1-2+deb12u3">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/openssh-server/1:9.2p1-2+deb12u5">
 
 **[openssh-server](https://packages.debian.org/bookworm/openssh-server)** - secure shell (SSH) server, for secure access from remote machines
 
@@ -463,8 +465,8 @@
 -----------------------
 
 
-- ![](green.png) [openssh-server](https://packages.debian.org/bookworm/openssh-server) `1:9.2p1-2+deb12u3` - secure shell (SSH) server, for secure access from remote machines
-- ![](green.png) [openssh-client](https://packages.debian.org/bookworm/openssh-client) `1:9.2p1-2+deb12u3` - secure shell (SSH) client, for secure access to remote machines
+- ![](green.png) [openssh-server](https://packages.debian.org/bookworm/openssh-server) `1:9.2p1-2+deb12u5` - secure shell (SSH) server, for secure access from remote machines
+- ![](green.png) [openssh-client](https://packages.debian.org/bookworm/openssh-client) `1:9.2p1-2+deb12u5` - secure shell (SSH) client, for secure access to remote machines
 - ![](grey.png) _[barrier](https://packages.debian.org/bookworm/barrier) `2.4.0+dfsg-3` - Share mouse, keyboard and clipboard over the network_
 - ![](grey.png) _[xpra](https://packages.debian.org/bookworm/xpra) `3.1.3-0.1` - tool to detach/reattach running X programs_
 - ![](grey.png) _[lightdm-remote-session-x2go](https://packages.debian.org/bookworm/lightdm-remote-session-x2go) `0.0.2.0-2` - LightDM Remote Logon Support for X2Go sessions_
