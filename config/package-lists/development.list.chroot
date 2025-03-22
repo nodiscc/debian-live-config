@@ -90,6 +90,7 @@ dos2unix
 #Alt: markdownlint
 #names # sid only
 #md2html # sid only
+#glow # trixie only
 
 #Section: Packaging
 build-essential

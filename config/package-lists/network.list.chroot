@@ -128,6 +128,7 @@ wget
 #Alt: axel
 #Alt: wike
 #plowshare # bullseye only
+#gdown # sid only
 
 #Section: Feed readers
 ##Description: liferea

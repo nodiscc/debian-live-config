@@ -308,6 +308,7 @@ qt5-gtk-platformtheme
 #Alt: onboard-data
 #cellwriter # bullseye only
 #florence # sid only
+#deskflow # trixie only
 
 #Section: Other
 libnotify-bin
