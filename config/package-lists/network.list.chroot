@@ -157,6 +157,7 @@ bridge-utils
 ethtool
 iw
 wpasupplicant
+systemd-resolved
 #Alt: connman
 #Alt: connman-ui
 #Alt: cmst
