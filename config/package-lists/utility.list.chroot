@@ -102,8 +102,8 @@ gzrt
 #Alt: gztool
 
 #Section: Password management/file/disk encryption
-#Description: keepassxc
-keepassxc
+#Description: keepassxc-full
+keepassxc-full
 seahorse
 seahorse-daemon
 gnome-keyring
