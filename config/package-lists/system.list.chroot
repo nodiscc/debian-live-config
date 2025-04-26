@@ -157,10 +157,10 @@ bleachbit
 localepurge
 
 #Section: Log viewers
-#Description: gnome-system-log
-#Screenshot: gnome-system-log
+#Description: gnome-logs
+#Screenshot: gnome-logs
 #Screenshot: lnav
-gnome-system-log
+gnome-logs
 lnav
 colortail
 #Alt: gnome-logs
