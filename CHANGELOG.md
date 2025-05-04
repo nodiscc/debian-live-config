@@ -12,6 +12,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
   * Enable Global Privacy Control preference
   * Disable preloading of autocomplete URLs
 
+### Fixed
+
+* fix sshd failing to start
 
 ---------------------
 
