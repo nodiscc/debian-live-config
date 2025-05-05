@@ -161,3 +161,10 @@ codespell:
 .PHONY: help # generate list of targets with descriptions
 help:
 	@grep '^.PHONY: .* #' Makefile | sed 's/\.PHONY: \(.*\) # \(.*\)/\1	\2/' | expand -t20
+
+#####
+
+.PHONY: docker_compose
+docker_compose:
+	docker compose up --build --force-recreate
+	docker compose down
