@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v4.3.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - UNRELEASED
+
+### Changed
+
+* power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
+* extras: update user.js to v0.11.0
+  * Don't expire cookies when the browser is closed
+  * Enable Global Privacy Control preference
+  * Disable preloading of autocomplete URLs
+
+### Fixed
+
+* fix sshd failing to start
+
+---------------------
+
 ## [v4.2.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
 
 ### Fixed

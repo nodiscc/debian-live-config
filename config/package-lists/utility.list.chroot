@@ -245,6 +245,7 @@ dconf-gsettings-backend
 #Description: xfce4-power-manager
 xfce4-power-manager
 xfce4-battery-plugin
+tlp
 radeontool
 bumblebee
 vbetool
@@ -253,13 +254,12 @@ usbutils
 acpi
 acpi-support
 acpi-support-base
-laptop-mode-tools
 fancontrol
 rfkill
 cpufrequtils
 pm-utils
+#Alt: laptop-mode-tools
 #Alt: powerdebug
-#Alt: tlp
 #Alt: powerstat
 #Alt: i8kutils
 #Alt: usbtop
