@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Changed
 
+* power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
 * extras: update user.js to v0.11.0
   * Don't expire cookies when the browser is closed
   * Enable Global Privacy Control preference
