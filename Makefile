@@ -44,7 +44,7 @@ checksums:
 	@mkdir -p iso/
 	mv *.iso iso/
 	cd iso/; \
-	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-bookworm/" *; \
+	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-trixie/" *; \
 	rename "s/.hybrid.iso/.iso/" *; \
 	sha512sum *.iso  > SHA512SUMS; \
 
@@ -92,7 +92,7 @@ debug_imagesize:
 # cp iso/*.iso /var/lib/libvirt/images/
 .PHONY: test_kvm_bios # test resulting live image in libvirt VM with legacy BIOS
 test_kvm_bios:
-	virt-install --name dlc-test --osinfo debian11 --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-bookworm-amd64.iso" --memory 3048 --vcpu 2
+	virt-install --name dlc-test --osinfo debian11 --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
@@ -100,7 +100,7 @@ test_kvm_bios:
 # UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
 .PHONY: test_kvm_uefi # test resulting live image in libvirt VM with UEFI
 test_kvm_uefi:
-	virt-install --name dlc-test --osinfo debian11 --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-bookworm-amd64.iso" --memory 3048 --vcpu 2
+	virt-install --name dlc-test --osinfo debian11 --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
 	virsh destroy dlc-test
 	virsh undefine dlc-test
 	rm -f $$PWD/dlc-test-disk0.qcow2
