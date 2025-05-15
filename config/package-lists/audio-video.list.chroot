@@ -12,7 +12,6 @@ vlc-plugin-visualization
 vlc-plugin-video-output
 vlc-plugin-base
 vlc-plugin-qt
-libdvd-pkg
 mpv
 #Alt: freetuxtv
 #Alt: gnome-dvb-client
@@ -27,6 +26,7 @@ mpv
 #Alt: celluloid
 #Alt: vlc-plugin-bittorrent
 #Alt: mpv-mpris
+#Alt: libdvd-pkg
 
 #Section: Music players/library managers
 #Description: quodlibet
