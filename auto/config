@@ -17,10 +17,10 @@ lb config noauto \
 --clean \
 --debconf-frontend noninteractive \
 --debian-installer live \
---debian-installer-distribution bookworm \
+--debian-installer-distribution trixie \
 --debian-installer-gui true \
 --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
---distribution bookworm \
+--distribution trixie \
 --firmware-binary true \
 --firmware-chroot true \
 --initramfs live-boot \
@@ -28,7 +28,6 @@ lb config noauto \
 --iso-volume debian-live-config-4.2.1 \
 --linux-packages "linux-image linux-headers" \
 --bootappend-live "boot=live config splash" \
---memtest memtest86+ \
---win32-loader true
+--memtest memtest86+
 
 "${@}"

@@ -8,7 +8,7 @@ gvfs-fuse
 jdupes
 libgphoto2-l10n
 libmtp-runtime
-mlocate
+plocate
 ooo-thumbnailer
 rename
 secure-delete
@@ -114,7 +114,7 @@ gnupg2
 pwgen
 cryptsetup
 cryptsetup-initramfs
-libblockdev-crypto2
+libblockdev-crypto3
 #Alt: keepassx
 #Alt: keepass2
 #Alt: qtpass
@@ -256,7 +256,6 @@ acpi-support
 acpi-support-base
 fancontrol
 rfkill
-cpufrequtils
 pm-utils
 #Alt: laptop-mode-tools
 #Alt: powerdebug
@@ -265,6 +264,7 @@ pm-utils
 #Alt: usbtop
 #Alt: primus
 #Alt: hd-idle
+#cpufrequtils # bookworm only
 
 #Section: Character map/font viewer
 gucharmap
@@ -325,10 +325,10 @@ gtk2-engines-murrine
 gtk2-engines-pixbuf
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
-policykit-1-gnome
 #Alt: zenity
 #Alt: conky-all
 #Alt: randtype
 #Alt: winwrangler
 #Alt: xdotool
 #Alt: wtype
+#policykit-1-gnome # bookworm only

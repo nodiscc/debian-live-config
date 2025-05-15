@@ -27,9 +27,7 @@ ristretto
 #Description: gimp
 gimp
 gimp-data-extras
-gimp-plugin-registry
 gimp-texturize
-gimp-gutenprint
 create-resources
 #Alt: gimp-help-fr
 #Alt: krita
@@ -41,6 +39,8 @@ create-resources
 #Alt: gnome-paint
 #Alt: multimedia-animation
 #pinta # sid only
+#gimp-plugin-registry # bookworm only
+#gimp-gutenprint # bookworm only
 
 #Section: Vector editors
 ##Description: inkscape
