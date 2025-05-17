@@ -256,7 +256,6 @@ acpi-support
 acpi-support-base
 fancontrol
 rfkill
-cpufrequtils
 pm-utils
 #Alt: laptop-mode-tools
 #Alt: powerdebug
@@ -265,6 +264,7 @@ pm-utils
 #Alt: usbtop
 #Alt: primus
 #Alt: hd-idle
+#cpufrequtils # bookworm only
 
 #Section: Character map/font viewer
 gucharmap
