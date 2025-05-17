@@ -325,10 +325,10 @@ gtk2-engines-murrine
 gtk2-engines-pixbuf
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
-policykit-1-gnome
 #Alt: zenity
 #Alt: conky-all
 #Alt: randtype
 #Alt: winwrangler
 #Alt: xdotool
 #Alt: wtype
+#policykit-1-gnome # bookworm only
