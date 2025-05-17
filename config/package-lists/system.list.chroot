@@ -1,7 +1,6 @@
 #Title: System
 
 #Section: Package management
-#Description: gnome-packagekit
 #Description: synaptic
 apt-listchanges
 apt-transport-https
@@ -11,11 +10,8 @@ debian-archive-keyring
 debian-keyring
 debsecan
 debsums
-gnome-packagekit
-gnome-package-updater
 packagekit
 packagekit-tools
-software-properties-gtk
 synaptic
 unattended-upgrades
 vrms
@@ -43,7 +39,10 @@ command-not-found
 #Alt: nala
 #Alt: gdebi
 #gnome-software-plugin-deb # sid only
-#ngome-software-plugin-fwupd # sid only
+#gnome-software-plugin-fwupd # sid only
+#gnome-packagekit # bookworm only
+#gnome-package-updater # bookworm only
+#software-properties-gtk # bookworm only
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
