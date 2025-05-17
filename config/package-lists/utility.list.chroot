@@ -114,7 +114,7 @@ gnupg2
 pwgen
 cryptsetup
 cryptsetup-initramfs
-libblockdev-crypto2
+libblockdev-crypto3
 #Alt: keepassx
 #Alt: keepass2
 #Alt: qtpass
