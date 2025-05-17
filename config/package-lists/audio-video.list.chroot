@@ -189,7 +189,6 @@ pulseaudio-module-lirc
 #Alt: pulseaudio-module-zeroconf
 pulseaudio-module-jack
 kmod
-alsa-oss
 alsa-tools
 alsa-utils
 libasound2-plugins
@@ -202,3 +201,4 @@ rtkit
 #Alt: pamix
 #Alt: pulseaudio-equalizer
 #Alt: libasound2-plugin-equal
+#alsa-oss # bookworm only
