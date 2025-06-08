@@ -2,7 +2,7 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Arc-Darker"/>
+    <property name="ThemeName" type="string" value="Yaru-blue"/>
     <property name="IconThemeName" type="string" value="Papirus-Dark"/>
   </property>
   <property name="Xft" type="empty">

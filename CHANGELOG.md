@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
   * Don't expire cookies when the browser is closed
   * Enable Global Privacy Control preference
   * Disable preloading of autocomplete URLs
+* desktop: switch default theme to Yaru-blue
 
 ### Fixed
 

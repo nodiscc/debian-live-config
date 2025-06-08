@@ -26,7 +26,7 @@
     <property name="snap_to_windows" type="bool" value="true"/>
     <property name="snap_width" type="int" value="8"/>
     <property name="sync_to_vblank" type="bool" value="true"/>
-    <property name="theme" type="string" value="Arc-Darker"/>
+    <property name="theme" type="string" value="Yaru-blue"/>
     <property name="title_alignment" type="string" value="left"/>
     <property name="title_font" type="string" value="Roboto 10"/>
     <property name="title_horizontal_offset" type="int" value="0"/>

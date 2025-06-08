@@ -292,7 +292,7 @@ wfrench
 #Section: Resources
 desktop-base
 papirus-icon-theme
-arc-theme
+yaru-theme-gtk
 gnome-themes-extra
 sound-theme-freedesktop
 gnome-audio
@@ -301,6 +301,7 @@ qt5-gtk-platformtheme
 #Alt: deepin-icon-theme
 #Alt: paper-icon-theme
 #Alt: mint-y-icons
+#Alt: arc-theme
 #clearlooks-phenix-theme # sid only
 
 #Section: Virtual keyboards
