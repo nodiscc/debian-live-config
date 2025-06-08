@@ -23,6 +23,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 * audio/video: remove libdvd-pkg (DVD-Video playing library)
 * desktop/xfwm4: fix/enable automatic tiling of windows when moved to the edge of the screen
+* utility: remove gcolor3 color picker (does not work)
 
 ---------------------
 

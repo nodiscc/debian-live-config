@@ -64,7 +64,7 @@ xournal
 #Alt: luminance-hdr
 
 #Section: Color pickers
-gcolor3
+#Alt: gcolor3
 #Alt: gpick
 
 #Section: Batch image processing
