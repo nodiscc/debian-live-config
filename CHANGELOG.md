@@ -8,11 +8,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Changed
 
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
-* extras: update user.js to v0.12.0
+* extras: update user.js to v0.13.0
   * Don't expire cookies when the browser is closed
   * Enable Global Privacy Control preference
   * Disable preloading of autocomplete URLs
   * No longer disable the built-in PDF viewer by default
+  * Fix infinite loop on Cloudflare proection pages (turnstile)
 * desktop: switch default theme to Yaru-blue
 
 ### Fixed
