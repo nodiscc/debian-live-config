@@ -28,7 +28,6 @@ lb config noauto \
 --iso-volume debian-live-config-4.2.1 \
 --linux-packages "linux-image linux-headers" \
 --bootappend-live "boot=live config splash" \
---memtest memtest86+ \
---win32-loader true
+--memtest memtest86+
 
 "${@}"
