@@ -17,6 +17,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 * fix sshd failing to start
 
+### Removed
+
+* audio/video: remove libdvd-pkg (DVD-Video playing library)
+
 ---------------------
 
 ## [v4.2.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
