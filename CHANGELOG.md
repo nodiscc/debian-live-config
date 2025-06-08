@@ -18,6 +18,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Fixed
 
 * fix sshd failing to start
+* fix gnome-calculator failing to start (disable currency rates download)
 
 ### Removed
 

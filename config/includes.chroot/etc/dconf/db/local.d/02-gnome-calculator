@@ -1,0 +1,3 @@
+[org.gnome.calculator]
+# disable currency rates download, causes crash https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1052551
+refresh-interval=0
