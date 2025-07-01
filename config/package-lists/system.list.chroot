@@ -154,6 +154,7 @@ testdisk
 #Description: bleachbit
 bleachbit
 localepurge
+#Alt: czkawka-gui
 
 #Section: Log viewers
 #Description: gnome-logs
