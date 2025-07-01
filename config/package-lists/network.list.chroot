@@ -28,27 +28,25 @@ webext-keepassxc-browser
 #Alt: pidgin-plugin-pack
 #Alt: pidgin-extprefs
 #Alt: pidgin-gnome-keyring
-#Alt: purple-lurch
 #Alt: finch
-#Alt: jami
-#Alt: telegram-desktop
 #Alt: telegram-send
-#Alt: pidgin-skype
 #Alt: dino-im
 #Alt: gajim
 #Alt: mcabber
 #Alt: weechat
-#Alt: purple-mm-sms
 #Alt: purple-xmpp-http-upload
 #empathy # bullseye only
 #smuxi # sid only
+#purple-lurch # bookworm only
+#telegram-desktop # bookworm only
+#pidgin-skype # bookworm only
+#purple-mm-sms # bookworm only
 
 #Section: VoIP/videoconference
 #Description: mumble
 mumble
-#Alt: jami
-#Alt: linphone
-
+#linphone # bookworm only
+#jami # bookworm only
 
 #Section: Mail clients
 #Description: thunderbird
@@ -112,9 +110,9 @@ transmission-cli
 #Description: yt-dlp
 yt-dlp
 #Alt: streamlink
-#Alt: minitube
-#Alt: smtube
 #video-downloaded # sid only
+#minitube # bookworm only
+#smtube # bookworm only
 
 #Section: Downloaders/web crawlers
 #Description: kiwix
@@ -135,9 +133,9 @@ wget
 #Alt: liferea
 #Alt: newsboat
 #Alt: gnome-feeds
-#Alt: quiterss
 #Alt: tickr
 #feedreader # sid only
+#quiterss # bookworm only
 
 #Section: LAN file sharing
 #Alt: samba
@@ -162,7 +160,6 @@ wpasupplicant
 #Alt: cmst
 #Alt: wpagui
 #Alt: network-manager-ssh
-#Alt: efax-gtk
 #Alt: avahi-daemon
 #Alt: libnss-mdns
 #Alt: avahi-autoipd
@@ -174,6 +171,7 @@ wpasupplicant
 #wicd-cli # experimental only
 #wicd-gtk # experimental only
 #wicd-daemon # experimental only
+#efax-gtk # bookworm only
 
 #Section: Cellphone and modem support
 #Alt: modemmanager
@@ -192,13 +190,13 @@ blueman
 bluetooth
 blueman
 wireless-regdb
-#Alt: gnome-bluetooth
 #Alt: gnome-user-share
 #Alt: ganyremote
 #Alt: hostapd
 #Alt: aircrack-ng
 #Alt: btscanner
 #zeek # sid only
+#gnome-bluetooth # bookworm only
 
 #Section: Firewall
 #Description: gufw
@@ -217,7 +215,6 @@ iptables
 #Description: gnome-nettool
 gnome-nettool
 traceroute
-dnsutils
 #Alt: dnsmasq
 #Alt: dns-root-data
 #Alt: arpwatch
@@ -279,6 +276,7 @@ dnsutils
 #ripcalc # sid only
 #gping # sid only
 #sploitscan # sid only
+#dnsutils # bookworm only
 
 #Section: SSH
 #Alt: sshuttle

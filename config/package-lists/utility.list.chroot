@@ -25,10 +25,8 @@ catfish
 #Alt: thunar-gtkhash
 #Alt: nautilus
 #Alt: ooo-thumbnailer
-#Alt: nautilus-image-converter
 #Alt: gnome-sushi
 #Alt: gtkhash
-#Alt: gnome-split
 #Alt: ffmpegthumbnailer
 #Alt: tdfsb
 #Alt: cksfv
@@ -45,6 +43,8 @@ catfish
 #nautilus-sendto # bullseye only
 #nautilus-wipe # bullseye only
 #fsearch # sid only
+#nautilus-image-converter # bookworm only
+#gnome-split # bookworm only
 
 #Section: Desktop environment
 #Description: xfce4
@@ -68,11 +68,11 @@ xfce4-pulseaudio-plugin
 #Alt: zeitgeist-datahub
 #Alt: compiz
 #Alt: compiz-plugins
-#Alt: compiz-plugins-default
 #Alt: compiz-plugins-extra
 #Alt: compiz-plugins-main
 #Alt: compton
-#Alt: compton-conf
+#compiz-plugins-default # bookworm only
+#compton-conf # bookworm only
 
 #Section: Archive management
 #Description: file-roller
@@ -97,9 +97,9 @@ iat
 nrg2iso
 gzrt
 #Alt: xarchiver
-#Alt: isomaster
 #Alt: p7zip-rar
 #Alt: gztool
+#isomaster # bookworm only
 
 #Section: Password management/file/disk encryption
 #Description: keepassxc-full
@@ -125,12 +125,12 @@ libblockdev-crypto3
 #Alt: pass
 #Alt: nss-passwords
 #Alt: tomb
-#Alt: zulucrypt-gui
-#Alt: zulumount-gui
-#Alt: libzulucrypt-plugins
 #Alt: gtkcrypto
 #Alt: luckyluks
 #Alt: passes-gtk
+#zulucrypt-gui # bookworm only
+#zulumount-gui # bookworm only
+#libzulucrypt-plugins # bookworm only
 
 #Section: Text editors
 #Description: mousepad
@@ -168,9 +168,9 @@ vim-tiny
 #Alt: routino
 #Alt: mkgmapgui
 #Alt: mkgmap
-#Alt: foxtrotgps
 #Alt: gis-tasks
 #Alt: gpsprune
+#foxtrotgps # bookworm only
 
 #Section: Screenshots
 #Description: xfce4-screenshooter
@@ -186,10 +186,10 @@ alarm-clock-applet
 tty-clock
 #Alt: gnome-clocks
 #Alt: dclock
-#Alt: gtimer
 #Alt: stopwatch
 #Alt: xfce4-timer-plugin
 #Alt: screenruler
+#gtimer # bookworm only
 
 #Section: Calculators
 #Description: gnome-calculator
@@ -198,9 +198,9 @@ gnome-calculator
 bc
 units
 #Alt: num-utils
-#Alt: speedcrunch
-#Alt: graphmonkey
 #gbase # sid only
+#speedcrunch # bookworm only
+#graphmonkey # bookworm only
 
 #Section: Terminal emulators
 #Description: xfce4-terminal
@@ -211,6 +211,7 @@ xfce4-terminal
 #Alt: terminator
 #Alt: rxvt-unicode
 #Alt: tilda
+#Alt: cool-retro-term
 
 #Section: Science
 #Alt: stellarium
@@ -222,7 +223,7 @@ xfce4-terminal
 #Description: redshift-gtk
 redshift-gtk
 #Alt: workrave
-#Alt: safeeyes
+#safeeyes # bookworm only
 
 #Section: CD burning
 ##Description: xfburn
@@ -285,9 +286,9 @@ ibritish
 ifrench-gut
 wfrench
 #Alt: xfce4-dict
-#Alt: gnome-dictionary
 #Alt: goldendict
 #Alt: verbiste-gnome
+#gnome-dictionary # bookworm only
 
 #Section: Resources
 desktop-base
@@ -328,7 +329,7 @@ libfile-mimeinfo-perl
 #Alt: zenity
 #Alt: conky-all
 #Alt: randtype
-#Alt: winwrangler
 #Alt: xdotool
 #Alt: wtype
 #policykit-1-gnome # bookworm only
+#winwrangler # bookworm only

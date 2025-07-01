@@ -154,6 +154,7 @@ testdisk
 #Description: bleachbit
 bleachbit
 localepurge
+#Alt: czkawka-gui
 
 #Section: Log viewers
 #Description: gnome-logs
@@ -169,6 +170,7 @@ colortail
 #Alt: multitail
 #Alt: logswan
 #tailspin # sid only
+#nerdlog # sid only
 
 #Section: Virtualization
 #Description: virt-manager
