@@ -170,6 +170,7 @@ colortail
 #Alt: multitail
 #Alt: logswan
 #tailspin # sid only
+#nerdlog # sid only
 
 #Section: Virtualization
 #Description: virt-manager
