@@ -289,12 +289,7 @@ hwdata
 #corctrl # sid only
 
 #Section: Kernel/boot/init
-#if ARCHITECTURES amd64
 linux-headers-amd64
-#endif
-#if ARCHITECTURES i386
-linux-headers-686:i386
-#endif
 module-assistant
 dkms
 build-essential
