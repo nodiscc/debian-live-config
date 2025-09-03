@@ -60,7 +60,6 @@ manpages-dev
 #Alt: ttyrec
 #Alt: fasd
 #Alt: pdd
-#Alt: termrec
 #Alt: ripgrep
 #Alt: retry
 #Alt: jc
@@ -69,6 +68,8 @@ manpages-dev
 #Alt: doc-debian
 #trurl # sid only
 #tty-record # sid only
+#termrec # bookworm only
+
 #Section: Parsers/converters/documentation generators
 jq
 groff
@@ -110,7 +111,7 @@ debconf-utils
 #Alt: dgit
 #Alt: aptly
 #Alt: python-is-python3
-#Alt: lintian-brush
+#lintian-brush # bookworm only
 #nvchecker # sid only
 
 #Section: Debuggers
@@ -149,7 +150,7 @@ live-build
 #Alt: wxhexeditor
 #Alt: hexcurse
 #Alt: dhex
-#Alt: bless
+#bless # bookworm only
 
 #Section: Translation/localization
 #Alt: poedit

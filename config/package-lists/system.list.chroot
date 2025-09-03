@@ -328,11 +328,11 @@ broadcom-sta-common
 #Section: Hardware-specific packages
 #Alt: driverctl
 #Alt: pommed
-#Alt: lomoco
-#Alt: wmgui
 #Alt: mbpfan
 #Alt: usbmuxd
 #Alt: fprintd
+#lomoco # bookworm only
+#wmgui # bookworm only
 
 #Section: Live system components
 live-boot

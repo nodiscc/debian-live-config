@@ -6,7 +6,6 @@
 #Alt: lutris
 #Alt: cmatrix
 #Alt: cmatrix-xfont
-#Alt: endless-sky
 #Alt: play.it
 #Alt: steam-installer
 #Alt: supertuxkart
@@ -38,7 +37,6 @@
 #Alt: games-c++-dev
 #Alt: games-java-dev
 #Alt: games-racing
-#Alt: games-thumbnails
 #Alt: games-chess
 #Alt: games-minesweeper
 #Alt: games-rogue
@@ -68,11 +66,12 @@
 #Alt: winetricks
 #Alt: proton-caller
 #Alt: gweled
+#endless-sky # bookworm only
+#games-thumbnails # bookworm only
 
 #Section: Game console emulators
 #Alt: pcsxr
 #Alt: pcsx2:i386
-#Alt: zsnes:i386
 #Alt: desmume
 #Alt: mupen64plus-qt
 #Alt: mupen64plus-input-all
@@ -80,8 +79,6 @@
 #Alt: mupen64plus-rsp-all
 #Alt: mupen64plus-video-all
 #Alt: retroarch
-#Alt: libretro-beetle-pce-fast
-#Alt: libretro-beetle-psx
 #Alt: libretro-beetle-vb
 #Alt: libretro-beetle-wswan
 #Alt: libretro-bsnes-mercury-accuracy
@@ -92,9 +89,7 @@
 #Alt: libretro-mgba
 #Alt: libretro-nestopia
 #Alt: libretro-snes9x
-#Alt: yabause-gtk
 #Alt: games-emulator
-#Alt: gnome-video-arcade
 #Alt: mednafen
 #Alt: virtualjaguar
 #Alt: mame
@@ -107,3 +102,8 @@
 #Alt: games-emulator
 #Alt: dolphin-emu
 #higan # bullseye only
+#zsnes # bookworm only
+#libretro-beetle-pce-fast # bookworm only
+#libretro-beetle-psx # bookworm only
+#yabause-gtk # bookworm only
+#gnome-video-arcade # bookworm only
