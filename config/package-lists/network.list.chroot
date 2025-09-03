@@ -215,6 +215,7 @@ iptables
 #Description: gnome-nettool
 gnome-nettool
 traceroute
+bind9-dnsutils
 #Alt: dnsmasq
 #Alt: dns-root-data
 #Alt: arpwatch
@@ -276,7 +277,7 @@ traceroute
 #ripcalc # sid only
 #gping # sid only
 #sploitscan # sid only
-#dnsutils # bookworm only
+
 
 #Section: SSH
 #Alt: sshuttle
