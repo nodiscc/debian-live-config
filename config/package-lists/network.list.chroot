@@ -242,7 +242,6 @@ bind9-dnsutils
 #Alt: jnettop
 #Alt: logstalgia
 #Alt: macchanger
-#Alt: mitmproxy
 #Alt: mtr
 #Alt: natpmpc
 #Alt: nethogs
@@ -277,7 +276,7 @@ bind9-dnsutils
 #ripcalc # sid only
 #gping # sid only
 #sploitscan # sid only
-
+#mitmproxy # bookworm only
 
 #Section: SSH
 #Alt: sshuttle
@@ -291,19 +290,17 @@ bind9-dnsutils
 #Alt: remmina
 #Alt: remmina-plugin-rdp
 #Alt: remmina-plugin-vnc
-#Alt: vinagre
 #Alt: weevely
 #Alt: x2goclient
 #remmina-plugin-nx # sid only
 #remmina-plugin-spice # sid only
 #remmina-plugin-xdmcp # sid only
+#vinagre # bookworm only
 
 #Section: SSH
 #Description: openssh-server
 openssh-server
 openssh-client
-#Alt: barrier
-#Alt: xpra
 #Alt: lightdm-remote-session-x2go
 #Alt: x2godesktopsharing
 #Alt: x2goserver
@@ -313,11 +310,9 @@ openssh-client
 #Alt: x2goserver-xsession
 #Alt: x2goserver-printing
 #Alt: tinysshd
-#Alt: vino
-
-#Section: Load testing
-#Alt: siege
-#Alt: tsung
+#barrier # bookworm only
+#xpra # bookworm only
+#vino # bookworm only
 
 #Section: Scanners
 #Alt: nmap
@@ -341,19 +336,21 @@ openssh-client
 #Alt: reaver
 #Alt: bully
 #Alt: hydra
-#Alt: hydra-gtk
 #Alt: ophcrack
 #Alt: hashcat
 #Alt: hashcat-data
 #Alt: mdk3
 #Alt: dnsmap
 #Alt: dnsenum
-#Alt: prads
 #Alt: dirsearch
 #Alt: aws-nuke
 #Alt: firewalk
 #Alt: urlextractor
+#Alt: siege
 #assetfinded # sid only
+#tsung # bookworm only
+#hydra-gtk # bookworm only
+#prads # bookworm only
 
 #Section: Tor
 #Alt: tor-geoipdb

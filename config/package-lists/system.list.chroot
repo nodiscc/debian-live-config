@@ -25,7 +25,6 @@ command-not-found
 #Alt: apt-listbugs
 #Alt: aptitude-doc-fr
 #Alt: debian-security-support
-#Alt: deborphan
 #Alt: debtree
 #Alt: gnome-software
 #Alt: gnome-software-plugin-flatpak
@@ -43,6 +42,7 @@ command-not-found
 #gnome-packagekit # bookworm only
 #gnome-package-updater # bookworm only
 #software-properties-gtk # bookworm only
+#deborphan # bookworm only
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
@@ -66,7 +66,6 @@ memtest86+
 #Alt: bonnie++
 #Alt: x86info
 #Alt: memtester
-#Alt: dstat
 #Alt: sysstat
 #Alt: cacti
 #Alt: hwloc
@@ -75,10 +74,11 @@ memtest86+
 #Alt: cpu-x
 #Alt: i7z
 #Alt: glances
-#Alt: sysdig
 #Alt: btop
 #Alt: bpytop
 #screentest # buster only
+#dstat # bookworm only
+#sysdig # bookworm only
 
 #Section: Backup
 #Screenshot: deja-dup
@@ -259,7 +259,7 @@ sudo
 
 #Section: Time
 chrony
-#Alt: ntp
+#Alt: ntpsec
 
 #Section: Display
 mesa-utils

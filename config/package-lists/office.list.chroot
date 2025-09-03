@@ -44,11 +44,11 @@ libreoffice-help-fr
 #Alt: scribus
 #Alt: scribus-template
 #Alt: spotlighter
-#Alt: tpp
-#Alt: unoconv
 #Alt: plume-creator
 #braindump # sid only
 #calligraflow # sid only
+#tpp # bookworm only
+#unoconv # bookworm only
 
 # Section: Calendars/contacts management
 #Alt: gnome-calendar
@@ -84,16 +84,16 @@ pdfchain
 pdfgrep
 poppler-utils
 #Alt: qpdf
-#Alt: pdftk
 #Alt: pdfcrack
 #Alt: diffpdf
-#Alt: comparepdf
 #Alt: enscript
 #Alt: html2text
 #Alt: pdfarranger
 #Alt: pdfproctools
 #pdfmod # sid only
 #pdfshuffler # bullseye only
+#pdftk # bookworm only
+#comparepdf # bookworm only
 
 #Section: Tasks/Personal information management
 #Alt: osmo
@@ -109,7 +109,6 @@ poppler-utils
 #Alt: vit
 #Alt: w2do
 #Alt: devtodo
-#Alt: gnome-todo
 #Alt: bijiben
 #Alt: wyrd
 #Alt: calcurse
@@ -119,18 +118,19 @@ poppler-utils
 #Alt: hnb
 #Alt: etm
 #Alt: almanah
-#Alt: nixnote2
 #Alt: gtg
 #Alt: cherrytree
 #Alt: hamster-time-tracker
 #Alt: tomboy-ng
-#Alt: gourmet
-#Alt: gourmand
 #tasque # sid only
 #gnome-documents # bullseye only
 #iotas # sid only
 #errands # sid only
 #gnome-recipes # sid only
+#gnome-todo # bookworm only
+#nixnote2 # bookworm only
+#gourmet # bookworm only
+#gourmand # bookworm only
 
 #Section: Image scanning
 #Description: simple-scan
@@ -142,12 +142,12 @@ sane-utils
 
 #Section: Optical Character Recognition (OCR)
 #Alt: paperwork-gtk
-#Alt: ocrfeeder
 #Alt: tesseract-ocr-fra
 #Alt: ocrmypdf
 #Alt: unpaper
 #Alt: yagf
 #Alt: ocrad
+#ocrfeeder # bookworm only
 
 #Section: Printing
 #Description: system-config-printer
@@ -202,7 +202,6 @@ ttf-mscorefonts-installer
 xfonts-terminus
 #Alt: fonts-aenigma
 #Alt: fonts-agave
-#Alt: fonts-arapey
 #Alt: fonts-beteckna
 #Alt: fonts-cabin
 #Alt: fonts-comfortaa
@@ -225,3 +224,4 @@ xfonts-terminus
 #fonts-pecita # sid only
 #fonts-atarist # sid only
 #font-downloader # sid only
+#fonts-arapey # bookworm only

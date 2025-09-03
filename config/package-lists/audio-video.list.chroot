@@ -14,8 +14,6 @@ vlc-plugin-base
 vlc-plugin-qt
 mpv
 #Alt: freetuxtv
-#Alt: gnome-dvb-client
-#Alt: gnome-mpv
 #Alt: kodi
 #Alt: parole
 #Alt: smplayer
@@ -27,13 +25,14 @@ mpv
 #Alt: vlc-plugin-bittorrent
 #Alt: mpv-mpris
 #Alt: libdvd-pkg
+#gnome-dvb-client # bookworm only
+#gnome-mpv # bookworm only
 
 #Section: Music players/library managers
 #Description: quodlibet
 quodlibet
 exfalso
 libgpod-common
-libgpod4
 sox
 #Alt: gnome-music
 #Alt: rhythmbox
@@ -63,12 +62,13 @@ sox
 #Alt: vagalume
 #Alt: gpodder
 #Alt: go-mtpfs
-#Alt: gtkpod
 #Alt: playerctl
 #Alt: streamtuner2
 #cowbell # sid only
 #amberol # sid only
 #mousai # sid only
+#libgpod4 # bookworm only
+#gtkpod # bookworm only
 
 #Section: Webcam
 #Description: cheese
@@ -80,10 +80,10 @@ gnome-video-effects
 #Alt: v4l2loopback-utils
 #Alt: kamoso
 #Alt: zoneminder
-#Alt: pinhole
 #Alt: megapixels
 #snapshot # sid only
 #cam2ip # sid only
+#pinhole # bookworm only
 
 #Section: Screen recording/screencasting
 #Description: vokoscreen-ng
@@ -165,15 +165,15 @@ media-player-info
 #Alt: subliminal
 #Alt: subtitleeditor
 #Alt: gaupol
-#Alt: gnome-subtitles
+#gnome-subtitles # bookworm only
 
 #Section: Audio recording/editing
 #Description: audacity
 #Description: gnome-sound-recorder
 audacity
 gnome-sound-recorder
-#Alt: gwc
 #Alt: gjacktransport
+#gwc # bookworm only
 
 ##Section: Lighting
 #Alt: qlcplus

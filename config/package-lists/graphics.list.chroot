@@ -31,16 +31,16 @@ gimp-texturize
 create-resources
 #Alt: gimp-help-fr
 #Alt: krita
-#Alt: gimp-gmic
 #Alt: drawing
 #Alt: mypaint
 #Alt: mtpaint
 #Alt: xpaint
-#Alt: gnome-paint
 #Alt: multimedia-animation
 #pinta # sid only
 #gimp-plugin-registry # bookworm only
 #gimp-gutenprint # bookworm only
+#gimp-gmic # bookworm only
+#gnome-paint #bookworm only
 
 #Section: Vector editors
 ##Description: inkscape
@@ -102,19 +102,19 @@ gsfonts-x11
 #Section: 3D editors
 ##Description: blender
 #Alt: blender
-#Alt: g3dviewer
 #Alt: sweethome3d
 #Alt: sweethome3d-furniture
 #Alt: sweethome3d-furniture-editor
 #Alt: sweethome3d-textures-editor
 #Alt: sweethome3d-furniture-nonfree
+#g3dviewer # bookworm only
 
 #Section: CAD editors
 #Alt: librecad
 #Alt: kicad
 #Alt: freecad
-#Alt: pcb-gtk
 #Alt: qelectrotech
+#pcb-gtk # bookworm only
 
 #Section: Video editors
 #Alt: openshot-qt
@@ -125,7 +125,6 @@ gsfonts-x11
 #Alt: screenkey
 #Alt: dvgrab
 #Alt: vgrabbj
-#Alt: dvbcut
 #Alt: multimedia-video
 #Alt: flowblade
 #Alt: handbrake
@@ -141,6 +140,7 @@ gsfonts-x11
 #shotdetect # sid only
 #slowmovideo # bullseye only
 #gnome-video-trimmer # sid only
+#dvbcut # bookworm only
 
 #Section: Command-line image manipulation
 imagemagick
