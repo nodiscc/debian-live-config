@@ -101,7 +101,7 @@ See [Makefile.extra](https://gitlab.com/nodiscc/debian-live-config/-/blob/master
 
 ### config/includes.installer/
 
-`preseed.cfg` is used to preconfigure the _installer_ using [preseeding](https://wiki.debian.org/Preseed).
+`preseed.cfg` is used to preconfigure the _installer_ using [preseeding](https://wiki.debian.org/DebianInstaller/Preseed).
 
 
 ### config/preseed/
