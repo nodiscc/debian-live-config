@@ -13,6 +13,7 @@ vlc-plugin-video-output
 vlc-plugin-base
 vlc-plugin-qt
 mpv
+mpv-mpris
 #Alt: freetuxtv
 #Alt: kodi
 #Alt: parole
