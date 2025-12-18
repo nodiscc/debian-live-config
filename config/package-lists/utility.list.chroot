@@ -304,6 +304,9 @@ qt5-gtk-platformtheme
 #Alt: mint-y-icons
 #Alt: arc-theme
 #clearlooks-phenix-theme # sid only
+#Alt: numix-gtk-theme
+#Alt: numix-icon-theme
+#Alt: numix-icon-theme-circle
 
 #Section: Virtual keyboards
 #Alt: onboard

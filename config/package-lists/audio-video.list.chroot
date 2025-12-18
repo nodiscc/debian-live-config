@@ -179,7 +179,6 @@ gnome-sound-recorder
 ##Section: Lighting
 #Alt: qlcplus
 
-
 #Section: Audio system
 #Description: pulseaudio
 pavucontrol
@@ -202,4 +201,5 @@ rtkit
 #Alt: pamix
 #Alt: pulseaudio-equalizer
 #Alt: libasound2-plugin-equal
+#Alt: alsa-scarlett-gui
 #alsa-oss # bookworm only
