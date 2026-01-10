@@ -1,7 +1,12 @@
 #Title: System
 
 #Section: Package management
-#Description: synaptic
+#Description: gnome-software
+#Screenshot: gnome-software
+gnome-software
+gnome-software-plugin-flatpak
+gnome-software-plugin-deb
+gnome-software-plugin-fwupd
 apt-listchanges
 apt-transport-https
 aptitude
@@ -16,6 +21,7 @@ synaptic
 unattended-upgrades
 vrms
 command-not-found
+#Alt: gnome-packagekit
 #Alt: gnome-package-updater
 #Alt: debfoster
 #Alt: appstream-generator
@@ -25,9 +31,8 @@ command-not-found
 #Alt: apt-listbugs
 #Alt: aptitude-doc-fr
 #Alt: debian-security-support
+#Alt: debsecan
 #Alt: debtree
-#Alt: gnome-software
-#Alt: gnome-software-plugin-flatpak
 #Alt: gstreamer1.0-packagekit
 #Alt: needrestart
 #Alt: packagekit-command-not-found
@@ -37,9 +42,6 @@ command-not-found
 #Alt: reportbug
 #Alt: nala
 #Alt: gdebi
-#gnome-software-plugin-deb # sid only
-#gnome-software-plugin-fwupd # sid only
-#gnome-packagekit # bookworm only
 #gnome-package-updater # bookworm only
 #software-properties-gtk # bookworm only
 #deborphan # bookworm only

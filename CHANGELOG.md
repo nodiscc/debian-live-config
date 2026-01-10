@@ -7,10 +7,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Added
 
+* packages: system: add support for [flatpak](https://flathub.org/) software installation method
 * firmware: add out-of-the-box support for some Broadcom wireless cards
+
 
 ### Changed
 
+* packages: system: replace [gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) with [gnome-software](https://packages.debian.org/trixie/gnome-software) as main graphical package management/update tool
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
 * extras: update user.js to v0.13.0
   * Don't expire cookies when the browser is closed
