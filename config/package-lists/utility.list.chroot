@@ -75,8 +75,8 @@ xfce4-pulseaudio-plugin
 #compton-conf # bookworm only
 
 #Section: Archive management
-#Description: file-roller
-file-roller
+#Description: engrampa
+engrampa
 atool
 p7zip
 p7zip-full
@@ -96,6 +96,7 @@ zip
 iat
 nrg2iso
 gzrt
+#Alt: file-roller
 #Alt: xarchiver
 #Alt: p7zip-rar
 #Alt: gztool

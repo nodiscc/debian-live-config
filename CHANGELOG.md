@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Changed
 
 * packages: system: replace [gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) with [gnome-software](https://packages.debian.org/trixie/gnome-software) as main graphical package management/update tool
+* packages: system: remplace [file-roller](https://packages.debian.org/trixie/file-roller) with [engrampa](https://packages.debian.org/trixie/engrampa) as archive manager
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
 * extras: update user.js to v0.13.0
   * Don't expire cookies when the browser is closed
