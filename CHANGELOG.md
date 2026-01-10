@@ -31,6 +31,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Removed
 
 * packages: system: remove debsecan (generate a listt of security vulnerabilities)
+* packages: system: remove synaptic graphical package manager
 * packages: audio/video: remove libdvd-pkg (DVD-Video playing library)
 * desktop/xfwm4: fix/enable automatic tiling of windows when moved to the edge of the screen
 * packages: utility: remove gcolor3 color picker (does not work)

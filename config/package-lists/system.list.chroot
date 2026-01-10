@@ -16,12 +16,12 @@ debian-keyring
 debsums
 packagekit
 packagekit-tools
-synaptic
 unattended-upgrades
 vrms
 command-not-found
 #Alt: gnome-packagekit
 #Alt: gnome-package-updater
+#Alt: synaptic
 #Alt: debfoster
 #Alt: appstream-generator
 #Alt: apt-config-auto-update
