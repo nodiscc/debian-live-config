@@ -31,6 +31,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Removed
 
+* packages: system: remove localepurge (reclaim disk space by removing unneeded localizations)
 * packages: system: remove debsecan (generate a listt of security vulnerabilities)
 * packages: system: remove synaptic graphical package manager
 * packages: audio/video: remove libdvd-pkg (DVD-Video playing library)
