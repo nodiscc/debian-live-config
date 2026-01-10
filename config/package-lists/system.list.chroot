@@ -13,7 +13,6 @@ aptitude
 debconf-utils
 debian-archive-keyring
 debian-keyring
-debsecan
 debsums
 packagekit
 packagekit-tools

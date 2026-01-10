@@ -10,7 +10,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * packages: system: add support for [flatpak](https://flathub.org/) software installation method
 * firmware: add out-of-the-box support for some Broadcom wireless cards
 
-
 ### Changed
 
 * packages: system: replace [gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) with [gnome-software](https://packages.debian.org/trixie/gnome-software) as main graphical package management/update tool
@@ -31,9 +30,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Removed
 
-* audio/video: remove libdvd-pkg (DVD-Video playing library)
+* packages: system: remove debsecan (generate a listt of security vulnerabilities)
+* packages: audio/video: remove libdvd-pkg (DVD-Video playing library)
 * desktop/xfwm4: fix/enable automatic tiling of windows when moved to the edge of the screen
-* utility: remove gcolor3 color picker (does not work)
+* packages: utility: remove gcolor3 color picker (does not work)
 * drop (incomplete) support for 32-bit builds
 
 ---------------------
