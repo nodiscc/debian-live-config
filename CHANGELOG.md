@@ -32,6 +32,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * fix ssh daemon startup failures
 * fix gnome-calculator startup failures by disabling currency rates download
 * desktop/xfwm4: fix/enable automatic tiling of windows when moved to the edge of the screen
+* installer: fix question about `/etc/default/grub` interrupting unattended installation
 
 ### Removed
 
