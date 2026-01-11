@@ -103,7 +103,7 @@ test_kvm_bios: clean_kvm
 # UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
 .PHONY: test_kvm_uefi # test resulting live image in libvirt VM with UEFI
 test_kvm_uefi: clean_kvm
-	virt-install --name dlc-test --osinfo debian11 --boot loader=/usr/share/OVMF/OVMF_CODE.fd --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
+	virt-install --name dlc-test --osinfo debian11 --boot uefi --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
 
 ##### DOCUMENTATION #####
 # requirements: sudo apt install git jq
