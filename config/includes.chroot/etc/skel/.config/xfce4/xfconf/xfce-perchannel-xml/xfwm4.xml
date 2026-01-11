@@ -26,7 +26,8 @@
     <property name="snap_to_windows" type="bool" value="true"/>
     <property name="snap_width" type="int" value="8"/>
     <property name="sync_to_vblank" type="bool" value="true"/>
-    <property name="theme" type="string" value="Yaru-blue"/>
+    <property name="theme" type="string" value="Yaru"/>
+    <property name="tile_on_move" type="bool" value="true"/>
     <property name="title_alignment" type="string" value="left"/>
     <property name="title_font" type="string" value="Roboto 10"/>
     <property name="title_horizontal_offset" type="int" value="0"/>
@@ -75,7 +76,7 @@
     <property name="shadow_opacity" type="int" value="50"/>
     <property name="show_popup_shadow" type="bool" value="false"/>
     <property name="snap_resist" type="bool" value="false"/>
-    <property name="tile_on_move" type="bool" value="true"/>
+    <property name="vblank_mode" type="string" value="auto"/>
     <property name="title_shadow_inactive" type="string" value="false"/>
     <property name="title_vertical_offset_active" type="int" value="0"/>
     <property name="title_vertical_offset_inactive" type="int" value="0"/>
