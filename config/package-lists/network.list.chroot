@@ -147,6 +147,7 @@ wget
 #Section: Network management
 #Description: network-manager-gnome
 network-manager-gnome
+network-manager-applet
 network-manager-openvpn-gnome
 wireguard
 dnsmasq-base
