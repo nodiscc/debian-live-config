@@ -26,6 +26,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
   * Fix infinite loop on Cloudflare proection pages (turnstile)
 * desktop: switch default theme to Yaru-blue
 * desktop: use new "Ceratopsian" theme background by default
+* sshd: use verbose loglevel
+* sshd: use PAM
+* sshd: decrease ClientAliveInterval and MaxStartups
+* sshd: remove group restriction
+* sshd: add `curve25519-sha256@libssh.org` to default KexAlgorithms
+* sshd: process environment variables passed by the client
 * build tools improvements
 
 ### Fixed

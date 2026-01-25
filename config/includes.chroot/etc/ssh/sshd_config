@@ -6,7 +6,7 @@
 # Basic configuration
 # ===================
 
-# Disable root login
+# Enable/disable root login
 PermitRootLogin no
 
 # Define which port sshd should listen to.
@@ -33,7 +33,7 @@ StrictModes yes
 
 # Logging, obsoletes QuietMode and FascistLogging
 SyslogFacility AUTH
-LogLevel INFO
+LogLevel VERBOSE
 
 # Cryptography
 # ------------
@@ -46,29 +46,30 @@ MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@op
 
 
 # **Key Exchange Algorithms**
-KexAlgorithms diffie-hellman-group-exchange-sha256
+KexAlgorithms curve25519-sha256@libssh.org,diffie-hellman-group-exchange-sha256
 
 # Authentication
 # --------------
 
-# Don't process environment variables passed by the client
-PermitUserEnvironment no
-LoginGraceTime 30s
-# Only process the client's locale environment variables
-AcceptEnv LANG LC_*
 
-# Specifies  the  maximum  number  of authentication attempts permitted per connection.
+# The server disconnects after this time if the user has not successfully logged in
+LoginGraceTime 30s
+
+# maximum number of authentication attempts permitted per connection.
 # Once the number of failures reaches half this value, additional failures are logged.
 # Causes 'Too Many Authentication Failures' error when set to a low value and the user tries several keys.
 MaxAuthTries 5
+
+# Maximum number of open shell, login or subsystem (e.g. sftp) sessions permitted per network connection.
 MaxSessions 10
-MaxStartups 10:30:100
+
+# maximum number of concurrent unauthenticated connections to the SSH daemon, in the format X:Y:Z
+# If the number of unauthenticated connections reaches X, then Y% of new connection attempts will be dropped
+# This percentage scales linearly until the number of connections reaches Z, at which point all new connections will be dropped
+MaxStartups 10:30:60
 
 # Enable public key authentication
 PubkeyAuthentication yes
-
-# Reject keys that are explicitly blacklisted (the file must exist!)
-#RevokedKeys /etc/ssh/revoked_keys
 
 # Never use host-based authentication. It can be exploited.
 IgnoreRhosts yes
@@ -76,9 +77,9 @@ IgnoreUserKnownHosts yes
 HostbasedAuthentication no
 
 # Enable PAM to enforce system wide rules
-UsePAM no
+UsePAM yes
 
-# Disable password-based authentication, it can allow for potentially easier brute-force attacks.
+# Enable/disable password-based authentication, which can make brute-force attacks easier
 PasswordAuthentication no
 PermitEmptyPasswords no
 ChallengeResponseAuthentication no
@@ -99,8 +100,9 @@ GSSAPICleanupCredentials yes
 # Disable TCP keep alive since it is spoofable. Use ClientAlive messages instead, they use the encrypted channel
 TCPKeepAlive no
 
-# Manage `ClientAlive..` signals via interval and maximum count. This will periodically check up to a `..CountMax` number of times within `..Interval` timeframe, and abort the connection once these fail.
-ClientAliveInterval 600
+# Send "client alive" messages to all clients every ClientAliveInterval seconds
+# Disconnect any clients not responding to "client alive" messages after ClientAliveCountMax number of messages
+ClientAliveInterval 300
 ClientAliveCountMax 3
 
 # Disable tunneling
@@ -121,19 +123,14 @@ GatewayPorts no
 X11Forwarding no
 X11UseLocalhost yes
 
-# Only allow login for users from ssh/sftponly groups
-AllowGroups ssh sftponly
+# Only allow login for users from authorized groups
+#AllowGroups ssh-access sftponly git
 
 # Misc. configuration
 # ===================
 
-# Disable motd
-PrintMotd no
-
-# Disable printing last connections on login
-PrintLastLog no
-
-# file to send to the remote user before authentication
+# The contents of the specified file are sent to the remote user before authentication is allowed.
+# If the argument is none then no banner is displayed.
 Banner none
 
 #UseDNS yes
@@ -155,17 +152,17 @@ PrintMotd yes
 PrintLastLog yes
 
 # SFTP configuration
-Subsystem sftp internal-sftp -l {{ ssh_sftp_loglevel }} -f LOCAL6
+Subsystem sftp internal-sftp -l INFO -f LOCAL6
 
-# User/group-sepcific configuration
+# User/group-specific configuration
 # These lines must appear at the *end* of sshd_config
-#Match Group sftponly
-# Restrict members of the 'sftponly' group to SFTP subsystem,
-#ForceCommand internal-sftp -l INFO -f LOCAL6
-# Chroot members of the 'sftponly' group to their home directory
-#ChrootDirectory %h
-#AllowTcpForwarding no
-#AllowAgentForwarding no
-#GatewayPorts no
-#X11Forwarding no
 
+# Restrict members of the 'sftponly' group to SFTP subsystem,
+# chroot them to their home directory
+# Match Group sftponly
+# ForceCommand internal-sftp -l INFO -f LOCAL6
+# ChrootDirectory %h
+# AllowTcpForwarding no
+# AllowAgentForwarding no
+# GatewayPorts no
+# X11Forwarding no
