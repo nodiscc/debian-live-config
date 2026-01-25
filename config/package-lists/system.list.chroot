@@ -235,7 +235,6 @@ accountsservice
 
 #Section: Boot screen
 plymouth
-plymouth-x11
 plymouth-themes
 
 #Section: Scheduling

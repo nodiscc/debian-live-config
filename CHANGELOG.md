@@ -51,6 +51,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)
 * packages: utility: remove [gcolor3](https://packages.debian.org/trixie/gcolor3) color picker (does not work)
 * packages: remove [bumblebee](https://packages.debian.org/trixie/bumblebee) (NVIDIA Optimus support)
+* packages: remove legacy plymouth-x11 renderer
 * drop incomplete support for 32-bit builds
 
 ---------------------
