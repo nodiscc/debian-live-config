@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 * packages: system: add support for [flatpak](https://flathub.org/) software installation method
 * firmware: add out-of-the-box support for some Broadcom wireless cards
+* power management: add [tlp-rdw](https://packages.debian.org/trixie/tlp-rdw), allows advanced power management of radio/wireless devices
 
 ### Changed
 

@@ -249,6 +249,7 @@ dconf-gsettings-backend
 xfce4-power-manager
 xfce4-battery-plugin
 tlp
+tlp-rdw
 radeontool
 vbetool
 powertop
