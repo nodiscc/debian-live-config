@@ -32,6 +32,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * sshd: remove group restriction
 * sshd: add `curve25519-sha256@libssh.org` to default KexAlgorithms
 * sshd: process environment variables passed by the client
+* xfce4-terminal: enable unlimited scrollback
 * build tools improvements
 
 ### Fixed

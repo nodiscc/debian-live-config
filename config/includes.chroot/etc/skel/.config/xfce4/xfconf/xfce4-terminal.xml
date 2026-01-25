@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="color-foreground" type="string" value="#e5e5e5"/>
+  <property name="color-background" type="string" value="#1d1d1d"/>
+  <property name="color-cursor" type="string" value="#e5e5e5"/>
+  <property name="color-palette" type="string" value="#121212;#a35b66;#99ab6f;#ca9733;#495d6e;#825969;#839191;#E0E0E0;#2e3436;#ab6b74;#acb792;#ccaa69;#687987;#977381;#98A4A4;#e5e5e5"/>
+  <property name="font-name" type="string" value="Hack 9"/>
+  <property name="misc-always-show-tabs" type="bool" value="false"/>
+  <property name="misc-cursor-blinks" type="bool" value="false"/>
+  <property name="misc-cursor-shape" type="string" value="TERMINAL_CURSOR_SHAPE_BLOCK"/>
+  <property name="misc-default-geometry" type="string" value="100x24"/>
+  <property name="misc-inherit-geometry" type="bool" value="false"/>
+  <property name="misc-menubar-default" type="bool" value="true"/>
+  <property name="misc-mouse-autohide" type="bool" value="false"/>
+  <property name="misc-toolbar-default" type="bool" value="false"/>
+  <property name="misc-confirm-close" type="bool" value="true"/>
+  <property name="misc-cycle-tabs" type="bool" value="true"/>
+  <property name="misc-tab-close-buttons" type="bool" value="true"/>
+  <property name="misc-tab-close-middle-click" type="bool" value="true"/>
+  <property name="misc-tab-position" type="string" value="GTK_POS_TOP"/>
+  <property name="misc-highlight-urls" type="bool" value="true"/>
+  <property name="scrolling-on-output" type="bool" value="false"/>
+  <property name="scrolling-unlimited" type="bool" value="true"/>
+  <property name="font-use-system" type="bool" value="false"/>
+  <property name="misc-slim-tabs" type="bool" value="true"/>
+  <property name="misc-show-relaunch-dialog" type="bool" value="false"/>
+</channel>
