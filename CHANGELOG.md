@@ -43,6 +43,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * packages: system: remove [synaptic](https://packages.debian.org/trixie/synaptic)
 * packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)
 * packages: utility: remove [gcolor3](https://packages.debian.org/trixie/gcolor3) color picker (does not work)
+* packages: remove [bumblebee](https://packages.debian.org/trixie/bumblebee) (NVIDIA Optimus support)
 * drop incomplete support for 32-bit builds
 
 ---------------------

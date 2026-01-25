@@ -250,7 +250,6 @@ xfce4-power-manager
 xfce4-battery-plugin
 tlp
 radeontool
-bumblebee
 vbetool
 powertop
 usbutils
@@ -260,9 +259,9 @@ acpi-support-base
 fancontrol
 rfkill
 pm-utils
+#Alt: bumblebee
 #Alt: laptop-mode-tools
 #Alt: powerdebug
-#Alt: tlp
 #Alt: powerstat
 #Alt: i8kutils
 #Alt: usbtop
