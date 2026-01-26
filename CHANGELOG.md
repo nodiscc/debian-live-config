@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * packages: system: add support for [flatpak](https://flathub.org/) software installation method
 * firmware: add out-of-the-box support for some Broadcom wireless cards
 * power management: add [tlp-rdw](https://packages.debian.org/trixie/tlp-rdw), allows advanced power management of radio/wireless devices
+* packages: add [qbittorrent](https://packages.debian.org/trixie/qbittorrent) bittorrent client
 
 ### Changed
 
@@ -52,6 +53,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)
 * packages: utility: remove [gcolor3](https://packages.debian.org/trixie/gcolor3) color picker (does not work)
 * packages: remove [bumblebee](https://packages.debian.org/trixie/bumblebee) (NVIDIA Optimus support)
+* packages: remove [transmission](https://packages.debian.org/trixie/transmission-gtk) bittorrent client
 * packages: remove legacy plymouth-x11 renderer
 * drop incomplete support for 32-bit builds
 

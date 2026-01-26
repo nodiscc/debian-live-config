@@ -89,13 +89,13 @@ rsync
 #wormhole-rs # sid only
 
 #Section: Bittorrent
-#Description: transmission-gtk
-transmission-gtk
-transmission-cli
-#Alt: qbittorrent
+#Description: qbittorrent
+qbittorrent
 #Alt: deluge-gtk
 #Alt: deluge-console
 #Alt: deluge-web
+#Alt: transmission-gtk
+#Alt: transmission-cli
 #Alt: transmission-daemon
 #Alt: transmission-remote-gtk
 #Alt: uget
