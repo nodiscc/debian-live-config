@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+> [!NOTE]
+> The main repository is now on [Codeberg](https://codeberg.org/nodiscc/debian-live-config/src/branch/trixie). The [Gitlab](https://gitlab.com/nodiscc/debian-live-config) mirror will be archived later this year. The [Github](https://github.com/nodiscc/debian-live-config) mirror will keep receiving latest updates automatically.
+
 ## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - UNRELEASED
 
 ### Added
