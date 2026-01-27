@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * utility: replace [file-roller](https://packages.debian.org/trixie/file-roller) with [engrampa](https://packages.debian.org/trixie/engrampa) as archive manager
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
 * desktop/xfwm4: disable zooming with Alt+mouse wheel by default
-* desktop/xfce4-panel: panel height to 32 px and enable the dark theme
+* desktop/xfce4-panel: panel height to 32px and enable the dark theme
 * extras: update user.js to v0.13.0
   * Don't expire cookies when the browser is closed
   * Enable Global Privacy Control preference
@@ -31,7 +31,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * sshd: use verbose loglevel
 * sshd: use PAM
 * sshd: decrease ClientAliveInterval and MaxStartups
-* sshd: remove group restriction
+* sshd: don't restric SSH access to the ssh group
 * sshd: add `curve25519-sha256@libssh.org` to default KexAlgorithms
 * sshd: process environment variables passed by the client
 * xfce4-terminal: enable unlimited scrollback
