@@ -55,6 +55,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * packages: remove [bumblebee](https://packages.debian.org/trixie/bumblebee) (NVIDIA Optimus support)
 * packages: remove [transmission](https://packages.debian.org/trixie/transmission-gtk) bittorrent client
 * packages: remove legacy plymouth-x11 renderer
+* extras: remove [cookie-autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/) firefox extension
 * drop incomplete support for 32-bit builds
 
 ---------------------
