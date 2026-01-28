@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+if [ -L /etc/default/locale ]; then
+	# Since trixie /etc/default/locale is a symlink to /etc/locale.conf
+	#
+	# 1) In live mode
+	#    'live-config' will overwrite /etc/default/locale (and thus
+	#    /etc/locale.conf) in '0050-locales' with the value of the kernel
+	#    command line 'locales=' or its default 'en_US.UTF-8'
+	# 2) During installation with d-i
+	#    'localechooser' will create /etc/locale.conf in the target with
+	#    the locale that is selected by the user, if the file is not
+	#    copied from the squashfs image
+	# 3) During installation with Calamares
+	#    Calamares will create /etc/locale.conf in the target with the
+	#    locale that is selected by the user
+	rm -f /etc/locale.conf
+else
+	touch /etc/environment
+	# Always have a default locale available
+	echo "LANG=C.UTF-8" >/etc/default/locale
+fi
