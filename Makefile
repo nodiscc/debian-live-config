@@ -5,6 +5,7 @@ SHELL := /bin/bash
 LAST_TAG := $(shell git describe --tags --abbrev=0)
 LIBVIRT_STORAGE_PATH := /var/lib/libvirt/images/
 ISO_NAME := debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso
+MAINTAINER_EMAIL ?= nodiscc@gmail.com
 
 # remove 'download_extra' to build without third party software/dotfiles
 all: install_buildenv download_extra build
@@ -78,7 +79,7 @@ sign_checksums:
 	gpg --detach-sign --armor SHA512SUMS && \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 	# Export the public GPG key used for signing
-	gpg --export --armor nodiscc@gmail.com > iso/debian-live-config-release.key
+	gpg --export --armor $(MAINTAINER_EMAIL) > iso/debian-live-config-release.key
 
 .PHONY: release_archive # generate a source code archive
 release_archive:
