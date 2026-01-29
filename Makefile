@@ -4,6 +4,7 @@
 SHELL := /bin/bash
 LAST_TAG := $(shell git describe --tags --abbrev=0)
 LIBVIRT_STORAGE_PATH := /var/lib/libvirt/images/
+ISO_NAME := debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso
 
 # remove 'download_extra' to build without third party software/dotfiles
 all: install_buildenv download_extra build
@@ -115,18 +116,18 @@ clean_kvm:
 # cp iso/*.iso /var/lib/libvirt/images/
 .PHONY: test_kvm_bios # test resulting live image in libvirt VM with legacy BIOS
 test_kvm_bios: clean_kvm
-	rsync -avP "$(PWD)/iso/debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" "$(LIBVIRT_STORAGE_PATH)/"
+	rsync -avP "$(PWD)/iso/$(ISO_NAME)" "$(LIBVIRT_STORAGE_PATH)/"
 	virt-install --name dlc-test --osinfo debian11 --boot cdrom --video virtio \
 	--disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none \
-	--cdrom "$(LIBVIRT_STORAGE_PATH)/debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
+	--cdrom "$(LIBVIRT_STORAGE_PATH)/$(ISO_NAME)" --memory 3048 --vcpu 2
 
 # UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
 .PHONY: test_kvm_uefi # test resulting live image in libvirt VM with UEFI
 test_kvm_uefi: clean_kvm
-	rsync -avP "$(PWD)/iso/debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" "$(LIBVIRT_STORAGE_PATH)/"
+	rsync -avP "$(PWD)/iso/$(ISO_NAME)" "$(LIBVIRT_STORAGE_PATH)/"
 	virt-install --name dlc-test --osinfo debian11 --boot uefi --video virtio \
 	--disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none \
-	--cdrom "$(LIBVIRT_STORAGE_PATH)/debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
+	--cdrom "$(LIBVIRT_STORAGE_PATH)/$(ISO_NAME)" --memory 3048 --vcpu 2
 
 ##### DOCUMENTATION #####
 # requirements: sudo apt install git jq
