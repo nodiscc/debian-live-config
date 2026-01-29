@@ -2,21 +2,21 @@
 
 [`Makefile`](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile) automates maintenance/build/release procedures (download of extra components, tests and documentation generation, running the build, generating/signing checksums...).
 
-The live/ISO image build process is managed by [live-build](https://packages.debian.org/bookworm/live-build):
+The live/ISO image build process is managed by [live-build](https://packages.debian.org/trixie/live-build):
 
 * [Live Systems manual](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html)
-* [`man lb config`](https://manpages.debian.org/bookworm/live-build/lb_config.1.en.html)
-* [`man lb build`](https://manpages.debian.org/bookworm/live-build/lb_build.1.en.html)
-* [`man lb clean`](https://manpages.debian.org/bookworm/live-build/lb_clean.1.en.html)
-* [`man live-build`](https://manpages.debian.org/bookworm/live-build/live-build.7.en.html)
-* `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz` ([live-manual](https://packages.debian.org/bookworm/live-manual) package)
+* [`man lb config`](https://manpages.debian.org/trixie/live-build/lb_config.1.en.html)
+* [`man lb build`](https://manpages.debian.org/trixie/live-build/lb_build.1.en.html)
+* [`man lb clean`](https://manpages.debian.org/trixie/live-build/lb_clean.1.en.html)
+* [`man live-build`](https://manpages.debian.org/trixie/live-build/live-build.7.en.html)
+* `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz` ([live-manual](https://packages.debian.org/trixie/live-manual) package)
 
 Run `make help` for a description of available Makefile targets.
 
 
 ## Build using the default configuration
 
-Install [Debian](https://www.debian.org). You must build from the same distribution as the target distribution (build *bookworm* systems on a build machine running Debian *bookworm*, *testing* systems on a machine running Debian *testing*...). Then run the following commands:
+Install [Debian](https://www.debian.org). You must build from the same distribution as the target distribution (build *trixie* systems on a build machine running Debian *trixie*, *testing* systems on a machine running Debian *testing*...). Then run the following commands:
 
 ```bash
 # install requirements for the build system
@@ -56,8 +56,8 @@ You need some disk space for the download and build caches. The build directory 
 
 ### auto/
 
-* `auto/config` sets basic configuration settings for the build (architecture, boot configuration, installer...), see [`man lb config`](https://manpages.debian.org/bookworm/live-build/lb_config.1.en.html)
-* `auto/clean` is run automatically before each build to ensure the build directory is free of any artifacts from previous builds (download caches are kept). See [`man lb clean`](https://manpages.debian.org/bookworm/live-build/lb_clean.1.en.html)
+* `auto/config` sets basic configuration settings for the build (architecture, boot configuration, installer...), see [`man lb config`](https://manpages.debian.org/trixie/live-build/lb_config.1.en.html)
+* `auto/clean` is run automatically before each build to ensure the build directory is free of any artifacts from previous builds (download caches are kept). See [`man lb clean`](https://manpages.debian.org/trixie/live-build/lb_clean.1.en.html)
 * `auto/build` contains the command used for the build, and basic logging settings
 
 
@@ -65,7 +65,7 @@ You need some disk space for the download and build caches. The build directory 
 
 Files to copy to the resulting live system (eg. modified configuration or data files under `etc/, opt/, usr/, ...`)
 
-Scripts and data that do not belong to an existing Debian package _should_ be distributed as [custom packages](http://wiki.debian.org/Packaging), and not stashed directly into this directory. Debian packages can also handle custom configuration files (see [`man dpkg-divert`](https://manpages.debian.org/bookworm/dpkg/dpkg-divert.1.en.html)).
+Scripts and data that do not belong to an existing Debian package _should_ be distributed as [custom packages](http://wiki.debian.org/Packaging), and not stashed directly into this directory. Debian packages can also handle custom configuration files (see [`man dpkg-divert`](https://manpages.debian.org/trixie/dpkg/dpkg-divert.1.en.html)).
 
 For example, to add custom files/unpackaged programs inside your live system:
 
@@ -148,7 +148,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
     - [ ] Automated whole disk partitioning
     - [ ] Manual
 - [ ] Copy latest CHANGELOG.md entry to a new [Github](https://github.com/nodiscc/debian-live-config/releases)/[Gitlab](https://gitlab.com/nodiscc/debian-live-config/-/releases) release
-- [ ] attach `debian-live-config-X.Y.Z-debian-bookworm-amd64.iso debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
+- [ ] attach `debian-live-config-X.Y.Z-debian-trixie-amd64.iso debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
 - `Publish release`
  
 

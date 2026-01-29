@@ -1,4 +1,4 @@
-image: debian:bookworm
+image: debian:trixie
 
 build:
   script:
