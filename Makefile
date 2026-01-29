@@ -165,10 +165,6 @@ install_dev_docs:
 	python3 -m venv .venv/
 	source .venv/bin/activate && pip3 install sphinx myst_parser sphinx_rtd_theme sphinx_external_toc
 
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = doc/md    # répertoire source (markdown)
-BUILDDIR      = doc/html  # répertoire destination (html)
 .PHONY: doc_html # manual - HTML documentation generation (sphinx-build --help)
 doc_html: doc_md install_dev_docs
 	source .venv/bin/activate && sphinx-build -c doc/md -b html doc/md doc/html
