@@ -25,6 +25,7 @@ clean: clean_kvm
 	make -f Makefile.extra clean
 	rm -rf .venv
 
+.PHONY: build # build the live system/ISO image
 build:
 	# Build the live system/ISO image
 	sudo lb clean --all
