@@ -32,9 +32,27 @@ build:
 
 ##############################
 
-.PHONY: bump_version # bump all version indicators before a new release
+.PHONY: bump_version
 bump_version:
-	@echo "Please set version to $(LAST_TAG) in doc/md/conf.py config/bootloaders/grub-pc/live-theme/theme.txt config/bootloaders/isolinux/live.cfg.in config/bootloaders/isolinux/menu.cfg auto/config doc/md/download-and-installation.md doc/md/index.md"
+	@echo "Updating version to $(LAST_TAG) in:"
+	@echo "  - doc/md/conf.py"
+	@sed -i "/^version =/s/= '.*'/= '$(LAST_TAG)'/" doc/md/conf.py || exit 1
+	@sed -i "/^release =/s/= '.*'/= '$(LAST_TAG)'/" doc/md/conf.py || exit 1
+	@echo "  - config/bootloaders/grub-pc/live-theme/theme.txt"
+	@sed -i "s/title-text: \"debian-live-config \([0-9.]*\)\"/title-text: \"debian-live-config $(LAST_TAG)\"/" config/bootloaders/grub-pc/live-theme/theme.txt || exit 1
+	@echo "  - config/bootloaders/isolinux/live.cfg.in"
+	@sed -i "s/\(menu title debian-live-config \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/live.cfg.in || exit 1
+	@echo "  - config/bootloaders/isolinux/menu.cfg"
+	@sed -i "s/\(menu title debian-live-config \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/menu.cfg || exit 1
+	@echo "  - auto/config"
+	@sed -i "s/\(--iso-volume debian-live-config-\)[0-9.]*/\1$(LAST_TAG)/" auto/config || exit 1
+	@echo "  - doc/md/download-and-installation.md"
+	@sed -i "s/\(debian-live-config-\)[0-9.]*\(-debian-\([^-]*\)-amd64.iso\)/\1$(LAST_TAG)\2/g" doc/md/download-and-installation.md || exit 1
+	@sed -i "s/\(releases\/download\/\)[0-9.]*/\1$(LAST_TAG)/g" doc/md/download-and-installation.md || exit 1
+	@echo "  - README.md"
+	@sed -i "s/\(debian-live-config-\)[0-9.]*\(-debian-\([^-]*\)-amd64.iso\)/\1$(LAST_TAG)\2/g" README.md || exit 1
+	@sed -i "s/\(releases\/download\/\)[0-9.]*/\1$(LAST_TAG)/g" README.md || exit 1
+	@echo "Version update complete!"
 
 .PHONY: release # generate release files
 release: checksums sign_checksums release_archive
