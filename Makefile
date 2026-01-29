@@ -63,10 +63,10 @@ release: checksums sign_checksums release_archive
 checksums:
 	@mkdir -p iso/
 	mv *.iso iso/
-	cd iso/; \
-	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-trixie/" *; \
-	rename "s/.hybrid.iso/.iso/" *; \
-	sha512sum *.iso  > SHA512SUMS; \
+	cd iso/ && \
+	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-trixie/" * && \
+	rename "s/.hybrid.iso/.iso/" * && \
+	sha512sum *.iso > SHA512SUMS
 
 # the signing key must be present and loaded on the build machine
 # gpg --export-secret-keys --armor $MAINTAINER_EMAIL > $MAINTAINER_EMAIL.key
@@ -74,8 +74,8 @@ checksums:
 # ssh -t $BUILD_HOST gpg --import $MAINTAINER_EMAIL.key
 .PHONY: sign_checksums # sign checksums with a GPG private key
 sign_checksums:
-	cd iso; \
-	gpg --detach-sign --armor SHA512SUMS; \
+	cd iso && \
+	gpg --detach-sign --armor SHA512SUMS && \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 	# Export the public GPG key used for signing
 	gpg --export --armor nodiscc@gmail.com > iso/debian-live-config-release.key
