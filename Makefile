@@ -150,7 +150,7 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = doc/md    # répertoire source (markdown)
 BUILDDIR      = doc/html  # répertoire destination (html)
 .PHONY: doc_html # manual - HTML documentation generation (sphinx-build --help)
-doc_html: install_dev_docs
+doc_html: doc_md install_dev_docs
 	source .venv/bin/activate && sphinx-build -c doc/md -b html doc/md doc/html
 
 .PHONY: codespell # manual - run interactive spell checker
