@@ -66,13 +66,7 @@ xfce4-pulseaudio-plugin
 #Alt: synapse
 #Alt: zeitgeist
 #Alt: zeitgeist-datahub
-#Alt: compiz
-#Alt: compiz-plugins
-#Alt: compiz-plugins-default
-#Alt: compiz-plugins-extra
-#Alt: compiz-plugins-main
 #Alt: compton
-#compiz-plugins-default # bookworm only
 #compton-conf # bookworm only
 
 #Section: Archive management
