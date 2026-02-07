@@ -2,29 +2,36 @@
 
 ### nodiscc/debian-live-config
 
+- #173 - firefox slow on google maps with user.js - **`-`** `performance`
+- #172 - xfce4-desktop default wallpaper is not always properly set - **`-`** `bug,upstream,UX`
+- #171 - /boot partition too small after install ? - **`-`** `bug,question`
+- #170 - duplicate redshift icon in notification area - **`-`** `bug`
+- #169 - install OBS from flatkpak - **`-`** `enhancement`
+- #167 - debian 13: investigate packages marked "sid only" - **`-`** `enhancement`
+- #166 - user.js: enable DNS-over-HTTPS (DoH) - **`-`** `enhancement,security`
+- #161 - provide build.log alongside releases - **`5.1.0`** `easy,enhancement`
+- #157 - rebase on Debian 13 "Trixie" - **`5.1.0`** `enhancement,maintenance,upstream`
+- #156 - Add Firefox Linux APT repository (disabled by default) - **`-`** `easy,enhancement,question`
+- #155 - networking: remove networkmanager dnsmasq-based solution, use systemd-resolved - **`5.1.0`** `enhancement,security`
 - #154 - installer: mount filesystems with noatime,nodiratime options by default - **`-`** `easy,enhancement,performance`
-- #151 - WIP adapt docker build to run using docker build ./podman build . - **`4.3.0`** `enhancement,tools`
-- #150 - WIP: config: skell: add conky configuration - **`4.3.0`** `enhancement`
-- #149 - switch to yaru gtk theme? - **`-`** `question`
+- #151 - WIP adapt docker build to run using docker build ./podman build . - **`-`** `enhancement,tools`
 - #147 - lb config exit code is always 0, even on error. - **`-`** `bug,tools`
-- #146 - better out-of-the-box support for nvidia proprietary drivers - **`4.3.0`** `enhancement,games,hardware`
-- #145 - alternative desktop (GNOME)? - **`5.0.0`** `feature,question`
+- #146 - better out-of-the-box support for nvidia proprietary drivers - **`-`** `enhancement,games,hardware`
+- #145 - alternative desktop (GNOME)? - **`5.1.0`** `feature,question`
 - #143 - gcolor3: color picker does not work - **`-`** `bug,upstream`
-- #141 - automate builds with gitea actions - **`4.3.0`** `tools`
 - #138 - install all files under includes.chroot/ using custom debian packages - **`-`** `enhancement`
 - #136 - support suspend-then-hibernate? - **`-`** `enhancement`
-- #135 - Better support for Flatpak - **`4.3.0`** `enhancement`
+- #135 - Better support for Flatpak - **`-`** `enhancement`
 - #134 - load the drivetemp kernel module automatically? - **`-`** `easy,enhancement,question`
-- #128 - firewall: replace ufw with firewalld - **`4.3.0`** `enhancement,maintenance`
-- #122 - WIP: add an icon on the live system desktop to install the system to disk permanently - **`4.3.0`** `enhancement,feature,upstream`
-- #111 - WIP: improve nvidia hardware support - **`4.3.0`** `enhancement,games,hardware`
+- #128 - firewall: replace ufw with firewalld - **`5.1.0`** `enhancement,maintenance`
+- #111 - WIP: improve nvidia hardware support - **`-`** `enhancement,games,hardware`
 - #110 - Switch audio stack to pipewire? - **`-`** `audio,maintenance`
 - #108 - voice recognition/control/dictation? - **`-`** `feature,question`
-- #96 - Automate builds for git tags (CI/CD) - **`4.3.0`** `tools`
+- #96 - Automate builds for git tags (CI/CD) - **`-`** `tools`
 - #86 - Use apt instead of wget to download extra .deb packages (verify integrity/authenticity) - **`-`** `enhancement,security,tools`
 - #83 - don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement,UX`
-- #78 - WIP: replace pulseaudio audio server with pipewire - **`5.0.0`** `enhancement,maintenance,question`
-- #72 - Re-add xfce4-notes-plugin - **`5.0.0`** `enhancement,packaging,UX`
+- #78 - WIP: replace pulseaudio audio server with pipewire - **`-`** `enhancement,maintenance,question`
+- #72 - Re-add xfce4-notes-plugin - **`5.1.0`** `enhancement,packaging,UX`
 - #67 - Check additional packages - **`-`** `audio,feature,question`
 - #63 - tests: add a script to check for common issues? - **`-`** `feature,question,tools`
 - #61 - add gaming-related packages/configuration? - **`-`** `feature,games,question`
@@ -38,7 +45,6 @@
 - #35 - test accessing samba shares - **`-`** `feature,UX`
 - #33 - Some .desktop launchers are not localized in xfce4-whiskermenu-plugin - **`-`** `bug,l10n/a11y`
 - #30 - Add a GUI to enable/disable systemd services - **`-`** `feature,UX`
-- #27 - Replace laptop-mode-tools with tlp? - **`-`** `configuration,enhancement,performance,question`
 - #25 - Add Android emulator? - **`-`** `feature,question`
 - #20 - Enable IPv6 support - **`-`** `feature`
 - #19 - installer: preseed "full user name" question to match the linux username - **`-`** `enhancement,installer,UX`

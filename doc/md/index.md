@@ -1,6 +1,6 @@
 # debian-live-config
 
-![](https://gitlab.com/nodiscc/debian-live-config/badges/master/pipeline.svg)
+[![](https://gitlab.com/nodiscc/debian-live-config/badges/master/pipeline.svg)](https://gitlab.com/nodiscc/debian-live-config/-/pipelines)
 
 [Debian GNU/Linux](https://www.debian.org/) desktop operating system for personal computers & workstations.
 
@@ -24,7 +24,7 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Download
 
-**[![](download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/4.2.1/debian-live-config-4.2.1-debian-bookworm-amd64.iso)** (64-bit)
+**[![](download.png) Download .ISO image](https://github.com/nodiscc/debian-live-config/releases/download/5.0.0/debian-live-config-5.0.0-debian-bookworm-amd64.iso)** (64-bit)
 
 
 ## Documentation

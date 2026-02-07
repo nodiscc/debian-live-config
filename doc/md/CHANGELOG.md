@@ -3,6 +3,62 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+
+## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - UNRELEASED
+
+### Added
+
+* system: add support for [flatpak](https://flathub.org/) software installation method
+* firmware: add out-of-the-box support for some Broadcom wireless cards
+
+### Changed
+
+* **rebase on [Debian 13 "Trixie"](https://www.debian.org/News/2025/20250809)**
+* system: replace [gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) with [gnome-software](https://packages.debian.org/trixie/gnome-software) as main graphical package management/update tool
+* utility: replace [file-roller](https://packages.debian.org/trixie/file-roller) with [engrampa](https://packages.debian.org/trixie/engrampa) as archive manager
+* network: replace [transmission](https://packages.debian.org/trixie/transmission-gtk) with [qbittorrent](https://packages.debian.org/trixie/qbittorrent) bittorrent client
+* power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
+* desktop/xfwm4: disable zooming with Alt+mouse wheel by default
+* desktop/xfce4-panel: set panel height to 32px and enable the dark theme
+* extras: update user.js to v0.13.0
+  * Don't expire cookies when the browser is closed
+  * Enable Global Privacy Control preference
+  * Disable preloading of autocomplete URLs
+  * No longer disable the built-in PDF viewer by default
+  * Fix infinite loop on Cloudflare protection pages (turnstile)
+* desktop: switch default theme to Yaru-blue
+* desktop: use new "Ceratopsian" theme background by default
+* sshd: use verbose loglevel
+* sshd: use PAM
+* sshd: decrease ClientAliveInterval and MaxStartups
+* sshd: don't restrict SSH access to the ssh group
+* sshd: add `curve25519-sha256@libssh.org` to default KexAlgorithms
+* sshd: process environment variables passed by the client
+* xfce4-terminal: enable unlimited scrollback
+* build: build tooling improvements
+
+### Fixed
+
+* fix ssh daemon startup failures
+* fix gnome-calculator startup failures by disabling currency rates download
+* desktop/xfwm4: fix/enable automatic tiling of windows when moved to the edge of the screen
+* installer: fix question about `/etc/default/grub` interrupting unattended installation
+* fix incomplete desktop environment localization when non-english locale selected
+
+### Removed
+
+* packages: system: remove [localepurge](https://packages.debian.org/trixie/localepurge)
+* packages: system: remove [debsecan](https://packages.debian.org/trixie/debsecan)
+* packages: system: remove [synaptic](https://packages.debian.org/trixie/synaptic)
+* packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)
+* packages: utility: remove [gcolor3](https://packages.debian.org/trixie/gcolor3) color picker (does not work)
+* packages: remove [bumblebee](https://packages.debian.org/trixie/bumblebee) (NVIDIA Optimus support)
+* packages: remove legacy plymouth-x11 renderer
+* extras: remove [cookie-autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/) firefox extension
+* drop incomplete support for 32-bit builds
+
+---------------------
+
 ## [v4.2.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
 
 ### Fixed

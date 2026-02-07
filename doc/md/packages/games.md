@@ -6,106 +6,99 @@
 
 #### Games
 
-- ![](grey.png) _[lutris](https://packages.debian.org/bookworm/lutris) `0.5.18` - video game preservation platform_
-- ![](grey.png) _[cmatrix](https://packages.debian.org/bookworm/cmatrix) `2.0-3` - simulates the display from "The Matrix"_
-- ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/bookworm/cmatrix-xfont) `2.0-3` - X11 font for cmatrix_
-- ![](grey.png) _[endless-sky](https://packages.debian.org/bookworm/endless-sky) `0.9.8-1.2` - space exploration and combat game_
-- ![](grey.png) _[play.it](https://packages.debian.org/bookworm/play.it) `2.15.1-1` - Installer for drm-free commercial games_
-- ![](grey.png) _[steam-installer](https://packages.debian.org/bookworm/steam-installer) `1:1.0.0.75+ds-6` - Valve's Steam digital software delivery system_
-- ![](grey.png) _[supertuxkart](https://packages.debian.org/bookworm/supertuxkart) `1.4+dfsg-2` - 3D arcade racer with a variety of characters, tracks, and modes to play_
-- ![](grey.png) _[hedgewars](https://packages.debian.org/bookworm/hedgewars) `1.0.2-6+b2` - Funny turn-based artillery game, featuring fighting hedgehogs!_
-- ![](grey.png) _[0ad](https://packages.debian.org/bookworm/0ad) `0.0.26-3` - Real-time strategy game of ancient warfare_
-- ![](grey.png) _[minetest](https://packages.debian.org/bookworm/minetest) `5.6.1+dfsg+~1.9.0mt8+dfsg-2` - Multiplayer infinite-world block sandbox_
-- ![](grey.png) _[wesnoth](https://packages.debian.org/bookworm/wesnoth) `1:1.16.9-1` - fantasy turn-based strategy game - complete suite (metapackage)_
-- ![](grey.png) _[nexuiz](https://packages.debian.org/bookworm/nexuiz) `2.5.2+dp-9` - Fast-paced 3D first-person shooter_
-- ![](grey.png) _[cube2](https://packages.debian.org/bookworm/cube2) `0.0.20201227+dfsg-2` - 3D first-person shooter game engine_
-- ![](grey.png) _[redeclipse](https://packages.debian.org/bookworm/redeclipse) `1.6.0-1` - free, casual arena shooter_
-- ![](grey.png) _[chromium-bsu](https://packages.debian.org/bookworm/chromium-bsu) `0.9.16.1-3` - fast paced, arcade-style, scrolling space shooter_
-- ![](grey.png) _[gunroar](https://packages.debian.org/bookworm/gunroar) `0.15.dfsg1-10` - 360-degree gunboat shooter_
-- ![](grey.png) _[marsshooter](https://packages.debian.org/bookworm/marsshooter) `0.7.6-7` - ridiculous space shooter governed by the laws of gravity_
-- ![](grey.png) _[gnome-games](https://packages.debian.org/bookworm/gnome-games) `1:43+1` - games for the GNOME desktop_
-- ![](grey.png) _[pychess](https://packages.debian.org/bookworm/pychess) `1.0.3-1` - Fully featured, nice looking, easy to use Chess Client_
-- ![](grey.png) _[games-adventure](https://packages.debian.org/bookworm/games-adventure) `5` - Debian's adventure games_
-- ![](grey.png) _[games-programming](https://packages.debian.org/bookworm/games-programming) `5` - Debian's programming games_
-- ![](grey.png) _[games-sport](https://packages.debian.org/bookworm/games-sport) `5` - Debian's sport games_
-- ![](grey.png) _[games-arcade](https://packages.debian.org/bookworm/games-arcade) `5` - Debian's arcade games_
-- ![](grey.png) _[games-finest](https://packages.debian.org/bookworm/games-finest) `5` - Debian's finest games_
-- ![](grey.png) _[games-puzzle](https://packages.debian.org/bookworm/games-puzzle) `5` - Debian's puzzle games_
-- ![](grey.png) _[games-strategy](https://packages.debian.org/bookworm/games-strategy) `5` - Debian's strategy games_
-- ![](grey.png) _[games-board](https://packages.debian.org/bookworm/games-board) `5` - Debian's board games_
-- ![](grey.png) _[games-tasks](https://packages.debian.org/bookworm/games-tasks) `5` - Debian Games tasks for tasksel_
-- ![](grey.png) _[games-card](https://packages.debian.org/bookworm/games-card) `5` - Debian's card games_
-- ![](grey.png) _[games-fps](https://packages.debian.org/bookworm/games-fps) `5` - Debian's first-person shooter games_
-- ![](grey.png) _[games-python3-dev](https://packages.debian.org/bookworm/games-python3-dev) `5` - development of games in Python 3_
-- ![](grey.png) _[games-tetris](https://packages.debian.org/bookworm/games-tetris) `5` - Debian's tetris-like games_
-- ![](grey.png) _[games-c++-dev](https://packages.debian.org/bookworm/games-c++-dev) `5` - development of games in C/C++/D_
-- ![](grey.png) _[games-java-dev](https://packages.debian.org/bookworm/games-java-dev) `5` - development of games in Java_
-- ![](grey.png) _[games-racing](https://packages.debian.org/bookworm/games-racing) `5` - Debian's racing games_
-- ![](grey.png) _[games-thumbnails](https://packages.debian.org/bookworm/games-thumbnails) `20221129` - thumbnails of games in Debian_
-- ![](grey.png) _[games-chess](https://packages.debian.org/bookworm/games-chess) `5` - Debian's chess games_
-- ![](grey.png) _[games-minesweeper](https://packages.debian.org/bookworm/games-minesweeper) `5` - Debian's minesweeper games_
-- ![](grey.png) _[games-rogue](https://packages.debian.org/bookworm/games-rogue) `5` - Debian's roguelike games_
-- ![](grey.png) _[games-toys](https://packages.debian.org/bookworm/games-toys) `5` - Debian's toy games_
-- ![](grey.png) _[games-console](https://packages.debian.org/bookworm/games-console) `5` - Debian's console games_
-- ![](grey.png) _[games-mud](https://packages.debian.org/bookworm/games-mud) `5` - Debian's multi-user-dungeon games_
-- ![](grey.png) _[games-rpg](https://packages.debian.org/bookworm/games-rpg) `5` - Debian's roleplaying games_
-- ![](grey.png) _[games-typing](https://packages.debian.org/bookworm/games-typing) `5` - Debian's typing games_
-- ![](grey.png) _[games-content-dev](https://packages.debian.org/bookworm/games-content-dev) `5` - development of game content_
-- ![](grey.png) _[games-perl-dev](https://packages.debian.org/bookworm/games-perl-dev) `5` - development of games in Perl_
-- ![](grey.png) _[games-shootemup](https://packages.debian.org/bookworm/games-shootemup) `5` - Debian's shoot 'em up games_
-- ![](grey.png) _[games-education](https://packages.debian.org/bookworm/games-education) `5` - Debian's educational games_
-- ![](grey.png) _[games-platform](https://packages.debian.org/bookworm/games-platform) `5` - Debian's platform games_
-- ![](grey.png) _[games-simulation](https://packages.debian.org/bookworm/games-simulation) `5` - Debian's simulation games_
-- ![](grey.png) _[naev](https://packages.debian.org/bookworm/naev) `0.8.2-1+b1` - 2D action/rpg space game_
-- ![](grey.png) _[gamemode](https://packages.debian.org/bookworm/gamemode) `1.7-2+b1` - Optimise Linux system performance on demand_
-- ![](grey.png) _[fortune-mod](https://packages.debian.org/bookworm/fortune-mod) `1:1.99.1-7.3` - provides fortune cookies on demand_
-- ![](grey.png) _[cowsay](https://packages.debian.org/bookworm/cowsay) `3.03+dfsg2-8` - configurable talking cow_
-- ![](grey.png) _[nyancat](https://packages.debian.org/bookworm/nyancat) `1.5.2-0.2` - Animated terminal Nyancat_
-- ![](grey.png) _[sl](https://packages.debian.org/bookworm/sl) `5.02-1+b1` - Correct you if you type `sl' by mistake_
-- ![](grey.png) _[hollywood](https://packages.debian.org/bookworm/hollywood) `1.21-1.1` - fill your console with Hollywood melodrama technobabble_
-- ![](grey.png) _[wine64](https://packages.debian.org/bookworm/wine64) `8.0~repack-4` - Windows API implementation - 64-bit binary loader_
-- ![](grey.png) _[wine32:i386](https://packages.debian.org/bookworm/wine32:i386) `8.0~repack-4` - Windows API implementation - 32-bit binary loader_
-- ![](grey.png) _[libgl1-mesa-dri:i386](https://packages.debian.org/bookworm/libgl1-mesa-dri:i386) `22.3.6-1+deb12u1` - free implementation of the OpenGL API -- DRI modules_
-- ![](grey.png) _[playonlinux](https://packages.debian.org/bookworm/playonlinux) `4.3.4-3` - front-end for Wine_
-- ![](grey.png) _[fonts-wine](https://packages.debian.org/bookworm/fonts-wine) `8.0~repack-4` - Windows API implementation - fonts_
-- ![](grey.png) _[winetricks](https://packages.debian.org/bookworm/winetricks) `20230212-2` - simple tool to work around common problems in Wine_
-- ![](grey.png) _[proton-caller](https://packages.debian.org/bookworm/proton-caller) `3.1.2-1` - Run any Windows program through Valve's Proton_
-- ![](grey.png) _[gweled](https://packages.debian.org/bookworm/gweled) `0.9.1-8+b1` - "Diamond Mine"-style puzzle game_
+- ![](grey.png) _[lutris](https://packages.debian.org/trixie/lutris) `0.5.19-2` - video game preservation platform_
+- ![](grey.png) _[cmatrix](https://packages.debian.org/trixie/cmatrix) `2.0-6` - simulates the display from "The Matrix"_
+- ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/trixie/cmatrix-xfont) `2.0-6` - X11 font for cmatrix_
+- ![](grey.png) _[play.it](https://packages.debian.org/trixie/play.it) `2.32.4-1` - Installer for DRM-free commercial games_
+- ![](grey.png) _[steam-installer](https://packages.debian.org/trixie/steam-installer) `1:1.0.0.83~ds-3` - Valve's Steam digital software delivery system_
+- ![](grey.png) _[supertuxkart](https://packages.debian.org/trixie/supertuxkart) `1.4+dfsg-5+b1` - 3D arcade racer with a variety of characters, tracks, and modes to play_
+- ![](grey.png) _[hedgewars](https://packages.debian.org/trixie/hedgewars) `1.0.2-13` - Funny turn-based artillery game, featuring fighting hedgehogs!_
+- ![](grey.png) _[0ad](https://packages.debian.org/trixie/0ad) `0.27.0-2+b1` - Real-time strategy game of ancient warfare_
+- ![](grey.png) _[minetest](https://packages.debian.org/trixie/minetest) `5.10.0+dfsg-5` - transitional package_
+- ![](grey.png) _[wesnoth](https://packages.debian.org/trixie/wesnoth) `1:1.18.5-1` - fantasy turn-based strategy game (metapackage)_
+- ![](grey.png) _[nexuiz](https://packages.debian.org/trixie/nexuiz) `2.5.2+dp-10` - Fast-paced 3D first-person shooter_
+- ![](grey.png) _[cube2](https://packages.debian.org/trixie/cube2) `0.0.20201227+dfsg-2` - 3D first-person shooter game engine_
+- ![](grey.png) _[redeclipse](https://packages.debian.org/trixie/redeclipse) `1.6.0-2` - free, casual arena shooter_
+- ![](grey.png) _[chromium-bsu](https://packages.debian.org/trixie/chromium-bsu) `0.9.16.1-5` - fast paced, arcade-style, scrolling space shooter_
+- ![](grey.png) _[gunroar](https://packages.debian.org/trixie/gunroar) `0.15.dfsg1-10+b2` - 360-degree gunboat shooter_
+- ![](grey.png) _[marsshooter](https://packages.debian.org/trixie/marsshooter) `0.7.6-8` - ridiculous space shooter governed by the laws of gravity_
+- ![](grey.png) _[gnome-games](https://packages.debian.org/trixie/gnome-games) `1:48+2` - games for the GNOME desktop_
+- ![](grey.png) _[pychess](https://packages.debian.org/trixie/pychess) `1.0.5-0.1` - Fully featured, nice looking, easy to use Chess Client_
+- ![](grey.png) _[games-adventure](https://packages.debian.org/trixie/games-adventure) `5` - Debian's adventure games_
+- ![](grey.png) _[games-programming](https://packages.debian.org/trixie/games-programming) `5` - Debian's programming games_
+- ![](grey.png) _[games-sport](https://packages.debian.org/trixie/games-sport) `5` - Debian's sport games_
+- ![](grey.png) _[games-arcade](https://packages.debian.org/trixie/games-arcade) `5` - Debian's arcade games_
+- ![](grey.png) _[games-finest](https://packages.debian.org/trixie/games-finest) `5` - Debian's finest games_
+- ![](grey.png) _[games-puzzle](https://packages.debian.org/trixie/games-puzzle) `5` - Debian's puzzle games_
+- ![](grey.png) _[games-strategy](https://packages.debian.org/trixie/games-strategy) `5` - Debian's strategy games_
+- ![](grey.png) _[games-board](https://packages.debian.org/trixie/games-board) `5` - Debian's board games_
+- ![](grey.png) _[games-tasks](https://packages.debian.org/trixie/games-tasks) `5` - Debian Games tasks for tasksel_
+- ![](grey.png) _[games-card](https://packages.debian.org/trixie/games-card) `5` - Debian's card games_
+- ![](grey.png) _[games-fps](https://packages.debian.org/trixie/games-fps) `5` - Debian's first-person shooter games_
+- ![](grey.png) _[games-python3-dev](https://packages.debian.org/trixie/games-python3-dev) `5` - development of games in Python 3_
+- ![](grey.png) _[games-tetris](https://packages.debian.org/trixie/games-tetris) `5` - Debian's tetris-like games_
+- ![](grey.png) _[games-c++-dev](https://packages.debian.org/trixie/games-c++-dev) `5` - development of games in C/C++/D_
+- ![](grey.png) _[games-java-dev](https://packages.debian.org/trixie/games-java-dev) `5` - development of games in Java_
+- ![](grey.png) _[games-racing](https://packages.debian.org/trixie/games-racing) `5` - Debian's racing games_
+- ![](grey.png) _[games-chess](https://packages.debian.org/trixie/games-chess) `5` - Debian's chess games_
+- ![](grey.png) _[games-minesweeper](https://packages.debian.org/trixie/games-minesweeper) `5` - Debian's minesweeper games_
+- ![](grey.png) _[games-rogue](https://packages.debian.org/trixie/games-rogue) `5` - Debian's roguelike games_
+- ![](grey.png) _[games-toys](https://packages.debian.org/trixie/games-toys) `5` - Debian's toy games_
+- ![](grey.png) _[games-console](https://packages.debian.org/trixie/games-console) `5` - Debian's console games_
+- ![](grey.png) _[games-mud](https://packages.debian.org/trixie/games-mud) `5` - Debian's multi-user-dungeon games_
+- ![](grey.png) _[games-rpg](https://packages.debian.org/trixie/games-rpg) `5` - Debian's roleplaying games_
+- ![](grey.png) _[games-typing](https://packages.debian.org/trixie/games-typing) `5` - Debian's typing games_
+- ![](grey.png) _[games-content-dev](https://packages.debian.org/trixie/games-content-dev) `5` - development of game content_
+- ![](grey.png) _[games-perl-dev](https://packages.debian.org/trixie/games-perl-dev) `5` - development of games in Perl_
+- ![](grey.png) _[games-shootemup](https://packages.debian.org/trixie/games-shootemup) `5` - Debian's shoot 'em up games_
+- ![](grey.png) _[games-education](https://packages.debian.org/trixie/games-education) `5` - Debian's educational games_
+- ![](grey.png) _[games-platform](https://packages.debian.org/trixie/games-platform) `5` - Debian's platform games_
+- ![](grey.png) _[games-simulation](https://packages.debian.org/trixie/games-simulation) `5` - Debian's simulation games_
+- ![](grey.png) _[naev](https://packages.debian.org/trixie/naev) `0.8.2-1+b4` - 2D action/rpg space game_
+- ![](grey.png) _[gamemode](https://packages.debian.org/trixie/gamemode) `1.8.2-2` - Optimise Linux system performance on demand_
+- ![](grey.png) _[fortune-mod](https://packages.debian.org/trixie/fortune-mod) `1:1.99.1-9` - provides fortune cookies on demand_
+- ![](grey.png) _[cowsay](https://packages.debian.org/trixie/cowsay) `3.03+dfsg2-8` - configurable talking cow_
+- ![](grey.png) _[nyancat](https://packages.debian.org/trixie/nyancat) `1.5.2-0.3` - Animated terminal Nyancat_
+- ![](grey.png) _[sl](https://packages.debian.org/trixie/sl) `5.02-1+b1` - Correct you if you type `sl' by mistake_
+- ![](grey.png) _[hollywood](https://packages.debian.org/trixie/hollywood) `1.21-1.1` - fill your console with Hollywood melodrama technobabble_
+- ![](grey.png) _[wine64](https://packages.debian.org/trixie/wine64) `10.0~repack-6` - Windows API implementation - 64-bit binary loader_
+- ![](grey.png) _[wine32:i386](https://packages.debian.org/trixie/wine32:i386) `10.0~repack-6` - Windows API implementation - 32-bit binary loader_
+- ![](grey.png) _[libgl1-mesa-dri:i386](https://packages.debian.org/trixie/libgl1-mesa-dri:i386) `25.2.6-1~bpo13+1` - free implementation of the OpenGL API -- DRI modules_
+- ![](grey.png) _[playonlinux](https://packages.debian.org/trixie/playonlinux) `4.3.4-5` - front-end for Wine_
+- ![](grey.png) _[fonts-wine](https://packages.debian.org/trixie/fonts-wine) `10.0~repack-6` - Windows API implementation - fonts_
+- ![](grey.png) _[winetricks](https://packages.debian.org/trixie/winetricks) `20250102-1` - simple tool to work around common problems in Wine_
+- ![](grey.png) _[proton-caller](https://packages.debian.org/trixie/proton-caller) `3.1.2-1+b1` - Run any Windows program through Valve's Proton_
+- ![](grey.png) _[gweled](https://packages.debian.org/trixie/gweled) `1.0~beta1-1` - "Diamond Mine"-style puzzle game_
 #### Game console emulators
 
-- ![](grey.png) _[pcsxr](https://packages.debian.org/bookworm/pcsxr) `1.9.94-5+b1` - Sony PlayStation emulator_
-- ![](grey.png) _[pcsx2:i386](https://packages.debian.org/bookworm/pcsx2:i386) `1.6.0+dfsg-2+b2` - Playstation 2 emulator_
-- ![](grey.png) _[zsnes:i386](https://packages.debian.org/bookworm/zsnes:i386) `1.510+bz2-10.2` - Emulator of the Super Nintendo Entertainment System_
-- ![](grey.png) _[desmume](https://packages.debian.org/bookworm/desmume) `0.9.11-4.1` - Nintendo DS emulator_
-- ![](grey.png) _[mupen64plus-qt](https://packages.debian.org/bookworm/mupen64plus-qt) `1.15-1` - customizable launcher for Mupen64Plus_
-- ![](grey.png) _[mupen64plus-input-all](https://packages.debian.org/bookworm/mupen64plus-input-all) `2.5.9+1` - plugin-based Nintendo 64 emulator, input plugins_
-- ![](grey.png) _[mupen64plus-audio-all](https://packages.debian.org/bookworm/mupen64plus-audio-all) `2.5.9+1` - plugin-based Nintendo 64 emulator, audio plugins_
-- ![](grey.png) _[mupen64plus-rsp-all](https://packages.debian.org/bookworm/mupen64plus-rsp-all) `2.5.9+1` - plugin-based Nintendo 64 emulator, rsp plugins_
-- ![](grey.png) _[mupen64plus-video-all](https://packages.debian.org/bookworm/mupen64plus-video-all) `2.5.9+1` - plugin-based Nintendo 64 emulator, video plugins_
-- ![](grey.png) _[retroarch](https://packages.debian.org/bookworm/retroarch) `1.14.0+dfsg-1` - Simple frontend for the libretro library_
-- ![](grey.png) _[libretro-beetle-pce-fast](https://packages.debian.org/bookworm/libretro-beetle-pce-fast) `0.9.38.7+git20160609-2` - Libretro wrapper for the Beetle PCE FAST core_
-- ![](grey.png) _[libretro-beetle-psx](https://packages.debian.org/bookworm/libretro-beetle-psx) `0.9.38.6+git20151019-3` - Libretro wrapper for the Beetle PSX core_
-- ![](grey.png) _[libretro-beetle-vb](https://packages.debian.org/bookworm/libretro-beetle-vb) `0.9.36.1+git20160623-2` - Libretro wrapper for the Beetle VB core_
-- ![](grey.png) _[libretro-beetle-wswan](https://packages.debian.org/bookworm/libretro-beetle-wswan) `0.9.35.1+git20160623-2` - Libretro wrapper for the Beetle WSWAN core_
-- ![](grey.png) _[libretro-bsnes-mercury-accuracy](https://packages.debian.org/bookworm/libretro-bsnes-mercury-accuracy) `094+git20220807-8` - Libretro wrapper for bsnes-mercury accuracy core_
-- ![](grey.png) _[libretro-bsnes-mercury-balanced](https://packages.debian.org/bookworm/libretro-bsnes-mercury-balanced) `094+git20220807-8` - Libretro wrapper for bsnes-mercury balanced core_
-- ![](grey.png) _[libretro-bsnes-mercury-performance](https://packages.debian.org/bookworm/libretro-bsnes-mercury-performance) `094+git20220807-8` - Libretro wrapper for bsnes-mercury performance core_
-- ![](grey.png) _[libretro-desmume](https://packages.debian.org/bookworm/libretro-desmume) `0.9.11+git20160819+dfsg1-2` - Libretro wrapper for DeSmuME_
-- ![](grey.png) _[libretro-gambatte](https://packages.debian.org/bookworm/libretro-gambatte) `0.5.0+git20160522+dfsg1-2.1` - Libretro wrapper for Gambatte_
-- ![](grey.png) _[libretro-mgba](https://packages.debian.org/bookworm/libretro-mgba) `0.10.1+dfsg-1+deb12u1` - Libretro wrapper for mGBA_
-- ![](grey.png) _[libretro-nestopia](https://packages.debian.org/bookworm/libretro-nestopia) `1.52.0+20230102.gitcb1e24e-1` - libretro wrapper for Nestopia_
-- ![](grey.png) _[libretro-snes9x](https://packages.debian.org/bookworm/libretro-snes9x) `1.61+dfsg-1` - Libretro wrapper for Snes9x_
-- ![](grey.png) _[yabause-gtk](https://packages.debian.org/bookworm/yabause-gtk) `0.9.14-4+b3` - beautiful and under-rated Saturn emulator - Gtk port_
-- ![](grey.png) _[games-emulator](https://packages.debian.org/bookworm/games-emulator) `5` - Debian's emulators for games_
-- ![](grey.png) _[gnome-video-arcade](https://packages.debian.org/bookworm/gnome-video-arcade) `0.8.8-5+b1` - Simple MAME frontend_
-- ![](grey.png) _[mednafen](https://packages.debian.org/bookworm/mednafen) `1.29.0+dfsg-1+b1` - multi-platform emulator, including NES, GB/A, Lynx, PC Engine_
-- ![](grey.png) _[virtualjaguar](https://packages.debian.org/bookworm/virtualjaguar) `2.1.3-2+b3` - Cross-platform Atari Jaguar emulator_
-- ![](grey.png) _[mame](https://packages.debian.org/bookworm/mame) `0.251+dfsg.1-1` - Multiple Arcade Machine Emulator (MAME)_
-- ![](grey.png) _[stella](https://packages.debian.org/bookworm/stella) `6.7+dfsg-1` - Atari 2600 Emulator for SDL & the X Window System_
-- ![](grey.png) _[mame](https://packages.debian.org/bookworm/mame) `0.251+dfsg.1-1` - Multiple Arcade Machine Emulator (MAME)_
-- ![](grey.png) _[mame-tools](https://packages.debian.org/bookworm/mame-tools) `0.251+dfsg.1-1` - Tools for MAME_
-- ![](grey.png) _[mame-extra](https://packages.debian.org/bookworm/mame-extra) `0.250-1` - Additional files for the Multiple Arcade Machine Emulator (MAME)_
-- ![](grey.png) _[nestopia](https://packages.debian.org/bookworm/nestopia) `1.52.0-1` - Nintendo Entertainment System/Famicom emulator_
-- ![](grey.png) _[dosbox](https://packages.debian.org/bookworm/dosbox) `0.74-3-4+b1` - x86 emulator with Tandy/Herc/CGA/EGA/VGA/SVGA graphics, sound and DOS_
-- ![](grey.png) _[games-emulator](https://packages.debian.org/bookworm/games-emulator) `5` - Debian's emulators for games_
-- ![](grey.png) _[dolphin-emu](https://packages.debian.org/bookworm/dolphin-emu) `5.0-17995-1` - Gamecube and Wii emulator_
+- ![](grey.png) _[pcsxr](https://packages.debian.org/trixie/pcsxr) `1.9.94-7` - Sony PlayStation emulator_
+- ![](grey.png) _[pcsx2:i386](https://packages.debian.org/trixie/pcsx2:i386) `1.6.0+dfsg-3` - Playstation 2 emulator_
+- ![](grey.png) _[desmume](https://packages.debian.org/trixie/desmume) `0.9.13-4` - Nintendo DS emulator_
+- ![](grey.png) _[mupen64plus-qt](https://packages.debian.org/trixie/mupen64plus-qt) `1.15-1+b3` - customizable launcher for Mupen64Plus_
+- ![](grey.png) _[mupen64plus-input-all](https://packages.debian.org/trixie/mupen64plus-input-all) `2.6.0+1` - plugin-based Nintendo 64 emulator, input plugins_
+- ![](grey.png) _[mupen64plus-audio-all](https://packages.debian.org/trixie/mupen64plus-audio-all) `2.6.0+1` - plugin-based Nintendo 64 emulator, audio plugins_
+- ![](grey.png) _[mupen64plus-rsp-all](https://packages.debian.org/trixie/mupen64plus-rsp-all) `2.6.0+1` - plugin-based Nintendo 64 emulator, rsp plugins_
+- ![](grey.png) _[mupen64plus-video-all](https://packages.debian.org/trixie/mupen64plus-video-all) `2.6.0+1` - plugin-based Nintendo 64 emulator, video plugins_
+- ![](grey.png) _[retroarch](https://packages.debian.org/trixie/retroarch) `1.20.0+dfsg-2+b1` - Simple frontend for the libretro library_
+- ![](grey.png) _[libretro-beetle-vb](https://packages.debian.org/trixie/libretro-beetle-vb) `0.9.36.1+git20160623-2+b2` - Libretro wrapper for the Beetle VB core_
+- ![](grey.png) _[libretro-beetle-wswan](https://packages.debian.org/trixie/libretro-beetle-wswan) `0.9.35.1+git20160623-2+b2` - Libretro wrapper for the Beetle WSWAN core_
+- ![](grey.png) _[libretro-bsnes-mercury-accuracy](https://packages.debian.org/trixie/libretro-bsnes-mercury-accuracy) `094+git20220807-8+b2` - Libretro wrapper for bsnes-mercury accuracy core_
+- ![](grey.png) _[libretro-bsnes-mercury-balanced](https://packages.debian.org/trixie/libretro-bsnes-mercury-balanced) `094+git20220807-8+b2` - Libretro wrapper for bsnes-mercury balanced core_
+- ![](grey.png) _[libretro-bsnes-mercury-performance](https://packages.debian.org/trixie/libretro-bsnes-mercury-performance) `094+git20220807-8+b2` - Libretro wrapper for bsnes-mercury performance core_
+- ![](grey.png) _[libretro-desmume](https://packages.debian.org/trixie/libretro-desmume) `0.9.11+git20160819+dfsg1-2+b2` - Libretro wrapper for DeSmuME_
+- ![](grey.png) _[libretro-gambatte](https://packages.debian.org/trixie/libretro-gambatte) `0.5.0+git20160522+dfsg1-3` - Libretro wrapper for Gambatte_
+- ![](grey.png) _[libretro-mgba](https://packages.debian.org/trixie/libretro-mgba) `0.10.5+dfsg-1` - Libretro wrapper for mGBA_
+- ![](grey.png) _[libretro-nestopia](https://packages.debian.org/trixie/libretro-nestopia) `1.53.0+20250119.git5b56b6b-1` - libretro wrapper for Nestopia_
+- ![](grey.png) _[libretro-snes9x](https://packages.debian.org/trixie/libretro-snes9x) `1.63+dfsg-1` - Libretro wrapper for Snes9x_
+- ![](grey.png) _[games-emulator](https://packages.debian.org/trixie/games-emulator) `5` - Debian's emulators for games_
+- ![](grey.png) _[mednafen](https://packages.debian.org/trixie/mednafen) `1.32.1+dfsg-2+b1` - multi-platform emulator, including NES, GB/A, Lynx, PC Engine_
+- ![](grey.png) _[virtualjaguar](https://packages.debian.org/trixie/virtualjaguar) `2.1.3+final-1` - Cross-platform Atari Jaguar emulator_
+- ![](grey.png) _[mame](https://packages.debian.org/trixie/mame) `0.276+dfsg.1-1+deb13u1` - Multiple Arcade Machine Emulator (MAME)_
+- ![](grey.png) _[stella](https://packages.debian.org/trixie/stella) `7.0+dfsg-2` - Atari 2600 Emulator for SDL & the X Window System_
+- ![](grey.png) _[mame](https://packages.debian.org/trixie/mame) `0.276+dfsg.1-1+deb13u1` - Multiple Arcade Machine Emulator (MAME)_
+- ![](grey.png) _[mame-tools](https://packages.debian.org/trixie/mame-tools) `0.276+dfsg.1-1+deb13u1` - Tools for MAME_
+- ![](grey.png) _[mame-extra](https://packages.debian.org/trixie/mame-extra) `0.250-1` - Additional files for the Multiple Arcade Machine Emulator (MAME)_
+- ![](grey.png) _[nestopia](https://packages.debian.org/trixie/nestopia) `1.53.1+dfsg-2` - Nintendo Entertainment System/Famicom emulator_
+- ![](grey.png) _[dosbox](https://packages.debian.org/trixie/dosbox) `0.74-3-5+b1` - x86 emulator with Tandy/Herc/CGA/EGA/VGA/SVGA graphics, sound and DOS_
+- ![](grey.png) _[games-emulator](https://packages.debian.org/trixie/games-emulator) `5` - Debian's emulators for games_
+- ![](grey.png) _[dolphin-emu](https://packages.debian.org/trixie/dolphin-emu) `2503+dfsg-1+deb13u1` - Gamecube and Wii emulator_
