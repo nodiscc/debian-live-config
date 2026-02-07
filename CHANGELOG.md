@@ -47,7 +47,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Removed
 
-* packages: system: remove [localepurge](https://packages.debian.org/trixie/localepurge)
 * packages: system: remove [debsecan](https://packages.debian.org/trixie/debsecan)
 * packages: system: remove [synaptic](https://packages.debian.org/trixie/synaptic)
 * packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)

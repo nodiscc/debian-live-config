@@ -154,7 +154,7 @@ testdisk
 #Section: File cleaners/linters
 #Description: bleachbit
 bleachbit
-#Alt: localepurge
+localepurge
 #Alt: czkawka-gui
 
 #Section: Log viewers
