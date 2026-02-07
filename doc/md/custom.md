@@ -132,8 +132,8 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 
 ### Release process
 
-- [ ] `git tag $new_version`
 - [ ] `make bump_version`, update version indicators, `git add` changes
+- [ ] `git tag $new_version`
 - [ ] Update release date in CHANGELOG.md, `git add CHANGELOG.md`
 - [ ] `make doc && git add doc/md && git commit -m "release v$new_version"`
 - [ ] `git tag -f --sign $new_version && git push && git push --tags`
