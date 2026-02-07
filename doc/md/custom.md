@@ -132,11 +132,13 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 
 ### Release process
 
-- [ ] `make bump_version`, update version indicators, `git add` changes
-- [ ] `git tag $new_version`
+- [ ] `export NEW_VERSION=X.Y.Z`
+- [ ] `make bump_version LAST_TAG=$NEW_VERSION && git add --patch && git commit -m "bump version to vX.Y.Z`
+- [ ] `make doc && git add doc/md && git commit -m "doc: update auto-generated documentation (make doc)"`
+- [ ] `git tag $NEW_VERSION`
 - [ ] Update release date in CHANGELOG.md, `git add CHANGELOG.md`
-- [ ] `make doc && git add doc/md && git commit -m "release v$new_version"`
-- [ ] `git tag -f --sign $new_version && git push && git push --tags`
+- [ ] "release v$NEW_VERSION"`
+- [ ] `git tag -f --sign $NEW_VERSION && git push && git push --tags`
 - [ ] `make && make checksums sign_checksums test_imagesize`
 - [ ] `make tests`
   - BIOS mode: test live mode in all languages
