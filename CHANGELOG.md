@@ -12,35 +12,34 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Added
 
-* packages: system: add support for [flatpak](https://flathub.org/) software installation method
+* system: add support for [flatpak](https://flathub.org/) software installation method
 * firmware: add out-of-the-box support for some Broadcom wireless cards
-* power management: add [tlp-rdw](https://packages.debian.org/trixie/tlp-rdw), allows advanced power management of radio/wireless devices
-* packages: add [qbittorrent](https://packages.debian.org/trixie/qbittorrent) bittorrent client
 
 ### Changed
 
 * **rebase on [Debian 13 "Trixie"](https://www.debian.org/News/2025/20250809)**
 * system: replace [gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) with [gnome-software](https://packages.debian.org/trixie/gnome-software) as main graphical package management/update tool
 * utility: replace [file-roller](https://packages.debian.org/trixie/file-roller) with [engrampa](https://packages.debian.org/trixie/engrampa) as archive manager
+* network: replace [transmission](https://packages.debian.org/trixie/transmission-gtk) with [qbittorrent](https://packages.debian.org/trixie/qbittorrent) bittorrent client
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
 * desktop/xfwm4: disable zooming with Alt+mouse wheel by default
-* desktop/xfce4-panel: panel height to 32px and enable the dark theme
+* desktop/xfce4-panel: set panel height to 32px and enable the dark theme
 * extras: update user.js to v0.13.0
   * Don't expire cookies when the browser is closed
   * Enable Global Privacy Control preference
   * Disable preloading of autocomplete URLs
   * No longer disable the built-in PDF viewer by default
-  * Fix infinite loop on Cloudflare proection pages (turnstile)
+  * Fix infinite loop on Cloudflare protection pages (turnstile)
 * desktop: switch default theme to Yaru-blue
 * desktop: use new "Ceratopsian" theme background by default
 * sshd: use verbose loglevel
 * sshd: use PAM
 * sshd: decrease ClientAliveInterval and MaxStartups
-* sshd: don't restric SSH access to the ssh group
+* sshd: don't restrict SSH access to the ssh group
 * sshd: add `curve25519-sha256@libssh.org` to default KexAlgorithms
 * sshd: process environment variables passed by the client
 * xfce4-terminal: enable unlimited scrollback
-* build tools improvements
+* build: build tooling improvements
 
 ### Fixed
 
@@ -58,7 +57,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)
 * packages: utility: remove [gcolor3](https://packages.debian.org/trixie/gcolor3) color picker (does not work)
 * packages: remove [bumblebee](https://packages.debian.org/trixie/bumblebee) (NVIDIA Optimus support)
-* packages: remove [transmission](https://packages.debian.org/trixie/transmission-gtk) bittorrent client
 * packages: remove legacy plymouth-x11 renderer
 * extras: remove [cookie-autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/) firefox extension
 * drop incomplete support for 32-bit builds
