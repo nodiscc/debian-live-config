@@ -6,10 +6,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - UNRELEASED
 
-> [!NOTE]
-> The main repository is now on [Codeberg](https://codeberg.org/nodiscc/debian-live-config/src/branch/trixie). The [Gitlab](https://gitlab.com/nodiscc/debian-live-config) mirror will be archived later this year. The [Github](https://github.com/nodiscc/debian-live-config) mirror will keep receiving latest updates automatically. ISO images will now be hosted on Codeberg - ISO images of previous/historical releases will remain on the Github [releases](https://github.com/nodiscc/debian-live-config/releases) page: [4.2.1](https://github.com/nodiscc/debian-live-config/releases/download/4.2.1/debian-live-config-4.2.1-debian-bookworm-amd64.iso), [4.2.0](https://github.com/nodiscc/debian-live-config/releases/download/4.2.0/debian-live-config-4.2.0-debian-bookworm-amd64.iso), [4.1.0](https://github.com/nodiscc/debian-live-config/releases/download/4.1.0/debian-live-config-4.1.0-debian-bookworm-amd64.iso), [4.0.0](https://github.com/nodiscc/debian-live-config/releases/download/4.0.0/debian-live-config-4.0.0-debian-bookworm-amd64.iso), [3.1.1](https://github.com/nodiscc/debian-live-config/releases/download/3.1.1/dlc-3.1.1-debian-bullseye-amd64.hybrid.iso), [3.0.1](https://github.com/nodiscc/debian-live-config/releases/download/3.0.1/dlc-3.0.1-debian-bullseye-amd64.hybrid.iso), [3.0.0](https://github.com/nodiscc/debian-live-config/releases/download/3.0.0/dlc-3.0.0-debian-bullseye-amd64.hybrid.iso), [2.2.5](https://github.com/nodiscc/debian-live-config/releases/download/2.2.5/dlc-2.2.5-debian-buster-amd64.hybrid.iso), [2.2.4](https://github.com/nodiscc/debian-live-config/releases/download/2.2.4/dlc-2.2.4-debian-buster-amd64.hybrid.iso), [2.2.3](https://github.com/nodiscc/debian-live-config/releases/download/2.2.3/dlc-2.2.3-debian-buster-amd64.hybrid.iso), [2.2.2](https://github.com/nodiscc/debian-live-config/releases/download/2.2.2/dlc-2.2.2-debian-buster-amd64.hybrid.iso)
-
-
 ### Added
 
 * system: add support for [flatpak](https://flathub.org/) software installation method
