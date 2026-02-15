@@ -102,6 +102,7 @@ qbittorrent
 #Alt: aria2
 #Alt: rtorrent
 #Alt: btfs
+#Alt: nicotine
 #amule # sid only
 #amule-gnome-support # sid only
 #fragments # sid only
@@ -134,6 +135,7 @@ wget
 #Alt: newsboat
 #Alt: gnome-feeds
 #Alt: tickr
+#Alt: rss2email
 #feedreader # sid only
 #quiterss # bookworm only
 
