@@ -24,7 +24,7 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Download
 
-**[![](doc/md/download.png) Download .ISO image](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)** (64-bit)
+**[![](doc/md/download.png) Download ISO image](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)** (64-bit)
 
 
 ## Documentation

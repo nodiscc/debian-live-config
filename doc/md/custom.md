@@ -150,6 +150,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
     - [ ] Automated whole disk partitioning
     - [ ] Manual
 - [ ] Copy latest CHANGELOG.md entry to a new [Github](https://github.com/nodiscc/debian-live-config/releases)/[Gitlab](https://gitlab.com/nodiscc/debian-live-config/-/releases) release
+- [ ] attach `debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
 - [ ] upload `debian-live-config-X.Y.Z-debian-trixie-amd64.iso` to `files.awesome-selfhosted.net`
 
 ```bash
@@ -158,7 +159,6 @@ ssh -t a161f1.online-server.cloud sudo mv debian-live-config-X.Y.Z-debian-trixie
 ssh -t a161f1.online-server.cloud sudo chmod 0644 /var/www/files/debian-live-config-X.Y.Z-debian-trixie-amd64.iso
 ```
 
-- [ ] attach `debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
 - `Publish release`
  
 
