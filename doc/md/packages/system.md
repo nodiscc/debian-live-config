@@ -290,7 +290,7 @@
 
 
 - ![](green.png) [bleachbit](https://packages.debian.org/trixie/bleachbit) `4.6.2-2` - delete unnecessary files from the system
-- ![](grey.png) _[localepurge](https://packages.debian.org/trixie/localepurge) `0.7.3.11` - reclaim disk space by removing unneeded localizations_
+- ![](green.png) [localepurge](https://packages.debian.org/trixie/localepurge) `0.7.3.11` - reclaim disk space by removing unneeded localizations
 - ![](grey.png) _[czkawka-gui](https://packages.debian.org/trixie/czkawka-gui) `8.0.0-2` - Multi functional app to find duplicates, empty folders, similar images etc (GUI)_
 #### Log viewers
 
@@ -472,7 +472,7 @@
 - ![](grey.png) _[xserver-xorg-input-elographics](https://packages.debian.org/trixie/xserver-xorg-input-elographics) `1:1.4.4-1` - X.Org X server -- ELOGraphics input driver_
 #### Kernel/boot/init
 
-- ![](green.png) [linux-headers-amd64](https://packages.debian.org/trixie/linux-headers-amd64) `6.17.13-1~bpo13+1` - Header files for Linux amd64 configuration (meta-package)
+- ![](green.png) [linux-headers-amd64](https://packages.debian.org/trixie/linux-headers-amd64) `6.18.9-1~bpo13+1` - Header files for Linux amd64 configuration (meta-package)
 - ![](green.png) [module-assistant](https://packages.debian.org/trixie/module-assistant) `0.11.14` - tool to make module package creation easier
 - ![](green.png) [dkms](https://packages.debian.org/trixie/dkms) `3.2.2-1~deb13u1` - Dynamic Kernel Module System (DKMS)
 - ![](green.png) [build-essential](https://packages.debian.org/trixie/build-essential) `12.12` - Informational list of build-essential packages
@@ -487,27 +487,27 @@
 #### Firmwares
 
 - ![](green.png) [firmware-linux-free](https://packages.debian.org/trixie/firmware-linux-free) `20241210-2` - Binary firmware for various drivers in the Linux kernel
-- ![](green.png) [firmware-realtek](https://packages.debian.org/trixie/firmware-realtek) `20251021-1~bpo13+1` - Binary firmware for Realtek network and audio chips
+- ![](green.png) [firmware-realtek](https://packages.debian.org/trixie/firmware-realtek) `20251111-1~bpo13+1` - Binary firmware for Realtek network and audio chips
 - ![](green.png) [firmware-atheros](https://packages.debian.org/trixie/firmware-atheros) `20250410-2` - Binary firmware for Qualcomm Atheros wireless cards
 - ![](green.png) [firmware-b43-installer](https://packages.debian.org/trixie/firmware-b43-installer) `1:019-14` - firmware installer for the b43 driver
-- ![](green.png) [firmware-brcm80211](https://packages.debian.org/trixie/firmware-brcm80211) `20251021-1~bpo13+1` - Binary firmware for Broadcom/Cypress 802.11 wireless cards
-- ![](green.png) [firmware-ipw2x00](https://packages.debian.org/trixie/firmware-ipw2x00) `20251021-1~bpo13+1` - Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
-- ![](green.png) [firmware-iwlwifi](https://packages.debian.org/trixie/firmware-iwlwifi) `20251021-1~bpo13+1` - Binary firmware for Intel Wireless cards
+- ![](green.png) [firmware-brcm80211](https://packages.debian.org/trixie/firmware-brcm80211) `20251111-1~bpo13+1` - Binary firmware for Broadcom/Cypress 802.11 wireless cards
+- ![](green.png) [firmware-ipw2x00](https://packages.debian.org/trixie/firmware-ipw2x00) `20251111-1~bpo13+1` - Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+- ![](green.png) [firmware-iwlwifi](https://packages.debian.org/trixie/firmware-iwlwifi) `20251111-1~bpo13+1` - Binary firmware for Intel Wireless cards
 - ![](green.png) [amd64-microcode](https://packages.debian.org/trixie/amd64-microcode) `3.20250311.1` - Platform firmware and microcode for AMD CPUs and SoCs
 - ![](green.png) [intel-microcode](https://packages.debian.org/trixie/intel-microcode) `3.20251111.1~deb13u1` - Processor microcode firmware for Intel CPUs
 - ![](green.png) [broadcom-sta-dkms](https://packages.debian.org/trixie/broadcom-sta-dkms) `6.30.223.271-26` - dkms source for the Broadcom STA Wireless driver
 - ![](green.png) [broadcom-sta-source](https://packages.debian.org/trixie/broadcom-sta-source) `6.30.223.271-26` - Source for the Broadcom STA Wireless driver
 - ![](green.png) [broadcom-sta-common](https://packages.debian.org/trixie/broadcom-sta-common) `6.30.223.271-26` - Common files for the Broadcom STA Wireless driver
 - ![](grey.png) _[firmware-linux-nonfree](https://packages.debian.org/trixie/firmware-linux-nonfree) `20250410-2` - Binary firmware for various drivers in the Linux kernel (metapackage)_
-- ![](grey.png) _[firmware-misc-nonfree](https://packages.debian.org/trixie/firmware-misc-nonfree) `20251021-1~bpo13+1` - Binary firmware for various drivers in the Linux kernel_
-- ![](grey.png) _[firmware-amd-graphics](https://packages.debian.org/trixie/firmware-amd-graphics) `20251021-1~bpo13+1` - Binary firmware for AMD/ATI graphics and NPU chips_
-- ![](grey.png) _[firmware-intel-sound](https://packages.debian.org/trixie/firmware-intel-sound) `20251021-1~bpo13+1` - Binary firmware for Intel sound DSPs_
+- ![](grey.png) _[firmware-misc-nonfree](https://packages.debian.org/trixie/firmware-misc-nonfree) `20251111-1~bpo13+1` - Binary firmware for various drivers in the Linux kernel_
+- ![](grey.png) _[firmware-amd-graphics](https://packages.debian.org/trixie/firmware-amd-graphics) `20251111-1~bpo13+1` - Binary firmware for AMD/ATI graphics and NPU chips_
+- ![](grey.png) _[firmware-intel-sound](https://packages.debian.org/trixie/firmware-intel-sound) `20251111-1~bpo13+1` - Binary firmware for Intel sound DSPs_
 #### Hardware-specific packages
 
 - ![](grey.png) _[driverctl](https://packages.debian.org/trixie/driverctl) `0.115-2` - Device driver control utility for Linux_
 - ![](grey.png) _[pommed](https://packages.debian.org/trixie/pommed) `1.39~dfsg-5.2+b1` - Apple laptops hotkeys event handler_
 - ![](grey.png) _[mbpfan](https://packages.debian.org/trixie/mbpfan) `2.4.0-2.1` - fan control daemon for Apple Macbooks_
-- ![](grey.png) _[usbmuxd](https://packages.debian.org/trixie/usbmuxd) `1.1.1-6` - USB multiplexor daemon for iPhone and iPod Touch devices_
+- ![](grey.png) _[usbmuxd](https://packages.debian.org/trixie/usbmuxd) `1.1.1-6+deb13u1` - USB multiplexor daemon for iPhone and iPod Touch devices_
 - ![](grey.png) _[fprintd](https://packages.debian.org/trixie/fprintd) `1.94.5-2` - D-Bus daemon for fingerprint reader access_
 #### Live system components
 

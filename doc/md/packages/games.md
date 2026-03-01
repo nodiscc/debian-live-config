@@ -6,7 +6,7 @@
 
 #### Games
 
-- ![](grey.png) _[lutris](https://packages.debian.org/trixie/lutris) `0.5.19-2` - video game preservation platform_
+- ![](grey.png) _[lutris](https://packages.debian.org/trixie/lutris) `0.5.20` - video game preservation platform_
 - ![](grey.png) _[cmatrix](https://packages.debian.org/trixie/cmatrix) `2.0-6` - simulates the display from "The Matrix"_
 - ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/trixie/cmatrix-xfont) `2.0-6` - X11 font for cmatrix_
 - ![](grey.png) _[play.it](https://packages.debian.org/trixie/play.it) `2.32.4-1` - Installer for DRM-free commercial games_

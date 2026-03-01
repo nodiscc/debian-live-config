@@ -36,6 +36,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * sshd: process environment variables passed by the client
 * xfce4-terminal: enable unlimited scrollback
 * build: build tooling improvements
+* build/doc: remove 2GB ISO image size limitation
 
 ### Fixed
 
@@ -47,7 +48,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Removed
 
-* packages: system: remove [localepurge](https://packages.debian.org/trixie/localepurge)
 * packages: system: remove [debsecan](https://packages.debian.org/trixie/debsecan)
 * packages: system: remove [synaptic](https://packages.debian.org/trixie/synaptic)
 * packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)

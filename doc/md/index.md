@@ -13,7 +13,7 @@
 - Good out-of-the-box experience with a focus on usability
 - Installation time < 10 minutes, without Internet access
 - Able to run [live](https://en.wikipedia.org/wiki/Live_USB) from USB drive (no installation required)
-- Fits on a 2GB USB drive
+- Fits on a 4GB USB drive
 - Only uses official Debian [stable](https://wiki.debian.org/DebianStable) + [backports](https://wiki.debian.org/Backports) packages and as few third-party components as possible
 - Reliable, low maintenance
 - Lightweight/low resource usage, good performance on low-end or recycled hardware

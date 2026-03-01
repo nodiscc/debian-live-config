@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/140.7.0esr-1~deb13u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/140.8.0esr-1~deb13u1">
 
 **[firefox-esr](https://packages.debian.org/trixie/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
 
@@ -22,12 +22,12 @@
 -----------------------
 
 
-- ![](green.png) [firefox-esr](https://packages.debian.org/trixie/firefox-esr) `140.7.0esr-1~deb13u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
-- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/trixie/firefox-esr-l10n-fr) `140.7.0esr-1~deb13u1` - French language package for Firefox ESR
+- ![](green.png) [firefox-esr](https://packages.debian.org/trixie/firefox-esr) `140.8.0esr-1~deb13u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/trixie/firefox-esr-l10n-fr) `140.8.0esr-1~deb13u1` - French language package for Firefox ESR
 - ![](green.png) [webext-ublock-origin-firefox](https://packages.debian.org/trixie/webext-ublock-origin-firefox) `1.67.0+dfsg-1~deb13u1` - lightweight and efficient ads, malware, trackers blocker (Firefox)
 - ![](green.png) [webext-keepassxc-browser](https://packages.debian.org/trixie/webext-keepassxc-browser) `1.9.7+repack1-1+deb13u1` - Web browser extension to organize web site credentials in KeePassXC
 - ![](grey.png) _[luakit](https://packages.debian.org/trixie/luakit) `1:2.4.0-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/trixie/chromium) `144.0.7559.109-2~deb13u1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/trixie/chromium) `145.0.7632.116-1~deb13u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/trixie/nss-passwords) `0.6-1` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/trixie/w3m) `0.5.3+git20230121-2.1` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/trixie/links2) `2.29-2+b3` - Web browser running in both graphics and text mode_
@@ -82,7 +82,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:140.7.1esr-1~deb13u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:140.8.0esr-1~deb13u1">
 
 **[thunderbird](https://packages.debian.org/trixie/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
 
@@ -100,8 +100,8 @@
 -----------------------
 
 
-- ![](green.png) [thunderbird](https://packages.debian.org/trixie/thunderbird) `1:140.7.1esr-1~deb13u1` - mail/news client with RSS, chat and integrated spam filter support
-- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/trixie/thunderbird-l10n-fr) `1:140.7.1esr-1~deb13u1` - French language package for Thunderbird
+- ![](green.png) [thunderbird](https://packages.debian.org/trixie/thunderbird) `1:140.8.0esr-1~deb13u1` - mail/news client with RSS, chat and integrated spam filter support
+- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/trixie/thunderbird-l10n-fr) `1:140.8.0esr-1~deb13u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/trixie/geary) `46.0-7` - lightweight email client designed for the GNOME desktop_
 - ![](grey.png) _[claws-mail](https://packages.debian.org/trixie/claws-mail) `4.3.1-1` - Fast, lightweight and user-friendly GTK based email client_
 - ![](grey.png) _[claws-mail-plugins](https://packages.debian.org/trixie/claws-mail-plugins) `4.3.1-1` - Installs plugins for the Claws Mail mailer_
@@ -164,23 +164,27 @@
 - ![](grey.png) _[aria2](https://packages.debian.org/trixie/aria2) `1.37.0+debian-3` - High speed download utility_
 - ![](grey.png) _[rtorrent](https://packages.debian.org/trixie/rtorrent) `0.9.8-1.1` - ncurses BitTorrent client based on LibTorrent from rakshasa_
 - ![](grey.png) _[btfs](https://packages.debian.org/trixie/btfs) `2.24-1+b3` - access torrent files as a filesystem_
+- ![](grey.png) _[nicotine](https://packages.debian.org/trixie/nicotine) `3.3.10-1` - graphical client for the Soulseek peer-to-peer network_
 #### Media download
 
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2026.01.31">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2026.02.21-1~bpo13+1">
 
-**[yt-dlp](https://packages.debian.org/trixie/yt-dlp)** - download videos from youtube.com or other video platforms. yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project
+**[yt-dlp](https://packages.debian.org/trixie/yt-dlp)** - downloader of videos from YouTube and other sites
 
 
+ yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
+ The main focus of this project is adding new features and patches
+ while also keeping up to date with the original project.
 
 <sub>
 
 -----------------------
 
 
-- ![](green.png) [yt-dlp](https://packages.debian.org/trixie/yt-dlp) `2026.01.31` - download videos from youtube.com or other video platforms. yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project
+- ![](green.png) [yt-dlp](https://packages.debian.org/trixie/yt-dlp) `2026.02.21-1~bpo13+1` - downloader of videos from YouTube and other sites
 - ![](grey.png) _[streamlink](https://packages.debian.org/trixie/streamlink) `7.3.0-2` - CLI for extracting video streams from various websites to a video player_
 #### Downloaders/web crawlers
 
@@ -218,6 +222,7 @@
 - ![](grey.png) _[newsboat](https://packages.debian.org/trixie/newsboat) `2.36-1.1` - text mode rss feed reader with podcast support_
 - ![](grey.png) _[gnome-feeds](https://packages.debian.org/trixie/gnome-feeds) `2.2.0-5` - RSS/Atom feed reader for GNOME_
 - ![](grey.png) _[tickr](https://packages.debian.org/trixie/tickr) `0.7.1-1+b1` - GTK-based highly graphically-customizable Feed Ticker_
+- ![](grey.png) _[rss2email](https://packages.debian.org/trixie/rss2email) `1:3.14-1` - receive RSS feeds by email_
 #### LAN file sharing
 
 - ![](grey.png) _[samba](https://packages.debian.org/trixie/samba) `2:4.22.6+dfsg-0+deb13u1` - SMB/CIFS file, print, and login server for Unix_
@@ -403,11 +408,11 @@
 - ![](grey.png) _[tcptrack](https://packages.debian.org/trixie/tcptrack) `1.4.3-2` - TCP connection tracker, with states and speeds_
 - ![](grey.png) _[thc-ipv6](https://packages.debian.org/trixie/thc-ipv6) `3.8-1+b2` - The Hacker Choice's IPv6 Attack Toolkit_
 - ![](grey.png) _[trickle](https://packages.debian.org/trixie/trickle) `1.08+ds-1.1` - user-space bandwidth shaper_
-- ![](grey.png) _[tshark](https://packages.debian.org/trixie/tshark) `4.4.7-1` - network traffic analyzer - console version_
-- ![](grey.png) _[usbip](https://packages.debian.org/trixie/usbip) `2.0+6.12.63-1` - USB device sharing system over IP network_
+- ![](grey.png) _[tshark](https://packages.debian.org/trixie/tshark) `4.4.13-0+deb13u1` - network traffic analyzer - console version_
+- ![](grey.png) _[usbip](https://packages.debian.org/trixie/usbip) `2.0+6.12.73-1` - USB device sharing system over IP network_
 - ![](grey.png) _[vnstat](https://packages.debian.org/trixie/vnstat) `2.13-1` - console-based network traffic monitor_
 - ![](grey.png) _[vnstati](https://packages.debian.org/trixie/vnstati) `2.13-1` - image output support for vnStat_
-- ![](grey.png) _[wireshark](https://packages.debian.org/trixie/wireshark) `4.4.7-1` - network traffic analyzer - graphical interface_
+- ![](grey.png) _[wireshark](https://packages.debian.org/trixie/wireshark) `4.4.13-0+deb13u1` - network traffic analyzer - graphical interface_
 - ![](grey.png) _[termshark](https://packages.debian.org/trixie/termshark) `2.4.0-2+b8` - Terminal UI for tshark, inspired by Wireshark_
 - ![](grey.png) _[fierce](https://packages.debian.org/trixie/fierce) `1.6.0-1` - Domain DNS scanner_
 - ![](grey.png) _[sslscan](https://packages.debian.org/trixie/sslscan) `2.1.5-1` - Tests SSL/TLS enabled services to discover supported cipher suites_

@@ -10,7 +10,6 @@
 - #167 - debian 13: investigate packages marked "sid only" - **`-`** `enhancement`
 - #166 - user.js: enable DNS-over-HTTPS (DoH) - **`-`** `enhancement,security`
 - #161 - provide build.log alongside releases - **`5.1.0`** `easy,enhancement`
-- #157 - rebase on Debian 13 "Trixie" - **`5.1.0`** `enhancement,maintenance,upstream`
 - #156 - Add Firefox Linux APT repository (disabled by default) - **`-`** `easy,enhancement,question`
 - #155 - networking: remove networkmanager dnsmasq-based solution, use systemd-resolved - **`5.1.0`** `enhancement,security`
 - #154 - installer: mount filesystems with noatime,nodiratime options by default - **`-`** `easy,enhancement,performance`

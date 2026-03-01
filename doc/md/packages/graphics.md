@@ -45,7 +45,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/3.0.4-3+deb13u5">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/3.0.4-3+deb13u6">
 
 **[gimp](https://packages.debian.org/trixie/gimp)** - GNU Image Manipulation Program
 
@@ -62,7 +62,7 @@
 -----------------------
 
 
-- ![](green.png) [gimp](https://packages.debian.org/trixie/gimp) `3.0.4-3+deb13u5` - GNU Image Manipulation Program
+- ![](green.png) [gimp](https://packages.debian.org/trixie/gimp) `3.0.4-3+deb13u6` - GNU Image Manipulation Program
 - ![](green.png) [gimp-data-extras](https://packages.debian.org/trixie/gimp-data-extras) `1:2.0.4-0.2` - Extra brushes and patterns for GIMP
 - ![](green.png) [gimp-texturize](https://packages.debian.org/trixie/gimp-texturize) `3.0+ds-1` - generates large textures from a small sample
 - ![](green.png) [create-resources](https://packages.debian.org/trixie/create-resources) `0.1.3-6` - shared resources for use by creative applications
