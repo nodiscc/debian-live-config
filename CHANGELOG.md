@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 
-## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - 2026-03-01
+## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
 
 ### Added
 
