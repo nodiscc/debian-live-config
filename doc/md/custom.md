@@ -133,11 +133,11 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 ### Release process
 
 - [ ] `export NEW_VERSION=X.Y.Z`
-- [ ] `make bump_version LAST_TAG=$NEW_VERSION && git add --patch && git commit -m "bump version to vX.Y.Z`
+- [ ] `make bump_version LAST_TAG=$NEW_VERSION && git add --patch && git commit -m "bump version to vX.Y.Z"`
 - [ ] `make doc && git add doc/md && git commit -m "doc: update auto-generated documentation (make doc)"`
 - [ ] `git tag $NEW_VERSION`
 - [ ] Update release date in CHANGELOG.md, `git add CHANGELOG.md`
-- [ ] "release v$NEW_VERSION"`
+- [ ] `git commit -m "release v$NEW_VERSION"`
 - [ ] `git tag -f --sign $NEW_VERSION && git push && git push --tags`
 - [ ] `make && make checksums sign_checksums`
 - [ ] `make tests`
