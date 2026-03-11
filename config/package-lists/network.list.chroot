@@ -169,6 +169,8 @@ wpasupplicant
 #Alt: avahi-dnsconfd
 #Alt: avahi-discover
 #Alt: avahi-ui-utils
+#Alt: ddclient
+#Alt: inadyn
 #wicd # experimental only
 #wicd-curses # experimental only
 #wicd-cli # experimental only
