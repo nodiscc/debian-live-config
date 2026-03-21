@@ -328,6 +328,7 @@ broadcom-sta-common
 #Alt: mbpfan
 #Alt: usbmuxd
 #Alt: fprintd
+#Alt: piper
 #lomoco # bookworm only
 #wmgui # bookworm only
 
