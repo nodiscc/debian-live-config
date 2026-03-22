@@ -50,6 +50,7 @@ create-resources
 #Alt: pencil2d
 #Alt: dia
 #Alt: birdfont
+#Alt: akira
 
 #Section: Drawing
 #Description: xournal
@@ -75,7 +76,6 @@ xournal
 #Section: Camera upload/management
 #Alt: rapid-photo-downloader
 #Alt: gtkam
-
 
 #Section: Game asset editors
 #Alt: tiled

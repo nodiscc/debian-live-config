@@ -67,6 +67,7 @@ xfce4-pulseaudio-plugin
 #Alt: zeitgeist
 #Alt: zeitgeist-datahub
 #Alt: compton
+#Alt: jgmenu
 #compton-conf # bookworm only
 
 #Section: Archive management
