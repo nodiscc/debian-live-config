@@ -40,6 +40,7 @@ catfish
 #Alt: fd-find
 #Alt: dupeguru
 #Alt: rdfind
+#Alt: nnn
 #nautilus-sendto # bullseye only
 #nautilus-wipe # bullseye only
 #fsearch # sid only
