@@ -91,6 +91,7 @@ dos2unix
 #Alt: yq
 #Alt: markdownlint
 #Alt: jc
+#Alt: yamale
 #names # sid only
 #md2html # sid only
 #glow # trixie only
