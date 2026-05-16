@@ -75,6 +75,7 @@ manpages-dev
 jq
 groff
 dos2unix
+#Alt: glow
 #Alt: aha
 #Alt: xmlstarlet
 #Alt: pandoc
@@ -94,7 +95,7 @@ dos2unix
 #Alt: yamale
 #names # sid only
 #md2html # sid only
-#glow # trixie only
+
 
 #Section: Packaging
 build-essential

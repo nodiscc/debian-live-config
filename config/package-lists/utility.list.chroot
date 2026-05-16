@@ -311,9 +311,10 @@ qt5-gtk-platformtheme
 #Section: Virtual keyboards
 #Alt: onboard
 #Alt: onboard-data
+#Alt: deskflow
 #cellwriter # bullseye only
 #florence # sid only
-#deskflow # trixie only
+
 
 #Section: Other
 libnotify-bin
