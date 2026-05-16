@@ -7,6 +7,7 @@ gnome-software
 gnome-software-plugin-flatpak
 gnome-software-plugin-deb
 gnome-software-plugin-fwupd
+gnome-package-updater
 apt-listchanges
 apt-transport-https
 aptitude
@@ -20,7 +21,6 @@ unattended-upgrades
 vrms
 command-not-found
 #Alt: gnome-packagekit
-#Alt: gnome-package-updater
 #Alt: synaptic
 #Alt: debfoster
 #Alt: appstream-generator

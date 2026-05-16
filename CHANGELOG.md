@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+---------------------
+
+## [v5.0.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.1) - UNRELEASED
+
+### Added
+
+* system: re-add simple `Package updater` application (`gnome-package-updater`)
+
+---------------------
 
 ## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
 
