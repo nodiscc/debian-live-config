@@ -177,6 +177,7 @@ xfce4-screenshooter
 #Alt: scrot
 #Alt: gnome-screenshot
 #Alt: flameshot
+#gradia # forky only
 
 #Section: Clocks/timers
 #Description: alarm-clock-applet

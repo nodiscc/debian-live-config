@@ -57,6 +57,7 @@ create-resources
 xournal
 #Alt: akira
 #Alt: xournalpp
+#drawy # forky only
 
 #Section: Non-destructive editors (lightroom)
 #Alt: darktable
@@ -119,6 +120,7 @@ gsfonts-x11
 #Section: Video editors
 #Alt: openshot-qt
 #Alt: kdenlive
+#Alt: gnome-video-trimmer
 #Alt: devede
 #Alt: dvdauthor
 #Alt: imagination
