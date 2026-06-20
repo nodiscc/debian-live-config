@@ -146,6 +146,7 @@ wget
 #Alt: samba-vfs-modules 
 #Alt: smbclient
 #Alt: servefile
+#miniserve # sid only
 #smbc # sid only
 
 #Section: Network management
