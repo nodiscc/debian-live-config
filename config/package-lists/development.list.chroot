@@ -70,6 +70,7 @@ manpages-dev
 #trurl # sid only
 #tty-record # sid only
 #termrec # bookworm only
+#jless # sid only
 
 #Section: Parsers/converters/documentation generators
 jq
