@@ -20,6 +20,7 @@ mgitstatus
 #Alt: icdiff
 #Alt: qgit
 #Alt: git-secrets
+#ALt: git-extras
 #Alt: gh
 #Alt: git-delete-merged-branches
 #ghi # bullseye only
