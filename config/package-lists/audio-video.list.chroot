@@ -199,6 +199,7 @@ rtkit
 #Alt: pasystray
 #Alt: paprefs
 #Alt: pnmixer
+#Alt: pulsemixer
 #Alt: pamix
 #Alt: pulseaudio-equalizer
 #Alt: libasound2-plugin-equal
