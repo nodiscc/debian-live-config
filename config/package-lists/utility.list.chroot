@@ -72,6 +72,30 @@ xfce4-pulseaudio-plugin
 #Alt: jgmenu
 #compton-conf # bookworm only
 
+##Section: wayland
+##Alt: hyprland
+##Alt: hypridle
+##Alt: hyprland-guiutils
+##Alt: hyprcursor-util
+##Alt: hyprland-plugin-borders-plus-plus
+##Alt: hyprland-plugin-hyprbars
+##Alt: hyprland-plugin-hyprexpo
+##Alt: hyprland-plugin-hyprfocus
+##Alt: hyprland-plugin-hyprwinwrap
+##Alt: hyprlauncher
+##Alt: hyprlock
+##Alt: hyprpaper
+##Alt: hyprpolkitagent
+##Alt: hyprshutdown
+##Alt: hyprsunset
+##Alt: nwg-displays
+##Alt: nwg-hello
+##Alt: xdg-desktop-portal-hyprland
+##Alt: grim
+##Alt: imv
+##Alt: wl-clipboard
+##Alt: wtype
+
 #Section: Archive management
 #Description: engrampa
 engrampa
@@ -336,5 +360,6 @@ libfile-mimeinfo-perl
 #Alt: randtype
 #Alt: xdotool
 #Alt: wtype
+#Alt: bat
 #policykit-1-gnome # bookworm only
 #winwrangler # bookworm only

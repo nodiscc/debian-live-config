@@ -68,6 +68,7 @@ manpages-dev
 #Alt: delay
 #Alt: debian-faq
 #Alt: doc-debian
+#Alt: gum
 #trurl # sid only
 #tty-record # sid only
 #termrec # bookworm only
@@ -178,6 +179,7 @@ live-build
 #Section: Databases
 #Alt: sqlite3
 #Alt: sqlfluff
+#Alt: sqlitebrowser
 
 #Section: PHP
 #Alt: php-cli

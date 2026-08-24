@@ -201,6 +201,7 @@ rtkit
 #Alt: pnmixer
 #Alt: pulsemixer
 #Alt: pamix
+#Alt: pamixer
 #Alt: pulseaudio-equalizer
 #Alt: libasound2-plugin-equal
 #Alt: alsa-scarlett-gui
