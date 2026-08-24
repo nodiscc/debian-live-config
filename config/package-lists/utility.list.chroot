@@ -70,6 +70,7 @@ xfce4-pulseaudio-plugin
 #Alt: zeitgeist-datahub
 #Alt: compton
 #Alt: jgmenu
+#Alt: quickshell
 #compton-conf # bookworm only
 
 ##Section: wayland
