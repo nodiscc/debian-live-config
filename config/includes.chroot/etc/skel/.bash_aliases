@@ -95,6 +95,22 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 #     export LESS=' -R '
 # fi
 
+# Set terminal tab title based on last command exit code
+# set_prompt_title() {
+#     local rc=$?
+#     if [ -z "$__TITLE_SET" ]; then
+#         echo -ne "\033]0;❏ READY\007"
+#         __TITLE_SET=1
+#     elif [ $rc -eq 0 ]; then
+#         echo -ne "\033]0;✔ SUCCESS\007"
+#     else
+#         echo -ne "\033]0;✖ ERROR\007"
+#     fi
+# }
+# PROMPT_COMMAND=set_prompt_title
+
+# Set title to ✼ while a command is running
+# trap 'echo -ne "\033]0;✼ RUNNING\007"' DEBUG
 
 #git prompt configuration
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w $(__git_ps1 "(%s)")\[\033[00m\]\$ '
