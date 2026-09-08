@@ -108,8 +108,7 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 #     fi
 # }
 # PROMPT_COMMAND=set_prompt_title
-
-# Set title to ✼ while a command is running
+# Set terminal tab title to ✼ while a command is running
 # trap 'echo -ne "\033]0;✼ RUNNING\007"' DEBUG
 
 #git prompt configuration
