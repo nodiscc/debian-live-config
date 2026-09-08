@@ -1,5 +1,10 @@
 # debian-live-config
 
+> [!IMPORTANT]
+> The mirror at https://gitlab.com/nodiscc/debian-live-config will no longer be maintained  
+> Please use https://codeberg.org/nodiscc/debian-live-config or https://github.com/nodiscc/debian-live-config instead  
+> Issues have been moved to https://codeberg.org/nodiscc/debian-live-config/issues
+
 [Debian GNU/Linux](https://www.debian.org/) desktop operating system for personal computers & workstations.
 
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-5.0.0-main.png)
@@ -50,8 +55,8 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Source code
 
-- [Github](https://github.com/nodiscc/debian-live-config)
 - [Codeberg](https://codeberg.org/nodiscc/debian-live-config) (mirror)
+- [Github](https://github.com/nodiscc/debian-live-config) (mirror)
 
 
 ## License

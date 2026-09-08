@@ -11,6 +11,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 * system: re-add simple `Package updater` application (`gnome-package-updater`)
 
+### Changed
+
+* remove Gitlab.com mirror, main mirror on codebareg.org, secondary on github.com
+* tools/ci: move daily build dependencies check to Github actions
+
 ---------------------
 
 ## [v5.0.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
@@ -139,7 +144,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - config: use long date format to display dates in Thunar file manager
 - config: remove pidgin from whiskermenu favorites
 - config: remove custom wallpapers/backgrounds, use the new Debian 12 "Emerald" theme everywhere
-- firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions, display bookmarks toolbar by default, display separate search/location bars by default, disable Firefox studies (Shield), set the default search engine to DuckDuckGo instead of Google (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.8.0)
+- firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions, display bookmarks toolbar by default, display separate search/location bars by default, disable Firefox studies (Shield), set the default search engine to DuckDuckGo instead of Google (update [user.js](https://github.com/nodiscc/user.js) to v0.8.0)
 - cleanup: packages: update package names to their Debian 12 names
 - tests: update test tooling
 - doc: update documentation
@@ -202,7 +207,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - defaults/skel: add keyboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
-- firefox: always show the bookmarks toolbar (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.4.0)
+- firefox: always show the bookmarks toolbar (update [user.js](https://github.com/nodiscc/user.js) to v0.4.0)
 
 ### Fixed
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
@@ -256,7 +261,7 @@ Pin-Priority: 1000
 - apt: update APT sources lists/configuration
 - replace [backintime](https://packages.debian.org/bullseye/backintime-qt) backup tool with [deja-dup](https://wiki.gnome.org/Apps/DejaDup)
 - games: install lutris from official Debian repositories, remove third-party package download
-- extras: use `.deb` packages to manage additional/unofficial software ([bleachbit-cleanerml](https://github.com/bleachbit/cleanerml), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [pidgin-opensteamworks](https://github.com/eionrobb/pidgin-opensteamworks), [user.js](https://gitlab.com/nodiscc/user.js)), remove custom installation logic, update all extra packages to latest releases
+- extras: use `.deb` packages to manage additional/unofficial software ([bleachbit-cleanerml](https://github.com/bleachbit/cleanerml), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [pidgin-opensteamworks](https://github.com/eionrobb/pidgin-opensteamworks), [user.js](https://github.com/nodiscc/user.js)), remove custom installation logic, update all extra packages to latest releases
 - network/audio-video: replace [youtube-dl](https://packages.debian.org/bullseye/youtube-dl)/[streamlink](https://packages.debian.org/bullseye/streamlink) with [yt-dlp](https://github.com/yt-dlp/yt-dlp) ([third-party package](https://nodiscc.gitlab.io/toolbox/))
 - skel: update and fix [conky](https://packages.debian.org/bullseye/conky-all) configuration for recent versions
 - skel/session: don't autostart blueman bluetooth manager by default
@@ -393,7 +398,7 @@ Bugfix release.
 ### Changed
 
 - Disable window manager compositor by default (improve video performance/prevent tearing)
-- Update [user.js](https://gitlab.com/nodiscc/user.js) to 0.1
+- Update [user.js](https://github.com/nodiscc/user.js) to 0.1
 - Remove unused locales from live system (only keep en/fr), decrease iso image size
 
 ### Added
@@ -427,7 +432,7 @@ Bugfix release.
 - add third party package for https://github.com/EionRobb/pidgin-opensteamworks/
 - add third party download for https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 - add third party download for https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
-- add third party download for https://gitlab.com/nodiscc/user.js
+- add third party download for https://github.com/nodiscc/user.js
 - add third-party download for https://github.com/az0/cleanerml
 - add (disabled) third party download for  https://www.sublimetext.com/
 - Makefile: add a target to generate a TODO.md from a list of gitea issues, add TODO.md
