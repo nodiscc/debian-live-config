@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ### Changed
 
 * remove Gitlab.com mirror, main mirror on codebareg.org, secondary on github.com
+* sysctl: harden kernel.kptr_restrict
 * tools/ci: move daily build dependencies check to Github actions
 
 ---------------------
