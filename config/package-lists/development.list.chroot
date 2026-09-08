@@ -95,7 +95,7 @@ dos2unix
 #Alt: yq
 #Alt: markdownlint
 #Alt: jc
-#Alt: yamale
+#Alt: python3-yamale
 #names # sid only
 #md2html # sid only
 

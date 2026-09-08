@@ -90,7 +90,7 @@ poppler-utils
 #Alt: html2text
 #Alt: pdfarranger
 #Alt: pdfproctools
-#Alt: pdfminer
+#pdfminer (bookworm only)
 #pdfmod # sid only
 #pdfshuffler # bullseye only
 #pdftk # bookworm only
