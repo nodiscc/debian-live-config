@@ -25,6 +25,7 @@
 - ![](green.png) [gnome-software-plugin-flatpak](https://packages.debian.org/trixie/gnome-software-plugin-flatpak) `48.3-2` - Flatpak support for GNOME Software
 - ![](green.png) [gnome-software-plugin-deb](https://packages.debian.org/trixie/gnome-software-plugin-deb) `48.3-2` - .deb support for GNOME Software
 - ![](green.png) [gnome-software-plugin-fwupd](https://packages.debian.org/trixie/gnome-software-plugin-fwupd) `48.3-2` - Firmware updater support for GNOME Software
+- ![](green.png) [gnome-package-updater](https://packages.debian.org/trixie/gnome-package-updater) `43.0-4` - Software package updater for GNOME
 - ![](green.png) [apt-listchanges](https://packages.debian.org/trixie/apt-listchanges) `4.8` - package change history notification tool
 - ![](green.png) [apt-transport-https](https://packages.debian.org/trixie/apt-transport-https) `3.0.3` - transitional package for https support
 - ![](green.png) [aptitude](https://packages.debian.org/trixie/aptitude) `0.8.13-7` - terminal-based package manager
@@ -32,13 +33,12 @@
 - ![](green.png) [debian-archive-keyring](https://packages.debian.org/trixie/debian-archive-keyring) `2025.1` - OpenPGP archive certificates of the Debian archive
 - ![](green.png) [debian-keyring](https://packages.debian.org/trixie/debian-keyring) `2025.07.26` - OpenPGP certificates of Debian Developers and Maintainers
 - ![](green.png) [debsums](https://packages.debian.org/trixie/debsums) `3.0.2.3` - tool for verification of installed package files against MD5 checksums
-- ![](green.png) [packagekit](https://packages.debian.org/trixie/packagekit) `1.3.1-1` - Provides a package management service
-- ![](green.png) [packagekit-tools](https://packages.debian.org/trixie/packagekit-tools) `1.3.1-1` - Provides PackageKit command-line tools
+- ![](green.png) [packagekit](https://packages.debian.org/trixie/packagekit) `1.3.1-1+deb13u1` - Provides a package management service
+- ![](green.png) [packagekit-tools](https://packages.debian.org/trixie/packagekit-tools) `1.3.1-1+deb13u1` - Provides PackageKit command-line tools
 - ![](green.png) [unattended-upgrades](https://packages.debian.org/trixie/unattended-upgrades) `2.12` - automatic installation of security upgrades
 - ![](green.png) [vrms](https://packages.debian.org/trixie/vrms) `1.34` - transitional package for check-dfsg-status
 - ![](green.png) [command-not-found](https://packages.debian.org/trixie/command-not-found) `23.04.0-2` - Suggest installation of packages in interactive bash sessions
 - ![](grey.png) _[gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) `43.0-4` - Graphical distribution neutral package manager for GNOME_
-- ![](grey.png) _[gnome-package-updater](https://packages.debian.org/trixie/gnome-package-updater) `43.0-4` - Software package updater for GNOME_
 - ![](grey.png) _[synaptic](https://packages.debian.org/trixie/synaptic) `0.91.7` - Graphical package manager_
 - ![](grey.png) _[debfoster](https://packages.debian.org/trixie/debfoster) `2.8-1` - Install only wanted Debian packages_
 - ![](grey.png) _[appstream-generator](https://packages.debian.org/trixie/appstream-generator) `0.9.1-1+b3` - Generator for AppStream metadata catalogs_
@@ -50,10 +50,10 @@
 - ![](grey.png) _[debian-security-support](https://packages.debian.org/trixie/debian-security-support) `1:13+2026.01.04` - Debian security support coverage checker_
 - ![](grey.png) _[debsecan](https://packages.debian.org/trixie/debsecan) `0.4.20.1` - Debian Security Analyzer_
 - ![](grey.png) _[debtree](https://packages.debian.org/trixie/debtree) `1.1.2` - package dependency graphs on steroids_
-- ![](grey.png) _[gstreamer1.0-packagekit](https://packages.debian.org/trixie/gstreamer1.0-packagekit) `1.3.1-1` - GStreamer plugin to install codecs using PackageKit_
+- ![](grey.png) _[gstreamer1.0-packagekit](https://packages.debian.org/trixie/gstreamer1.0-packagekit) `1.3.1-1+deb13u1` - GStreamer plugin to install codecs using PackageKit_
 - ![](grey.png) _[needrestart](https://packages.debian.org/trixie/needrestart) `3.11-1` - check which daemons need to be restarted after library upgrades_
-- ![](grey.png) _[packagekit-command-not-found](https://packages.debian.org/trixie/packagekit-command-not-found) `1.3.1-1` - Offer to install missing programs automatically_
-- ![](grey.png) _[packagekit-gtk3-module](https://packages.debian.org/trixie/packagekit-gtk3-module) `1.3.1-1` - Install fonts automatically using PackageKit_
+- ![](grey.png) _[packagekit-command-not-found](https://packages.debian.org/trixie/packagekit-command-not-found) `1.3.1-1+deb13u1` - Offer to install missing programs automatically_
+- ![](grey.png) _[packagekit-gtk3-module](https://packages.debian.org/trixie/packagekit-gtk3-module) `1.3.1-1+deb13u1` - Install fonts automatically using PackageKit_
 - ![](grey.png) _[extrepo](https://packages.debian.org/trixie/extrepo) `0.14` - External repository manager_
 - ![](grey.png) _[policy-rcd-declarative-deny-all](https://packages.debian.org/trixie/policy-rcd-declarative-deny-all) `0.6` - Blocking default policy for policy-rcd-declarative_
 - ![](grey.png) _[reportbug](https://packages.debian.org/trixie/reportbug) `13.2.0` - reports bugs in the Debian distribution_
@@ -134,7 +134,7 @@
 - ![](grey.png) _[grsync](https://packages.debian.org/trixie/grsync) `1.3.1-1+b1` - GTK+ frontend for rsync_
 - ![](grey.png) _[unison](https://packages.debian.org/trixie/unison) `2.53+1` - file-synchronization tool for Unix and Windows_
 - ![](grey.png) _[unison-gtk](https://packages.debian.org/trixie/unison-gtk) `2.53+1` - file-synchronization tool for Unix and Windows with GTK+ interface_
-- ![](grey.png) _[rsync](https://packages.debian.org/trixie/rsync) `3.4.1+ds1-5+deb13u1` - fast, versatile, remote (and local) file-copying tool_
+- ![](grey.png) _[rsync](https://packages.debian.org/trixie/rsync) `3.4.1+ds1-5+deb13u4` - fast, versatile, remote (and local) file-copying tool_
 - ![](grey.png) _[rsbackup](https://packages.debian.org/trixie/rsbackup) `10.0-3` - rsync-based backup utility_
 - ![](grey.png) _[fsarchiver](https://packages.debian.org/trixie/fsarchiver) `0.8.8-1` - file system archiver_
 - ![](grey.png) _[backupninja](https://packages.debian.org/trixie/backupninja) `1.2.2-1` - lightweight, extensible meta-backup system_
@@ -207,7 +207,7 @@
 - ![](green.png) [sdparm](https://packages.debian.org/trixie/sdparm) `1.12-2` - Output and modify SCSI device parameters
 - ![](green.png) [dosfstools](https://packages.debian.org/trixie/dosfstools) `4.2-1.2` - utilities for making and checking MS-DOS FAT filesystems
 - ![](green.png) [hfsprogs](https://packages.debian.org/trixie/hfsprogs) `540.1.linux3-6` - mkfs and fsck for HFS and HFS+ file systems
-- ![](green.png) [ntfs-3g](https://packages.debian.org/trixie/ntfs-3g) `1:2022.10.3-5` - read/write NTFS driver for FUSE
+- ![](green.png) [ntfs-3g](https://packages.debian.org/trixie/ntfs-3g) `1:2022.10.3-5+deb13u2` - read/write NTFS driver for FUSE
 - ![](green.png) [kpartx](https://packages.debian.org/trixie/kpartx) `0.11.1-2` - create device mappings for partitions
 - ![](green.png) [xorriso](https://packages.debian.org/trixie/xorriso) `1.5.6-1.2+b1` - command line ISO-9660 and Rock Ridge manipulation tool
 - ![](green.png) [lvm2](https://packages.debian.org/trixie/lvm2) `2.03.31-2` - Linux Logical Volume Manager
@@ -346,34 +346,34 @@
 - ![](green.png) [virtinst](https://packages.debian.org/trixie/virtinst) `1:5.0.0-5+deb13u1` - transitional dummy package for virt-install
 - ![](green.png) [virt-viewer](https://packages.debian.org/trixie/virt-viewer) `11.0-3+b1` - Displaying the graphical console of a virtual machine
 - ![](green.png) [ebtables](https://packages.debian.org/trixie/ebtables) `2.0.11-6` - Ethernet bridge frame table administration
-- ![](green.png) [dnsmasq-base](https://packages.debian.org/trixie/dnsmasq-base) `2.91-1` - Small caching DNS proxy and DHCP/TFTP server - executable
+- ![](green.png) [dnsmasq-base](https://packages.debian.org/trixie/dnsmasq-base) `2.91-1+deb13u1` - Small caching DNS proxy and DHCP/TFTP server - executable
 - ![](green.png) [libvirt-daemon-system](https://packages.debian.org/trixie/libvirt-daemon-system) `11.3.0-3+deb13u2` - virtualization daemon - typical QEMU-based deployment
 - ![](green.png) [gir1.2-spiceclientgtk-3.0](https://packages.debian.org/trixie/gir1.2-spiceclientgtk-3.0) `0.42-3` - GTK3 widget for SPICE clients (GObject-Introspection)
-- ![](green.png) [qemu-system-x86](https://packages.debian.org/trixie/qemu-system-x86) `1:10.0.7+ds-0+deb13u1+b1` - QEMU full system emulation binaries (x86)
-- ![](green.png) [qemu-system-arm](https://packages.debian.org/trixie/qemu-system-arm) `1:10.0.7+ds-0+deb13u1+b1` - QEMU full system emulation binaries (arm)
-- ![](green.png) [qemu-utils](https://packages.debian.org/trixie/qemu-utils) `1:10.0.7+ds-0+deb13u1+b1` - QEMU utilities
-- ![](green.png) [libguestfs-tools](https://packages.debian.org/trixie/libguestfs-tools) `1:1.54.1-2+b1` - guest disk image management system - tools
+- ![](green.png) [qemu-system-x86](https://packages.debian.org/trixie/qemu-system-x86) `1:10.0.11+ds-0+deb13u1` - QEMU full system emulation binaries (x86)
+- ![](green.png) [qemu-system-arm](https://packages.debian.org/trixie/qemu-system-arm) `1:10.0.11+ds-0+deb13u1` - QEMU full system emulation binaries (arm)
+- ![](green.png) [qemu-utils](https://packages.debian.org/trixie/qemu-utils) `1:10.0.11+ds-0+deb13u1` - QEMU utilities
+- ![](green.png) [libguestfs-tools](https://packages.debian.org/trixie/libguestfs-tools) `1:1.54.1-2+deb13u1` - guest disk image management system - tools
 - ![](green.png) [virt-p2v](https://packages.debian.org/trixie/virt-p2v) `1.42.4-1` - physical-to-virtual machine converter
-- ![](green.png) [libguestfs-rsync](https://packages.debian.org/trixie/libguestfs-rsync) `1:1.54.1-2+b1` - guest disk image management system - rsync support
-- ![](green.png) [libguestfs-rescue](https://packages.debian.org/trixie/libguestfs-rescue) `1:1.54.1-2+b1` - guest disk image management system - virt-rescue enhancements
+- ![](green.png) [libguestfs-rsync](https://packages.debian.org/trixie/libguestfs-rsync) `1:1.54.1-2+deb13u1` - guest disk image management system - rsync support
+- ![](green.png) [libguestfs-rescue](https://packages.debian.org/trixie/libguestfs-rescue) `1:1.54.1-2+deb13u1` - guest disk image management system - virt-rescue enhancements
 - ![](green.png) [netcat-openbsd](https://packages.debian.org/trixie/netcat-openbsd) `1.229-1` - TCP/IP swiss army knife
 - ![](grey.png) _[virt-p2v](https://packages.debian.org/trixie/virt-p2v) `1.42.4-1` - physical-to-virtual machine converter_
 - ![](grey.png) _[virt-what](https://packages.debian.org/trixie/virt-what) `1.27-1` - detect if we are running in a virtual machine_
-- ![](grey.png) _[libguestfs-tools](https://packages.debian.org/trixie/libguestfs-tools) `1:1.54.1-2+b1` - guest disk image management system - tools_
-- ![](grey.png) _[lxc](https://packages.debian.org/trixie/lxc) `1:6.0.4-4+deb13u1` - Linux Containers userspace tools_
+- ![](grey.png) _[libguestfs-tools](https://packages.debian.org/trixie/libguestfs-tools) `1:1.54.1-2+deb13u1` - guest disk image management system - tools_
+- ![](grey.png) _[lxc](https://packages.debian.org/trixie/lxc) `1:6.0.4-4+deb13u3+b1` - Linux Containers userspace tools_
 - ![](grey.png) _[gnome-boxes](https://packages.debian.org/trixie/gnome-boxes) `48.0-3+b1` - Simple GNOME app to access virtual systems_
 - ![](grey.png) _[lxc-templates](https://packages.debian.org/trixie/lxc-templates) `3.0.4.89.gc128b96-1` - Linux Containers userspace tools (templates)_
-- ![](grey.png) _[docker.io](https://packages.debian.org/trixie/docker.io) `26.1.5+dfsg1-9+b11` - Linux container runtime_
+- ![](grey.png) _[docker.io](https://packages.debian.org/trixie/docker.io) `26.1.5+dfsg1-9+deb13u1` - Linux container runtime_
 - ![](grey.png) _[docker-registry](https://packages.debian.org/trixie/docker-registry) `2.8.3+ds1-2+b8` - Docker toolset to pack, ship, store, and deliver content_
-- ![](grey.png) _[docker-doc](https://packages.debian.org/trixie/docker-doc) `26.1.5+dfsg1-9` - Linux container runtime -- documentation_
+- ![](grey.png) _[docker-doc](https://packages.debian.org/trixie/docker-doc) `26.1.5+dfsg1-9+deb13u1` - Linux container runtime -- documentation_
 - ![](grey.png) _[vagrant](https://packages.debian.org/trixie/vagrant) `2.3.7+git20230731.5fc64cde+dfsg-3+b1` - Tool for building and distributing virtualized development environments_
 - ![](grey.png) _[schroot](https://packages.debian.org/trixie/schroot) `1.6.13-7` - Execute commands in a chroot environment_
 - ![](grey.png) _[imvirt](https://packages.debian.org/trixie/imvirt) `0.9.6-13` - detects several virtualizations_
-- ![](grey.png) _[guestfish](https://packages.debian.org/trixie/guestfish) `1:1.54.1-2+b1` - guest filesystem shell_
-- ![](grey.png) _[guestmount](https://packages.debian.org/trixie/guestmount) `1:1.54.1-2+b1` - FUSE-based mount utility for guest filesystems_
+- ![](grey.png) _[guestfish](https://packages.debian.org/trixie/guestfish) `1:1.54.1-2+deb13u1` - guest filesystem shell_
+- ![](grey.png) _[guestmount](https://packages.debian.org/trixie/guestmount) `1:1.54.1-2+deb13u1` - FUSE-based mount utility for guest filesystems_
 - ![](grey.png) _[virtnbdbackup](https://packages.debian.org/trixie/virtnbdbackup) `2.28-1` - Backup utility for libvirt_
 - ![](grey.png) _[open-infrastructure-compute-tools](https://packages.debian.org/trixie/open-infrastructure-compute-tools) `20250604-1` - manage systemd-nspawn containers_
-- ![](grey.png) _[debvm](https://packages.debian.org/trixie/debvm) `0.4.5` - create and run virtual machines for various Debian releases and architectures_
+- ![](grey.png) _[debvm](https://packages.debian.org/trixie/debvm) `0.4.5+deb13u1` - create and run virtual machines for various Debian releases and architectures_
 #### Configuration management
 
 - ![](grey.png) _[ansible](https://packages.debian.org/trixie/ansible) `12.0.0+dfsg-0+deb13u1` - Configuration management, deployment, and task execution system_
@@ -423,7 +423,7 @@
 - ![](green.png) [at](https://packages.debian.org/trixie/at) `3.2.5-2.2` - Delayed job execution and batch processing
 #### Desktop performance
 
-- ![](grey.png) _[haveged](https://packages.debian.org/trixie/haveged) `1.9.19-12` - Linux entropy source using the HAVEGE algorithm_
+- ![](grey.png) _[haveged](https://packages.debian.org/trixie/haveged) `1.9.19-12+deb13u1` - Linux entropy source using the HAVEGE algorithm_
 - ![](grey.png) _[rng-tools5](https://packages.debian.org/trixie/rng-tools5) `5-4.1+b1` - Daemon to use a Hardware TRNG_
 - ![](grey.png) _[oomd](https://packages.debian.org/trixie/oomd) `0.5.0-1.2+b3` - userspace Out-Of-Memory (OOM) killer for Linux systems_
 - ![](grey.png) _[irqbalance](https://packages.debian.org/trixie/irqbalance) `1.9.4-1+deb13u1` - Daemon to balance interrupts for SMP systems_
@@ -434,18 +434,18 @@
 - ![](green.png) [apparmor-profiles](https://packages.debian.org/trixie/apparmor-profiles) `4.1.0-1` - experimental profiles for AppArmor security policies
 - ![](green.png) [apparmor-utils](https://packages.debian.org/trixie/apparmor-utils) `4.1.0-1` - utilities for controlling AppArmor
 - ![](green.png) [libpam-tmpdir](https://packages.debian.org/trixie/libpam-tmpdir) `0.11` - automatic per-user temporary directories
-- ![](green.png) [sudo](https://packages.debian.org/trixie/sudo) `1.9.16p2-3` - Provide limited super user privileges to specific users
+- ![](green.png) [sudo](https://packages.debian.org/trixie/sudo) `1.9.16p2-3+deb13u2` - Provide limited super user privileges to specific users
 - ![](grey.png) _[apparmor-notify](https://packages.debian.org/trixie/apparmor-notify) `4.1.0-1` - AppArmor notification system_
 - ![](grey.png) _[apparmor-profiles-extra](https://packages.debian.org/trixie/apparmor-profiles-extra) `1.35` - Extra profiles for AppArmor Security policies_
 - ![](grey.png) _[doas](https://packages.debian.org/trixie/doas) `6.8.2-1+b1` - transitional package_
 #### Time
 
-- ![](green.png) [chrony](https://packages.debian.org/trixie/chrony) `4.6.1-3` - Versatile implementation of the Network Time Protocol
+- ![](green.png) [chrony](https://packages.debian.org/trixie/chrony) `4.6.1-3+deb13u2` - Versatile implementation of the Network Time Protocol
 - ![](grey.png) _[ntpsec](https://packages.debian.org/trixie/ntpsec) `1.2.3+dfsg1-8` - Network Time Protocol daemon and utility programs_
 #### Display
 
 - ![](green.png) [mesa-utils](https://packages.debian.org/trixie/mesa-utils) `9.0.0-2+b2` - Miscellaneous Mesa utilities -- symlinks
-- ![](green.png) [libgl1-mesa-dri](https://packages.debian.org/trixie/libgl1-mesa-dri) `25.2.6-1~bpo13+1` - free implementation of the OpenGL API -- DRI modules
+- ![](green.png) [libgl1-mesa-dri](https://packages.debian.org/trixie/libgl1-mesa-dri) `26.1.2-1~bpo13+1` - free implementation of the OpenGL API -- DRI modules
 - ![](green.png) [va-driver-all](https://packages.debian.org/trixie/va-driver-all) `2.22.0-3` - Video Acceleration (VA) API -- driver metapackage
 - ![](green.png) [xinput](https://packages.debian.org/trixie/xinput) `1.6.4-1` - Runtime configuration and test of XInput devices
 - ![](green.png) [xorg](https://packages.debian.org/trixie/xorg) `1:7.7+24+deb13u1` - X.Org X Window System
@@ -472,36 +472,36 @@
 - ![](grey.png) _[xserver-xorg-input-elographics](https://packages.debian.org/trixie/xserver-xorg-input-elographics) `1:1.4.4-1` - X.Org X server -- ELOGraphics input driver_
 #### Kernel/boot/init
 
-- ![](green.png) [linux-headers-amd64](https://packages.debian.org/trixie/linux-headers-amd64) `6.18.9-1~bpo13+1` - Header files for Linux amd64 configuration (meta-package)
+- ![](green.png) [linux-headers-amd64](https://packages.debian.org/trixie/linux-headers-amd64) `7.1.8-1~bpo13+1` - Linux for 64-bit PCs (module development meta-package)
 - ![](green.png) [module-assistant](https://packages.debian.org/trixie/module-assistant) `0.11.14` - tool to make module package creation easier
 - ![](green.png) [dkms](https://packages.debian.org/trixie/dkms) `3.2.2-1~deb13u1` - Dynamic Kernel Module System (DKMS)
 - ![](green.png) [build-essential](https://packages.debian.org/trixie/build-essential) `12.12` - Informational list of build-essential packages
-- ![](green.png) [systemd](https://packages.debian.org/trixie/systemd) `257.9-1~deb13u1` - system and service manager
+- ![](green.png) [systemd](https://packages.debian.org/trixie/systemd) `257.13-1~deb13u1` - system and service manager
 - ![](green.png) [os-prober](https://packages.debian.org/trixie/os-prober) `1.83` - utility to detect other OSes on a set of drives
-- ![](green.png) [initramfs-tools](https://packages.debian.org/trixie/initramfs-tools) `0.148.3` - generic modular initramfs generator (automation)
+- ![](green.png) [initramfs-tools](https://packages.debian.org/trixie/initramfs-tools) `0.148.4` - generic modular initramfs generator (automation)
 - ![](green.png) [console-setup](https://packages.debian.org/trixie/console-setup) `1.242~deb13u1` - console font and keymap setup program
 - ![](green.png) [user-setup](https://packages.debian.org/trixie/user-setup) `1.107` - Set up initial user and password
-- ![](green.png) [libpam-systemd](https://packages.debian.org/trixie/libpam-systemd) `257.9-1~deb13u1` - system and service manager - PAM module
+- ![](green.png) [libpam-systemd](https://packages.debian.org/trixie/libpam-systemd) `257.13-1~deb13u1` - system and service manager - PAM module
 - ![](grey.png) _[kexec-tools](https://packages.debian.org/trixie/kexec-tools) `1:2.0.29-2+b2` - tools to support fast kexec reboots_
 - ![](grey.png) _[kthresher](https://packages.debian.org/trixie/kthresher) `1.4.1-3` - Purge Unused Kernels_
 #### Firmwares
 
 - ![](green.png) [firmware-linux-free](https://packages.debian.org/trixie/firmware-linux-free) `20241210-2` - Binary firmware for various drivers in the Linux kernel
-- ![](green.png) [firmware-realtek](https://packages.debian.org/trixie/firmware-realtek) `20251111-1~bpo13+1` - Binary firmware for Realtek network and audio chips
+- ![](green.png) [firmware-realtek](https://packages.debian.org/trixie/firmware-realtek) `20260622-1~bpo13+1` - Binary firmware for Realtek network and audio chips
 - ![](green.png) [firmware-atheros](https://packages.debian.org/trixie/firmware-atheros) `20250410-2` - Binary firmware for Qualcomm Atheros wireless cards
 - ![](green.png) [firmware-b43-installer](https://packages.debian.org/trixie/firmware-b43-installer) `1:019-14` - firmware installer for the b43 driver
-- ![](green.png) [firmware-brcm80211](https://packages.debian.org/trixie/firmware-brcm80211) `20251111-1~bpo13+1` - Binary firmware for Broadcom/Cypress 802.11 wireless cards
-- ![](green.png) [firmware-ipw2x00](https://packages.debian.org/trixie/firmware-ipw2x00) `20251111-1~bpo13+1` - Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
-- ![](green.png) [firmware-iwlwifi](https://packages.debian.org/trixie/firmware-iwlwifi) `20251111-1~bpo13+1` - Binary firmware for Intel Wireless cards
+- ![](green.png) [firmware-brcm80211](https://packages.debian.org/trixie/firmware-brcm80211) `20260622-1~bpo13+1` - Binary firmware for Broadcom/Cypress 802.11 wireless cards
+- ![](green.png) [firmware-ipw2x00](https://packages.debian.org/trixie/firmware-ipw2x00) `20260622-1~bpo13+1` - Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+- ![](green.png) [firmware-iwlwifi](https://packages.debian.org/trixie/firmware-iwlwifi) `20260622-1~bpo13+1` - Binary firmware for Intel Wireless cards
 - ![](green.png) [amd64-microcode](https://packages.debian.org/trixie/amd64-microcode) `3.20250311.1` - Platform firmware and microcode for AMD CPUs and SoCs
 - ![](green.png) [intel-microcode](https://packages.debian.org/trixie/intel-microcode) `3.20251111.1~deb13u1` - Processor microcode firmware for Intel CPUs
 - ![](green.png) [broadcom-sta-dkms](https://packages.debian.org/trixie/broadcom-sta-dkms) `6.30.223.271-26` - dkms source for the Broadcom STA Wireless driver
 - ![](green.png) [broadcom-sta-source](https://packages.debian.org/trixie/broadcom-sta-source) `6.30.223.271-26` - Source for the Broadcom STA Wireless driver
 - ![](green.png) [broadcom-sta-common](https://packages.debian.org/trixie/broadcom-sta-common) `6.30.223.271-26` - Common files for the Broadcom STA Wireless driver
 - ![](grey.png) _[firmware-linux-nonfree](https://packages.debian.org/trixie/firmware-linux-nonfree) `20250410-2` - Binary firmware for various drivers in the Linux kernel (metapackage)_
-- ![](grey.png) _[firmware-misc-nonfree](https://packages.debian.org/trixie/firmware-misc-nonfree) `20251111-1~bpo13+1` - Binary firmware for various drivers in the Linux kernel_
-- ![](grey.png) _[firmware-amd-graphics](https://packages.debian.org/trixie/firmware-amd-graphics) `20251111-1~bpo13+1` - Binary firmware for AMD/ATI graphics and NPU chips_
-- ![](grey.png) _[firmware-intel-sound](https://packages.debian.org/trixie/firmware-intel-sound) `20251111-1~bpo13+1` - Binary firmware for Intel sound DSPs_
+- ![](grey.png) _[firmware-misc-nonfree](https://packages.debian.org/trixie/firmware-misc-nonfree) `20260622-1~bpo13+1` - Binary firmware for various drivers in the Linux kernel_
+- ![](grey.png) _[firmware-amd-graphics](https://packages.debian.org/trixie/firmware-amd-graphics) `20260622-1~bpo13+1` - Binary firmware for AMD/ATI graphics and NPU chips_
+- ![](grey.png) _[firmware-intel-sound](https://packages.debian.org/trixie/firmware-intel-sound) `20260622-1~bpo13+1` - Binary firmware for Intel sound DSPs_
 #### Hardware-specific packages
 
 - ![](grey.png) _[driverctl](https://packages.debian.org/trixie/driverctl) `0.115-2` - Device driver control utility for Linux_
@@ -509,6 +509,7 @@
 - ![](grey.png) _[mbpfan](https://packages.debian.org/trixie/mbpfan) `2.4.0-2.1` - fan control daemon for Apple Macbooks_
 - ![](grey.png) _[usbmuxd](https://packages.debian.org/trixie/usbmuxd) `1.1.1-6+deb13u1` - USB multiplexor daemon for iPhone and iPod Touch devices_
 - ![](grey.png) _[fprintd](https://packages.debian.org/trixie/fprintd) `1.94.5-2` - D-Bus daemon for fingerprint reader access_
+- ![](grey.png) _[piper](https://packages.debian.org/trixie/piper) `0.8-1` - GTK application to configure gaming devices_
 #### Live system components
 
 - ![](green.png) [live-boot](https://packages.debian.org/trixie/live-boot) `1:20250815~deb13u1` - Live System Boot Components
@@ -516,5 +517,5 @@
 - ![](green.png) [live-config-systemd](https://packages.debian.org/trixie/live-config-systemd) `11.0.5` - Live System Configuration Components (systemd backend)
 - ![](green.png) [user-setup](https://packages.debian.org/trixie/user-setup) `1.107` - Set up initial user and password
 - ![](green.png) [live-tools](https://packages.debian.org/trixie/live-tools) `1:20240525` - Live System Extra Components
-- ![](green.png) [eject](https://packages.debian.org/trixie/eject) `2.41-5` - ejects CDs and operates CD-Changers under Linux
+- ![](green.png) [eject](https://packages.debian.org/trixie/eject) `2.41.5-0+deb13u1` - ejects CDs and operates CD-Changers under Linux
 - ![](grey.png) _[installation-birthday](https://packages.debian.org/trixie/installation-birthday) `20` - Receive a message on system installation anniversary_

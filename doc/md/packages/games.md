@@ -6,7 +6,7 @@
 
 #### Games
 
-- ![](grey.png) _[lutris](https://packages.debian.org/trixie/lutris) `0.5.20` - video game preservation platform_
+- ![](grey.png) _[lutris](https://packages.debian.org/trixie/lutris) `0.5.22` - video game preservation platform_
 - ![](grey.png) _[cmatrix](https://packages.debian.org/trixie/cmatrix) `2.0-6` - simulates the display from "The Matrix"_
 - ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/trixie/cmatrix-xfont) `2.0-6` - X11 font for cmatrix_
 - ![](grey.png) _[play.it](https://packages.debian.org/trixie/play.it) `2.32.4-1` - Installer for DRM-free commercial games_
@@ -14,7 +14,7 @@
 - ![](grey.png) _[supertuxkart](https://packages.debian.org/trixie/supertuxkart) `1.4+dfsg-5+b1` - 3D arcade racer with a variety of characters, tracks, and modes to play_
 - ![](grey.png) _[hedgewars](https://packages.debian.org/trixie/hedgewars) `1.0.2-13` - Funny turn-based artillery game, featuring fighting hedgehogs!_
 - ![](grey.png) _[0ad](https://packages.debian.org/trixie/0ad) `0.27.0-2+b1` - Real-time strategy game of ancient warfare_
-- ![](grey.png) _[minetest](https://packages.debian.org/trixie/minetest) `5.10.0+dfsg-5` - transitional package_
+- ![](grey.png) _[minetest](https://packages.debian.org/trixie/minetest) `5.10.0+dfsg-5+deb13u1` - transitional package_
 - ![](grey.png) _[wesnoth](https://packages.debian.org/trixie/wesnoth) `1:1.18.5-1` - fantasy turn-based strategy game (metapackage)_
 - ![](grey.png) _[nexuiz](https://packages.debian.org/trixie/nexuiz) `2.5.2+dp-10` - Fast-paced 3D first-person shooter_
 - ![](grey.png) _[cube2](https://packages.debian.org/trixie/cube2) `0.0.20201227+dfsg-2` - 3D first-person shooter game engine_
@@ -63,7 +63,7 @@
 - ![](grey.png) _[hollywood](https://packages.debian.org/trixie/hollywood) `1.21-1.1` - fill your console with Hollywood melodrama technobabble_
 - ![](grey.png) _[wine64](https://packages.debian.org/trixie/wine64) `10.0~repack-6` - Windows API implementation - 64-bit binary loader_
 - ![](grey.png) _[wine32:i386](https://packages.debian.org/trixie/wine32:i386) `10.0~repack-6` - Windows API implementation - 32-bit binary loader_
-- ![](grey.png) _[libgl1-mesa-dri:i386](https://packages.debian.org/trixie/libgl1-mesa-dri:i386) `25.2.6-1~bpo13+1` - free implementation of the OpenGL API -- DRI modules_
+- ![](grey.png) _[libgl1-mesa-dri:i386](https://packages.debian.org/trixie/libgl1-mesa-dri:i386) `26.1.2-1~bpo13+1` - free implementation of the OpenGL API -- DRI modules_
 - ![](grey.png) _[playonlinux](https://packages.debian.org/trixie/playonlinux) `4.3.4-5` - front-end for Wine_
 - ![](grey.png) _[fonts-wine](https://packages.debian.org/trixie/fonts-wine) `10.0~repack-6` - Windows API implementation - fonts_
 - ![](grey.png) _[winetricks](https://packages.debian.org/trixie/winetricks) `20250102-1` - simple tool to work around common problems in Wine_
@@ -72,7 +72,7 @@
 #### Game console emulators
 
 - ![](grey.png) _[pcsxr](https://packages.debian.org/trixie/pcsxr) `1.9.94-7` - Sony PlayStation emulator_
-- ![](grey.png) _[pcsx2:i386](https://packages.debian.org/trixie/pcsx2:i386) `1.6.0+dfsg-3` - Playstation 2 emulator_
+- ![](grey.png) _[pcsx2:i386](https://packages.debian.org/trixie/pcsx2:i386) `1.6.0+dfsg-3+deb13u1` - Playstation 2 emulator_
 - ![](grey.png) _[desmume](https://packages.debian.org/trixie/desmume) `0.9.13-4` - Nintendo DS emulator_
 - ![](grey.png) _[mupen64plus-qt](https://packages.debian.org/trixie/mupen64plus-qt) `1.15-1+b3` - customizable launcher for Mupen64Plus_
 - ![](grey.png) _[mupen64plus-input-all](https://packages.debian.org/trixie/mupen64plus-input-all) `2.6.0+1` - plugin-based Nintendo 64 emulator, input plugins_

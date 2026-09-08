@@ -45,7 +45,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/3.0.4-3+deb13u6">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/3.0.4-3+deb13u10">
 
 **[gimp](https://packages.debian.org/trixie/gimp)** - GNU Image Manipulation Program
 
@@ -62,7 +62,7 @@
 -----------------------
 
 
-- ![](green.png) [gimp](https://packages.debian.org/trixie/gimp) `3.0.4-3+deb13u6` - GNU Image Manipulation Program
+- ![](green.png) [gimp](https://packages.debian.org/trixie/gimp) `3.0.4-3+deb13u10` - GNU Image Manipulation Program
 - ![](green.png) [gimp-data-extras](https://packages.debian.org/trixie/gimp-data-extras) `1:2.0.4-0.2` - Extra brushes and patterns for GIMP
 - ![](green.png) [gimp-texturize](https://packages.debian.org/trixie/gimp-texturize) `3.0+ds-1` - generates large textures from a small sample
 - ![](green.png) [create-resources](https://packages.debian.org/trixie/create-resources) `0.1.3-6` - shared resources for use by creative applications
@@ -81,6 +81,7 @@
 - ![](grey.png) _[pencil2d](https://packages.debian.org/trixie/pencil2d) `0.7.0-1` - Create hand-drawn animation using both bitmap and vector graphics_
 - ![](grey.png) _[dia](https://packages.debian.org/trixie/dia) `0.98+git20250126-2` - Diagram editor_
 - ![](grey.png) _[birdfont](https://packages.debian.org/trixie/birdfont) `2.33.6-1` - font editor that lets you create outline vector graphics and export fonts_
+- ![](grey.png) _[akira](https://packages.debian.org/trixie/akira) `0.0.16-2+b1` - user experience design tool_
 #### Drawing
 
 
@@ -172,12 +173,13 @@
 
 - ![](grey.png) _[librecad](https://packages.debian.org/trixie/librecad) `2.2.0.2-1+b1` - Computer-aided design (CAD) system_
 - ![](grey.png) _[kicad](https://packages.debian.org/trixie/kicad) `9.0.2+dfsg-1` - Electronic schematic and PCB design software_
-- ![](grey.png) _[freecad](https://packages.debian.org/trixie/freecad) `1.0.0+dfsg-8` - Extensible Open Source CAx program_
+- ![](grey.png) _[freecad](https://packages.debian.org/trixie/freecad) `1.0.0+dfsg-8+deb13u3` - Extensible Open Source CAx program_
 - ![](grey.png) _[qelectrotech](https://packages.debian.org/trixie/qelectrotech) `1:0.9-3` - Electric schematic editor_
 #### Video editors
 
 - ![](grey.png) _[openshot-qt](https://packages.debian.org/trixie/openshot-qt) `3.1.1+dfsg1-3` - create and edit videos and movies_
-- ![](grey.png) _[kdenlive](https://packages.debian.org/trixie/kdenlive) `24.12.3-2` - non-linear video editor_
+- ![](grey.png) _[kdenlive](https://packages.debian.org/trixie/kdenlive) `24.12.3-2+deb13u1` - non-linear video editor_
+- ![](grey.png) _[gnome-video-trimmer](https://packages.debian.org/trixie/gnome-video-trimmer) `25.03-3` - Simple GUI application for lossless cutting of video files_
 - ![](grey.png) _[devede](https://packages.debian.org/trixie/devede) `4.17.0-2` - simple application to create Video DVDs_
 - ![](grey.png) _[dvdauthor](https://packages.debian.org/trixie/dvdauthor) `0.7.2-3` - create DVD-Video file system_
 - ![](grey.png) _[imagination](https://packages.debian.org/trixie/imagination) `3.6-2+b1` - DVD slide show maker_
@@ -196,7 +198,7 @@
 - ![](grey.png) _[auto-editor](https://packages.debian.org/trixie/auto-editor) `26.3.1+ds-1` - Effort free video editing_
 #### Command-line image manipulation
 
-- ![](green.png) [imagemagick](https://packages.debian.org/trixie/imagemagick) `8:7.1.1.43+dfsg1-1+deb13u5` - image manipulation programs -- binaries
+- ![](green.png) [imagemagick](https://packages.debian.org/trixie/imagemagick) `8:7.1.1.43+dfsg1-1+deb13u11` - image manipulation programs -- binaries
 - ![](green.png) [optipng](https://packages.debian.org/trixie/optipng) `0.7.8+ds-1+b1` - advanced PNG (Portable Network Graphics) optimizer
 - ![](green.png) [jpegoptim](https://packages.debian.org/trixie/jpegoptim) `1.4.7-1` - utility to optimize jpeg files
 - ![](green.png) [exifprobe](https://packages.debian.org/trixie/exifprobe) `2.0.1+git20201230.eee65ff-2` - read metadata from digital pictures
@@ -214,5 +216,7 @@
 - ![](grey.png) _[chafa](https://packages.debian.org/trixie/chafa) `1.14.5-1` - Image-to-text converter supporting a wide range of symbols, etc._
 - ![](grey.png) _[lolcat](https://packages.debian.org/trixie/lolcat) `100.0.1-4` - colorful `cat`_
 - ![](grey.png) _[advancecomp](https://packages.debian.org/trixie/advancecomp) `2.5-1` - collection of recompression utilities_
-- ![](grey.png) _[caca-utils](https://packages.debian.org/trixie/caca-utils) `0.99.beta20-5` - text mode graphics utilities_
+- ![](grey.png) _[caca-utils](https://packages.debian.org/trixie/caca-utils) `0.99.beta20-5+deb13u1` - text mode graphics utilities_
 - ![](grey.png) _[timg](https://packages.debian.org/trixie/timg) `1.6.0-1+b1` - terminal image and video viewer_
+- ![](grey.png) _[chafa](https://packages.debian.org/trixie/chafa) `1.14.5-1` - Image-to-text converter supporting a wide range of symbols, etc._
+- ![](grey.png) _[python3-pybadges](https://packages.debian.org/trixie/python3-pybadges) `3.0.1-2` - library for creating Github-style badges (Python3 version)_

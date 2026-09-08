@@ -2,6 +2,11 @@
 
 ### nodiscc/debian-live-config
 
+- #178 - migrate readthedocs integration from github to codeberg? - **`-`** `documentation,question,tools`
+- #177 - Integrate systemd-manager-tui? - **`-`** `feature,question`
+- #176 - add podman container management tools? - **`-`** `feature`
+- #175 - replace vokoscreen with kooha? - **`5.1.0`** `enhancement,question`
+- #174 - makefile: install codespell from debian packages - **`-`** `easy,maintenance,tools`
 - #173 - firefox slow on google maps with user.js - **`-`** `performance`
 - #172 - xfce4-desktop default wallpaper is not always properly set - **`-`** `bug,upstream,UX`
 - #171 - /boot partition too small after install ? - **`-`** `bug,question`

@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/libreoffice/4:25.2.3-2+deb13u3">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/libreoffice/4:25.2.3-2+deb13u6">
 
 **[libreoffice](https://packages.debian.org/trixie/libreoffice)** - office productivity suite (metapackage)
 
@@ -22,19 +22,19 @@
 -----------------------
 
 
-- ![](green.png) [libreoffice-writer](https://packages.debian.org/trixie/libreoffice-writer) `4:25.2.3-2+deb13u3` - office productivity suite -- word processor
-- ![](green.png) [libreoffice-impress](https://packages.debian.org/trixie/libreoffice-impress) `4:25.2.3-2+deb13u3` - office productivity suite -- presentation
-- ![](green.png) [libreoffice-draw](https://packages.debian.org/trixie/libreoffice-draw) `4:25.2.3-2+deb13u3` - office productivity suite -- drawing
-- ![](green.png) [libreoffice-calc](https://packages.debian.org/trixie/libreoffice-calc) `4:25.2.3-2+deb13u3` - office productivity suite -- spreadsheet
-- ![](green.png) [libreoffice-gtk3](https://packages.debian.org/trixie/libreoffice-gtk3) `4:25.2.3-2+deb13u3` - office productivity suite -- GTK+ 3 integration
-- ![](green.png) [libreoffice-java-common](https://packages.debian.org/trixie/libreoffice-java-common) `4:25.2.3-2+deb13u3` - office productivity suite -- arch-independent Java support files
-- ![](green.png) [libreoffice-gnome](https://packages.debian.org/trixie/libreoffice-gnome) `4:25.2.3-2+deb13u3` - office productivity suite -- GNOME integration
+- ![](green.png) [libreoffice-writer](https://packages.debian.org/trixie/libreoffice-writer) `4:25.2.3-2+deb13u6` - office productivity suite -- word processor
+- ![](green.png) [libreoffice-impress](https://packages.debian.org/trixie/libreoffice-impress) `4:25.2.3-2+deb13u6` - office productivity suite -- presentation
+- ![](green.png) [libreoffice-draw](https://packages.debian.org/trixie/libreoffice-draw) `4:25.2.3-2+deb13u6` - office productivity suite -- drawing
+- ![](green.png) [libreoffice-calc](https://packages.debian.org/trixie/libreoffice-calc) `4:25.2.3-2+deb13u6` - office productivity suite -- spreadsheet
+- ![](green.png) [libreoffice-gtk3](https://packages.debian.org/trixie/libreoffice-gtk3) `4:25.2.3-2+deb13u6` - office productivity suite -- GTK+ 3 integration
+- ![](green.png) [libreoffice-java-common](https://packages.debian.org/trixie/libreoffice-java-common) `4:25.2.3-2+deb13u6` - office productivity suite -- arch-independent Java support files
+- ![](green.png) [libreoffice-gnome](https://packages.debian.org/trixie/libreoffice-gnome) `4:25.2.3-2+deb13u6` - office productivity suite -- GNOME integration
 - ![](green.png) [libwmf-bin](https://packages.debian.org/trixie/libwmf-bin) `0.2.13-1.1+b3` - Windows metafile conversion tools
 - ![](green.png) [hyphen-fr](https://packages.debian.org/trixie/hyphen-fr) `1:25.2.3-1` - French hyphenation patterns
-- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/trixie/libreoffice-l10n-fr) `4:25.2.3-2+deb13u3` - office productivity suite -- French language package
+- ![](green.png) [libreoffice-l10n-fr](https://packages.debian.org/trixie/libreoffice-l10n-fr) `4:25.2.3-2+deb13u6` - office productivity suite -- French language package
 - ![](green.png) [mythes-fr](https://packages.debian.org/trixie/mythes-fr) `1:25.2.3-1` - French Thesaurus for LibreOffice
-- ![](green.png) [libreoffice-help-fr](https://packages.debian.org/trixie/libreoffice-help-fr) `4:25.2.3-2+deb13u3` - office productivity suite -- French help
-- ![](grey.png) _[libreoffice-base](https://packages.debian.org/trixie/libreoffice-base) `4:25.2.3-2+deb13u3` - office productivity suite -- database_
+- ![](green.png) [libreoffice-help-fr](https://packages.debian.org/trixie/libreoffice-help-fr) `4:25.2.3-2+deb13u6` - office productivity suite -- French help
+- ![](grey.png) _[libreoffice-base](https://packages.debian.org/trixie/libreoffice-base) `4:25.2.3-2+deb13u6` - office productivity suite -- database_
 - ![](grey.png) _[abiword](https://packages.debian.org/trixie/abiword) `3.0.6~dfsg-1` - efficient, featureful word processor with collaboration_
 - ![](grey.png) _[calligraplan](https://packages.debian.org/trixie/calligraplan) `1:3.3.0-3` - integrated project management and planning tool_
 - ![](grey.png) _[calligrasheets](https://packages.debian.org/trixie/calligrasheets) `1:25.04.2+dfsg-1` - spreadsheet for the Calligra Suite_
@@ -48,18 +48,18 @@
 - ![](grey.png) _[karbon](https://packages.debian.org/trixie/karbon) `1:25.04.2+dfsg-1` - vector graphics application for the Calligra Suite_
 - ![](grey.png) _[key2odp](https://packages.debian.org/trixie/key2odp) `0.9.6-3` - Keynote to OpenDocument converter_
 - ![](grey.png) _[libreoffice-dmaths](https://packages.debian.org/trixie/libreoffice-dmaths) `4.4.0.0+dfsg1-3` - Formula editing plug-in for LibreOffice Writer_
-- ![](grey.png) _[libreoffice-math](https://packages.debian.org/trixie/libreoffice-math) `4:25.2.3-2+deb13u3` - office productivity suite -- equation editor_
-- ![](grey.png) _[libreoffice-librelogo](https://packages.debian.org/trixie/libreoffice-librelogo) `4:25.2.3-2+deb13u3` - Logo-like programming language for LibreOffice_
-- ![](grey.png) _[libreoffice-style-sifr](https://packages.debian.org/trixie/libreoffice-style-sifr) `4:25.2.3-2+deb13u3` - office productivity suite -- Sifr symbol style_
-- ![](grey.png) _[libreoffice-nlpsolver](https://packages.debian.org/trixie/libreoffice-nlpsolver) `4:0.9+LibO25.2.3-2+deb13u3` - "Solver for Nonlinear Programming" extension for LibreOffice_
-- ![](grey.png) _[libreoffice-report-builder](https://packages.debian.org/trixie/libreoffice-report-builder) `4:25.2.3-2+deb13u3` - LibreOffice component for building database reports_
-- ![](grey.png) _[libreoffice-script-provider-js](https://packages.debian.org/trixie/libreoffice-script-provider-js) `4:25.2.3-2+deb13u3` - JavaScript script support provider for LibreOffice scripting framework_
-- ![](grey.png) _[libreoffice-script-provider-python](https://packages.debian.org/trixie/libreoffice-script-provider-python) `4:25.2.3-2+deb13u3` - Python script support provider for LibreOffice scripting framework_
-- ![](grey.png) _[libreoffice-sdbc-postgresql](https://packages.debian.org/trixie/libreoffice-sdbc-postgresql) `4:25.2.3-2+deb13u3` - PostgreSQL SDBC driver for LibreOffice_
-- ![](grey.png) _[libreoffice-wiki-publisher](https://packages.debian.org/trixie/libreoffice-wiki-publisher) `4:1.2.0+LibO25.2.3-2+deb13u3` - LibreOffice extension for working with MediaWiki articles_
+- ![](grey.png) _[libreoffice-math](https://packages.debian.org/trixie/libreoffice-math) `4:25.2.3-2+deb13u6` - office productivity suite -- equation editor_
+- ![](grey.png) _[libreoffice-librelogo](https://packages.debian.org/trixie/libreoffice-librelogo) `4:25.2.3-2+deb13u6` - Logo-like programming language for LibreOffice_
+- ![](grey.png) _[libreoffice-style-sifr](https://packages.debian.org/trixie/libreoffice-style-sifr) `4:25.2.3-2+deb13u6` - office productivity suite -- Sifr symbol style_
+- ![](grey.png) _[libreoffice-nlpsolver](https://packages.debian.org/trixie/libreoffice-nlpsolver) `4:0.9+LibO25.2.3-2+deb13u6` - "Solver for Nonlinear Programming" extension for LibreOffice_
+- ![](grey.png) _[libreoffice-report-builder](https://packages.debian.org/trixie/libreoffice-report-builder) `4:25.2.3-2+deb13u6` - LibreOffice component for building database reports_
+- ![](grey.png) _[libreoffice-script-provider-js](https://packages.debian.org/trixie/libreoffice-script-provider-js) `4:25.2.3-2+deb13u6` - JavaScript script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-script-provider-python](https://packages.debian.org/trixie/libreoffice-script-provider-python) `4:25.2.3-2+deb13u6` - Python script support provider for LibreOffice scripting framework_
+- ![](grey.png) _[libreoffice-sdbc-postgresql](https://packages.debian.org/trixie/libreoffice-sdbc-postgresql) `4:25.2.3-2+deb13u6` - PostgreSQL SDBC driver for LibreOffice_
+- ![](grey.png) _[libreoffice-wiki-publisher](https://packages.debian.org/trixie/libreoffice-wiki-publisher) `4:1.2.0+LibO25.2.3-2+deb13u6` - LibreOffice extension for working with MediaWiki articles_
 - ![](grey.png) _[libreoffice-grammalecte](https://packages.debian.org/trixie/libreoffice-grammalecte) `2.1.2+ds2-3` - French spellchecker and grammar checker (LibreOffice extension)_
 - ![](grey.png) _[lyx](https://packages.debian.org/trixie/lyx) `2.4.3-1` - document processor_
-- ![](grey.png) _[python3-uno](https://packages.debian.org/trixie/python3-uno) `4:25.2.3-2+deb13u3` - Python-UNO bridge_
+- ![](grey.png) _[python3-uno](https://packages.debian.org/trixie/python3-uno) `4:25.2.3-2+deb13u6` - Python-UNO bridge_
 - ![](grey.png) _[retext](https://packages.debian.org/trixie/retext) `8.1.0-2` - Simple text editor for Markdown and reStructuredText_
 - ![](grey.png) _[scribus](https://packages.debian.org/trixie/scribus) `1.6.3+dfsg-0.2+b2` - Open Source Desktop Page Layout_
 - ![](grey.png) _[scribus-template](https://packages.debian.org/trixie/scribus-template) `1.2.4.1-7` - additional scribus templates_
@@ -100,7 +100,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/evince/48.1-3">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/evince/48.1-3+deb13u1">
 
 **[evince](https://packages.debian.org/trixie/evince)** - Document (PostScript, PDF) viewer
 
@@ -117,19 +117,19 @@
 -----------------------
 
 
-- ![](green.png) [evince](https://packages.debian.org/trixie/evince) `48.1-3` - Document (PostScript, PDF) viewer
-- ![](grey.png) _[mupdf](https://packages.debian.org/trixie/mupdf) `1.25.1+ds1-6` - lightweight PDF viewer_
+- ![](green.png) [evince](https://packages.debian.org/trixie/evince) `48.1-3+deb13u1` - Document (PostScript, PDF) viewer
+- ![](grey.png) _[mupdf](https://packages.debian.org/trixie/mupdf) `1.25.1+ds1-6+deb13u1` - lightweight PDF viewer_
 - ![](grey.png) _[apvlv](https://packages.debian.org/trixie/apvlv) `0.7.0-final-1` - PDF/EPUB/TXT/FB2/MOBI/CBZ/HTML ... viewer with Vim-like behaviour_
 - ![](grey.png) _[xpdf](https://packages.debian.org/trixie/xpdf) `3.04+git20250304-1+b1` - Motif-based PDF reader using the Poppler library_
-- ![](grey.png) _[calibre](https://packages.debian.org/trixie/calibre) `8.5.0+ds-1+deb13u1` - powerful and easy to use e-book manager_
+- ![](grey.png) _[calibre](https://packages.debian.org/trixie/calibre) `8.5.0+ds-1+deb13u3` - powerful and easy to use e-book manager_
 - ![](grey.png) _[zathura](https://packages.debian.org/trixie/zathura) `0.5.11-1` - document viewer with a minimalistic interface_
 - ![](grey.png) _[fbreader](https://packages.debian.org/trixie/fbreader) `0.99.4+dfsg-6` - e-book reader_
-- ![](grey.png) _[yelp](https://packages.debian.org/trixie/yelp) `42.2-4` - Help browser for GNOME_
+- ![](grey.png) _[yelp](https://packages.debian.org/trixie/yelp) `42.2-4+deb13u1` - Help browser for GNOME_
 - ![](grey.png) _[xchm](https://packages.debian.org/trixie/xchm) `2:1.37-1` - Compiled HTML Help (CHM) file viewer for X_
 - ![](grey.png) _[bookworm](https://packages.debian.org/trixie/bookworm) `1.1.2+git20210715-4+b1` - Simple, focused eBook Reader_
 #### E-book
 
-- ![](grey.png) _[calibre](https://packages.debian.org/trixie/calibre) `8.5.0+ds-1+deb13u1` - powerful and easy to use e-book manager_
+- ![](grey.png) _[calibre](https://packages.debian.org/trixie/calibre) `8.5.0+ds-1+deb13u3` - powerful and easy to use e-book manager_
 #### PDF editor/utilities
 
 
@@ -151,7 +151,7 @@
 
 - ![](green.png) [pdfchain](https://packages.debian.org/trixie/pdfchain) `1:0.4.4.2-2+b1` - graphical user interface for the PDF Tool Kit
 - ![](green.png) [pdfgrep](https://packages.debian.org/trixie/pdfgrep) `2.2.0-0.1+b2` - search in pdf files for strings matching a regular expression
-- ![](green.png) [poppler-utils](https://packages.debian.org/trixie/poppler-utils) `25.03.0-5+deb13u2` - PDF utilities (based on Poppler)
+- ![](green.png) [poppler-utils](https://packages.debian.org/trixie/poppler-utils) `25.03.0-5+deb13u4` - PDF utilities (based on Poppler)
 - ![](grey.png) _[qpdf](https://packages.debian.org/trixie/qpdf) `12.2.0-1` - tools for transforming and inspecting PDF files_
 - ![](grey.png) _[pdfcrack](https://packages.debian.org/trixie/pdfcrack) `0.20-1` - PDF files password cracker_
 - ![](grey.png) _[diffpdf](https://packages.debian.org/trixie/diffpdf) `2.1.3.1-2+b1` - compare two PDF files textually or visually_
@@ -207,7 +207,7 @@
 
 
 - ![](green.png) [simple-scan](https://packages.debian.org/trixie/simple-scan) `46.0-2` - Simple Scanning Utility
-- ![](green.png) [imagemagick](https://packages.debian.org/trixie/imagemagick) `8:7.1.1.43+dfsg1-1+deb13u5` - image manipulation programs -- binaries
+- ![](green.png) [imagemagick](https://packages.debian.org/trixie/imagemagick) `8:7.1.1.43+dfsg1-1+deb13u11` - image manipulation programs -- binaries
 - ![](green.png) [sane-utils](https://packages.debian.org/trixie/sane-utils) `1.3.1-3+b1` - API library for scanners -- utilities
 - ![](grey.png) _[scanbd](https://packages.debian.org/trixie/scanbd) `1.5.1-7+b1` - Scanner button daemon_
 - ![](grey.png) _[xsane](https://packages.debian.org/trixie/xsane) `0.999-12.2` - featureful graphical frontend for SANE (Scanner Access Now Easy)_
@@ -249,7 +249,7 @@
 - ![](green.png) [system-config-printer](https://packages.debian.org/trixie/system-config-printer) `1.5.18-4` - graphical interface to configure the printing system
 - ![](green.png) [system-config-printer-udev](https://packages.debian.org/trixie/system-config-printer-udev) `1.5.18-4` - Utilities to detect and configure printers automatically
 - ![](green.png) [cups-browsed](https://packages.debian.org/trixie/cups-browsed) `1.28.17-6+deb13u1` - OpenPrinting CUPS Filters - cups-browsed
-- ![](grey.png) _[hplip-gui](https://packages.debian.org/trixie/hplip-gui) `3.22.10+dfsg0-8.1` - HP Linux Printing and Imaging - GUI utilities (Qt-based)_
+- ![](grey.png) _[hplip-gui](https://packages.debian.org/trixie/hplip-gui) `3.22.10+dfsg0-8.1+deb13u1` - HP Linux Printing and Imaging - GUI utilities (Qt-based)_
 - ![](grey.png) _[colord](https://packages.debian.org/trixie/colord) `1.4.7-3` - system service to manage device colour profiles -- system daemon_
 #### Fonts
 
@@ -294,7 +294,7 @@
 - ![](green.png) [fonts-lobster](https://packages.debian.org/trixie/fonts-lobster) `2.0-2.1` - bold condensed script with many ligatures and alternates
 - ![](green.png) [fonts-lobstertwo](https://packages.debian.org/trixie/fonts-lobstertwo) `2.0-2.1` - updated and improved family version of the Lobster font
 - ![](green.png) [fonts-ocr-a](https://packages.debian.org/trixie/fonts-ocr-a) `1.0-11` - ANSI font readable by the computers of the 1960s
-- ![](green.png) [fonts-opensymbol](https://packages.debian.org/trixie/fonts-opensymbol) `4:102.12+LibO25.2.3-2+deb13u3` - OpenSymbol TrueType font
+- ![](green.png) [fonts-opensymbol](https://packages.debian.org/trixie/fonts-opensymbol) `4:102.12+LibO25.2.3-2+deb13u6` - OpenSymbol TrueType font
 - ![](green.png) [fonts-roboto](https://packages.debian.org/trixie/fonts-roboto) `2:0~20170802-4` - metapackage to pull in Roboto fonts
 - ![](green.png) [fonts-rufscript](https://packages.debian.org/trixie/fonts-rufscript) `010-6` - handwriting-based font for Latin characters
 - ![](green.png) [fonts-sil-andika](https://packages.debian.org/trixie/fonts-sil-andika) `6.200-1` - Font family designed for literacy use
@@ -323,3 +323,4 @@
 - ![](grey.png) _[fonts-train](https://packages.debian.org/trixie/fonts-train) `1.100-1` - gothic-style typeface made with an outer and inner line_
 - ![](grey.png) _[fonts-vollkorn](https://packages.debian.org/trixie/fonts-vollkorn) `4.105-3` - serif body text type_
 - ![](grey.png) _[fonts-yanone-kaffeesatz](https://packages.debian.org/trixie/fonts-yanone-kaffeesatz) `2.0+git20211102+ds-2` - Font in six weights, reminiscent of 1920s coffee house typography_
+- ![](grey.png) _[fonts-firacode](https://packages.debian.org/trixie/fonts-firacode) `6.2-2` - Monospaced font with programming ligatures_

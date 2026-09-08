@@ -22,9 +22,9 @@
 -----------------------
 
 
-- ![](green.png) [gvfs-backends](https://packages.debian.org/trixie/gvfs-backends) `1.57.2-2` - userspace virtual filesystem - backends
-- ![](green.png) [libglib2.0-bin](https://packages.debian.org/trixie/libglib2.0-bin) `2.84.4-3~deb13u2` - Programs for the GLib library
-- ![](green.png) [gvfs-fuse](https://packages.debian.org/trixie/gvfs-fuse) `1.57.2-2` - userspace virtual filesystem - fuse server
+- ![](green.png) [gvfs-backends](https://packages.debian.org/trixie/gvfs-backends) `1.57.2-2+deb13u1` - userspace virtual filesystem - backends
+- ![](green.png) [libglib2.0-bin](https://packages.debian.org/trixie/libglib2.0-bin) `2.84.4-3~deb13u3` - Programs for the GLib library
+- ![](green.png) [gvfs-fuse](https://packages.debian.org/trixie/gvfs-fuse) `1.57.2-2+deb13u1` - userspace virtual filesystem - fuse server
 - ![](green.png) [jdupes](https://packages.debian.org/trixie/jdupes) `1.30.0-2~bpo13+1` - identify and delete or link duplicate files
 - ![](green.png) [libgphoto2-l10n](https://packages.debian.org/trixie/libgphoto2-l10n) `2.5.31-4` - gphoto2 digital camera library - localized messages
 - ![](green.png) [libmtp-runtime](https://packages.debian.org/trixie/libmtp-runtime) `1.1.22-1` - Media Transfer Protocol (MTP) runtime tools
@@ -60,6 +60,8 @@
 - ![](grey.png) _[fd-find](https://packages.debian.org/trixie/fd-find) `10.2.0-1+b5` - Simple, fast and user-friendly alternative to find_
 - ![](grey.png) _[dupeguru](https://packages.debian.org/trixie/dupeguru) `4.3.1-4+b2` - GUI tool to find duplicate files in a system_
 - ![](grey.png) _[rdfind](https://packages.debian.org/trixie/rdfind) `1.6.0-1+b1` - find duplicate files utility_
+- ![](grey.png) _[nnn](https://packages.debian.org/trixie/nnn) `5.0-1` - Free, fast, friendly file manager_
+- ![](grey.png) _[httpdirfs](https://packages.debian.org/trixie/httpdirfs) `1.2.7-1` - filesystem client for HTTP directory listings_
 #### Desktop environment
 
 
@@ -99,6 +101,8 @@
 - ![](grey.png) _[zeitgeist](https://packages.debian.org/trixie/zeitgeist) `1.0.4-5` - event logging framework_
 - ![](grey.png) _[zeitgeist-datahub](https://packages.debian.org/trixie/zeitgeist-datahub) `1.0.4-5+b3` - event logging framework - passive logging daemon_
 - ![](grey.png) _[compton](https://packages.debian.org/trixie/compton) `1-3+b1` - compositor for X11, based on xcompmgr_
+- ![](grey.png) _[jgmenu](https://packages.debian.org/trixie/jgmenu) `4.5.0-1` - Simple X11 menu_
+- ![](grey.png) _[quickshell](https://packages.debian.org/trixie/quickshell) `0.3.0-1~bpo13+1` - flexible QtQuick-based desktop shell toolkit_
 #### Archive management
 
 
@@ -131,8 +135,8 @@
 - ![](green.png) [unalz](https://packages.debian.org/trixie/unalz) `0.65-9` - De-archiver for .alz files
 - ![](green.png) [unrar-free](https://packages.debian.org/trixie/unrar-free) `1:0.3.1-1` - Unarchiver for .rar files
 - ![](green.png) [rar](https://packages.debian.org/trixie/rar) `2:7.11-1` - Archiver for .rar files
-- ![](green.png) [unzip](https://packages.debian.org/trixie/unzip) `6.0-29` - De-archiver for .zip files
-- ![](green.png) [zip](https://packages.debian.org/trixie/zip) `3.0-15` - Archiver for .zip files
+- ![](green.png) [unzip](https://packages.debian.org/trixie/unzip) `6.0-29+deb13u1` - De-archiver for .zip files
+- ![](green.png) [zip](https://packages.debian.org/trixie/zip) `3.0-15+deb13u1` - Archiver for .zip files
 - ![](green.png) [iat](https://packages.debian.org/trixie/iat) `0.1.7-1` - Converts many CD-ROM image formats to iso9660
 - ![](green.png) [nrg2iso](https://packages.debian.org/trixie/nrg2iso) `0.4-4.2` - Extracts ISO9660 data from Nero ".nrg" files
 - ![](green.png) [gzrt](https://packages.debian.org/trixie/gzrt) `0.8-1+b1` - gzip recovery toolkit
@@ -166,7 +170,7 @@
 - ![](green.png) [seahorse](https://packages.debian.org/trixie/seahorse) `47.0.1-2` - GNOME front end for GnuPG
 - ![](green.png) [seahorse-daemon](https://packages.debian.org/trixie/seahorse-daemon) `3.12.2-8+b2` - Seahorse pass phrase caching agent
 - ![](green.png) [gnome-keyring](https://packages.debian.org/trixie/gnome-keyring) `48.0-1` - GNOME keyring services (daemon and tools)
-- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/trixie/ssh-askpass-gnome) `1:10.0p1-7` - interactive X program to prompt users for a passphrase for ssh-add
+- ![](green.png) [ssh-askpass-gnome](https://packages.debian.org/trixie/ssh-askpass-gnome) `1:10.0p1-7+deb13u4` - interactive X program to prompt users for a passphrase for ssh-add
 - ![](green.png) [libpam-gnome-keyring](https://packages.debian.org/trixie/libpam-gnome-keyring) `48.0-1` - PAM module to unlock the GNOME keyring upon login
 - ![](green.png) [gnupg](https://packages.debian.org/trixie/gnupg) `2.4.7-21+deb13u1` - GNU privacy guard - a free PGP replacement
 - ![](green.png) [gnupg2](https://packages.debian.org/trixie/gnupg2) `2.4.7-21+deb13u1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
@@ -207,7 +211,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/8.4-1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/8.4-1+deb13u1">
 
 **[nano](https://packages.debian.org/trixie/nano)** - small, friendly text editor inspired by Pico
 
@@ -222,7 +226,7 @@
 
 
 - ![](green.png) [mousepad](https://packages.debian.org/trixie/mousepad) `0.6.3-1` - simple Xfce oriented text editor
-- ![](green.png) [nano](https://packages.debian.org/trixie/nano) `8.4-1` - small, friendly text editor inspired by Pico
+- ![](green.png) [nano](https://packages.debian.org/trixie/nano) `8.4-1+deb13u1` - small, friendly text editor inspired by Pico
 - ![](green.png) [vim-tiny](https://packages.debian.org/trixie/vim-tiny) `2:9.1.1230-2` - Vi IMproved - enhanced vi editor - compact version
 - ![](grey.png) _[gnome-builder](https://packages.debian.org/trixie/gnome-builder) `48.0-2+b1` - IDE for GNOME_
 - ![](grey.png) _[vim](https://packages.debian.org/trixie/vim) `2:9.1.1230-2` - Vi IMproved - enhanced vi editor_
@@ -247,7 +251,7 @@
 - ![](grey.png) _[geoclue-2.0](https://packages.debian.org/trixie/geoclue-2.0) `2.7.2-2` - geoinformation service_
 - ![](grey.png) _[josm](https://packages.debian.org/trixie/josm) `0.0.svn19369+dfsg-2` - Editor for OpenStreetMap_
 - ![](grey.png) _[navit](https://packages.debian.org/trixie/navit) `0.5.6+dfsg.1-4` - Car navigation system with routing engine_
-- ![](grey.png) _[gpsd](https://packages.debian.org/trixie/gpsd) `3.25-5` - Global Positioning System - daemon_
+- ![](grey.png) _[gpsd](https://packages.debian.org/trixie/gpsd) `3.25-5+deb13u1` - Global Positioning System - daemon_
 - ![](grey.png) _[routino](https://packages.debian.org/trixie/routino) `3.4.3-1` - Set of tools to find a path between two points_
 - ![](grey.png) _[mkgmapgui](https://packages.debian.org/trixie/mkgmapgui) `1.1.ds-13` - Graphical User Interface for mkgmap_
 - ![](grey.png) _[mkgmap](https://packages.debian.org/trixie/mkgmap) `0.0.0+svn4923-2` - Generate Garmin maps from OpenStreetMap data_
@@ -323,7 +327,7 @@
 
 - ![](green.png) [gnome-calculator](https://packages.debian.org/trixie/gnome-calculator) `1:48.1-2+b1` - GNOME desktop calculator
 - ![](green.png) [bc](https://packages.debian.org/trixie/bc) `1.07.1-4` - GNU bc arbitrary precision calculator language
-- ![](green.png) [units](https://packages.debian.org/trixie/units) `2.24-1` - converts between different systems of units
+- ![](green.png) [units](https://packages.debian.org/trixie/units) `2.24-1+deb13u1` - converts between different systems of units
 - ![](grey.png) _[num-utils](https://packages.debian.org/trixie/num-utils) `0.5-15` - programs for dealing with numbers from the command line_
 #### Terminal emulators
 
@@ -428,7 +432,7 @@
 - ![](green.png) [acpi-support](https://packages.debian.org/trixie/acpi-support) `0.143-5.2` - scripts for handling many ACPI events
 - ![](green.png) [acpi-support-base](https://packages.debian.org/trixie/acpi-support-base) `0.143-5.2` - scripts for handling base ACPI events such as the power button
 - ![](green.png) [fancontrol](https://packages.debian.org/trixie/fancontrol) `1:3.6.2-2` - utility to control the fan speed
-- ![](green.png) [rfkill](https://packages.debian.org/trixie/rfkill) `2.41-5` - tool for enabling and disabling wireless devices
+- ![](green.png) [rfkill](https://packages.debian.org/trixie/rfkill) `2.41.5-0+deb13u1` - tool for enabling and disabling wireless devices
 - ![](green.png) [pm-utils](https://packages.debian.org/trixie/pm-utils) `1.4.1-21` - utilities and scripts for power management
 - ![](grey.png) _[bumblebee](https://packages.debian.org/trixie/bumblebee) `3.2.1-32` - NVIDIA Optimus support for Linux_
 - ![](grey.png) _[laptop-mode-tools](https://packages.debian.org/trixie/laptop-mode-tools) `1.74-1.4` - Tools for Power Savings based on battery/AC status_
@@ -468,7 +472,7 @@
 - ![](green.png) [gnome-themes-extra](https://packages.debian.org/trixie/gnome-themes-extra) `3.28-4` - Adwaita GTK 2 theme — engine
 - ![](green.png) [sound-theme-freedesktop](https://packages.debian.org/trixie/sound-theme-freedesktop) `0.8-6~deb13u1` - freedesktop.org sound theme
 - ![](green.png) [gnome-audio](https://packages.debian.org/trixie/gnome-audio) `2.22.2-1.2` - Audio files for GNOME
-- ![](green.png) [qt5-gtk-platformtheme](https://packages.debian.org/trixie/qt5-gtk-platformtheme) `5.15.15+dfsg-6` - Qt 5 GTK+ 3 platform theme
+- ![](green.png) [qt5-gtk-platformtheme](https://packages.debian.org/trixie/qt5-gtk-platformtheme) `5.15.15+dfsg-6+deb13u1` - Qt 5 GTK+ 3 platform theme
 - ![](grey.png) _[faenza-icon-theme](https://packages.debian.org/trixie/faenza-icon-theme) `1.3.1-4` - square shaped, colorful icons for desktops_
 - ![](grey.png) _[deepin-icon-theme](https://packages.debian.org/trixie/deepin-icon-theme) `2025.03.27-1` - Icon Theme for Deepin software and Deepin Desktop Environment_
 - ![](grey.png) _[paper-icon-theme](https://packages.debian.org/trixie/paper-icon-theme) `1.5.0+git20200312.aa3e8af-6` - simple and modern icon and cursor theme_
@@ -481,6 +485,7 @@
 
 - ![](grey.png) _[onboard](https://packages.debian.org/trixie/onboard) `1.4.1-10` - Simple On-screen Keyboard_
 - ![](grey.png) _[onboard-data](https://packages.debian.org/trixie/onboard-data) `1.4.1-10` - Language model files for the word suggestion feature of Onboard_
+- ![](grey.png) _[deskflow](https://packages.debian.org/trixie/deskflow) `1.22.0+dfsg-7` - Mouse and keyboard sharing utility_
 #### Other
 
 - ![](green.png) [libnotify-bin](https://packages.debian.org/trixie/libnotify-bin) `0.8.6-1` - sends desktop notifications to a notification daemon (Utilities)
@@ -501,3 +506,4 @@
 - ![](grey.png) _[randtype](https://packages.debian.org/trixie/randtype) `1.13-11.2` - semi-random text typer_
 - ![](grey.png) _[xdotool](https://packages.debian.org/trixie/xdotool) `1:3.20160805.1-5.1` - simulate (generate) X11 keyboard/mouse input events_
 - ![](grey.png) _[wtype](https://packages.debian.org/trixie/wtype) `0.4-3` - xdotool type for wayland_
+- ![](grey.png) _[bat](https://packages.debian.org/trixie/bat) `0.25.0-2+b2` - cat(1) clone with syntax highlighting and git integration_

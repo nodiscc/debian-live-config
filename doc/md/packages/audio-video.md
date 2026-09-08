@@ -103,9 +103,10 @@
 - ![](grey.png) _[mpc](https://packages.debian.org/trixie/mpc) `0.35-1+b1` - command-line tool to interface MPD_
 - ![](grey.png) _[moc](https://packages.debian.org/trixie/moc) `1:2.6.0~svn-r3005-6+b1` - ncurses based console audio player_
 - ![](grey.png) _[cmus](https://packages.debian.org/trixie/cmus) `2.12.0-1` - lightweight ncurses audio player_
+- ![](grey.png) _[cplay-ng](https://packages.debian.org/trixie/cplay-ng) `5.4.0-1` - simple curses audio player_
 - ![](grey.png) _[moc-ffmpeg-plugin](https://packages.debian.org/trixie/moc-ffmpeg-plugin) `1:2.6.0~svn-r3005-6+b1` - ncurses based console audio player - ffmpeg plugin_
-- ![](grey.png) _[mpg123](https://packages.debian.org/trixie/mpg123) `1.32.10-1` - MPEG layer 1/2/3 audio player_
-- ![](grey.png) _[beets](https://packages.debian.org/trixie/beets) `2.2.0-3` - music tagger and library organizer_
+- ![](grey.png) _[mpg123](https://packages.debian.org/trixie/mpg123) `1.32.10-1+deb13u1` - MPEG layer 1/2/3 audio player_
+- ![](grey.png) _[beets](https://packages.debian.org/trixie/beets) `2.2.0-3+deb13u1` - music tagger and library organizer_
 - ![](grey.png) _[easytag](https://packages.debian.org/trixie/easytag) `2.4.3-9+b1` - GTK+ editor for audio file tags_
 - ![](grey.png) _[puddletag](https://packages.debian.org/trixie/puddletag) `2.4.0-1` - simple, powerful audio tag editor_
 - ![](grey.png) _[eyed3](https://packages.debian.org/trixie/eyed3) `0.9.7-2` - Display and manipulate id3-tags on the command-line_
@@ -224,17 +225,17 @@
 
 
 - ![](green.png) [qwinff](https://packages.debian.org/trixie/qwinff) `0.2.1+git20201215-3` - GUI for FFmpeg
-- ![](green.png) [ffmpeg](https://packages.debian.org/trixie/ffmpeg) `7:7.1.3-0+deb13u1` - Tools for transcoding, streaming and playing of multimedia files
+- ![](green.png) [ffmpeg](https://packages.debian.org/trixie/ffmpeg) `7:7.1.5-0+deb13u1` - Tools for transcoding, streaming and playing of multimedia files
 - ![](green.png) [flac](https://packages.debian.org/trixie/flac) `1.5.0+ds-2` - Free Lossless Audio Codec - command line tools
-- ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/trixie/gstreamer1.0-alsa) `1.26.2-1` - GStreamer plugin for ALSA
-- ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/trixie/gstreamer1.0-libav) `1.26.2-1` - ffmpeg plugin for GStreamer
-- ![](green.png) [gstreamer1.0-plugins-bad](https://packages.debian.org/trixie/gstreamer1.0-plugins-bad) `1.26.2-3` - GStreamer plugins from the "bad" set
-- ![](green.png) [gstreamer1.0-plugins-base](https://packages.debian.org/trixie/gstreamer1.0-plugins-base) `1.26.2-1` - GStreamer plugins from the "base" set
-- ![](green.png) [gstreamer1.0-plugins-good](https://packages.debian.org/trixie/gstreamer1.0-plugins-good) `1.26.2-1` - GStreamer plugins from the "good" set
-- ![](green.png) [gstreamer1.0-plugins-ugly](https://packages.debian.org/trixie/gstreamer1.0-plugins-ugly) `1.26.3-4` - GStreamer plugins from the "ugly" set
-- ![](green.png) [gstreamer1.0-pulseaudio](https://packages.debian.org/trixie/gstreamer1.0-pulseaudio) `1.26.2-1` - GStreamer plugin for PulseAudio (transitional package)
+- ![](green.png) [gstreamer1.0-alsa](https://packages.debian.org/trixie/gstreamer1.0-alsa) `1.26.2-1+deb13u1` - GStreamer plugin for ALSA
+- ![](green.png) [gstreamer1.0-libav](https://packages.debian.org/trixie/gstreamer1.0-libav) `1.26.2-1+deb13u1` - ffmpeg plugin for GStreamer
+- ![](green.png) [gstreamer1.0-plugins-bad](https://packages.debian.org/trixie/gstreamer1.0-plugins-bad) `1.26.2-3+deb13u3` - GStreamer plugins from the "bad" set
+- ![](green.png) [gstreamer1.0-plugins-base](https://packages.debian.org/trixie/gstreamer1.0-plugins-base) `1.26.2-1+deb13u1` - GStreamer plugins from the "base" set
+- ![](green.png) [gstreamer1.0-plugins-good](https://packages.debian.org/trixie/gstreamer1.0-plugins-good) `1.26.2-1+deb13u2` - GStreamer plugins from the "good" set
+- ![](green.png) [gstreamer1.0-plugins-ugly](https://packages.debian.org/trixie/gstreamer1.0-plugins-ugly) `1.26.3-4+deb13u1` - GStreamer plugins from the "ugly" set
+- ![](green.png) [gstreamer1.0-pulseaudio](https://packages.debian.org/trixie/gstreamer1.0-pulseaudio) `1.26.2-1+deb13u2` - GStreamer plugin for PulseAudio (transitional package)
 - ![](green.png) [gstreamer1.0-tools](https://packages.debian.org/trixie/gstreamer1.0-tools) `1.26.2-2` - Tools for use with GStreamer
-- ![](green.png) [gstreamer1.0-x](https://packages.debian.org/trixie/gstreamer1.0-x) `1.26.2-1` - GStreamer plugins for X11 and Pango
+- ![](green.png) [gstreamer1.0-x](https://packages.debian.org/trixie/gstreamer1.0-x) `1.26.2-1+deb13u1` - GStreamer plugins for X11 and Pango
 - ![](green.png) [lame](https://packages.debian.org/trixie/lame) `3.100-6+b3` - MP3 encoding library (frontend)
 - ![](green.png) [libmp3lame0](https://packages.debian.org/trixie/libmp3lame0) `3.100-6+b3` - MP3 encoding library
 - ![](green.png) [libxvidcore4](https://packages.debian.org/trixie/libxvidcore4) `2:1.3.7-1+b2` - Open source MPEG-4 video codec (library)
@@ -254,7 +255,7 @@
 - ![](grey.png) _[minidisc-utils](https://packages.debian.org/trixie/minidisc-utils) `0.9.16-3+b1` - Command line utilities for MiniDisc access_
 - ![](grey.png) _[mat2](https://packages.debian.org/trixie/mat2) `0.13.5-1.2` - Metadata anonymisation toolkit v2_
 - ![](grey.png) _[metadata-cleaner](https://packages.debian.org/trixie/metadata-cleaner) `2.5.2+ds-1` - GTK app for viewing and cleaning metadata in files_
-- ![](grey.png) _[ffmpegfs](https://packages.debian.org/trixie/ffmpegfs) `2.17-1+b1` - Fuse Multi Media Filesystem_
+- ![](grey.png) _[ffmpegfs](https://packages.debian.org/trixie/ffmpegfs) `2.17-1+deb13u1` - Fuse Multi Media Filesystem_
 #### Audio CD extraction
 
 - ![](grey.png) _[asunder](https://packages.debian.org/trixie/asunder) `3.0.1+ds-1+b1` - Graphical audio CD ripper and encoder_
@@ -344,7 +345,9 @@
 - ![](grey.png) _[pasystray](https://packages.debian.org/trixie/pasystray) `0.8.2-1+b1` - PulseAudio controller for the system tray_
 - ![](grey.png) _[paprefs](https://packages.debian.org/trixie/paprefs) `1.2-1+b1` - PulseAudio Preferences_
 - ![](grey.png) _[pnmixer](https://packages.debian.org/trixie/pnmixer) `0.7.2-2` - Simple mixer application for system tray_
+- ![](grey.png) _[pulsemixer](https://packages.debian.org/trixie/pulsemixer) `1.5.1-1.1` - command-line mixer for PulseAudio with a curses interface_
 - ![](grey.png) _[pamix](https://packages.debian.org/trixie/pamix) `2.0-1` - Pulseaudio terminal mixer based in pavucontrol_
+- ![](grey.png) _[pamixer](https://packages.debian.org/trixie/pamixer) `1.6-1+b1` - pulseaudio command line mixer_
 - ![](grey.png) _[pulseaudio-equalizer](https://packages.debian.org/trixie/pulseaudio-equalizer) `17.0+dfsg1-2+b1` - Equalizer sink module for PulseAudio sound server_
 - ![](grey.png) _[libasound2-plugin-equal](https://packages.debian.org/trixie/libasound2-plugin-equal) `0.6-8+b4` - equalizer plugin for ALSA_
 - ![](grey.png) _[alsa-scarlett-gui](https://packages.debian.org/trixie/alsa-scarlett-gui) `0.5.1-1` - Gtk4 GUI for the Focusrite Scarlett/Clarett ALSA controls_

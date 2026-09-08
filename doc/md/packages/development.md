@@ -30,13 +30,13 @@
 - ![](grey.png) _[git-delete-merged-branches](https://packages.debian.org/trixie/git-delete-merged-branches) `7.5.0-1` - command-line tool to delete merged git branches_
 #### Shell & basic utilities
 
-- ![](green.png) [bash](https://packages.debian.org/trixie/bash) `5.2.37-2+b7` - GNU Bourne Again SHell
+- ![](green.png) [bash](https://packages.debian.org/trixie/bash) `5.2.37-2+b9` - GNU Bourne Again SHell
 - ![](green.png) [autojump](https://packages.debian.org/trixie/autojump) `22.5.1-1.1` - shell extension to jump to frequently used directories
 - ![](green.png) [bash-completion](https://packages.debian.org/trixie/bash-completion) `1:2.16.0-7` - programmable completion for the bash shell
 - ![](green.png) [pv](https://packages.debian.org/trixie/pv) `1.9.31-1` - Shell pipeline element to meter data passing through
-- ![](green.png) [sed](https://packages.debian.org/trixie/sed) `4.9-2` - GNU stream editor for filtering/transforming text
-- ![](green.png) [util-linux](https://packages.debian.org/trixie/util-linux) `2.41-5` - miscellaneous system utilities
-- ![](green.png) [util-linux-locales](https://packages.debian.org/trixie/util-linux-locales) `2.41-5` - locales files for util-linux
+- ![](green.png) [sed](https://packages.debian.org/trixie/sed) `4.9-2+deb13u1` - GNU stream editor for filtering/transforming text
+- ![](green.png) [util-linux](https://packages.debian.org/trixie/util-linux) `2.41.5-0+deb13u1` - miscellaneous system utilities
+- ![](green.png) [util-linux-locales](https://packages.debian.org/trixie/util-linux-locales) `2.41.5-0+deb13u1` - locales files for util-linux
 - ![](green.png) [whiptail](https://packages.debian.org/trixie/whiptail) `0.52.25-1` - Displays user-friendly dialog boxes from shell scripts
 - ![](green.png) [moreutils](https://packages.debian.org/trixie/moreutils) `0.69-1` - additional Unix utilities
 - ![](green.png) [less](https://packages.debian.org/trixie/less) `668-1` - pager program similar to more
@@ -67,11 +67,13 @@
 - ![](grey.png) _[delay](https://packages.debian.org/trixie/delay) `1.0-6` - Constant delay generator_
 - ![](grey.png) _[debian-faq](https://packages.debian.org/trixie/debian-faq) `12.2` - Debian Frequently Asked Questions_
 - ![](grey.png) _[doc-debian](https://packages.debian.org/trixie/doc-debian) `11.3+nmu1` - Debian Project documentation and other documents_
+- ![](grey.png) _[gum](https://packages.debian.org/trixie/gum) `0.14.4-1+b6` - Tool for glamorous shell scripts 🎀_
 #### Parsers/converters/documentation generators
 
-- ![](green.png) [jq](https://packages.debian.org/trixie/jq) `1.7.1-6+deb13u1` - lightweight and flexible command-line JSON processor
+- ![](green.png) [jq](https://packages.debian.org/trixie/jq) `1.7.1-6+deb13u3` - lightweight and flexible command-line JSON processor
 - ![](green.png) [groff](https://packages.debian.org/trixie/groff) `1.23.0-9` - GNU troff text-formatting system
 - ![](green.png) [dos2unix](https://packages.debian.org/trixie/dos2unix) `7.5.2-1` - convert text file line endings between CRLF and LF
+- ![](grey.png) _[glow](https://packages.debian.org/trixie/glow) `2.0.0-1+b5` - Render Markdown on the command-line_
 - ![](grey.png) _[aha](https://packages.debian.org/trixie/aha) `0.5.1-3` - ANSI color to HTML converter_
 - ![](grey.png) _[xmlstarlet](https://packages.debian.org/trixie/xmlstarlet) `1.6.1-4` - command line XML toolkit_
 - ![](grey.png) _[pandoc](https://packages.debian.org/trixie/pandoc) `3.1.11.1+ds-2` - general markup converter_
@@ -87,6 +89,8 @@
 - ![](grey.png) _[reserialize](https://packages.debian.org/trixie/reserialize) `20220929-2` - convert between YAML, JSON, TOML and BSON_
 - ![](grey.png) _[yq](https://packages.debian.org/trixie/yq) `3.4.3-2` - Command-line YAML processor - jq wrapper for YAML documents_
 - ![](grey.png) _[markdownlint](https://packages.debian.org/trixie/markdownlint) `0.13.0-4` - Markdown lint tool_
+- ![](grey.png) _[jc](https://packages.debian.org/trixie/jc) `1.25.4-1` - JSON CLI output utility_
+- ![](grey.png) _[python3-yamale](https://packages.debian.org/trixie/python3-yamale) `6.0.0.1-1` - schema and validator for YAML_
 #### Packaging
 
 - ![](green.png) [build-essential](https://packages.debian.org/trixie/build-essential) `12.12` - Informational list of build-essential packages
@@ -156,14 +160,15 @@
 
 - ![](grey.png) _[csstidy](https://packages.debian.org/trixie/csstidy) `1.4-8` - CSS parser and optimiser_
 - ![](grey.png) _[vera](https://packages.debian.org/trixie/vera) `1.24-1` - Dictionary of computer related acronyms -- info format_
-- ![](grey.png) _[nodejs](https://packages.debian.org/trixie/nodejs) `20.19.2+dfsg-1` - evented I/O for V8 javascript - runtime executable_
+- ![](grey.png) _[nodejs](https://packages.debian.org/trixie/nodejs) `20.19.2+dfsg-1+deb13u2` - evented I/O for V8 javascript - runtime executable_
 - ![](grey.png) _[npm](https://packages.debian.org/trixie/npm) `9.2.0~ds1-3` - package manager for Node.js_
 - ![](grey.png) _[jsbeautifier](https://packages.debian.org/trixie/jsbeautifier) `1.15.3-1` - JavaScript unobfuscator and beautifier_
 - ![](grey.png) _[yarnpkg](https://packages.debian.org/trixie/yarnpkg) `4.1.0+dfsg-1` - Fast, reliable, and secure dependency management_
 #### Databases
 
-- ![](grey.png) _[sqlite3](https://packages.debian.org/trixie/sqlite3) `3.46.1-7` - Command line interface for SQLite 3_
+- ![](grey.png) _[sqlite3](https://packages.debian.org/trixie/sqlite3) `3.46.1-7+deb13u1` - Command line interface for SQLite 3_
 - ![](grey.png) _[sqlfluff](https://packages.debian.org/trixie/sqlfluff) `3.3.1-1` - SQL linter tool_
+- ![](grey.png) _[sqlitebrowser](https://packages.debian.org/trixie/sqlitebrowser) `3.13.0-1+b1` - GUI editor for SQLite databases_
 #### PHP
 
 - ![](grey.png) _[php-cli](https://packages.debian.org/trixie/php-cli) `2:8.4+96` - command-line interpreter for the PHP scripting language (default)_

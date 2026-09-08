@@ -9,7 +9,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/140.8.0esr-1~deb13u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/140.15.0esr-1~deb13u1">
 
 **[firefox-esr](https://packages.debian.org/trixie/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
 
@@ -22,12 +22,12 @@
 -----------------------
 
 
-- ![](green.png) [firefox-esr](https://packages.debian.org/trixie/firefox-esr) `140.8.0esr-1~deb13u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
-- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/trixie/firefox-esr-l10n-fr) `140.8.0esr-1~deb13u1` - French language package for Firefox ESR
+- ![](green.png) [firefox-esr](https://packages.debian.org/trixie/firefox-esr) `140.15.0esr-1~deb13u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
+- ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/trixie/firefox-esr-l10n-fr) `140.15.0esr-1~deb13u1` - French language package for Firefox ESR
 - ![](green.png) [webext-ublock-origin-firefox](https://packages.debian.org/trixie/webext-ublock-origin-firefox) `1.67.0+dfsg-1~deb13u1` - lightweight and efficient ads, malware, trackers blocker (Firefox)
 - ![](green.png) [webext-keepassxc-browser](https://packages.debian.org/trixie/webext-keepassxc-browser) `1.9.7+repack1-1+deb13u1` - Web browser extension to organize web site credentials in KeePassXC
 - ![](grey.png) _[luakit](https://packages.debian.org/trixie/luakit) `1:2.4.0-1` - fast and small web browser extensible by Lua_
-- ![](grey.png) _[chromium](https://packages.debian.org/trixie/chromium) `145.0.7632.116-1~deb13u1` - web browser_
+- ![](grey.png) _[chromium](https://packages.debian.org/trixie/chromium) `152.0.7977.82-1~deb13u1` - web browser_
 - ![](grey.png) _[nss-passwords](https://packages.debian.org/trixie/nss-passwords) `0.6-1` - read passwords from a Mozilla keyring_
 - ![](grey.png) _[w3m](https://packages.debian.org/trixie/w3m) `0.5.3+git20230121-2.1` - WWW browsable pager with excellent tables/frames support_
 - ![](grey.png) _[links2](https://packages.debian.org/trixie/links2) `2.29-2+b3` - Web browser running in both graphics and text mode_
@@ -57,7 +57,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/mumble/1.5.735-5">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/mumble/1.5.735-5+deb13u1">
 
 **[mumble](https://packages.debian.org/trixie/mumble)** - Low latency encrypted VoIP client
 
@@ -76,13 +76,13 @@
 -----------------------
 
 
-- ![](green.png) [mumble](https://packages.debian.org/trixie/mumble) `1.5.735-5` - Low latency encrypted VoIP client
+- ![](green.png) [mumble](https://packages.debian.org/trixie/mumble) `1.5.735-5+deb13u1` - Low latency encrypted VoIP client
 #### Mail clients
 
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:140.8.0esr-1~deb13u1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:140.15.0esr-1~deb13u1">
 
 **[thunderbird](https://packages.debian.org/trixie/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
 
@@ -100,13 +100,13 @@
 -----------------------
 
 
-- ![](green.png) [thunderbird](https://packages.debian.org/trixie/thunderbird) `1:140.8.0esr-1~deb13u1` - mail/news client with RSS, chat and integrated spam filter support
-- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/trixie/thunderbird-l10n-fr) `1:140.8.0esr-1~deb13u1` - French language package for Thunderbird
+- ![](green.png) [thunderbird](https://packages.debian.org/trixie/thunderbird) `1:140.15.0esr-1~deb13u1` - mail/news client with RSS, chat and integrated spam filter support
+- ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/trixie/thunderbird-l10n-fr) `1:140.15.0esr-1~deb13u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/trixie/geary) `46.0-7` - lightweight email client designed for the GNOME desktop_
 - ![](grey.png) _[claws-mail](https://packages.debian.org/trixie/claws-mail) `4.3.1-1` - Fast, lightweight and user-friendly GTK based email client_
 - ![](grey.png) _[claws-mail-plugins](https://packages.debian.org/trixie/claws-mail-plugins) `4.3.1-1` - Installs plugins for the Claws Mail mailer_
 - ![](grey.png) _[mailnag](https://packages.debian.org/trixie/mailnag) `2.2.0-3` - extensible mail notification daemon_
-- ![](grey.png) _[mutt](https://packages.debian.org/trixie/mutt) `2.2.13-1` - text-based mailreader supporting MIME, GPG, PGP and threading_
+- ![](grey.png) _[mutt](https://packages.debian.org/trixie/mutt) `2.2.13-1+deb13u1` - text-based mailreader supporting MIME, GPG, PGP and threading_
 - ![](grey.png) _[alpine](https://packages.debian.org/trixie/alpine) `2.26+dfsg-3` - Text-based email client, friendly for novices but powerful_
 - ![](grey.png) _[getmail6](https://packages.debian.org/trixie/getmail6) `6.19.07-1` - mail retriever with support for POP3, IMAP4 and SDPS_
 - ![](grey.png) _[evolution](https://packages.debian.org/trixie/evolution) `3.56.2-0+deb13u1` - groupware suite with mail client and organizer_
@@ -114,7 +114,7 @@
 - ![](grey.png) _[offlineimap](https://packages.debian.org/trixie/offlineimap) `7.3.3+dfsg1-1+0.0~git20240826.db34745+dfsg-2` - transitional package_
 #### File transfer and synchronization
 
-- ![](green.png) [rsync](https://packages.debian.org/trixie/rsync) `3.4.1+ds1-5+deb13u1` - fast, versatile, remote (and local) file-copying tool
+- ![](green.png) [rsync](https://packages.debian.org/trixie/rsync) `3.4.1+ds1-5+deb13u4` - fast, versatile, remote (and local) file-copying tool
 - ![](grey.png) _[nextcloud-desktop](https://packages.debian.org/trixie/nextcloud-desktop) `3.16.7-1~deb13u1` - Nextcloud folder synchronization tool_
 - ![](grey.png) _[nextcloud-desktop-cmd](https://packages.debian.org/trixie/nextcloud-desktop-cmd) `3.16.7-1~deb13u1` - folder synchronization with an Nextcloud server - cmd client_
 - ![](grey.png) _[lftp](https://packages.debian.org/trixie/lftp) `4.9.2-3+b1` - Sophisticated command-line FTP/HTTP/BitTorrent client programs_
@@ -161,7 +161,6 @@
 - ![](grey.png) _[transmission-daemon](https://packages.debian.org/trixie/transmission-daemon) `4.1.0~beta2+dfsg-3+deb13u1` - lightweight BitTorrent client (daemon)_
 - ![](grey.png) _[transmission-remote-gtk](https://packages.debian.org/trixie/transmission-remote-gtk) `1.5.1-1+b1` - GTK+ interface for the Transmission BitTorrent daemon_
 - ![](grey.png) _[uget](https://packages.debian.org/trixie/uget) `2.2.3-2+b3` - easy-to-use download manager written in GTK+_
-- ![](grey.png) _[aria2](https://packages.debian.org/trixie/aria2) `1.37.0+debian-3` - High speed download utility_
 - ![](grey.png) _[rtorrent](https://packages.debian.org/trixie/rtorrent) `0.9.8-1.1` - ncurses BitTorrent client based on LibTorrent from rakshasa_
 - ![](grey.png) _[btfs](https://packages.debian.org/trixie/btfs) `2.24-1+b3` - access torrent files as a filesystem_
 - ![](grey.png) _[nicotine](https://packages.debian.org/trixie/nicotine) `3.3.10-1` - graphical client for the Soulseek peer-to-peer network_
@@ -170,21 +169,18 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2026.02.21-1~bpo13+1">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2026.08.19">
 
-**[yt-dlp](https://packages.debian.org/trixie/yt-dlp)** - downloader of videos from YouTube and other sites
+**[yt-dlp](https://packages.debian.org/trixie/yt-dlp)** - download videos from youtube.com or other video platforms. yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project
 
 
- yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
- The main focus of this project is adding new features and patches
- while also keeping up to date with the original project.
 
 <sub>
 
 -----------------------
 
 
-- ![](green.png) [yt-dlp](https://packages.debian.org/trixie/yt-dlp) `2026.02.21-1~bpo13+1` - downloader of videos from YouTube and other sites
+- ![](green.png) [yt-dlp](https://packages.debian.org/trixie/yt-dlp) `2026.08.19` - download videos from youtube.com or other video platforms. yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project
 - ![](grey.png) _[streamlink](https://packages.debian.org/trixie/streamlink) `7.3.0-2` - CLI for extracting video streams from various websites to a video player_
 #### Downloaders/web crawlers
 
@@ -207,7 +203,7 @@
 -----------------------
 
 
-- ![](green.png) [curl](https://packages.debian.org/trixie/curl) `8.14.1-2+deb13u2` - command line tool for transferring data with URL syntax
+- ![](green.png) [curl](https://packages.debian.org/trixie/curl) `8.14.1-2+deb13u4` - command line tool for transferring data with URL syntax
 - ![](green.png) [wget](https://packages.debian.org/trixie/wget) `1.25.0-2` - retrieves files from the web
 - ![](grey.png) _[kiwix](https://packages.debian.org/trixie/kiwix) `2.4.1-1.1+b1` - offline Wikipedia reader_
 - ![](grey.png) _[kiwix-tools](https://packages.debian.org/trixie/kiwix-tools) `3.7.0-1.1` - collection of Kiwix tools_
@@ -216,6 +212,8 @@
 - ![](grey.png) _[httrack](https://packages.debian.org/trixie/httrack) `3.49.6-1` - Copy websites to your computer (Offline browser)_
 - ![](grey.png) _[axel](https://packages.debian.org/trixie/axel) `2.17.14-2` - light command line download accelerator_
 - ![](grey.png) _[wike](https://packages.debian.org/trixie/wike) `3.1.1-1+deb13u1` - Wikipedia reader for the GNOME Desktop_
+- ![](grey.png) _[urlwatch](https://packages.debian.org/trixie/urlwatch) `2.29-1` - monitors webpages for you_
+- ![](grey.png) _[trurl](https://packages.debian.org/trixie/trurl) `0.16.1-1` - command line tool for URL parsing and manipulation_
 #### Feed readers
 
 - ![](grey.png) _[liferea](https://packages.debian.org/trixie/liferea) `1.15.8-2+b1` - feed/news/podcast client with plugin support_
@@ -225,9 +223,9 @@
 - ![](grey.png) _[rss2email](https://packages.debian.org/trixie/rss2email) `1:3.14-1` - receive RSS feeds by email_
 #### LAN file sharing
 
-- ![](grey.png) _[samba](https://packages.debian.org/trixie/samba) `2:4.22.6+dfsg-0+deb13u1` - SMB/CIFS file, print, and login server for Unix_
-- ![](grey.png) _[samba-vfs-modules](https://packages.debian.org/trixie/samba-vfs-modules) `2:4.22.6+dfsg-0+deb13u1` - Samba Virtual FileSystem plugins (transitional package)_
-- ![](grey.png) _[smbclient](https://packages.debian.org/trixie/smbclient) `2:4.22.6+dfsg-0+deb13u1` - command-line SMB/CIFS clients for Unix_
+- ![](grey.png) _[samba](https://packages.debian.org/trixie/samba) `2:4.22.10+dfsg-0+deb13u2` - SMB/CIFS file, print, and login server for Unix_
+- ![](grey.png) _[samba-vfs-modules](https://packages.debian.org/trixie/samba-vfs-modules) `2:4.22.10+dfsg-0+deb13u2` - Samba Virtual FileSystem plugins (transitional package)_
+- ![](grey.png) _[smbclient](https://packages.debian.org/trixie/smbclient) `2:4.22.10+dfsg-0+deb13u2` - command-line SMB/CIFS clients for Unix_
 - ![](grey.png) _[servefile](https://packages.debian.org/trixie/servefile) `0.5.4-3.2` - serve or receive files from shell via a small HTTP server_
 #### Network management
 
@@ -254,7 +252,7 @@
 - ![](green.png) [network-manager-applet](https://packages.debian.org/trixie/network-manager-applet) `1.36.0-3+b1` - network management framework (notification area applet)
 - ![](green.png) [network-manager-openvpn-gnome](https://packages.debian.org/trixie/network-manager-openvpn-gnome) `1.12.3-1~deb13u1` - network management framework (OpenVPN plugin GNOME GUI)
 - ![](green.png) [wireguard](https://packages.debian.org/trixie/wireguard) `1.0.20210914-3` - fast, modern, secure kernel VPN tunnel (metapackage)
-- ![](green.png) [dnsmasq-base](https://packages.debian.org/trixie/dnsmasq-base) `2.91-1` - Small caching DNS proxy and DHCP/TFTP server - executable
+- ![](green.png) [dnsmasq-base](https://packages.debian.org/trixie/dnsmasq-base) `2.91-1+deb13u1` - Small caching DNS proxy and DHCP/TFTP server - executable
 - ![](green.png) [hostname](https://packages.debian.org/trixie/hostname) `3.25` - utility to set/show the host name or domain name
 - ![](green.png) [bridge-utils](https://packages.debian.org/trixie/bridge-utils) `1.7.1-4+b1` - Utilities for configuring the Linux Ethernet bridge
 - ![](green.png) [ethtool](https://packages.debian.org/trixie/ethtool) `1:6.14.2-1` - display or change Ethernet device settings
@@ -271,6 +269,8 @@
 - ![](grey.png) _[avahi-dnsconfd](https://packages.debian.org/trixie/avahi-dnsconfd) `0.8-16` - Avahi DNS configuration tool_
 - ![](grey.png) _[avahi-discover](https://packages.debian.org/trixie/avahi-discover) `0.8-16` - Service discover user interface for avahi_
 - ![](grey.png) _[avahi-ui-utils](https://packages.debian.org/trixie/avahi-ui-utils) `0.8-16` - Avahi GTK+ utilities_
+- ![](grey.png) _[ddclient](https://packages.debian.org/trixie/ddclient) `3.11.2-2` - address updating utility for dynamic DNS services_
+- ![](grey.png) _[inadyn](https://packages.debian.org/trixie/inadyn) `2.11.0-1+b1` - simple and small dynamic DNS client with HTTPS support_
 #### Cellphone and modem support
 
 - ![](grey.png) _[modemmanager](https://packages.debian.org/trixie/modemmanager) `1.24.0-1+deb13u1` - D-Bus service for managing modems_
@@ -300,7 +300,7 @@
 - ![](green.png) [blueman](https://packages.debian.org/trixie/blueman) `2.4.4-1` - Graphical bluetooth manager
 - ![](green.png) [bluetooth](https://packages.debian.org/trixie/bluetooth) `5.82-1.1` - Bluetooth support (metapackage)
 - ![](green.png) [blueman](https://packages.debian.org/trixie/blueman) `2.4.4-1` - Graphical bluetooth manager
-- ![](green.png) [wireless-regdb](https://packages.debian.org/trixie/wireless-regdb) `2025.07.10-1` - wireless regulatory database for Linux
+- ![](green.png) [wireless-regdb](https://packages.debian.org/trixie/wireless-regdb) `2026.05.30-1~deb13u1` - wireless regulatory database for Linux
 - ![](grey.png) _[gnome-user-share](https://packages.debian.org/trixie/gnome-user-share) `48.0-1` - User level public file sharing via WebDAV_
 - ![](grey.png) _[ganyremote](https://packages.debian.org/trixie/ganyremote) `8.1.1-2` - GTK+ frontend for anyRemote_
 - ![](grey.png) _[hostapd](https://packages.debian.org/trixie/hostapd) `2:2.10-24` - access point and authentication server for Wi-Fi and Ethernet_
@@ -363,8 +363,8 @@
 
 - ![](green.png) [gnome-nettool](https://packages.debian.org/trixie/gnome-nettool) `42.0-2.1` - network information tool for GNOME
 - ![](green.png) [traceroute](https://packages.debian.org/trixie/traceroute) `1:2.1.6-1` - Traces the route taken by packets over an IPv4/IPv6 network
-- ![](green.png) [bind9-dnsutils](https://packages.debian.org/trixie/bind9-dnsutils) `1:9.20.18-1~deb13u1` - Clients provided with BIND 9
-- ![](grey.png) _[dnsmasq](https://packages.debian.org/trixie/dnsmasq) `2.91-1` - Small caching DNS proxy and DHCP/TFTP server - system daemon_
+- ![](green.png) [bind9-dnsutils](https://packages.debian.org/trixie/bind9-dnsutils) `1:9.20.26-1~deb13u1` - Clients provided with BIND 9
+- ![](grey.png) _[dnsmasq](https://packages.debian.org/trixie/dnsmasq) `2.91-1+deb13u1` - Small caching DNS proxy and DHCP/TFTP server - system daemon_
 - ![](grey.png) _[dns-root-data](https://packages.debian.org/trixie/dns-root-data) `2025080400~deb13u1` - DNS root hints and DNSSEC trust anchor_
 - ![](grey.png) _[arpwatch](https://packages.debian.org/trixie/arpwatch) `2.1a15-9` - Ethernet/FDDI station activity monitor_
 - ![](grey.png) _[bwm-ng](https://packages.debian.org/trixie/bwm-ng) `0.6.3-2+b1` - small and simple console-based bandwidth monitor_
@@ -408,11 +408,11 @@
 - ![](grey.png) _[tcptrack](https://packages.debian.org/trixie/tcptrack) `1.4.3-2` - TCP connection tracker, with states and speeds_
 - ![](grey.png) _[thc-ipv6](https://packages.debian.org/trixie/thc-ipv6) `3.8-1+b2` - The Hacker Choice's IPv6 Attack Toolkit_
 - ![](grey.png) _[trickle](https://packages.debian.org/trixie/trickle) `1.08+ds-1.1` - user-space bandwidth shaper_
-- ![](grey.png) _[tshark](https://packages.debian.org/trixie/tshark) `4.4.13-0+deb13u1` - network traffic analyzer - console version_
-- ![](grey.png) _[usbip](https://packages.debian.org/trixie/usbip) `2.0+6.12.73-1` - USB device sharing system over IP network_
+- ![](grey.png) _[tshark](https://packages.debian.org/trixie/tshark) `4.4.18-0+deb13u1` - network traffic analyzer - console version_
+- ![](grey.png) _[usbip](https://packages.debian.org/trixie/usbip) `2.0+6.12.107-1` - USB device sharing system over IP network_
 - ![](grey.png) _[vnstat](https://packages.debian.org/trixie/vnstat) `2.13-1` - console-based network traffic monitor_
 - ![](grey.png) _[vnstati](https://packages.debian.org/trixie/vnstati) `2.13-1` - image output support for vnStat_
-- ![](grey.png) _[wireshark](https://packages.debian.org/trixie/wireshark) `4.4.13-0+deb13u1` - network traffic analyzer - graphical interface_
+- ![](grey.png) _[wireshark](https://packages.debian.org/trixie/wireshark) `4.4.18-0+deb13u1` - network traffic analyzer - graphical interface_
 - ![](grey.png) _[termshark](https://packages.debian.org/trixie/termshark) `2.4.0-2+b8` - Terminal UI for tshark, inspired by Wireshark_
 - ![](grey.png) _[fierce](https://packages.debian.org/trixie/fierce) `1.6.0-1` - Domain DNS scanner_
 - ![](grey.png) _[sslscan](https://packages.debian.org/trixie/sslscan) `2.1.5-1` - Tests SSL/TLS enabled services to discover supported cipher suites_
@@ -423,16 +423,16 @@
 #### SSH
 
 - ![](grey.png) _[sshuttle](https://packages.debian.org/trixie/sshuttle) `1.3.1-1` - Transparent proxy server for VPN over SSH_
-- ![](grey.png) _[sshfs](https://packages.debian.org/trixie/sshfs) `3.7.3-1.1+b2` - filesystem client based on SSH File Transfer Protocol_
+- ![](grey.png) _[sshfs](https://packages.debian.org/trixie/sshfs) `3.7.3-1.2~deb13u1` - filesystem client based on SSH File Transfer Protocol_
 - ![](grey.png) _[pssh](https://packages.debian.org/trixie/pssh) `2.3.5-2` - Parallel versions of SSH-based tools_
 - ![](grey.png) _[putty-tools](https://packages.debian.org/trixie/putty-tools) `0.83-3` - command-line tools for SSH, SCP, and SFTP_
 - ![](grey.png) _[autossh](https://packages.debian.org/trixie/autossh) `1.4g-1+b1` - Automatically restart SSH sessions and tunnels_
 - ![](grey.png) _[endlessh](https://packages.debian.org/trixie/endlessh) `1.1-5.1` - SSH tarpit that slowly sends an endless connection banner_
 #### Remote access/desktop clients
 
-- ![](grey.png) _[remmina](https://packages.debian.org/trixie/remmina) `1.4.39+dfsg-1` - GTK+ Remote Desktop Client_
-- ![](grey.png) _[remmina-plugin-rdp](https://packages.debian.org/trixie/remmina-plugin-rdp) `1.4.39+dfsg-1` - RDP plugin for Remmina_
-- ![](grey.png) _[remmina-plugin-vnc](https://packages.debian.org/trixie/remmina-plugin-vnc) `1.4.39+dfsg-1` - VNC plugin for Remmina_
+- ![](grey.png) _[remmina](https://packages.debian.org/trixie/remmina) `1.4.39+dfsg-1+deb13u1` - GTK+ Remote Desktop Client_
+- ![](grey.png) _[remmina-plugin-rdp](https://packages.debian.org/trixie/remmina-plugin-rdp) `1.4.39+dfsg-1+deb13u1` - RDP plugin for Remmina_
+- ![](grey.png) _[remmina-plugin-vnc](https://packages.debian.org/trixie/remmina-plugin-vnc) `1.4.39+dfsg-1+deb13u1` - VNC plugin for Remmina_
 - ![](grey.png) _[weevely](https://packages.debian.org/trixie/weevely) `4.0.2-1` - Stealth tiny web shell_
 - ![](grey.png) _[x2goclient](https://packages.debian.org/trixie/x2goclient) `4.1.2.3-4` - X2Go Client application (Qt5)_
 #### SSH
@@ -440,7 +440,7 @@
 
 </sub>
 
-<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/openssh-server/1:10.0p1-7">
+<img align="right" src="https://screenshots.debian.net/thumbnail-with-version/openssh-server/1:10.0p1-7+deb13u4">
 
 **[openssh-server](https://packages.debian.org/trixie/openssh-server)** - secure shell (SSH) server, for secure access from remote machines
 
@@ -454,8 +454,8 @@
 -----------------------
 
 
-- ![](green.png) [openssh-server](https://packages.debian.org/trixie/openssh-server) `1:10.0p1-7` - secure shell (SSH) server, for secure access from remote machines
-- ![](green.png) [openssh-client](https://packages.debian.org/trixie/openssh-client) `1:10.0p1-7` - secure shell (SSH) client, for secure access to remote machines
+- ![](green.png) [openssh-server](https://packages.debian.org/trixie/openssh-server) `1:10.0p1-7+deb13u4` - secure shell (SSH) server, for secure access from remote machines
+- ![](green.png) [openssh-client](https://packages.debian.org/trixie/openssh-client) `1:10.0p1-7+deb13u4` - secure shell (SSH) client, for secure access to remote machines
 - ![](grey.png) _[lightdm-remote-session-x2go](https://packages.debian.org/trixie/lightdm-remote-session-x2go) `0.0.2.0-2` - LightDM Remote Logon Support for X2Go sessions_
 - ![](grey.png) _[x2godesktopsharing](https://packages.debian.org/trixie/x2godesktopsharing) `3.2.0.0-2+b2` - Share X11 desktops with other users via X2Go_
 - ![](grey.png) _[x2goserver](https://packages.debian.org/trixie/x2goserver) `4.1.0.6-1.1+b1` - X2Go Server_
@@ -501,14 +501,14 @@
 - ![](grey.png) _[siege](https://packages.debian.org/trixie/siege) `4.1.6-1` - HTTP regression testing and benchmarking utility_
 #### Tor
 
-- ![](grey.png) _[tor-geoipdb](https://packages.debian.org/trixie/tor-geoipdb) `0.4.8.16-1` - GeoIP database for Tor_
-- ![](grey.png) _[tor](https://packages.debian.org/trixie/tor) `0.4.8.16-1` - anonymizing overlay network for TCP_
-- ![](grey.png) _[torsocks](https://packages.debian.org/trixie/torsocks) `2.5.0-1` - use SOCKS-friendly applications with Tor_
+- ![](grey.png) _[tor-geoipdb](https://packages.debian.org/trixie/tor-geoipdb) `0.4.9.11-0+deb13u1` - GeoIP database for Tor_
+- ![](grey.png) _[tor](https://packages.debian.org/trixie/tor) `0.4.9.11-0+deb13u1` - anonymizing overlay network for TCP_
+- ![](grey.png) _[torsocks](https://packages.debian.org/trixie/torsocks) `2.5.0-1+deb13u1` - use SOCKS-friendly applications with Tor_
 - ![](grey.png) _[torbrowser-launcher](https://packages.debian.org/trixie/torbrowser-launcher) `0.3.7-3` - helps download and run the Tor Browser Bundle_
 #### GeoIP databases
 
-- ![](grey.png) _[geoip-bin](https://packages.debian.org/trixie/geoip-bin) `1.6.12-11.1+b1` - IP lookup command line tools that use the GeoIP library_
-- ![](grey.png) _[geoip-database](https://packages.debian.org/trixie/geoip-database) `20250401-1` - IP lookup command line tools that use the GeoIP library (country database)_
+- ![](grey.png) _[geoip-bin](https://packages.debian.org/trixie/geoip-bin) `1.6.12-11.2~deb13u1` - IP lookup command line tools that use the GeoIP library_
+- ![](grey.png) _[geoip-database](https://packages.debian.org/trixie/geoip-database) `20250401+really20191224-0+deb13u1` - IP lookup command line tools that use the GeoIP library (country database)_
 #### Out-of-band management
 
 - ![](grey.png) _[ipmitool](https://packages.debian.org/trixie/ipmitool) `1.8.19-9` - utility for IPMI control with kernel driver or LAN interface (daemon)_
