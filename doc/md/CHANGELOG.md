@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v5.0.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.1) - UNRELEASED
+## [v5.0.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/5.0.1) - UNRELEASED
 
 ### Added
 
@@ -13,7 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
+## [v5.0.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
 
 **[Download ISO image](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)**
 
@@ -70,7 +70,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v4.2.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
+## [v4.2.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
 
 ### Fixed
 - system/networking: fix inability to use Wi-Fi network adapters
@@ -81,7 +81,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-12-17
+## [v4.2.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-12-17
 
 ### Added
 - system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
@@ -103,7 +103,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ---------------------
 
 
-## [v4.1.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.1.0) - 2023-12-06
+## [v4.1.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.1.0) - 2023-12-06
 
 ### Added
 - packages: system/package management: add gnome-package-updater (`gpk-update-viewer`)
@@ -120,7 +120,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v4.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.0.0) - 2023-07-13
+## [v4.0.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.0.0) - 2023-07-13
 
 **Upgrade procedure:** Follow the official [Debian upgrade procedure](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.html), or backup your data, reinstall, and restore. Note: some changes will only take effect after creating a new user account. If upgrading without reinstalling, you will need to apply some of the changes below (notably add/remove packages) manually.
 
@@ -158,7 +158,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.1.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.1.1) - 2022-11-11
+## [v3.1.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.1.1) - 2022-11-11
 
 ### Removed
 - remove [nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) to decrease .ISO image size
@@ -171,7 +171,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.1.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.1.0) - 2022-11-08
+## [v3.1.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.1.0) - 2022-11-08
 
 ### Added
 - extras: add [Signal Desktop](https://signal.org/download/) encrypted messaging client
@@ -184,7 +184,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.0.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.0.1) - 2022-09-01
+## [v3.0.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.0.1) - 2022-09-01
 
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
@@ -243,11 +243,11 @@ Pin: release a=bullseye
 Pin-Priority: 1000
 ```
 
-- Optionally, update your configuration according to [changes since the last release](https://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
+- Optionally, update your configuration according to [changes since the last release](https://codeberg.org/nodiscc/debian-live-config/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
 
 ---------------------
 
-## [v3.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.0.0) - 2021-10-28
+## [v3.0.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.0.0) - 2021-10-28
 
 ### Changed
 
@@ -315,18 +315,18 @@ If you have a system installed from a previous version of `debian-live-config`:
 sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list /etc/apt/sources.list.d/*
 # install the updated APT configuration
 sudo rm -v /etc/apt/sources.list.d/debian-buster-updates-security-backports.list
-wget https://gitlab.com/nodiscc/debian-live-config/-/blob/bullseye/config/archives/debian-updates-security-backports.list.chroot
+wget https://codeberg.org/nodiscc/debian-live-config/raw/branch/master/config/archives/debian-updates-security-backports.list.chroot
 sudo mv -v debian-updates-security-backports.list.chroot /etc/apt/sources.list.d/debian-updates-security-backports.list
 # run the upgrade
 sudo apt update && sudo apt dist-upgrade
 # optionally, update your configuration according to changes since the last release:
-# https://gitlab.com/nodiscc/debian-live-config/-/compare/2.2.5...3.0.0
+# https://codeberg.org/nodiscc/debian-live-config/compare/2.2.5...3.0.0
 # /etc/skel modifications will only take effect after creating a new user account
 ```
 
 ---------------------
 
-## [v2.2.5](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.5) - 2020-12-16
+## [v2.2.5](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.5) - 2020-12-16
 
 ### Removed
 
@@ -346,7 +346,7 @@ sudo apt update && sudo apt dist-upgrade
 
 -------------------------------
 
-## [v2.2.4](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.4) - 2020-10-22
+## [v2.2.4](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.4) - 2020-10-22
 
 ### Added
 
@@ -370,7 +370,7 @@ sudo apt update && sudo apt dist-upgrade
 
 -------------------------------
 
-## [v2.2.3](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.3) - 2020-05-10
+## [v2.2.3](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.3) - 2020-05-10
 
 Bugfix release.
 
@@ -388,7 +388,7 @@ Bugfix release.
 
 -------------------------------
 
-## [v2.2.2](https://gitlab.com/nodiscc/debian-live-config/-/tags/2.2.2) - 2020-04-11
+## [v2.2.2](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.2) - 2020-04-11
 
 ### Changed
 
@@ -410,7 +410,7 @@ Bugfix release.
 -------------------------------
 
 
-## [v2.2.1](https://gitlab.com/nodiscc/debian-live-config/-/tags/2.2.1) - 2020-03-14
+## [v2.2.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.1) - 2020-03-14
 
 ### Changed
 
@@ -443,7 +443,7 @@ Bugfix release.
 
 -------------------------------
 
-## [v2.2](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2) - 2020-03-08
+## [v2.2](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2) - 2020-03-08
 
 Initial release, git repository reset and rebuilt from scratch. See commit messages and documentation.
 

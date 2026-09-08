@@ -1,6 +1,6 @@
 # Building a custom Debian ISO image
 
-[`Makefile`](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile) automates maintenance/build/release procedures (download of extra components, tests and documentation generation, running the build, generating/signing checksums...).
+[`Makefile`](https://codeberg.org/nodiscc/debian-live-config/src/branch/master/Makefile) automates maintenance/build/release procedures (download of extra components, tests and documentation generation, running the build, generating/signing checksums...).
 
 The live/ISO image build process is managed by [live-build](https://packages.debian.org/trixie/live-build):
 
@@ -22,7 +22,7 @@ Install [Debian](https://www.debian.org). You must build from the same distribut
 # install requirements for the build system
 sudo apt install make git sudo live-build
 # clone the repository
-git clone https://gitlab.com/nodiscc/debian-live-config
+git clone https://codeberg.org/nodiscc/debian-live-config
 # build the image
 cd debian-live-config && make install_buildenv && make
 ```
@@ -71,7 +71,7 @@ For example, to add custom files/unpackaged programs inside your live system:
 
 ```bash
 git clone https://gitlab.com/nodiscc/toolbox config/includes.chroot/opt/toolbox
-git clone https://gitlab.com/nodiscc/debian-live-config config/includes.chroot/opt/dlc
+git clone https://codeberg.org/nodiscc/debian-live-config config/includes.chroot/opt/dlc
 echo "blacklist nouveau" > config/includes.chroot/etc/modprobe.d/
 ```
 
@@ -96,7 +96,7 @@ Caveats:
  - Packages placed here will _not_ receive upgrades through APT (unless they are someday added to official Debian repositories)
  - Packages placed here are not GPG-signed. Ensure you download/build the package over a secure channel.
 
-See [Makefile.extra](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile.extra) for examples.
+See [Makefile.extra](https://codeberg.org/nodiscc/debian-live-config/src/branch/master/Makefile.extra) for examples.
 
 
 ### config/includes.installer/
@@ -149,7 +149,7 @@ Currently only 2 locales (english and french) are pre-generated, other languages
     - [ ] Automated whole disk LVM
     - [ ] Automated whole disk partitioning
     - [ ] Manual
-- [ ] Copy latest CHANGELOG.md entry to a new [Github](https://github.com/nodiscc/debian-live-config/releases)/[Gitlab](https://gitlab.com/nodiscc/debian-live-config/-/releases) release
+- [ ] Copy latest CHANGELOG.md entry to a new [release](https://codeberg.org/nodiscc/debian-live-config/releases)
 - [ ] attach `debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
 - [ ] upload `debian-live-config-X.Y.Z-debian-trixie-amd64.iso` to `files.awesome-selfhosted.net`
 

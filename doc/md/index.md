@@ -52,8 +52,8 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Source code
 
-- [Gitlab](https://gitlab.com/nodiscc/debian-live-config) (mirror)
-- [Github](https://github.com/nodiscc/debian-live-config) (mirror)
+- [Github](https://github.com/nodiscc/debian-live-config)
+- [Codeberg](https://codeberg.org/nodiscc/debian-live-config) (mirror)
 
 
 ## License

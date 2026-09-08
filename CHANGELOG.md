@@ -5,15 +5,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v5.0.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.1) - UNRELEASED
+## [v5.0.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/5.0.1) - UNRELEASED
 
 ### Added
 
 * system: re-add simple `Package updater` application (`gnome-package-updater`)
 
+### Changed
+
+* Remove Gitlab.com mirror, main mirror on codebareg.org, secondary on github.com
+
 ---------------------
 
-## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
+## [v5.0.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/5.0.0) - 2026-03-01
 
 **[Download ISO image](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)**
 
@@ -70,7 +74,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v4.2.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
+## [v4.2.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
 
 ### Fixed
 - system/networking: fix inability to use Wi-Fi network adapters
@@ -81,7 +85,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v4.2.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-12-17
+## [v4.2.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.2.0) - 2024-12-17
 
 ### Added
 - system: package management: add [command-not-found](https://packages.debian.org/bookworm/command-not-found)
@@ -103,7 +107,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 ---------------------
 
 
-## [v4.1.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.1.0) - 2023-12-06
+## [v4.1.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.1.0) - 2023-12-06
 
 ### Added
 - packages: system/package management: add gnome-package-updater (`gpk-update-viewer`)
@@ -120,7 +124,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v4.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.0.0) - 2023-07-13
+## [v4.0.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/4.0.0) - 2023-07-13
 
 **Upgrade procedure:** Follow the official [Debian upgrade procedure](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-upgrading.html), or backup your data, reinstall, and restore. Note: some changes will only take effect after creating a new user account. If upgrading without reinstalling, you will need to apply some of the changes below (notably add/remove packages) manually.
 
@@ -139,7 +143,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - config: use long date format to display dates in Thunar file manager
 - config: remove pidgin from whiskermenu favorites
 - config: remove custom wallpapers/backgrounds, use the new Debian 12 "Emerald" theme everywhere
-- firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions, display bookmarks toolbar by default, display separate search/location bars by default, disable Firefox studies (Shield), set the default search engine to DuckDuckGo instead of Google (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.8.0)
+- firefox: disable Mozilla VPN ads, re-enable WebGL full capability mode and extensions, display bookmarks toolbar by default, display separate search/location bars by default, disable Firefox studies (Shield), set the default search engine to DuckDuckGo instead of Google (update [user.js](https://github.com/nodiscc/user.js) to v0.8.0)
 - cleanup: packages: update package names to their Debian 12 names
 - tests: update test tooling
 - doc: update documentation
@@ -158,7 +162,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.1.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.1.1) - 2022-11-11
+## [v3.1.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.1.1) - 2022-11-11
 
 ### Removed
 - remove [nextcloud-desktop](https://packages.debian.org/bullseye/nextcloud-desktop) to decrease .ISO image size
@@ -171,7 +175,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.1.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.1.0) - 2022-11-08
+## [v3.1.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.1.0) - 2022-11-08
 
 ### Added
 - extras: add [Signal Desktop](https://signal.org/download/) encrypted messaging client
@@ -184,7 +188,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
-## [v3.0.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.0.1) - 2022-09-01
+## [v3.0.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.0.1) - 2022-09-01
 
 ### Added
 - packages: system/virtualization: add [libguestfs-tools](https://packages.debian.org/libguestfs-tools), [virt-p2v](https://packages.debian.org/virt-p2v), [libguestfs-rsync](https://packages.debian.org/libguestfs-rsync), [libguestfs-rescue](https://packages.debian.org/libguestfs-rescue)
@@ -202,7 +206,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - defaults/skel: add keyboard shortcuts to tile the active window left/right/top right/bottom right (`Super+Left/Right/Up/Down`)
 - defaults/skel: `.gitconfig`: remember git HTTP credentials, use rebase mode by default for `git pull`
 - packages: install yt-dlp from [debian backports](https://packages.debian.org/bullseye-backports/yt-dlp) instead of [third-party](https://nodiscc.gitlab.io/toolbox/) repository
-- firefox: always show the bookmarks toolbar (update [user.js](https://gitlab.com/nodiscc/user.js) to v0.4.0)
+- firefox: always show the bookmarks toolbar (update [user.js](https://github.com/nodiscc/user.js) to v0.4.0)
 
 ### Fixed
 - fix boot in legacy BIOS mode (`Failed to load COM32 file vesamenu.c32`)
@@ -243,11 +247,11 @@ Pin: release a=bullseye
 Pin-Priority: 1000
 ```
 
-- Optionally, update your configuration according to [changes since the last release](https://gitlab.com/nodiscc/debian-live-config/-/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
+- Optionally, update your configuration according to [changes since the last release](https://codeberg.org/nodiscc/debian-live-config/compare/3.0.0...3.0.1). Changes to  `/etc/skel` will only take effect after creating a new user account.
 
 ---------------------
 
-## [v3.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/3.0.0) - 2021-10-28
+## [v3.0.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/3.0.0) - 2021-10-28
 
 ### Changed
 
@@ -256,7 +260,7 @@ Pin-Priority: 1000
 - apt: update APT sources lists/configuration
 - replace [backintime](https://packages.debian.org/bullseye/backintime-qt) backup tool with [deja-dup](https://wiki.gnome.org/Apps/DejaDup)
 - games: install lutris from official Debian repositories, remove third-party package download
-- extras: use `.deb` packages to manage additional/unofficial software ([bleachbit-cleanerml](https://github.com/bleachbit/cleanerml), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [pidgin-opensteamworks](https://github.com/eionrobb/pidgin-opensteamworks), [user.js](https://gitlab.com/nodiscc/user.js)), remove custom installation logic, update all extra packages to latest releases
+- extras: use `.deb` packages to manage additional/unofficial software ([bleachbit-cleanerml](https://github.com/bleachbit/cleanerml), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [pidgin-opensteamworks](https://github.com/eionrobb/pidgin-opensteamworks), [user.js](https://github.com/nodiscc/user.js)), remove custom installation logic, update all extra packages to latest releases
 - network/audio-video: replace [youtube-dl](https://packages.debian.org/bullseye/youtube-dl)/[streamlink](https://packages.debian.org/bullseye/streamlink) with [yt-dlp](https://github.com/yt-dlp/yt-dlp) ([third-party package](https://nodiscc.gitlab.io/toolbox/))
 - skel: update and fix [conky](https://packages.debian.org/bullseye/conky-all) configuration for recent versions
 - skel/session: don't autostart blueman bluetooth manager by default
@@ -315,18 +319,18 @@ If you have a system installed from a previous version of `debian-live-config`:
 sudo sed -i 's/buster/bullseye/g' /etc/apt/sources.list /etc/apt/sources.list.d/*
 # install the updated APT configuration
 sudo rm -v /etc/apt/sources.list.d/debian-buster-updates-security-backports.list
-wget https://gitlab.com/nodiscc/debian-live-config/-/blob/bullseye/config/archives/debian-updates-security-backports.list.chroot
+wget https://codeberg.org/nodiscc/debian-live-config/raw/branch/master/config/archives/debian-updates-security-backports.list.chroot
 sudo mv -v debian-updates-security-backports.list.chroot /etc/apt/sources.list.d/debian-updates-security-backports.list
 # run the upgrade
 sudo apt update && sudo apt dist-upgrade
 # optionally, update your configuration according to changes since the last release:
-# https://gitlab.com/nodiscc/debian-live-config/-/compare/2.2.5...3.0.0
+# https://codeberg.org/nodiscc/debian-live-config/compare/2.2.5...3.0.0
 # /etc/skel modifications will only take effect after creating a new user account
 ```
 
 ---------------------
 
-## [v2.2.5](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.5) - 2020-12-16
+## [v2.2.5](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.5) - 2020-12-16
 
 ### Removed
 
@@ -346,7 +350,7 @@ sudo apt update && sudo apt dist-upgrade
 
 -------------------------------
 
-## [v2.2.4](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.4) - 2020-10-22
+## [v2.2.4](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.4) - 2020-10-22
 
 ### Added
 
@@ -370,7 +374,7 @@ sudo apt update && sudo apt dist-upgrade
 
 -------------------------------
 
-## [v2.2.3](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2.3) - 2020-05-10
+## [v2.2.3](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.3) - 2020-05-10
 
 Bugfix release.
 
@@ -388,12 +392,12 @@ Bugfix release.
 
 -------------------------------
 
-## [v2.2.2](https://gitlab.com/nodiscc/debian-live-config/-/tags/2.2.2) - 2020-04-11
+## [v2.2.2](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.2) - 2020-04-11
 
 ### Changed
 
 - Disable window manager compositor by default (improve video performance/prevent tearing)
-- Update [user.js](https://gitlab.com/nodiscc/user.js) to 0.1
+- Update [user.js](https://github.com/nodiscc/user.js) to 0.1
 - Remove unused locales from live system (only keep en/fr), decrease iso image size
 
 ### Added
@@ -410,7 +414,7 @@ Bugfix release.
 -------------------------------
 
 
-## [v2.2.1](https://gitlab.com/nodiscc/debian-live-config/-/tags/2.2.1) - 2020-03-14
+## [v2.2.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2.1) - 2020-03-14
 
 ### Changed
 
@@ -427,7 +431,7 @@ Bugfix release.
 - add third party package for https://github.com/EionRobb/pidgin-opensteamworks/
 - add third party download for https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
 - add third party download for https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
-- add third party download for https://gitlab.com/nodiscc/user.js
+- add third party download for https://github.com/nodiscc/user.js
 - add third-party download for https://github.com/az0/cleanerml
 - add (disabled) third party download for  https://www.sublimetext.com/
 - Makefile: add a target to generate a TODO.md from a list of gitea issues, add TODO.md
@@ -443,7 +447,7 @@ Bugfix release.
 
 -------------------------------
 
-## [v2.2](https://gitlab.com/nodiscc/debian-live-config/releases/tag/2.2) - 2020-03-08
+## [v2.2](https://codeberg.org/nodiscc/debian-live-config/releases/tag/2.2) - 2020-03-08
 
 Initial release, git repository reset and rebuilt from scratch. See commit messages and documentation.
 

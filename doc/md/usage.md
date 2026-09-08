@@ -55,5 +55,5 @@ These projects can help you run Free and Open Source software on other devices.
 ## Issues
 
 * [TODO.md](TODO.md)
-* [Gitlab issue tracker](https://gitlab.com/nodiscc/debian-live-config/-/issues)
+* [Codeberg issue tracker](https://codeberg.org/nodiscc/debian-live-config/issues)
 * [Debian bug tracker (BTS)](https://wiki.debian.org/BTS)

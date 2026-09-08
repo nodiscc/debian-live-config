@@ -1,5 +1,4 @@
 #!/usr/bin/make
-# please update doc/md/packages/extras.md after adding changes to this file
 WGET=wget --continue --no-verbose --show-progress --directory-prefix=cache/downloads/
 
 all: download_extra
@@ -36,7 +35,7 @@ download_extra: clean
 	# mkdir -p config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
 	# $(WGET) https://addons.mozilla.org/firefox/downloads/file/3465157/keepassxc_browser-latest-fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/keepassxc-browser@keepassxc.org.xpi
 
-	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
+	# DISABLED https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
 	# $(WGET) https://addons.mozilla.org/firefox/downloads/file/3711829/cookie_autodelete-3.6.0-an+fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/CookieAutoDelete@kennydo.com.xpi
 
 	# EXTRA https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/

@@ -147,13 +147,13 @@ doc_package_lists:
 doc_extras:
 	@echo '### Extras' > doc/md/packages/extras.md
 	@echo '' >> doc/md/packages/extras.md
-	@echo 'Components that are not part of the official Debian distribution are listed in [Makefile.extra](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile.extra):' >> doc/md/packages/extras.md
+	@echo 'Components that are not part of the official Debian distribution are listed in [Makefile.extra](https://codeberg.org/nodiscc/debian-live-config/src/branch/master/Makefile.extra):' >> doc/md/packages/extras.md
 	@echo '' >> doc/md/packages/extras.md
 	@echo '<!-- grep "# EXTRA" Makefile.extra | grep -v "# DISABLED" -->' >> doc/md/packages/extras.md
 	@echo '' >> doc/md/packages/extras.md
 	@grep '# EXTRA' Makefile.extra | grep -v '# DISABLED' | sed 's/^[^#]*# EXTRA //' | while read url; do echo "- <$$url>"; done >> doc/md/packages/extras.md
 	@echo '' >> doc/md/packages/extras.md
-	@echo 'These components are downloaded from a [third-party repository](http://nodiscc.gitlab.io/toolbox) or directly from their upstream project. You will not receive any updates for these packages unless you [enable the APT repository manually](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/config/includes.chroot/etc/apt/sources.list.d/debian-live-config.list) or if an official package with the same name is someday [added to Debian repositories](https://wnpp.debian.net/).' >> doc/md/packages/extras.md
+	@echo 'These components are downloaded from a [third-party repository](http://nodiscc.gitlab.io/toolbox) or directly from their upstream project. You will not receive any updates for these packages unless you [enable the APT repository manually](https://codeberg.org/nodiscc/debian-live-config/raw/branch/master/config/includes.chroot/etc/apt/sources.list.d/debian-live-config.list) or if an official package with the same name is someday [added to Debian repositories](https://wnpp.debian.net/).' >> doc/md/packages/extras.md
 
 .PHONY: install_dev_docs # install documentation generator (sphinx + markdown + theme)
 install_dev_docs:
