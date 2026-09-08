@@ -13,7 +13,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Changed
 
-* Remove Gitlab.com mirror, main mirror on codebareg.org, secondary on github.com
+* remove Gitlab.com mirror, main mirror on codebareg.org, secondary on github.com
+* tools/ci: move daily build dependencies check to Github actions
 
 ---------------------
 

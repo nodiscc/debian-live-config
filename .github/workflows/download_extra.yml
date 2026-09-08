@@ -1,0 +1,19 @@
+name: download_extra
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  download_extra:
+    runs-on: ubuntu-latest
+    container: debian:trixie
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install dependencies
+        run: |
+          apt update
+          apt install -y make wget ca-certificates
+      - name: Download extra components
+        run: make download_extra
