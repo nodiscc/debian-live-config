@@ -73,8 +73,6 @@ You can also run the system in a virtual machine on top of your existing system.
 
 💥 On some computers you need to [disable secure boot](https://neosmart.net/wiki/disabling-secure-boot/) before installing a Linux distribution.
 
-<!-- TODO boot menu screenshot -->
-
 
 ## Run the live system
 
