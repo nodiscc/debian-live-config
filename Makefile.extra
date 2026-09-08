@@ -15,38 +15,16 @@ clean_all: clean
 
 download_extra: clean
 	# Download additional software from third-party repository (https://nodiscc.gitlab.io/toolbox)
-	# TODO use the APT repository at build time, but disable it in the final chroot/image
-	# TODO file ITPs on bugs.debian.org
 	mkdir -p cache/downloads/ config/packages.chroot/
 
 	# EXTRA https://github.com/az0/cleanerml
 	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/b/bleachbit-cleanerml/bleachbit-cleanerml_0.0.1~git0+5bc2961_all.deb
 	cp cache/downloads/bleachbit-cleanerml_0.0.1~git0+5bc2961_all.deb config/packages.chroot/
 
-	# DISABLED https://github.com/axcore/tartube
-	#$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/t/tartube/python3-tartube_2.4.260.deb
-	#cp cache/downloads/python3-tartube_2.4.260.deb config/packages.chroot/
-
 	# EXTRA https://github.com/nodiscc/user.js
 	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/u/user.js/user.js_0.13.0-1_all.deb
 	cp cache/downloads/user.js_0.13.0-1_all.deb config/packages.chroot/
 
-	# DISABLED https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/ (replaced with webext-keepassxc-browser)
-	# mkdir -p config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}
-	# $(WGET) https://addons.mozilla.org/firefox/downloads/file/3465157/keepassxc_browser-latest-fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/keepassxc-browser@keepassxc.org.xpi
-
-	# DISABLED https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
-	# $(WGET) https://addons.mozilla.org/firefox/downloads/file/3711829/cookie_autodelete-3.6.0-an+fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/CookieAutoDelete@kennydo.com.xpi
-
 	# EXTRA https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/
 	mkdir -p config/includes.chroot/usr/lib/thunderbird/extensions/
 	$(WGET) https://addons.thunderbird.net/thunderbird/downloads/latest/gmail-conversation-view/addon-54035-latest.xpi -O config/includes.chroot/usr/lib/thunderbird/extensions/gconversation@xulforum.org.xpi
-
-	# DISABLED https://signal.org/
-	# RFP https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=842943
-    # requires trusting a third-party repository, adds ~400MB to installation size
-	# echo 'deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/signal-desktop.key.chroot.asc] https://updates.signal.org/desktop/apt xenial main' > config/archives/signal-desktop.list.chroot
-	# cp config/archives/signal-desktop.list.chroot config/archives/signal-desktop.list.binary
-	# wget -O config/archives/signal-desktop.key.chroot https://updates.signal.org/desktop/apt/keys.asc
-	# cp config/archives/signal-desktop.key.chroot config/archives/signal-desktop.key.binary
-	# echo "signal-desktop" > config/package-lists/signal-desktop.list.chroot
