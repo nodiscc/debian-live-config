@@ -84,14 +84,10 @@ The screen will lock after 5 minutes of inactivity during the live session. The 
 
 See **[Usage](usage.md)**
 
-<!-- TODO screencast -->
-
 
 ## Install the system to disk
 
 Select `Graphical install` from the boot menu to install a permanent copy a of the system to your hard drive. Follow instructions from the installer.
 
 💥 The default drive partitioning configuration overwrites any previously installed operating system/data on the selected installation disk. To preserve your data, use manual partitioning in the installer, install to an empty disk, or backup your data to an external drive if needed.
-
-<!-- TODO screencast -->
 
