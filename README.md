@@ -5,9 +5,6 @@
 > Please use https://codeberg.org/nodiscc/debian-live-config or https://github.com/nodiscc/debian-live-config instead  
 > Issues have been moved to https://codeberg.org/nodiscc/debian-live-config/issues
 
-
-[![](https://gitlab.com/nodiscc/debian-live-config/badges/master/pipeline.svg)](https://gitlab.com/nodiscc/debian-live-config/-/pipelines)
-
 [Debian GNU/Linux](https://www.debian.org/) desktop operating system for personal computers & workstations.
 
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-5.0.0-main.png)
