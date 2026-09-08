@@ -63,8 +63,6 @@ sha512sum -c SHA512SUMS
 
 You can also run the system in a virtual machine on top of your existing system. In that case writing a bootable drive is not needed and you can simply load the `.iso` file in the virtual machine's CD drive. Free and open-source virtualization software includes [virt-manager](https://stdout.root.sx/docs/virt-manager.md) (Linux) or [VirtualBox](https://www.virtualbox.org) (Linux/MacOS/Windows).
 
-<!-- TODO virtualbox/virt-manager screencast -->
-
 
 ## Boot the ISO
 
