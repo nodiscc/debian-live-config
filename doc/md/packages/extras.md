@@ -1,9 +1,8 @@
-
 ### Extras
 
 Components that are not part of the official Debian distribution are listed in [Makefile.extra](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile.extra):
 
-<!-- grep '# EXTRA' Makefile.extra -->
+<!-- grep "# EXTRA" Makefile.extra | grep -v "# DISABLED" -->
 
 - <https://github.com/az0/cleanerml>
 - <https://github.com/nodiscc/user.js>
