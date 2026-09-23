@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
+## [v5.1.0](https://codeberg.org/nodiscc/debian-live-config/releases/tag/5.1.0) - UNRELEASED
+
+### Changed
+
+* build: remove bumblebeed from default enabled services list
+
+---------------------
+
 ## [v5.0.1](https://codeberg.org/nodiscc/debian-live-config/releases/tag/5.0.1) - UNRELEASED
 
 ### Added
