@@ -1,0 +1,30 @@
+#!/bin/bash
+echo "I: installing flatpak remotes and packages"
+
+# Add flathub remote (ignore if already exists)
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+# Install flatpak packages
+for pkg in \
+  ca.vlacroix.Tally \
+  studio.planetpeanut.Bobby \
+  org.gnome.Maps \
+  org.gnome.Papers \
+  org.gnome.Loupe \
+  org.gnome.gitlab.somas.Apostrophe \
+  com.rafaelmardojai.Blanket \
+  dev.geopjr.Collision \
+  io.github.revisto.drum-machine \
+  app.drey.Dialect \
+  io.github.mrvladus.List \
+  com.github.finefindus.eyedropper \
+  com.github.huluti.Curtail \
+  com.belmoussaoui.Decoder \
+  io.github.seadve.Mousai \
+  com.pojtinger.felicitas.Sessions \
+  io.gitlab.adhami3310.Converter \
+  dev.geopjr.Tuba \
+  org.gnome.gitlab.YaLTeR.VideoTrimmer \
+  com.github.hugolabe.Wike; do
+  flatpak install -y --noninteractive flathub "$pkg"
+done

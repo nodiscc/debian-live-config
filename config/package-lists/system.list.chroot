@@ -5,6 +5,7 @@
 #Screenshot: gnome-software
 gnome-software
 gnome-software-plugin-flatpak
+flatpak
 gnome-software-plugin-deb
 gnome-software-plugin-fwupd
 gnome-package-updater
