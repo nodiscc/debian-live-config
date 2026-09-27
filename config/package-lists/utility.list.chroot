@@ -180,6 +180,7 @@ vim-tiny
 #Section: Sticky notes
 #xfce4-notes # experimental only
 #Alt: xpad
+#mint-sticky # forky only
 
 #Section: Maps
 ##Description: gnome-maps
