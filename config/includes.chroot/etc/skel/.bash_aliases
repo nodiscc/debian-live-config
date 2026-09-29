@@ -109,7 +109,7 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 # }
 # PROMPT_COMMAND=set_prompt_title
 # Set terminal tab title to ✼ while a command is running
-# trap 'echo -ne "\033]0;✼ RUNNING\007"' DEBUG
+# trap 'rc=$?; echo -ne "\033]0;✼\007"; return $rc' DEBUG
 
 #git prompt configuration
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w $(__git_ps1 "(%s)")\[\033[00m\]\$ '
