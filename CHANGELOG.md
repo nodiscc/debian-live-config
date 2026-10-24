@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Changed
 
+* polkit: allow sudo users to run PackageKit updates without authentication
 * build: remove bumblebeed from default enabled services list
 
 ---------------------

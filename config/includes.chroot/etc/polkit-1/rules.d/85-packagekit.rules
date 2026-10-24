@@ -1,0 +1,7 @@
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.packagekit.system-update" &&
+        subject.isInGroup("sudo") &&
+        subject.active) {
+        return polkit.Result.YES;
+    }
+});
