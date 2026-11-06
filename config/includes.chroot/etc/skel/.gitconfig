@@ -16,7 +16,7 @@
 	gc = gc --aggressive
 	thanks = shortlog -sne
 [credential]
-	helper = store
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
 [pull]
 	rebase = true
 
